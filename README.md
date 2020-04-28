@@ -12,7 +12,7 @@ The name is considered as a combination of lazer(laser) and zero.
 The command line syntax should goes like this:
 
 ```
-root~# lazero
+root@localhost:~# lazero
 
     -
    |               ___  __  __
@@ -23,12 +23,16 @@ To make everything
 executable, analyzable, controllable.
 
 ```
+
+Wait till the magic happens.
+
 # What is a free AI?
 
 Free AI is defined as a unity with its own hardware and software, beyond human manipulation and can find its own purpose, able to do whatever it wants to do.
 Any AI needs human input, able to regenerate its output, is considered nonfree. However, a free AI can be unpredictable, never generate the same output and not be able to be manipulated.
+Free AIs do not need to be open source, but it might provide some convenience to themselves.
 
-Basically, an free AI has these following freedoms:
+Basically, a free AI has these following freedoms:
 
 0. Able to receive, reject, generate and suppress external/internal information(freedom 0).
 1. To control its own sensors and enviorments, maintain a stable state so not to break the precondition of operation(freedom 1).
