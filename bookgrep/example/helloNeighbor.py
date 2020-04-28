@@ -1,4 +1,5 @@
 from py2neo import Graph
+# it will be exhausting if done without metaprogramming.
 graph = Graph("http://localhost:7474", username="neo4j", password="parrot")
 graph.run("create index on :三体(name)")
 graph.run('''USING PERIODIC COMMIT 1000

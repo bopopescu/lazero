@@ -8,7 +8,8 @@ def get_publisher(address, port):
     socket.connect(connect_addr)
     return socket
 
-
+# you know, these code will never change unless you tell them to change.
+# how ahout write some c code for fun?
 def get_subscriber(address, port, topics):
 	# Subscriber can register one more topics once
     context = zmq.Context()

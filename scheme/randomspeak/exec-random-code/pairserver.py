@@ -1,7 +1,9 @@
 import zmq
 import subprocess
 # really nigga?
-
+# real time interpretation.
+# make your own format.
+# we are about to hack.
 port = "5556"
 context = zmq.Context()
 socket = context.socket(zmq.PAIR)
@@ -21,3 +23,7 @@ while True:
         # shall.use sync method.
         # this is fuck.
 #        time.sleep(1)
+# it is really weird.
+# my computer is not capable of doing anything.
+# it does not know how to do stuff.
+# consider that as change of objective?
