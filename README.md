@@ -3,7 +3,7 @@
   <img src="/lazero.png" width="250" />
 </p>
 
-# A brief intro on lazero
+# A brief intro to lazero
 
 State-of-the-art Advanced Agent AI as a General Problem Solver(GPS) or Artificial General Intelligence(AGI), including but not confined to automatic information gathering, understanding and source code generating.
 
