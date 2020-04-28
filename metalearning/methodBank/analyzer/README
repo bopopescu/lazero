@@ -1,0 +1,15 @@
+DECIDE WHETHER THE FUNCTION IS STANDALONE OR NEEDED TO IMPORT SPECIFIC MODULE.
+LIST ALL CALLABLE FUNCTION IF IMPORTED.
+LIST ALL RELATED STUFF INCLUDING OTHER FUNCTIOB OR GLOBAL CONSTANT OR OTHER THINGS.
+
+Holy shit I have met my savior. THE DIR FUNCTION!
+We need vim script or GUI controller to do vim automation. Autoexpect won't do.
+
+def func(x):
+# add this line
+	print(type(x))
+
+Maybe we shall understand the tokenization more deeply.
+Use tokenize. Use xml parser.
+
+THE TYPE DETECTER OF SOURCE FILE CANNOT BE AS NAIVE AS EXECUTING IT USING EXPECT AND SEE IF THERE IS SYNTAX ERROR. better use highlighter or some tokenizer. deeplearning is the best.

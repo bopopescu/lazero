@@ -1,0 +1,3 @@
+We can compile the shitty haskell code and check if they could be run on Android.
+this shit cannot be run under termux.
+thus you shall ship pickle files to ubuntu.

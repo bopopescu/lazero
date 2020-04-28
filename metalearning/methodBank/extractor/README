@@ -1,0 +1,2 @@
+Make a function independent of execution place. However this is impossible without sophisticated understanding.
+Must parse immutable parts and mutable ones.

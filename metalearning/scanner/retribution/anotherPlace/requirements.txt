@@ -1,0 +1,10 @@
+unicode
+unicode-mayo
+font-unicode
+unicode-nazi
+supercsv
+fzu
+uniprop
+chardetails
+uctools
+uniseg

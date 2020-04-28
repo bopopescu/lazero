@@ -1,0 +1,11 @@
+only three features are focused: country, symbol, name.
+internal relationship could be derived later.
+now we shall concern about the basic shits.
+
+the problem is: unicode-16 support is needed.
+Maybe I have seen that? Did I? In the alphabet processing?
+
+I have discovered a new pattern here. Two fucking unicode can just be one. It is amazing.
+there are some grey areas during chr() ord() conversion. But it is not the problem here.
+
+WHAT IF THERE IS A LOOP? MUST SEPARATE THESE COMBINATIONS NOW!

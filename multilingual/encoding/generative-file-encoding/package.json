@@ -1,0 +1,33 @@
+{
+  "name": "generative-file-encoding",
+  "version": "1.0.0",
+  "description": "creates optimized memory encoded system for inputs",
+  "main": "main.js",
+  "scripts": {
+    "test": "ndoe spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neur0plasticity/generative-file-encoding.git"
+  },
+  "keywords": [
+    "deflation",
+    "compression",
+    "encoding",
+    "memory",
+    "optimization",
+    "file",
+    "files",
+    "awesome",
+    "advanced"
+  ],
+  "author": "djtinkers365",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neur0plasticity/generative-file-encoding/issues"
+  },
+  "homepage": "https://github.com/Neur0plasticity/generative-file-encoding#readme",
+  "dependencies": {
+    "permu": "^1.0.0"
+  }
+}

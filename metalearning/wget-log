@@ -1,0 +1,8 @@
+--2020-02-02 11:41:34--  https://docs.scipy.org/doc/scipy-1.4.1/scipy-html-1.4.1.zip
+Resolving docs.scipy.org (docs.scipy.org)... 50.17.248.72
+Connecting to docs.scipy.org (docs.scipy.org)|50.17.248.72|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 61414053 (59M) [application/zip]
+Saving to: ‘scipy-html-1.4.1.zip’
+
+scipy-html-1.4.1.zi   0%[                    ]   8.00K  0.30 B/s    eta 2354d  

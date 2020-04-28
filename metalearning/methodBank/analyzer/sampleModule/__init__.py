@@ -1,0 +1,2 @@
+# WITHOUT INIT IMPORT THIS SHIT IS FUCKED.
+import sample_strip

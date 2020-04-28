@@ -1,0 +1,6 @@
+p=set(["superhot","supercold","balance"])
+#print(isinstance("superhot",list(p)))
+print("superhot" in p)
+#print(isinstance(p,"super"))
+#print(isinstance(p,"balance"))
+print("superfuck" in p)

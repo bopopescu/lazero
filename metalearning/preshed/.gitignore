@@ -1,0 +1,17 @@
+*.egg
+*.egg-info
+preshed/.maps.pxd.swm
+preshed/.maps.pyx.swl
+*.sw[a-z]
+*.so
+*.pyc
+*.swp
+*.swo
+*.html
+*.c
+*.cpp
+.env/
+.denv
+MANIFEST
+build/
+dist/

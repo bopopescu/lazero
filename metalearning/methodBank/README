@@ -1,0 +1,17 @@
+I THINK HOOGLE IS ENOUGH FOR THOSE HARDCORE DEVS BUT NOW I HAVE ENCOUNTERED SERIOUS PROBLEM WHEN DEALING WITH THE ENTIRE CODEBASE OF UNICODE TABLE. I NEED A SOLUTION. I NEED TO WORK IT OUT ON MY OWN.
+
+Based on my philosophy just make definition, tags and methods shall be enough. You need to crrate a discrete class for it.
+And in order to make it indexable, I need to either store it into database or simply some pickle or other methods whatever can deal with the storage of classes.
+
+It could be multilingual, but that's another story.
+
+It has to be in its puriest form. the variables can have arbitrary name to make methods communicative.
+
+We will make use of the uuid module, to create unique dill class objects and modified source code right at the spot. mention the origin beforehand.
+
+How to make our experiment controllable?
+I'm sorry but AUTOEXPECT IS AWESOME!
+
+The log file of expect can log anything.
+
+we only log usable hints. Use uuid as token.

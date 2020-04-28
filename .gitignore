@@ -1,0 +1,86 @@
+**/__pycache__
+*.txt
+*.pdf
+*.log
+*~
+*.*
+GeneralUsageLister/MainIndex/*
+*.
+!*/*.ipynb
+.*
+**/.git
+!*.m
+!.git
+!.gitinnore
+!requirements*
+!lazero.png
+!lazer.png
+!symbol.png
+!*.ipynb
+!*/.gitignore
+!*/*.py
+!*/*.cmd
+!*/*.sh
+!*/*.gpickle
+!*/*.md
+!*/*.php
+!*/*.java
+!*/*.asm
+!*/*.cs
+!*/*.go
+!*/*.r
+!*/*.json
+!*/*.reg
+!*/*.ps1
+!*/*.lua
+!*/*.lisp
+!*/*.c
+!*/*.h
+!*/*.js
+!*/*.hs
+!*/*.rb
+!*/*.cpp
+!*/*.hpp
+!*/[Dd]ocker[Ff]ile
+!*/README
+!*/NETWORK
+!*/LICENSE
+!.gitignore
+!.git
+!*.py
+!*.cmd
+!*.sh
+!*.pickle
+!*.gpickle
+!*.md
+!*.php
+!*.java
+!*.asm
+!*.cs
+!*.go
+!*.r
+!*.json
+!*.reg
+!*.ps1
+!*.lua
+!*.lisp
+!*.c
+!*.h
+!*.js
+!*.hs
+!*.rb
+!*.cpp
+!*.hpp
+![Dd]ocker[Ff]ile
+!README
+!NETWORK
+!LICENSE
+# this will be incomplete.
+# but i believe it will survive after all.
+# really?
+# might be incompatible.
+# things will be way too damn big.
+# create file as you go?
+# what is permission denied?
+# speak your language.
+# speak!

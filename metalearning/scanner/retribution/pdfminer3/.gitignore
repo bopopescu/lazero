@@ -1,0 +1,13 @@
+*.pyc
+*.pyo
+.pythoscope
+.ipynb_checkpoints
+.settings
+docs/_build
+build/
+dist/
+*.egg-info/
+tests/*.xml
+tests/*.txt
+.idea/
+.tox/

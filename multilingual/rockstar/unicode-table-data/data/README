@@ -1,0 +1,3 @@
+I am afraid that we've got the utf-16 codec problem. things might not work as expected.
+
+python rule: \u for unicode-8 and \U for unicode-16

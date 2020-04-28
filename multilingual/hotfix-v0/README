@@ -1,0 +1,3 @@
+remember that nodejs's axios module is damn fucking slow.
+the initialization of nodejs is very fucking like a browser's.
+there is really no need to re-invent the wheel. if you think speed is a must, then must use cloud-delivered strategies to cope with it.
