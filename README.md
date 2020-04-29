@@ -9,7 +9,7 @@ State-of-the-art Advanced Agent AI as a General Problem Solver(GPS) or Artificia
 
 The name is considered as a combination of lazer(laser) and zero.
 
-The command line syntax should goes like this:
+The command line syntax should be like this:
 
 ```
 root@localhost:~# lazero
