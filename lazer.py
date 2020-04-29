@@ -1,6 +1,7 @@
 from getFromDill import returnAList
 import random
-from pairail import send_string as send_message
+#from pairail import send_string as send_message
+from darkmart import broadcast as send_message
 
 def reader(f):
     with open(f,"r") as f0:
