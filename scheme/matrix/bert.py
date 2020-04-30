@@ -37,6 +37,6 @@ while True:
         if y>=len(c):
             break
     else:
-        c2[x]=randomMatrix(-10,10,10)
+        c2[x]=c2[c7]*randomMatrix(-10,10,10)*0.1
 print("output below:")
 print(c4)
