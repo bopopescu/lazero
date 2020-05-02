@@ -1,3 +1,4 @@
+import math
 i = 8 + 4J
 i0 = 4 + 8J
 i2 = 10 + 0.1J
@@ -14,3 +15,5 @@ d=i0**i1
 print(d)
 e=i/i0
 print(e)
+f=math.sin(i)
+print(f)
