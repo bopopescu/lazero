@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import math
+=======
+import numpy as np
+>>>>>>> 9ec8c441d4a51dd730134c0dc9e281f96a520d10
 i = 8 + 4J
 i0 = 4 + 8J
 i2 = 10 + 0.1J
@@ -15,5 +19,12 @@ d=i0**i1
 print(d)
 e=i/i0
 print(e)
+<<<<<<< HEAD
 f=math.sin(i)
 print(f)
+=======
+s=np.sin(i3)
+s0=np.cos(i4)
+print(s)
+print(s0)
+>>>>>>> 9ec8c441d4a51dd730134c0dc9e281f96a520d10
