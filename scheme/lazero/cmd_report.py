@@ -11,17 +11,17 @@ def parallel(x,v,z):
 
 
 def run_and_get(cmd):
-    p = subprocess.Popen(cmd, shell=True)
+    with subprocess.Popen(cmd, shell=True,stderr=subprocess.STDOUT) as p:
   ## But do not wait till netstat finish, start displaying output immediately ##
-    im=""
-    while True:
-        out = p.stderr.read(1)
-        if out == '' and p.poll() != None:
-            return None
-            break
-        if out != '':
-            im += out
-    return im
+        im=""
+        while True:
+            out = p.stderr.read(1)
+            if out == '' and p.poll() != None:
+                return None
+                break
+            if out != '':
+                im += out
+        return im
 
 
 def getOutput(cmd):
@@ -58,8 +58,9 @@ if __name__=="__main__":
         x0=parallel(len(msg),getOutput,msg)
         x0=[(msg[x],x0[x]) for x in range(len(msg))]
         for x, x1 in x0:
-            ms = re.findall(r"[a-zA-Z0-9\._\-]+$", x)[0]
+            # ms = re.findall(r"[a-zA-Z0-9\._\-]+$", x)[0]
             if x1!=None:
+                ms = re.findall(r"[a-zA-Z0-9\._\-]+$", x)[0]
                 j.update({ms:x1.decode()})
                 # print("processed: {}".format(x))
                 # print(x1.decode())
