@@ -3,7 +3,7 @@ import re
 import subprocess
 from endmark import windowEndMarkEx as wex
 
-
+# TODO: make briefing simpler by using package parser.
 def getOutput(cmd):
     return subprocess.check_output([cmd], shell=True, executable='/data/data/com.termux/files/usr/bin/zsh')
 
@@ -25,7 +25,7 @@ if __name__=="__main__":
         for x in i:
             if len(x)>1:
                 l.append("pip3 show "+x)
-        l=wex(l,10) 
+        l=wex(l,10)
     for msg in l:
         print("\n".join(msg))
         x0=[getOutput(x) for x in msg]

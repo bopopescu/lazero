@@ -10,25 +10,25 @@ def parallel(x,v,z):
     return pool.map(v, z)
 
 
-def run_and_get(cmd):
-    with subprocess.Popen(cmd, shell=True,stderr=subprocess.STDOUT) as p:
-  ## But do not wait till netstat finish, start displaying output immediately ##
-        im=""
-        while True:
-            out = p.stderr.read(1)
-            if out == '' and p.poll() != None:
-                return None
-                break
-            if out != '':
-                im += out
-        return im
+# def run_and_get(cmd):
+#     with subprocess.Popen(cmd, shell=True,stderr=subprocess.STDOUT) as p:
+#   ## But do not wait till netstat finish, start displaying output immediately ##
+#         im=""
+#         while True:
+#             out = p.stderr.read(1)
+#             if out == '' and p.poll() != None:
+#                 return None
+#                 break
+#             if out != '':
+#                 im += out
+#         return im
 
 
 def getOutput(cmd):
     print(cmd)
     try:
-        # return subprocess.check_output([cmd], shell=True, executable="C:\\WINDOWS\\System32\\cmd.exe")
-        return run_and_get(cmd)
+        return subprocess.check_output(cmd, shell=False)
+        # return run_and_get(cmd)
     except:
         return None
 
@@ -62,7 +62,7 @@ if __name__=="__main__":
             if x1!=None:
                 ms = re.findall(r"[a-zA-Z0-9\._\-]+$", x)[0]
                 j.update({ms:x1.decode()})
-                # print("processed: {}".format(x))
+                print("processed: {}".format(x))
                 # print(x1.decode())
     storeAList(j)
     print("brief stored.")
