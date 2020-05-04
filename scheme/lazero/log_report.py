@@ -5,7 +5,7 @@ from endmark import windowEndMarkEx as wex
 
 
 def getOutput(cmd):
-    return subprocess.check_output([cmd],shell=True,executable='/data/data/com.termux/files/usr/bin/zsh')
+    return subprocess.check_output([cmd], shell=True, executable='/data/data/com.termux/files/usr/bin/zsh')
 
 if __name__=="__main__":
     with open ("piplist.log") as f:
