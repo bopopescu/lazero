@@ -1,12 +1,8 @@
 from simpleStorageR import storeAList
 import re
 import subprocess
-from multiprocessing import Pool, freeze_support
 from endmark import windowEndMarkEx as wex
 
-def parallel(x,v,z):
-  with Pool(processes=x) as pool:
-    return pool.map(v, z)
 
 def getOutput(cmd):
     return subprocess.check_output([cmd],shell=True,executable='/data/data/com.termux/files/usr/bin/zsh')
@@ -30,10 +26,9 @@ if __name__=="__main__":
             if len(x)>1:
                 l.append("pip3 show "+x)
         l=wex(l,10) 
-    freeze_support()
     for msg in l:
         print("\n".join(msg))
-        x0=parallel(len(msg),getOutput,msg)
+        x0=[getOutput(x) for x in msg]
         x0=[(msg[x],x0[x]) for x in range(len(msg))]
         for x, x1 in x0:
             ms=re.findall(r"[a-zA-Z0-9\._\-]+$",x)[0]

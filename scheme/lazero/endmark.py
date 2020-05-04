@@ -9,6 +9,10 @@ def windowEndMark(a, window_size):
     return [a[x * window_size: (x + 1) * window_size] for x in range(len(a) // window_size)]
 
 
+def windowEndMarkEx(a, window_size):
+    return [a[x * window_size: (x + 1) * window_size] for x in range(len(a) // window_size)]+[a[len(a)-len(a)%window_size:len(a)]]
+
+
 def phraseStartMark(a, start_phrase):
     return re.findall(r'{}.+'.format(re.escape(start_phrase)), a)
 
