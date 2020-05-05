@@ -1,0 +1,1 @@
+# TODO: collect features inside a window.

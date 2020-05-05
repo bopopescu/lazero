@@ -7,6 +7,10 @@ def checkSingle(base_package, sub_package=None, sub_package_name=None):
     # TODO: create standalone templates.
     # TODO: get specs from stringified modules.
     # TODO: migrating to automatic document generator.
+    # TODO: allowing prebuild modules
+    # TODO: real-time decision making to reduce calculation
+    # TODO: restriction based on data size
+    # TODO: scanning loosely arranged codebase (not a module)
     # locals.update(global_parameters)
     if sub_package == None:
         result = list(filter(lambda x: x[:2] != "__" and x[-2:] !=
@@ -22,8 +26,6 @@ def checkSingle(base_package, sub_package=None, sub_package_name=None):
         evaluation = {x: eval(x) for x in result}
     return evaluation
     # l=list(map(lambda x:a.__name__+"."+x,dir(a)))
-
-# TODO: define max depth
 
 
 def recurCheck(main_module, max_depth, buffer=[]):
