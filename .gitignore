@@ -50,7 +50,6 @@ GeneralUsageLister/MainIndex/*
 !*.py
 !*.cmd
 !*.sh
-!*.pickle
 !*.gpickle
 !*.md
 !*.php
