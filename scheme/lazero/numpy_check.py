@@ -1,12 +1,11 @@
-from jinja2 import Template
-# result_buffer = []
-temp = """import {{ MODULE }}
+import numpy
 
-strictness={{ STRICTNESS }}
+strictness=1
 stiffness="".join(["_" for x in range(strictness)])
 
 def checkSingle(base_package, sub_package=None, sub_package_name=None):
     base_package_name = base_package.__name__
+    # print(sub_package)
     # exec("{} = base_package".format(base_package_name))
     # TODO: create standalone templates.
     # TODO: get specs from stringified modules.
@@ -17,12 +16,10 @@ def checkSingle(base_package, sub_package=None, sub_package_name=None):
     # TODO: scanning loosely arranged codebase (not a module)
     # TODO: self-propelling learning
     # locals.update(global_parameters)
-    if sub_package is not None:
+    if sub_package == None:
         result = list(filter(lambda x: x[:strictness] != stiffness and x[-strictness:] !=
-                             stiffness, list(filter(lambda x: len(x) > 4, dir(sub_package)))))
-        result = list(
-            map(lambda x: sub_package_name + "." + x, result))
-        # print(result)
+                             stiffness, list(filter(lambda x: len(x) > 4, dir(base_package)))))
+        result = list(map(lambda x: base_package_name + "." + x, result))
         evaluation={}
         try:
             for x in result:
@@ -34,8 +31,10 @@ def checkSingle(base_package, sub_package=None, sub_package_name=None):
             pass
     else:
         result = list(filter(lambda x: x[:strictness] != stiffness and x[-strictness:] !=
-                             stiffness, list(filter(lambda x: len(x) > 4, dir(base_package)))))
-        result = list(map(lambda x: base_package_name + "." + x, result))
+                             stiffness, list(filter(lambda x: len(x) > 4, dir(sub_package)))))
+        result = list(
+            map(lambda x: sub_package_name + "." + x, result))
+        # print(result)
         evaluation={}
         try:
             for x in result:
@@ -69,9 +68,9 @@ def recurCheck(main_module, max_depth, buffer=[]):
 
 
 # print(c)
-d = recurCheck({{ MODULE }}, {{ MAX_DEPTH }})
-print(d)
-# result_buffer=d
+d = recurCheck(numpy, 7)
+# print(d)
+result_buffer=d
 # def combine(a,b):
 #     a0=checkSingle(a,b)
 #     a1=list(map(lambda x:".".join(a,x),a0))
@@ -85,9 +84,3 @@ print(d)
 #     d=combine(a,b)
 #     d0=list(map(lambda x: (x,typecheck(x)),d))
 #     return d0
-"""
-template = Template(temp)
-result = template.render(MODULE='numpy', MAX_DEPTH=7, STRICTNESS=1)
-print(result)
-# exec(result)
-# print(result_buffer)

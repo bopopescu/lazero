@@ -1,8 +1,6 @@
-from jinja2 import Template
-# result_buffer = []
-temp = """import {{ MODULE }}
+import numpy
 
-strictness={{ STRICTNESS }}
+strictness=1
 stiffness="".join(["_" for x in range(strictness)])
 
 def checkSingle(base_package, sub_package=None, sub_package_name=None):
@@ -69,7 +67,7 @@ def recurCheck(main_module, max_depth, buffer=[]):
 
 
 # print(c)
-d = recurCheck({{ MODULE }}, {{ MAX_DEPTH }})
+d = recurCheck(numpy, 7)
 print(d)
 # result_buffer=d
 # def combine(a,b):
@@ -85,9 +83,3 @@ print(d)
 #     d=combine(a,b)
 #     d0=list(map(lambda x: (x,typecheck(x)),d))
 #     return d0
-"""
-template = Template(temp)
-result = template.render(MODULE='numpy', MAX_DEPTH=7, STRICTNESS=1)
-print(result)
-# exec(result)
-# print(result_buffer)
