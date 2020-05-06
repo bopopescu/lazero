@@ -3,7 +3,7 @@ import pypi_get as pg
 from multiprocessing import Pool, freeze_support
 from endmark import windowEndMarkEx as wex
 
-
+# TODO: switch between different mirrors so no one will block us.
 def parallel(x, v, z):
     with Pool(processes=x) as pool:
         return pool.map(v, z)
