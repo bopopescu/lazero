@@ -1,0 +1,19 @@
+#!/data/data/com.termux/files/usr/bin/bash
+python metaCheckII.py chardetails > subdir/chardetails.py
+python metaCheckII.py commandlines > subdir/commandlines.py
+python metaCheckII.py cropyble > subdir/cropyble.py
+python metaCheckII.py emoji-unicode > subdir/emoji-unicode.py
+python metaCheckII.py font-unicode > subdir/font-unicode.py
+python metaCheckII.py fzu > subdir/fzu.py
+python metaCheckII.py pylatexenc > subdir/pylatexenc.py
+python metaCheckII.py supercsv > subdir/supercsv.py
+python metaCheckII.py uctools > subdir/uctools.py
+python metaCheckII.py unicategories > subdir/unicategories.py
+python metaCheckII.py unicode > subdir/unicode.py
+python metaCheckII.py unicode-charnames > subdir/unicode-charnames.py
+python metaCheckII.py unicode-nazi > subdir/unicode-nazi.py
+python metaCheckII.py uniprop > subdir/uniprop.py
+python metaCheckII.py uniseg > subdir/uniseg.py
+python metaCheckII.py video2chars > subdir/video2chars.py
+python metaCheckII.py wcwidth > subdir/wcwidth.py
+python metaCheckII.py webencodings > subdir/webencodings.py
