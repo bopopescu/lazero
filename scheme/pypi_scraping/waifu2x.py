@@ -2,10 +2,12 @@ from dbM import showX, up
 import pypi_get as pg
 from multiprocessing import Pool, freeze_support
 from endmark import windowEndMarkEx as wex
+import random
 # from sub2 import timeout
 
 # TODO: switch between different mirrors so no one will block us.
 # TODO: make it sound.
+
 
 def parallel(x, v, z):
     with Pool(processes=x) as pool:
@@ -28,17 +30,18 @@ def workload(meta):
 
 if __name__ == "__main__":
     s = showX("projects", 0)
-    if len(s)!=0:
+    if len(s) != 0:
         print("TOTAL PENDING WORK:", len(s))
     else:
         print("NO PENDING WORK, PROGRAM WILL EXIT.")
         exit()
-    l = wex(s, 100)
+    l = wex(s, random.randint(75, 125))
     ast = 0
+    abs_limit = random.randint(650,750)
     freeze_support()
     for meta in l:
         ast += len(meta)
-        if ast <= 1500:
+        if ast <= abs_limit:
             # with parallel(len(meta), workload, meta) as locale:
             print("LOOP BEGINS HERE")
             assert len(parallel(len(meta), workload, meta)) == len(meta)
