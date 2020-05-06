@@ -41,6 +41,7 @@ GeneralUsageLister/MainIndex/*
 !*/*.bat
 !*/*.rb
 !*/*.cpp
+!*/*.awk
 !*/*.hpp
 !*/[Dd]ocker[Ff]ile
 !*/README
@@ -66,6 +67,7 @@ GeneralUsageLister/MainIndex/*
 !*.lua
 !*.lisp
 !*.c
+!*.awk
 !*.h
 !*.js
 !*.hs
