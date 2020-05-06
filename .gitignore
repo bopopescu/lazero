@@ -38,6 +38,7 @@ GeneralUsageLister/MainIndex/*
 !*/*.h
 !*/*.js
 !*/*.hs
+!*/*.bat
 !*/*.rb
 !*/*.cpp
 !*/*.hpp
@@ -60,6 +61,7 @@ GeneralUsageLister/MainIndex/*
 !*.r
 !*.json
 !*.reg
+!*.bat
 !*.ps1
 !*.lua
 !*.lisp
