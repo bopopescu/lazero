@@ -3,7 +3,7 @@ import sqlite3
 import json
 
 def createMain():
-    conn=sqlite3.connect('Monitor.db',timeout=120)
+    conn=sqlite3.connect('Monitor.db',timeout=45)
     c=conn.cursor()
     sql="""CREATE TABLE IF NOT EXISTS projects (
 	id integer PRIMARY KEY,
@@ -21,7 +21,7 @@ def createMain():
 
 
 def initial(_table,passme):
-    conn=sqlite3.connect('Monitor.db',timeout=120)
+    conn=sqlite3.connect('Monitor.db',timeout=45)
     c=conn.cursor()
     _id=0
     for _pass in passme:
@@ -37,7 +37,7 @@ def initial(_table,passme):
 
 def inf(_table,_id,_pass):
     _id = str(_id) if type(_id)!=str else _id
-    conn=sqlite3.connect('Monitor.db',timeout=120)
+    conn=sqlite3.connect('Monitor.db',timeout=45)
     c=conn.cursor()
     for idx in _id:
       sql="INSERT INTO "+_table+" (id,pass) VALUES("+idx+","+_pass+");"
@@ -53,7 +53,7 @@ def inf(_table,_id,_pass):
 
 
 def show(_table):
-    conn=sqlite3.connect('Monitor.db',timeout=120)
+    conn=sqlite3.connect('Monitor.db',timeout=45)
     c=conn.cursor()
     sql="SELECT * FROM "+_table+";"
     f=[]
@@ -68,7 +68,7 @@ def show(_table):
 
 def up(_id,_pass):
     _id = int(_id) if type(_id)==str else _id
-    conn=sqlite3.connect('Monitor.db',timeout=120)
+    conn=sqlite3.connect('Monitor.db',timeout=45)
     c=conn.cursor()
     try:
 #    unix="UPDATE "+_table+" SET metadata = {}".format(json.dumps(_pass))+" WHERE id = "+_id+";"
@@ -86,7 +86,7 @@ def up(_id,_pass):
 
 def showX(_table,_id):
     _id = str(_id) if type(_id)!=str else _id
-    conn=sqlite3.connect('Monitor.db',timeout=120)
+    conn=sqlite3.connect('Monitor.db',timeout=45)
     c=conn.cursor()
     sql="SELECT id,name FROM "+_table+" WHERE checked ="+_id+";"
     f=[]

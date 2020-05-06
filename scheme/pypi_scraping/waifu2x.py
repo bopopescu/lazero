@@ -3,7 +3,7 @@ import pypi_get as pg
 from multiprocessing import Pool, freeze_support
 from endmark import windowEndMarkEx as wex
 import random
-# from sub2 import timeout
+from sub2 import timeout
 
 # TODO: switch between different mirrors so no one will block us.
 # TODO: make it sound.
@@ -17,10 +17,13 @@ def parallel(x, v, z):
 def workload(meta):
     x, y = meta
     try:
-        # p = timeout(timeout=35)(pg.get(y))
-        p = pg.get(y)
+        pg_get = timeout(timeout=random.randint(7, 11))(pg.get)
+        # TODO: do more self-understanding like that.
+        p = pg_get(y)
         print("fetching success")
-        up(x, p)
+        # print("fetching success")
+        up_time = timeout(timeout=random.randint(7, 11))(up)
+        up_time(x, p)
         # TODO: find out the cause of the freeze.
         # TODO: automatically relaunch the entire program in .cmd file.
     except:
@@ -37,7 +40,7 @@ if __name__ == "__main__":
         exit()
     l = wex(s, random.randint(75, 125))
     ast = 0
-    abs_limit = random.randint(650,750)
+    abs_limit = random.randint(650, 750)
     freeze_support()
     for meta in l:
         ast += len(meta)
