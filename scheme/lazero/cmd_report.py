@@ -5,7 +5,7 @@ from multiprocessing import Pool, freeze_support
 from endmark import windowEndMarkEx as wex
 
 
-def parallel(x,v,z):
+def parallel(x, v, z):
   with Pool(processes=x) as pool:
     return pool.map(v, z)
 
