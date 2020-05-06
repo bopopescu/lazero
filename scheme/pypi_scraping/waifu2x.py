@@ -28,7 +28,11 @@ def workload(meta):
 
 if __name__ == "__main__":
     s = showX("projects", 0)
-    print("TOTAL PENDING WORK:", len(s))
+    if len(s)!=0:
+        print("TOTAL PENDING WORK:", len(s))
+    else:
+        print("NO PENDING WORK, PROGRAM WILL EXIT.")
+        exit()
     l = wex(s, 100)
     ast = 0
     freeze_support()
@@ -39,9 +43,9 @@ if __name__ == "__main__":
             print("LOOP BEGINS HERE")
             assert len(parallel(len(meta), workload, meta)) == len(meta)
         else:
-            exit()
+            # exit()
             break
-    exit()
+    # exit()
     # TODO: find the real usage of exit()
         #     locale
         # TODO: find best scraping rate
