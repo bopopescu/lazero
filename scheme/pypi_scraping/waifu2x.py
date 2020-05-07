@@ -7,7 +7,8 @@ from sub2 import timeout
 
 # TODO: switch between different mirrors so no one will block us.
 # TODO: make it sound.
-
+# TODO: tolerate missing packages.
+# TODO: track new packages.
 
 def parallel(x, v, z):
     with Pool(processes=x) as pool:
@@ -17,7 +18,7 @@ def parallel(x, v, z):
 def workload(meta):
     x, y = meta
     try:
-        pg_get = timeout(timeout=random.randint(7, 11))(pg.get)
+        pg_get = timeout(timeout=random.randint(13,15))(pg.get)
         # TODO: do more self-understanding like that.
         p = pg_get(y)
         print("fetching success")
