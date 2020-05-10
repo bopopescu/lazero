@@ -10,6 +10,7 @@ GeneralUsageLister/MainIndex/*
 .*
 **/.git
 !*.m
+!*.az
 !.git
 !.gitinnore
 !requirements*
