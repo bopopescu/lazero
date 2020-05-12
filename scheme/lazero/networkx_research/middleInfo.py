@@ -1,6 +1,7 @@
 import random
 import networkx as nx
 from getFromPickleR import returnWTF, returnFuckMe
+from does_it_have_string import checkEval, eat
 import copy
 import re
 # platform for that thing to execute the code.
@@ -59,6 +60,18 @@ def casualCode(a):
 # it is binary, relative.
 
 
+def checkMajorLink(a):
+    assert type(a) == list
+    l = len(a)
+    l0 = [int(x[1]) for x in a]
+    l1 = sum([l1[x*2] for x in range(l//2)])
+    l2 = sum(l0) - l1
+    return l1 > l2
+
+# it is not about the code.
+# create custom networks.
+# based on natural language?
+# maybe. as my comment says.
 # internal solver? yes.
 # find the map. the hidden potential list.
 # print(r2048)
@@ -72,10 +85,14 @@ c0 = casualCode(c)
 print(c0)
 # so what is the problem with this code?
 # equivalent form?
-c1 = exec(c)
+# c1 = eval(c)
+c1=checkEval(c)(c)
+# this is great.
+# it is getting weird.
 print(c1)
 # check the procedure?
 # analyze the code?
+# check major link.
 
 # print(c,type(c))
 # consider your fix.

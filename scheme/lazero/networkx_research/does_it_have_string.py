@@ -23,3 +23,11 @@ def eat(a):
 # how about consider understanding of python language?
 # fuck! must be do with networkx?
 # must be logical!
+def checkEval(a):
+    assert type(a) == str
+    if "=" not in a:
+        return eval
+    else:
+        return exec
+        # this is way too simple. I'm wondering whether this will work or not.
+        # consider a parser? but inclined to read manual.
