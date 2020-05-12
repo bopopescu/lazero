@@ -5,13 +5,38 @@ from does_it_have_string import checkEval, eat
 import copy
 import re
 # platform for that thing to execute the code.
+
 r2048 = returnWTF()
 f2048 = [x for y in returnFuckMe() for x in y]
 
 
+def functionWrapper(a, b):
+    return a + "(" + b + ")"
+
+
+def encloser(a, b, c):
+    # c is indicator
+    assert type(c)==str
+    x = ["()", "{}", "[]"]
+    for y in x:
+        if c[0] in y:
+            return a + y[0] + b + y[1]
+    raise Exception("None of those fucking encloser has been found.")
+
+def classExtender(a, b):
+    return ".".join([a, b])
+    # is it valid thing?
+
+
+def getword(a):
+    if type(a) != str:
+        return str(a)
+    else:
+        return a
+
 def catchMyError(a, b):
     try:
-        a(b)
+        return a(b)
     except Exception as e:
         return e
 
@@ -61,14 +86,39 @@ def casualCode(a):
 # always instant need. always. not some unpackable shits, not manuals to be read.
 # this is what REAL SHIT IS.
 
+
 def checkMajorLink(a):
     assert type(a) == list
     l = len(a)
     l0 = [int(x[1]) for x in a]
-    l1 = sum([l1[x*2] for x in range(l//2)])
+    l1 = sum([l0[x*2] for x in range(l//2)])
     l2 = sum(l0) - l1
     return l1 > l2
 
+
+def checkMasterLink(a):
+    c = checkMajorLink(a)
+    l0 = [x[0] for x in a]
+    l = len(a)
+    if c:
+        return [l0[x*2] for x in range(l//2)]
+    else:
+        t = []
+        for x in range(l//2):
+            try:
+                t.append(l0[x * 2 + 1])
+            except:
+                pass
+        return t
+        # strange.
+    # assert type(a) == list
+    # l = len(a)
+    # l0 = [int(x[1]) for x in a]
+    # l1 = sum([l0[x*2] for x in range(l//2)])
+    # l2 = sum(l0) - l1
+    # return l1 > l2
+
+# linkage?
 # it is not about the code.
 # create custom networks.
 # based on natural language?
@@ -82,18 +132,44 @@ def checkMajorLink(a):
 # is it str?
 # exec(r2048)
 c = "catchMyError(exec, r2048)"
+# so which one? remember me? sparse genius?
 c0 = casualCode(c)
 print(c0)
 # think about it. think about the infrastructure of this computer.
 # so what is the problem with this code?
 # equivalent form?
 # c1 = eval(c)
-c1=checkEval(c)(c)
+c1 = checkEval(c)(c)
 # this is great.
 # it is getting weird.
+c4 = checkMajorLink(c0)
+# True, so we only alter those odd ones.
+# not function?
 c2 = str(c1)
 c3 = type(c1)
-print(c2,c3)
+if "error" in getword(c3).lower():
+    # there is problem!
+    cd = checkMasterLink(c0)
+    # accumulate
+    # JIT.
+    for x in cd:
+        print(type(checkEval(x)(x)))
+        e = catchMyError(eat, checkEval(x)(x))
+        print(e,type(e))
+        # understand why?
+        # less information?
+        # what is the relationship?
+        # at least it is working?
+        # valid code pasting?
+        # what is considered valid?
+    # do those valid things.
+# store information!
+# what will you have?
+# print(c2, c3, c4)
+
+# c is the code to fix.
+# transfer the logic?
+# failsafe -> longer execution time -> more natural
 # we are gettings things here.
 # build a graph?
 # that is an error. consider the fix.

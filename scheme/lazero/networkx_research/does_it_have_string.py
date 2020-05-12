@@ -19,10 +19,11 @@ def eat(a):
     elif t == dict:
         return eat(a[random.choice(list(a.keys()))])
     else:
-        raise Exception("i do not know what shitty format you are using. consider learn more code and inference.")
+        raise Exception("i do not know what shitty format you are using. consider learning more code and then inference.")
 # how about consider understanding of python language?
 # fuck! must be do with networkx?
 # must be logical!
+# you have memory!
 def checkEval(a):
     assert type(a) == str
     if "=" not in a:
@@ -31,3 +32,4 @@ def checkEval(a):
         return exec
         # this is way too simple. I'm wondering whether this will work or not.
         # consider a parser? but inclined to read manual.
+        # learn stuff?
