@@ -34,6 +34,7 @@ def getword(a):
     else:
         return a
 
+
 def catchMyError(a, b):
     try:
         return a(b)
@@ -155,7 +156,12 @@ if "error" in getword(c3).lower():
     for x in cd:
         print(type(checkEval(x)(x)))
         e = catchMyError(eat, checkEval(x)(x))
-        print(e,type(e))
+        print(e, type(e))
+        # find in those things.
+        # query like things.
+        # remember things.
+        # does it work?
+        # wild thing?
         # understand why?
         # less information?
         # what is the relationship?
