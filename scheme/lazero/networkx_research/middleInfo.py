@@ -58,7 +58,8 @@ def casualCode(a):
 # but let's talk about HOW TO FIND AND USE IT.
 # replace it with current shits?
 # it is binary, relative.
-
+# always instant need. always. not some unpackable shits, not manuals to be read.
+# this is what REAL SHIT IS.
 
 def checkMajorLink(a):
     assert type(a) == list
@@ -83,13 +84,19 @@ def checkMajorLink(a):
 c = "catchMyError(exec, r2048)"
 c0 = casualCode(c)
 print(c0)
+# think about it. think about the infrastructure of this computer.
 # so what is the problem with this code?
 # equivalent form?
 # c1 = eval(c)
 c1=checkEval(c)(c)
 # this is great.
 # it is getting weird.
-print(c1)
+c2 = str(c1)
+c3 = type(c1)
+print(c2,c3)
+# we are gettings things here.
+# build a graph?
+# that is an error. consider the fix.
 # check the procedure?
 # analyze the code?
 # check major link.
