@@ -2,13 +2,17 @@ from getFromPickleR import returnWTF
 from buildAGraph import addEdge
 from does_it_have_string import eat, checkEval
 import traceback
+import copy
 # even if donno what is going on, we have to proceed.
 # GET THE FEEDBACK. REAL TIME.
 r2048 = returnWTF()
 # need flattern?
-y="edge"
+y = "random"
 n = []
-
+# learn different stuff? may it help?
+# we are checking.
+# help me with this shit.
+# this is language agnostic.
 
 def catchMyError(a, b):
     try:
@@ -19,28 +23,36 @@ def catchMyError(a, b):
         print(e0)
         return e
 
+# i have many errors, more than i can ever create one week!
 # you know how I can get confused.
-def findSolution(code,reverse=False):
+
+
+def findSolution(codel, reverse=False):
     solution = []
+    code = copy.copy(codel)
     while code != "":
         print(code)
         c = catchMyError(checkEval(code), code)
         solution.append(c)
         # print(c, type(c))
-        if reverse==False:
+        if reverse == False:
             code = code[:-1]
         elif reverse == True:
             code = code[1:]
         else:
-            raise Exception("check the second pparameter please?")
+            raise Exception("check the second parameter please?")
     return solution
 
-
+# is it obvious to you?
+# always the matrix trick.
 for x in r2048:
     for z in x:
         if y in z:
             n.append(z)
             break
+        # I want to speed up my programming.
+        # what about just fucking parse them all?
+        # what cannot be opened we just move it away.
 # print(n)
 # what is invalid syntax? why you complain?
 # not just once.
@@ -56,16 +68,16 @@ for x in range(2):
     # find something in common.
     f = findSolution(code)
     print(f)
-    f=findSolution(code,True)
+    f = findSolution(code, True)
     print(f)
     # that is not so helpful, isn't it?
     # try windowing, replacing?
     # find suspicious words.
-        # code = code[-1:]
-        # this is one way.
-        # and another way.
-        # detailed!
-        # random dropping?
+    # code = code[-1:]
+    # this is one way.
+    # and another way.
+    # detailed!
+    # random dropping?
     # code = code.replace(a, "")
     # find different crap.
     # what is your method?
@@ -93,3 +105,5 @@ for x in range(2):
 # query.
 # learn similar words.
 # many failsafe modules.
+# learn what is special about those characters?
+# so be it. if you want to find what is magical, better use it.

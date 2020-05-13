@@ -6,7 +6,8 @@ from difflib import SequenceMatcher
 def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
-def checkFront(b,a):
+
+def checkFront(b, a):
     i = len(b)
     if len(a) <= i:
         return False
@@ -15,11 +16,12 @@ def checkFront(b,a):
             return True
     return False
 
-def getFinal(b,a):
+
+def getFinal(b, a):
     # first bracket.
     c = a[len(b):]
     d = ""
-    e = [" ", "("]
+    e = [" ", "(", ":"]
     # hook in.
     for x in c:
         if x in e:
@@ -28,15 +30,16 @@ def getFinal(b,a):
             else:
                 return d
         else:
-            d+=x
+            d += x
+
 
 def getParsed(a):
     with open(a, "r") as f:
         f0 = f.read().split("\n")
-        x0=[]
+        x0 = []
         for x in f0:
-            if checkFront("class",x):
-                g=getFinal("class",x)
+            if checkFront("class", x):
+                g = getFinal("class", x)
                 x0.append(g)
             elif checkFront("def", x):
                 g = getFinal("def", x)
@@ -58,6 +61,7 @@ def getParsed(a):
 #     except:
 #         return []
 
+
 def corrector(a, b):
     c = {similar(x, a): x for x in b}
     d = max(list(c.keys()))
@@ -66,11 +70,12 @@ def corrector(a, b):
     # one word
     # likelyhood?
 
+
 fullList = os.listdir(".")
 queryScript = list(filter(lambda x: len(x) > 3, fullList))
 queryName = list(filter(lambda x: x[-3:] == ".py", queryScript))
 queryScript = list(map(lambda x: x[:-3], queryName))
-query = {x: getParsed(corrector(x,queryName)) for x in queryScript}
+query = {x: getParsed(corrector(x, queryName)) for x in queryScript}
 # have unknown things.
 # do not import them. just parse them.
 print(query)

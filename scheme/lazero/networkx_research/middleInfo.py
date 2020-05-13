@@ -5,6 +5,8 @@ from does_it_have_string import checkEval, eat
 import copy
 import re
 # platform for that thing to execute the code.
+# it is not cool. It is tool.
+# how do you code?
 
 r2048 = returnWTF()
 f2048 = [x for y in returnFuckMe() for x in y]
