@@ -2,3 +2,5 @@ This system bas to be unified. It must have a unified database, or some sort of 
 How many dimentions can be defined? Merely accumulate the numbers and we can get different things along the way?
 
 Make it simple. Make it realistic. Do not talk about spontanious shit. Assume this machine WILL NEVER EVER HAVE FREE WILL. Thus we MUST TYPE COMMAND EVERY FUCKING DAY.
+You just lint the filename. You ain't doing nothing.
+I'll fix you.

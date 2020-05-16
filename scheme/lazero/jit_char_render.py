@@ -29,6 +29,8 @@ def pil2cv(image):
     return new_image
 # from PIL import Image, ImageFont, ImageDraw
 
+# will my code blow your shit?
+
 
 def cropImage(a):
     x, y = a.shape
@@ -93,12 +95,22 @@ def getRender(a):
 # print(PRE_CAL)
 # print(PRE_CAL1)
 # black: 0 white:255
+# outdated code checking tool.
+# UNICODE IS NOT SUPPORTED IN GNU NANO.
+# HOW DOES THIS COME OUT?
 def getJson(code):
     try:
         a = getRender(code)
         b = cropImage(a)
         d = ["TL", "TR", "DL", "DR"]
         e = {}
+        # i={}
+        m = sumMatrix(a) < 255*PRE_CAL[0]
+        # print(m)
+        n = sumMatrix(a) < 254.9
+        # print(n)
+        c = blackish(a) > 0
+        i = {"visible": m, "painted": n, "pureBlack": c}
         for x in range(4):
             # print(b[x])
             m = sumMatrix(b[x]) < 255*PRE_CAL[0]
@@ -107,13 +119,14 @@ def getJson(code):
             # print(n)
             c = blackish(b[x]) > 0
             # print(c)
+            # do we need overall things?
             e.update({d[x]: {"visible": m, "painted": n, "pureBlack": c}})
         h = getScheme(b)
         h = {x: sumMatrix(h[x]) for x in h.keys()}
         # binarize it.
         for x in h.keys():
             h.update({x: h[x] < 255 * PRE_CAL[0]})
-        return {code: {"blocks": e, "boundaries": h}}
+        return {code: {"main": i, "blocks": e, "boundaries": h}}
     except:
         return {code: None}
     # just to try.
