@@ -13,7 +13,6 @@ def storeWTF(a):
     pickle.dump(a, open("FuckingWTF.pickle","wb"))
 def storeFuckYou(a):
     pickle.dump(a, open("FuckingFuckYou.pickle","wb"))
-
 def storeListV(a,b):
     # b for index of original context.
     pickle.dump(a, open("megaDatabase/"+b+".pickle","wb"))

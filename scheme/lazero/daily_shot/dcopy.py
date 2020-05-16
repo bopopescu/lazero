@@ -61,6 +61,7 @@ def getCore():
   # no just consider normal situation.
   # i said that you will die.
   # what the fuck?
+  # plant never dies. it just decays.
   # you don't have shit and you don't get shit.
   return queue(2)
 def checkState(a):
@@ -122,6 +123,7 @@ if __name__ == "__main__":
 # this sucks.
 # too damn verbose.
 # shit.
+# now you understand this a little bit more?
 # eat your dick.
 # pyautogui.click(button="right")
 # s0=pyautogui.screenshot()

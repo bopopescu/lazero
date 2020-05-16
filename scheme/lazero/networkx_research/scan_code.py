@@ -2,10 +2,23 @@ import re
 import os
 
 
+# def openfinder(a):
+#     with open(a, "r") as f:
+#         return re.findall(r'[a-zA-Z0-9\-\_]+', str(f.read()))
+
+
 def openfinder(a):
     with open(a, "r") as f:
-        return re.findall(r'[a-zA-Z0-9\-\_]+', str(f.read()))
+        y0 = []
+        def d(x): return [z for y in x for z in y]
+        for x in f.read().split("\n"):
+            if len(x) > 1:
+                if x[0] != "#":
+                    y0.append(x)
+        return re.findall(r'[a-zA-Z0-9\-\_]+', " ".join(y0))
 
+# it does not have metainfo. we have to relocate them.
+# do not think you can save time. it is really stupid.
 
 def getList():
     return os.listdir(".")

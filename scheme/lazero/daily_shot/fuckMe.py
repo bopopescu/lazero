@@ -8,6 +8,7 @@ import defRandom
 import numpy as np
 # import cv2
 
+
 def pil2cv(image):
     ''' PIL型 -> OpenCV型 '''
     new_image = np.array(image, dtype=np.uint8)
@@ -61,7 +62,7 @@ def cropDifference(first,second):
     # images differ
     x, y, w, h = cv2.boundingRect(c)
     area=cv2.contourArea(c)
-    cnt.append([imageB[y: y + h, x: x + w],[x,y,w,h],area])
+    cnt.append([imageB[y: y + h, x: x + w], [x, y, w, h], area])
   cnt0, cnt1 = list(reversed(sorted(cnt,key=(lambda x: x[2]))))[:5], []
   # no children allowed.
   for axr, amr in enumerate(classic.parallel(3,classic.getText,list(map((lambda x: x[0]), cnt0)))):
