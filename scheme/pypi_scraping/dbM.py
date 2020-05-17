@@ -97,3 +97,22 @@ def showX(_table,_id):
     conn.close()
     return f
     # tuple.
+
+
+def showId(_table,_id):
+    _id = str(_id) if type(_id)!=str else _id
+    conn=sqlite3.connect('Monitor.db',timeout=45)
+    c=conn.cursor()
+    sql="SELECT * FROM "+_table+" WHERE id ="+_id+";"
+    f=[]
+    for row in c.execute(sql):
+      f.append(row)
+    # conn.commit()
+    #this thing must be done after every execute.
+    conn.close()
+    if len(f)==1:
+        return f[0]
+    else:
+        return None
+    # tuple.
+    # manage your way in. all possible way to get in.
