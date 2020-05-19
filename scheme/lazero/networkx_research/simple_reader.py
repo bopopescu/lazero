@@ -23,7 +23,8 @@ while True:
             G.addEdge((("sentence", b), ("sentence", m)))
         if p == "__EDSA__":
             break
-        G.addEdge((("sentence", m), ("comment", p)))
+        if p!="\n":
+            G.addEdge((("sentence", m), ("comment", p)))
         b = m
         mark += 1
     except:
