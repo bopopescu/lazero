@@ -1,0 +1,2 @@
+#!/bin/bash
+k5srvutil -h &> ../one-log/k5srvutil.log

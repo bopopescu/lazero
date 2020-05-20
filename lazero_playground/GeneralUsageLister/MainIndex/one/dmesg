@@ -1,0 +1,2 @@
+#!/bin/bash
+dmesg -h &> ../one-log/dmesg.log

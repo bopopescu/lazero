@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_BlitSurface &> ../zero-log/SDL_BlitSurface.log

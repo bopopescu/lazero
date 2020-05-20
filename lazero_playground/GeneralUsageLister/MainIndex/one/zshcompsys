@@ -1,0 +1,2 @@
+#!/bin/bash
+zshcompsys -h &> ../one-log/zshcompsys.log

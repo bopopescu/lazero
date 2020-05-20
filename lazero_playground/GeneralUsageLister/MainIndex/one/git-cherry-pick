@@ -1,0 +1,2 @@
+#!/bin/bash
+git-cherry-pick -h &> ../one-log/git-cherry-pick.log

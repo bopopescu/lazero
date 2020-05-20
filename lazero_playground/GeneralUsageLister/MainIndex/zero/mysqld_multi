@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqld_multi &> ../zero-log/mysqld_multi.log

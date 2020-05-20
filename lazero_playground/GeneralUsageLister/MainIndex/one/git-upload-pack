@@ -1,0 +1,2 @@
+#!/bin/bash
+git-upload-pack -h &> ../one-log/git-upload-pack.log

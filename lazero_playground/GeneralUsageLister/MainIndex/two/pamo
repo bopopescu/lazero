@@ -1,0 +1,2 @@
+#!/bin/bash
+pamo --help &> ../two-log/pamo.log

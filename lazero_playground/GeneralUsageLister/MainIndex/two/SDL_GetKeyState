@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetKeyState --help &> ../two-log/SDL_GetKeyState.log

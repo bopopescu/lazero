@@ -1,0 +1,2 @@
+#!/bin/bash
+gv2gml --help &> ../two-log/gv2gml.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-new --help &> ../two-log/cargo-new.log

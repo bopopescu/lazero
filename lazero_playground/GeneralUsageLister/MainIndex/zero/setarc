@@ -1,0 +1,2 @@
+#!/bin/bash
+setarc &> ../zero-log/setarc.log

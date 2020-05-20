@@ -1,0 +1,2 @@
+#!/bin/bash
+gdk-pixbuf-query-loaders &> ../zero-log/gdk-pixbuf-query-loaders.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+mke2f -h &> ../one-log/mke2f.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-fetch-pack -h &> ../one-log/git-fetch-pack.log

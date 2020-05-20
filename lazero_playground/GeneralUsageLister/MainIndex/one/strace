@@ -1,0 +1,2 @@
+#!/bin/bash
+strace -h &> ../one-log/strace.log

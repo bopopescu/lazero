@@ -1,0 +1,2 @@
+#!/bin/bash
+b2sum --help &> ../two-log/b2sum.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+elfedit --help &> ../two-log/elfedit.log

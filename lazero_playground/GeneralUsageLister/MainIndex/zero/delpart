@@ -1,0 +1,2 @@
+#!/bin/bash
+delpart &> ../zero-log/delpart.log

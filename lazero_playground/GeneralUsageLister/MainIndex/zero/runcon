@@ -1,0 +1,2 @@
+#!/bin/bash
+runcon &> ../zero-log/runcon.log

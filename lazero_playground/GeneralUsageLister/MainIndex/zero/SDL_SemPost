@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SemPost &> ../zero-log/SDL_SemPost.log

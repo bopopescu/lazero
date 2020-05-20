@@ -1,0 +1,2 @@
+#!/bin/bash
+linux6 &> ../zero-log/linux6.log

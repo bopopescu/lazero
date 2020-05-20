@@ -1,0 +1,2 @@
+#!/bin/bash
+sclient -h &> ../one-log/sclient.log

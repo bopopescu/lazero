@@ -1,0 +1,2 @@
+#!/bin/bash
+zramctl --help &> ../two-log/zramctl.log

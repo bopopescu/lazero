@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_plugin -h &> ../one-log/mysql_plugin.log

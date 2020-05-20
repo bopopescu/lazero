@@ -1,0 +1,2 @@
+#!/bin/bash
+kinit -h &> ../one-log/kinit.log

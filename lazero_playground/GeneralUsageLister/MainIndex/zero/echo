@@ -1,0 +1,2 @@
+#!/bin/bash
+echo &> ../zero-log/echo.log

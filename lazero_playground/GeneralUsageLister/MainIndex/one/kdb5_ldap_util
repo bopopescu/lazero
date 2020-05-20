@@ -1,0 +1,2 @@
+#!/bin/bash
+kdb5_ldap_util -h &> ../one-log/kdb5_ldap_util.log

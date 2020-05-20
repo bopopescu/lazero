@@ -1,0 +1,2 @@
+#!/bin/bash
+git-remote-ext &> ../zero-log/git-remote-ext.log

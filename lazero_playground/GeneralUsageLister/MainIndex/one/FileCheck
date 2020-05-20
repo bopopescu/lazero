@@ -1,0 +1,2 @@
+#!/bin/bash
+FileCheck -h &> ../one-log/FileCheck.log

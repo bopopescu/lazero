@@ -1,0 +1,2 @@
+#!/bin/bash
+ranlib --help &> ../two-log/ranlib.log

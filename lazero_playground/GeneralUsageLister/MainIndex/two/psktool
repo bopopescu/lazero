@@ -1,0 +1,2 @@
+#!/bin/bash
+psktool --help &> ../two-log/psktool.log

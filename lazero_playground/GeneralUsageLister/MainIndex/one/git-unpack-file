@@ -1,0 +1,2 @@
+#!/bin/bash
+git-unpack-file -h &> ../one-log/git-unpack-file.log

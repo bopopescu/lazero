@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh-pkcs11-helper &> ../zero-log/ssh-pkcs11-helper.log

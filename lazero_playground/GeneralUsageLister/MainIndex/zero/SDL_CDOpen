@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDOpen &> ../zero-log/SDL_CDOpen.log

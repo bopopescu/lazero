@@ -1,0 +1,2 @@
+#!/bin/bash
+delpart --help &> ../two-log/delpart.log

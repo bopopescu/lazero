@@ -1,0 +1,2 @@
+#!/bin/bash
+sserver --help &> ../two-log/sserver.log

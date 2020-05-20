@@ -1,0 +1,2 @@
+#!/bin/bash
+git-gui -h &> ../one-log/git-gui.log

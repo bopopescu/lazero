@@ -1,0 +1,2 @@
+#!/bin/bash
+git-merge-tree --help &> ../two-log/git-merge-tree.log

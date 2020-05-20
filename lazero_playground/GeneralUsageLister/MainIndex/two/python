@@ -1,0 +1,2 @@
+#!/bin/bash
+python --help &> ../two-log/python.log

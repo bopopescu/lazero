@@ -1,0 +1,2 @@
+#!/bin/bash
+tblgen -h &> ../one-log/tblgen.log

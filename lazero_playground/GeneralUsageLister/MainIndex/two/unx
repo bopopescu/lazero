@@ -1,0 +1,2 @@
+#!/bin/bash
+unx --help &> ../two-log/unx.log

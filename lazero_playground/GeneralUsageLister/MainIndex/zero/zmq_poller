@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_poller &> ../zero-log/zmq_poller.log

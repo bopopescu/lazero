@@ -1,0 +1,2 @@
+#!/bin/bash
+libarchive-formats &> ../zero-log/libarchive-formats.log

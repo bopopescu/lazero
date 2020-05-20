@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-check --help &> ../two-log/cargo-check.log

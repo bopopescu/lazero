@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_MapRGB --help &> ../two-log/SDL_MapRGB.log

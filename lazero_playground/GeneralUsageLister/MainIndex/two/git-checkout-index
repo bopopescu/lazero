@@ -1,0 +1,2 @@
+#!/bin/bash
+git-checkout-index --help &> ../two-log/git-checkout-index.log

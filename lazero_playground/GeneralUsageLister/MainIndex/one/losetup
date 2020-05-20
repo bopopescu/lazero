@@ -1,0 +1,2 @@
+#!/bin/bash
+losetup -h &> ../one-log/losetup.log

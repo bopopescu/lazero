@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup -h &> ../one-log/nohup.log

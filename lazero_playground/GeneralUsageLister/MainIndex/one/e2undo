@@ -1,0 +1,2 @@
+#!/bin/bash
+e2undo -h &> ../one-log/e2undo.log

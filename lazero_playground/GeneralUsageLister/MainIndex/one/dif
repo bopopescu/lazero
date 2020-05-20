@@ -1,0 +1,2 @@
+#!/bin/bash
+dif -h &> ../one-log/dif.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-fsck-objects -h &> ../one-log/git-fsck-objects.log

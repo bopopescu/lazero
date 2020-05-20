@@ -1,0 +1,2 @@
+#!/bin/bash
+git-citool -h &> ../one-log/git-citool.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+zshexpn -h &> ../one-log/zshexpn.log

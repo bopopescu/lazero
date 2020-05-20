@@ -1,0 +1,2 @@
+#!/bin/bash
+git-unpack-objects --help &> ../two-log/git-unpack-objects.log

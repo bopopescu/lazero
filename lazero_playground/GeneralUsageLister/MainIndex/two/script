@@ -1,0 +1,2 @@
+#!/bin/bash
+script --help &> ../two-log/script.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+kprop --help &> ../two-log/kprop.log

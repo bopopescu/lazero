@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CreateSemaphore --help &> ../two-log/SDL_CreateSemaphore.log

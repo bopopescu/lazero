@@ -1,0 +1,2 @@
+#!/bin/bash
+git-commit --help &> ../two-log/git-commit.log

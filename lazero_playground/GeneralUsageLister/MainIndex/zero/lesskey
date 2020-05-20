@@ -1,0 +1,2 @@
+#!/bin/bash
+lesskey &> ../zero-log/lesskey.log

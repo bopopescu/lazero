@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_WM_SetIcon -h &> ../one-log/SDL_WM_SetIcon.log

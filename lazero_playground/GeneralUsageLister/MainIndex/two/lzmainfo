@@ -1,0 +1,2 @@
+#!/bin/bash
+lzmainfo --help &> ../two-log/lzmainfo.log

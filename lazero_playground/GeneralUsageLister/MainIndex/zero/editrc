@@ -1,0 +1,2 @@
+#!/bin/bash
+editrc &> ../zero-log/editrc.log

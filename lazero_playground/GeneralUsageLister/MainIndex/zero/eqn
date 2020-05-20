@@ -1,0 +1,2 @@
+#!/bin/bash
+eqn &> ../zero-log/eqn.log

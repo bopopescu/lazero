@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_DestroySemaphore -h &> ../one-log/SDL_DestroySemaphore.log

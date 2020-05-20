@@ -1,0 +1,2 @@
+#!/bin/bash
+updatedb -h &> ../one-log/updatedb.log

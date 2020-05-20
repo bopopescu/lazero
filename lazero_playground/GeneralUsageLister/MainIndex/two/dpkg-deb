@@ -1,0 +1,2 @@
+#!/bin/bash
+dpkg-deb --help &> ../two-log/dpkg-deb.log

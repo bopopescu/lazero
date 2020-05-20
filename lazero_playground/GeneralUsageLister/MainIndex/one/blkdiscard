@@ -1,0 +1,2 @@
+#!/bin/bash
+blkdiscard -h &> ../one-log/blkdiscard.log

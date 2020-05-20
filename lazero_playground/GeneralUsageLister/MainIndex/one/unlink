@@ -1,0 +1,2 @@
+#!/bin/bash
+unlink -h &> ../one-log/unlink.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-http-fetch --help &> ../two-log/git-http-fetch.log

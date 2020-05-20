@@ -1,0 +1,2 @@
+#!/bin/bash
+git-verify-commit -h &> ../one-log/git-verify-commit.log

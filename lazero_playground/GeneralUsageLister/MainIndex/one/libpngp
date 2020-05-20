@@ -1,0 +1,2 @@
+#!/bin/bash
+libpngp -h &> ../one-log/libpngp.log

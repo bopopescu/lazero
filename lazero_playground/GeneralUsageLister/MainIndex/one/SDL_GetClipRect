@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetClipRect -h &> ../one-log/SDL_GetClipRect.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+e2mmpstatus &> ../zero-log/e2mmpstatus.log

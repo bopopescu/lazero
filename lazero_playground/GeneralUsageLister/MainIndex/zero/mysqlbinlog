@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlbinlog &> ../zero-log/mysqlbinlog.log

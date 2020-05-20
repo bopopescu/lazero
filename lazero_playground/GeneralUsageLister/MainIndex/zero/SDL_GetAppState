@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetAppState &> ../zero-log/SDL_GetAppState.log

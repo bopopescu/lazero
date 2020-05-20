@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetRelativeMouseState --help &> ../two-log/SDL_GetRelativeMouseState.log

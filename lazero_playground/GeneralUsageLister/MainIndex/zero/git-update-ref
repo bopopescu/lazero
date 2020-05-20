@@ -1,0 +1,2 @@
+#!/bin/bash
+git-update-ref &> ../zero-log/git-update-ref.log

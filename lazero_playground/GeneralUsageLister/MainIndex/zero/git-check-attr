@@ -1,0 +1,2 @@
+#!/bin/bash
+git-check-attr &> ../zero-log/git-check-attr.log

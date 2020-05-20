@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh --help &> ../two-log/ssh.log

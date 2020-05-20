@@ -1,0 +1,2 @@
+#!/bin/bash
+mingle --help &> ../two-log/mingle.log

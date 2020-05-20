@@ -1,0 +1,2 @@
+#!/bin/bash
+zshroadmap -h &> ../one-log/zshroadmap.log

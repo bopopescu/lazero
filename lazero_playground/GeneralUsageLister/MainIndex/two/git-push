@@ -1,0 +1,2 @@
+#!/bin/bash
+git-push --help &> ../two-log/git-push.log

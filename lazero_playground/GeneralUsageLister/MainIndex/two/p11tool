@@ -1,0 +1,2 @@
+#!/bin/bash
+p11tool --help &> ../two-log/p11tool.log

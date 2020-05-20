@@ -1,0 +1,2 @@
+#!/bin/bash
+gitweb --help &> ../two-log/gitweb.log

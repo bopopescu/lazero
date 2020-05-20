@@ -1,0 +1,2 @@
+#!/bin/bash
+git-commit-tree &> ../zero-log/git-commit-tree.log

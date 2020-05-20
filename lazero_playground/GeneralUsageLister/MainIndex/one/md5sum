@@ -1,0 +1,2 @@
+#!/bin/bash
+md5sum -h &> ../one-log/md5sum.log

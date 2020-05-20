@@ -1,0 +1,2 @@
+#!/bin/bash
+gdk-pixbuf-csource -h &> ../one-log/gdk-pixbuf-csource.log

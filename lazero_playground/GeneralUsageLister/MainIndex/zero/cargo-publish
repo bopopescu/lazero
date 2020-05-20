@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-publish &> ../zero-log/cargo-publish.log

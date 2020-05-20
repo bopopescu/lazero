@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-symbolizer -h &> ../one-log/llvm-symbolizer.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+ffi_call &> ../zero-log/ffi_call.log

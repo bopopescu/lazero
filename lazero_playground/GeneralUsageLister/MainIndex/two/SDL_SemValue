@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SemValue --help &> ../two-log/SDL_SemValue.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+acyclic --help &> ../two-log/acyclic.log

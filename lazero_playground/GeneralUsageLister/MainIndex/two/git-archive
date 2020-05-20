@@ -1,0 +1,2 @@
+#!/bin/bash
+git-archive --help &> ../two-log/git-archive.log

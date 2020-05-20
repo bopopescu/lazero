@@ -1,0 +1,2 @@
+#!/bin/bash
+gprof --help &> ../two-log/gprof.log

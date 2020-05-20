@@ -1,0 +1,2 @@
+#!/bin/bash
+git-http-backend -h &> ../one-log/git-http-backend.log

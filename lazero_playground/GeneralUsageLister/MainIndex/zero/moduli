@@ -1,0 +1,2 @@
+#!/bin/bash
+moduli &> ../zero-log/moduli.log

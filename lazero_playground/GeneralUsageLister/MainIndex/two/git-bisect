@@ -1,0 +1,2 @@
+#!/bin/bash
+git-bisect --help &> ../two-log/git-bisect.log

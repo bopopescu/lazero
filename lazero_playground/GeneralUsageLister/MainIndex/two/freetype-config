@@ -1,0 +1,2 @@
+#!/bin/bash
+freetype-config --help &> ../two-log/freetype-config.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+compile_et -h &> ../one-log/compile_et.log

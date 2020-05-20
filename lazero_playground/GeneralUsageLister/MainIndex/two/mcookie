@@ -1,0 +1,2 @@
+#!/bin/bash
+mcookie --help &> ../two-log/mcookie.log

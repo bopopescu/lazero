@@ -1,0 +1,2 @@
+#!/bin/bash
+gml2g -h &> ../one-log/gml2g.log

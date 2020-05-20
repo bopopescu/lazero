@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_UpdateRect --help &> ../two-log/SDL_UpdateRect.log

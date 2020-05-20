@@ -1,0 +1,2 @@
+#!/bin/bash
+aria_dump_log &> ../zero-log/aria_dump_log.log

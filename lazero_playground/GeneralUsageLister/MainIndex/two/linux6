@@ -1,0 +1,2 @@
+#!/bin/bash
+linux6 --help &> ../two-log/linux6.log

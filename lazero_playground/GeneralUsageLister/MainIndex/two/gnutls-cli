@@ -1,0 +1,2 @@
+#!/bin/bash
+gnutls-cli --help &> ../two-log/gnutls-cli.log

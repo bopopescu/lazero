@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickUpdate -h &> ../one-log/SDL_JoystickUpdate.log

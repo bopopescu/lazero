@@ -1,0 +1,2 @@
+#!/bin/bash
+ident &> ../zero-log/ident.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+pulse-cli-syntax -h &> ../one-log/pulse-cli-syntax.log

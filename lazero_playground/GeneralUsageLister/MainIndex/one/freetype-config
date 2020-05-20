@@ -1,0 +1,2 @@
+#!/bin/bash
+freetype-config -h &> ../one-log/freetype-config.log

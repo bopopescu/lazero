@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SemTryWait -h &> ../one-log/SDL_SemTryWait.log

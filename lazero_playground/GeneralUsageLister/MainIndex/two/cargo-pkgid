@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-pkgid --help &> ../two-log/cargo-pkgid.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+chown --help &> ../two-log/chown.log

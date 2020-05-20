@@ -1,0 +1,2 @@
+#!/bin/bash
+git-fmt-merge-msg -h &> ../one-log/git-fmt-merge-msg.log

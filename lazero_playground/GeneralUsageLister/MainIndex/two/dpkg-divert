@@ -1,0 +1,2 @@
+#!/bin/bash
+dpkg-divert --help &> ../two-log/dpkg-divert.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-mergetool--lib --help &> ../two-log/git-mergetool--lib.log

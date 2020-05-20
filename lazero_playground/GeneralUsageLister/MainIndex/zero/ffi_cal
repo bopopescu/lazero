@@ -1,0 +1,2 @@
+#!/bin/bash
+ffi_cal &> ../zero-log/ffi_cal.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+merge --help &> ../two-log/merge.log

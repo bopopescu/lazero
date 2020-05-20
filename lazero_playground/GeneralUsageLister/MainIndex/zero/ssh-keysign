@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh-keysign &> ../zero-log/ssh-keysign.log

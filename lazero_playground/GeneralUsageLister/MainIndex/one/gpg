@@ -1,0 +1,2 @@
+#!/bin/bash
+gpg -h &> ../one-log/gpg.log

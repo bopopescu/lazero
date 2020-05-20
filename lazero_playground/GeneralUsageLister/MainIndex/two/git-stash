@@ -1,0 +1,2 @@
+#!/bin/bash
+git-stash --help &> ../two-log/git-stash.log

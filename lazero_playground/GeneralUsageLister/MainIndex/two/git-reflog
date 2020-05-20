@@ -1,0 +1,2 @@
+#!/bin/bash
+git-reflog --help &> ../two-log/git-reflog.log

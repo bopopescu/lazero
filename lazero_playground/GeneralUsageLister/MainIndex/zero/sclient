@@ -1,0 +1,2 @@
+#!/bin/bash
+sclient &> ../zero-log/sclient.log

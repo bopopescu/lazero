@@ -1,0 +1,2 @@
+#!/bin/bash
+kproplog &> ../zero-log/kproplog.log

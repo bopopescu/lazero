@@ -1,0 +1,2 @@
+#!/bin/bash
+iconvctl -h &> ../one-log/iconvctl.log

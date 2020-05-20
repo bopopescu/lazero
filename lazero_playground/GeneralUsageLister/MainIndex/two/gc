@@ -1,0 +1,2 @@
+#!/bin/bash
+gc --help &> ../two-log/gc.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-daemon -h &> ../one-log/git-daemon.log

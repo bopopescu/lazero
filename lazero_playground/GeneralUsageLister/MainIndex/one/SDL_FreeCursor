@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_FreeCursor -h &> ../one-log/SDL_FreeCursor.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+rmt -h &> ../one-log/rmt.log

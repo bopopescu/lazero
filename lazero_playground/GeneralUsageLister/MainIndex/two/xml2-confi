@@ -1,0 +1,2 @@
+#!/bin/bash
+xml2-confi --help &> ../two-log/xml2-confi.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_config -h &> ../one-log/mysql_config.log

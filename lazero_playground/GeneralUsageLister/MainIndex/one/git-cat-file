@@ -1,0 +1,2 @@
+#!/bin/bash
+git-cat-file -h &> ../one-log/git-cat-file.log

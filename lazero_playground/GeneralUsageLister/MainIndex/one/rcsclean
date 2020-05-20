@@ -1,0 +1,2 @@
+#!/bin/bash
+rcsclean -h &> ../one-log/rcsclean.log

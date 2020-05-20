@@ -1,0 +1,2 @@
+#!/bin/bash
+my_safe_process --help &> ../two-log/my_safe_process.log

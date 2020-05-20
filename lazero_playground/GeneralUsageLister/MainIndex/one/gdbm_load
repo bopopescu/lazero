@@ -1,0 +1,2 @@
+#!/bin/bash
+gdbm_load -h &> ../one-log/gdbm_load.log

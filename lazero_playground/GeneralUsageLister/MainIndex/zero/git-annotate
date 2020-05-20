@@ -1,0 +1,2 @@
+#!/bin/bash
+git-annotate &> ../zero-log/git-annotate.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+kadmind -h &> ../one-log/kadmind.log

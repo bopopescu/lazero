@@ -1,0 +1,2 @@
+#!/bin/bash
+git-revert -h &> ../one-log/git-revert.log

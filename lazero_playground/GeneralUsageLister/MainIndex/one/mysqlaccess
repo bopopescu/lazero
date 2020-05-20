@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlaccess -h &> ../one-log/mysqlaccess.log

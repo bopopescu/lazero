@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_PushEvent -h &> ../one-log/SDL_PushEvent.log

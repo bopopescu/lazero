@@ -1,0 +1,2 @@
+#!/bin/bash
+pulseaudio -h &> ../one-log/pulseaudio.log

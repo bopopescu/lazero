@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_z85_decode --help &> ../two-log/zmq_z85_decode.log

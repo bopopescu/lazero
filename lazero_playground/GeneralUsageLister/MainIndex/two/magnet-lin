@@ -1,0 +1,2 @@
+#!/bin/bash
+magnet-lin --help &> ../two-log/magnet-lin.log

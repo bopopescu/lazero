@@ -1,0 +1,2 @@
+#!/bin/bash
+mknod &> ../zero-log/mknod.log

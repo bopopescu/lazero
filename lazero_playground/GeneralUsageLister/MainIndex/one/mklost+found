@@ -1,0 +1,2 @@
+#!/bin/bash
+mklost+found -h &> ../one-log/mklost+found.log

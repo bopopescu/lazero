@@ -1,0 +1,2 @@
+#!/bin/bash
+git-verify-commit --help &> ../two-log/git-verify-commit.log

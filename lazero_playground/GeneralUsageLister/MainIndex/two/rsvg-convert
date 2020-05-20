@@ -1,0 +1,2 @@
+#!/bin/bash
+rsvg-convert --help &> ../two-log/rsvg-convert.log

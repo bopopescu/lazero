@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_FreeWAV &> ../zero-log/SDL_FreeWAV.log

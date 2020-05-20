@@ -1,0 +1,2 @@
+#!/bin/bash
+toe &> ../zero-log/toe.log

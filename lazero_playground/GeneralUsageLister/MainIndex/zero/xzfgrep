@@ -1,0 +1,2 @@
+#!/bin/bash
+xzfgrep &> ../zero-log/xzfgrep.log

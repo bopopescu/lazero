@@ -1,0 +1,2 @@
+#!/bin/bash
+stty --help &> ../two-log/stty.log

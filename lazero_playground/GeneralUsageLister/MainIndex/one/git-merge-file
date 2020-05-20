@@ -1,0 +1,2 @@
+#!/bin/bash
+git-merge-file -h &> ../one-log/git-merge-file.log

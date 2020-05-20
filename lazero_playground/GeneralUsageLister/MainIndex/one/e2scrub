@@ -1,0 +1,2 @@
+#!/bin/bash
+e2scrub -h &> ../one-log/e2scrub.log

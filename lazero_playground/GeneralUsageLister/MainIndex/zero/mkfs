@@ -1,0 +1,2 @@
+#!/bin/bash
+mkfs &> ../zero-log/mkfs.log

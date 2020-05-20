@@ -1,0 +1,2 @@
+#!/bin/bash
+git-diff-tree &> ../zero-log/git-diff-tree.log

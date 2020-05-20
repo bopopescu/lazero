@@ -1,0 +1,2 @@
+#!/bin/bash
+colcrt --help &> ../two-log/colcrt.log

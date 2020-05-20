@@ -1,0 +1,2 @@
+#!/bin/bash
+resizepart &> ../zero-log/resizepart.log

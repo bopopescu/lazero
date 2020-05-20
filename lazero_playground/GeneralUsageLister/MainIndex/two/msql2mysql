@@ -1,0 +1,2 @@
+#!/bin/bash
+msql2mysql --help &> ../two-log/msql2mysql.log

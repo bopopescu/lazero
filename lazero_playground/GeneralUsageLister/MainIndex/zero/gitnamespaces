@@ -1,0 +1,2 @@
+#!/bin/bash
+gitnamespaces &> ../zero-log/gitnamespaces.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDPause --help &> ../two-log/SDL_CDPause.log

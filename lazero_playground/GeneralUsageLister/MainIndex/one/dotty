@@ -1,0 +1,2 @@
+#!/bin/bash
+dotty -h &> ../one-log/dotty.log

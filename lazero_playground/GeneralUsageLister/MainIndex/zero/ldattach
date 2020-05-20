@@ -1,0 +1,2 @@
+#!/bin/bash
+ldattach &> ../zero-log/ldattach.log

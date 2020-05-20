@@ -1,0 +1,2 @@
+#!/bin/bash
+nologin --help &> ../two-log/nologin.log

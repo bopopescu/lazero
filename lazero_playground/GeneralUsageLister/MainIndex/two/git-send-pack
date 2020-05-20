@@ -1,0 +1,2 @@
+#!/bin/bash
+git-send-pack --help &> ../two-log/git-send-pack.log

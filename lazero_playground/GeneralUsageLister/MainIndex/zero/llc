@@ -1,0 +1,2 @@
+#!/bin/bash
+llc &> ../zero-log/llc.log

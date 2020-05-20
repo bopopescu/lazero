@@ -1,0 +1,2 @@
+#!/bin/bash
+adjtime -h &> ../one-log/adjtime.log

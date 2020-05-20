@@ -1,0 +1,2 @@
+#!/bin/bash
+git-stripspace -h &> ../one-log/git-stripspace.log

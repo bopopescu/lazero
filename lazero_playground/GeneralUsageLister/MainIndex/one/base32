@@ -1,0 +1,2 @@
+#!/bin/bash
+base32 -h &> ../one-log/base32.log

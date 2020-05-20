@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CondWait -h &> ../one-log/SDL_CondWait.log

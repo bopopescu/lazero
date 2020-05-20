@@ -1,0 +1,2 @@
+#!/bin/bash
+git-mergetool--lib &> ../zero-log/git-mergetool--lib.log

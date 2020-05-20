@@ -1,0 +1,2 @@
+#!/bin/bash
+sleep -h &> ../one-log/sleep.log

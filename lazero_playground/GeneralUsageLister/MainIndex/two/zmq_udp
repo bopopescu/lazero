@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_udp --help &> ../two-log/zmq_udp.log

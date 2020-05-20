@@ -1,0 +1,2 @@
+#!/bin/bash
+git-imap-send --help &> ../two-log/git-imap-send.log

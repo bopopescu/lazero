@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_PollEvent --help &> ../two-log/SDL_PollEvent.log

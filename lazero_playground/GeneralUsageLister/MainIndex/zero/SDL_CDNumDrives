@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDNumDrives &> ../zero-log/SDL_CDNumDrives.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+vimtutor --help &> ../two-log/vimtutor.log

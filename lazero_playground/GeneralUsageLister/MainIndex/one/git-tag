@@ -1,0 +1,2 @@
+#!/bin/bash
+git-tag -h &> ../one-log/git-tag.log

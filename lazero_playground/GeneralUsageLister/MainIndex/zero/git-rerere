@@ -1,0 +1,2 @@
+#!/bin/bash
+git-rerere &> ../zero-log/git-rerere.log

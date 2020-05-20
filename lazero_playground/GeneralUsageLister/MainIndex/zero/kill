@@ -1,0 +1,2 @@
+#!/bin/bash
+kill &> ../zero-log/kill.log

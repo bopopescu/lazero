@@ -1,0 +1,2 @@
+#!/bin/bash
+ktutil -h &> ../one-log/ktutil.log

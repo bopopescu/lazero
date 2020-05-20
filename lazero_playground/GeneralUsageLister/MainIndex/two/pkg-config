@@ -1,0 +1,2 @@
+#!/bin/bash
+pkg-config --help &> ../two-log/pkg-config.log

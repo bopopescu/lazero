@@ -1,0 +1,2 @@
+#!/bin/bash
+git-check-ref-format &> ../zero-log/git-check-ref-format.log

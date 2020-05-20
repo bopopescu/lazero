@@ -1,0 +1,2 @@
+#!/bin/bash
+ls &> ../zero-log/ls.log

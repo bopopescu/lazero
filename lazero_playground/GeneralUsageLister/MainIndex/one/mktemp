@@ -1,0 +1,2 @@
+#!/bin/bash
+mktemp -h &> ../one-log/mktemp.log

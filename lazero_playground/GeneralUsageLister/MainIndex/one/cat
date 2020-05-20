@@ -1,0 +1,2 @@
+#!/bin/bash
+cat -h &> ../one-log/cat.log

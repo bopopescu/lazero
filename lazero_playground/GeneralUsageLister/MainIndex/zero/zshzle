@@ -1,0 +1,2 @@
+#!/bin/bash
+zshzle &> ../zero-log/zshzle.log

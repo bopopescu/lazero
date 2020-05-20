@@ -1,0 +1,2 @@
+#!/bin/bash
+blkid --help &> ../two-log/blkid.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+e2image --help &> ../two-log/e2image.log

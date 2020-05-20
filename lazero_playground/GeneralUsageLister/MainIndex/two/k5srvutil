@@ -1,0 +1,2 @@
+#!/bin/bash
+k5srvutil --help &> ../two-log/k5srvutil.log

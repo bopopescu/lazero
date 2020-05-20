@@ -1,0 +1,2 @@
+#!/bin/bash
+m4 -h &> ../one-log/m4.log

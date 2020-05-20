@@ -1,0 +1,2 @@
+#!/bin/bash
+dpkg-query -h &> ../one-log/dpkg-query.log

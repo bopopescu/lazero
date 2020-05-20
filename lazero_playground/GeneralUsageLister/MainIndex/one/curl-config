@@ -1,0 +1,2 @@
+#!/bin/bash
+curl-config -h &> ../one-log/curl-config.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+aria_read_log -h &> ../one-log/aria_read_log.log

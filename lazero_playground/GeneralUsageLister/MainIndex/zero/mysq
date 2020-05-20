@@ -1,0 +1,2 @@
+#!/bin/bash
+mysq &> ../zero-log/mysq.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+node -h &> ../one-log/node.log

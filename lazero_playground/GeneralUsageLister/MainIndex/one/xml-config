@@ -1,0 +1,2 @@
+#!/bin/bash
+xml-config -h &> ../one-log/xml-config.log

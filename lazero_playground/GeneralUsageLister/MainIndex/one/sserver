@@ -1,0 +1,2 @@
+#!/bin/bash
+sserver -h &> ../one-log/sserver.log

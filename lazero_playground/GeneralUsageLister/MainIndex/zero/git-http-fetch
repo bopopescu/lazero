@@ -1,0 +1,2 @@
+#!/bin/bash
+git-http-fetch &> ../zero-log/git-http-fetch.log

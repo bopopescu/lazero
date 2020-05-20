@@ -1,0 +1,2 @@
+#!/bin/bash
+merge -h &> ../one-log/merge.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlbinlog -h &> ../one-log/mysqlbinlog.log

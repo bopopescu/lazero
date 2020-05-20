@@ -1,0 +1,2 @@
+#!/bin/bash
+etag --help &> ../two-log/etag.log

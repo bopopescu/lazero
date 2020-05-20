@@ -1,0 +1,2 @@
+#!/bin/bash
+unlzm -h &> ../one-log/unlzm.log

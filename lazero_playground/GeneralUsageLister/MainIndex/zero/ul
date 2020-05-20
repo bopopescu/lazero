@@ -1,0 +1,2 @@
+#!/bin/bash
+ul &> ../zero-log/ul.log

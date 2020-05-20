@@ -1,0 +1,2 @@
+#!/bin/bash
+chcpu --help &> ../two-log/chcpu.log

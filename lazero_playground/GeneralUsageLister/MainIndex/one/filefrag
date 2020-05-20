@@ -1,0 +1,2 @@
+#!/bin/bash
+filefrag -h &> ../one-log/filefrag.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+tokuftdump --help &> ../two-log/tokuftdump.log

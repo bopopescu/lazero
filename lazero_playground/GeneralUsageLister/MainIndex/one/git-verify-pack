@@ -1,0 +1,2 @@
+#!/bin/bash
+git-verify-pack -h &> ../one-log/git-verify-pack.log

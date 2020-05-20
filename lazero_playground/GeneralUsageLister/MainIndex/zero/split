@@ -1,0 +1,2 @@
+#!/bin/bash
+split &> ../zero-log/split.log

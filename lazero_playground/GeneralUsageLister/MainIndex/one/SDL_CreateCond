@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CreateCond -h &> ../one-log/SDL_CreateCond.log

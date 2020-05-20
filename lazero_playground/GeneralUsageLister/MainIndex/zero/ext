@@ -1,0 +1,2 @@
+#!/bin/bash
+ext &> ../zero-log/ext.log

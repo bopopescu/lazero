@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_EventState -h &> ../one-log/SDL_EventState.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+xml-config &> ../zero-log/xml-config.log

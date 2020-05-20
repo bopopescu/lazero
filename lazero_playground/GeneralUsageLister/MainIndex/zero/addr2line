@@ -1,0 +1,2 @@
+#!/bin/bash
+addr2line &> ../zero-log/addr2line.log

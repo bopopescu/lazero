@@ -1,0 +1,2 @@
+#!/bin/bash
+dirname -h &> ../one-log/dirname.log

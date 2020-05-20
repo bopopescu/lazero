@@ -1,0 +1,2 @@
+#!/bin/bash
+shred &> ../zero-log/shred.log

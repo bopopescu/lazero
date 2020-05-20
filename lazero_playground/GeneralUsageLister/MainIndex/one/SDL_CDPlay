@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDPlay -h &> ../one-log/SDL_CDPlay.log

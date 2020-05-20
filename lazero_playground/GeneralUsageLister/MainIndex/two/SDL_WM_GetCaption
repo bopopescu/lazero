@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_WM_GetCaption --help &> ../two-log/SDL_WM_GetCaption.log

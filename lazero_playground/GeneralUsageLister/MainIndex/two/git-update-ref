@@ -1,0 +1,2 @@
+#!/bin/bash
+git-update-ref --help &> ../two-log/git-update-ref.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-shortlog --help &> ../two-log/git-shortlog.log

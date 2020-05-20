@@ -1,0 +1,2 @@
+#!/bin/bash
+whoami --help &> ../two-log/whoami.log

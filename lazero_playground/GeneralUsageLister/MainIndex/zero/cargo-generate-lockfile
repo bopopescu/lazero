@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-generate-lockfile &> ../zero-log/cargo-generate-lockfile.log

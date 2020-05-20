@@ -1,0 +1,2 @@
+#!/bin/bash
+myisamlog -h &> ../one-log/myisamlog.log

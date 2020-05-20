@@ -1,0 +1,2 @@
+#!/bin/bash
+fsfreeze -h &> ../one-log/fsfreeze.log

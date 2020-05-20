@@ -1,0 +1,2 @@
+#!/bin/bash
+git-worktree -h &> ../one-log/git-worktree.log

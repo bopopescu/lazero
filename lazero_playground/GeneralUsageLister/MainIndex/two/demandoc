@@ -1,0 +1,2 @@
+#!/bin/bash
+demandoc --help &> ../two-log/demandoc.log

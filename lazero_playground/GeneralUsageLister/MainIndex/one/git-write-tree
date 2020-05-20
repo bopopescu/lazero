@@ -1,0 +1,2 @@
+#!/bin/bash
+git-write-tree -h &> ../one-log/git-write-tree.log

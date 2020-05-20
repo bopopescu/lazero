@@ -1,0 +1,2 @@
+#!/bin/bash
+xauth &> ../zero-log/xauth.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+ext -h &> ../one-log/ext.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+pathchk -h &> ../one-log/pathchk.log

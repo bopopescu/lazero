@@ -1,0 +1,2 @@
+#!/bin/bash
+git-upload-archive &> ../zero-log/git-upload-archive.log

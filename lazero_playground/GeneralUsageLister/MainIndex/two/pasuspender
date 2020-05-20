@@ -1,0 +1,2 @@
+#!/bin/bash
+pasuspender --help &> ../two-log/pasuspender.log

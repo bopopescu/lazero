@@ -1,0 +1,2 @@
+#!/bin/bash
+tr &> ../zero-log/tr.log

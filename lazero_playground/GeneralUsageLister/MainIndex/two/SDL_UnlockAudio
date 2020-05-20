@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_UnlockAudio --help &> ../two-log/SDL_UnlockAudio.log

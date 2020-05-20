@@ -1,0 +1,2 @@
+#!/bin/bash
+sfv-has &> ../zero-log/sfv-has.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDName --help &> ../two-log/SDL_CDName.log

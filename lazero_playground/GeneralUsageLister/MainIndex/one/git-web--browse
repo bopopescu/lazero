@@ -1,0 +1,2 @@
+#!/bin/bash
+git-web--browse -h &> ../one-log/git-web--browse.log

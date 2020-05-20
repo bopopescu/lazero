@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_msg_routing_id --help &> ../two-log/zmq_msg_routing_id.log

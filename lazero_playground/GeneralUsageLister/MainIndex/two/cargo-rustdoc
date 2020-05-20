@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-rustdoc --help &> ../two-log/cargo-rustdoc.log

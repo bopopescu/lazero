@@ -1,0 +1,2 @@
+#!/bin/bash
+moduli -h &> ../one-log/moduli.log

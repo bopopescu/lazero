@@ -1,0 +1,2 @@
+#!/bin/bash
+linux3 --help &> ../two-log/linux3.log

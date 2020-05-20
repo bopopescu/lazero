@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDResume --help &> ../two-log/SDL_CDResume.log

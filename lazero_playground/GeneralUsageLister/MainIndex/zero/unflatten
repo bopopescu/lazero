@@ -1,0 +1,2 @@
+#!/bin/bash
+unflatten &> ../zero-log/unflatten.log

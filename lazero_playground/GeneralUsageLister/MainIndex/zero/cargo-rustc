@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-rustc &> ../zero-log/cargo-rustc.log

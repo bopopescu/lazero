@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-doc -h &> ../one-log/cargo-doc.log

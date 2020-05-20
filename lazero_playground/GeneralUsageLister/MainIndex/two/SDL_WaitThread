@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_WaitThread --help &> ../two-log/SDL_WaitThread.log

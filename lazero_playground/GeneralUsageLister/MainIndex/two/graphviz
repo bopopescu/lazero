@@ -1,0 +1,2 @@
+#!/bin/bash
+graphviz --help &> ../two-log/graphviz.log

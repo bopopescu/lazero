@@ -1,0 +1,2 @@
+#!/bin/bash
+chcpu -h &> ../one-log/chcpu.log

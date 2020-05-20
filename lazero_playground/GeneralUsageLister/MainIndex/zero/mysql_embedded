@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_embedded &> ../zero-log/mysql_embedded.log

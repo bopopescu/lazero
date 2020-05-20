@@ -1,0 +1,2 @@
+#!/bin/bash
+gost-has -h &> ../one-log/gost-has.log

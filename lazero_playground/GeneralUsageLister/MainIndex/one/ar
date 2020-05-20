@@ -1,0 +1,2 @@
+#!/bin/bash
+ar -h &> ../one-log/ar.log

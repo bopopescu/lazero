@@ -1,0 +1,2 @@
+#!/bin/bash
+unx -h &> ../one-log/unx.log

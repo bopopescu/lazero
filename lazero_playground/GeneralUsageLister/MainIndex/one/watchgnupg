@@ -1,0 +1,2 @@
+#!/bin/bash
+watchgnupg -h &> ../one-log/watchgnupg.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+cal --help &> ../two-log/cal.log

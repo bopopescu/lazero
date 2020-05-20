@@ -1,0 +1,2 @@
+#!/bin/bash
+k5logi &> ../zero-log/k5logi.log

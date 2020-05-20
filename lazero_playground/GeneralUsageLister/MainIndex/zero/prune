@@ -1,0 +1,2 @@
+#!/bin/bash
+prune &> ../zero-log/prune.log

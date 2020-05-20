@@ -1,0 +1,2 @@
+#!/bin/bash
+gpgrt-config &> ../zero-log/gpgrt-config.log

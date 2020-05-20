@@ -1,0 +1,2 @@
+#!/bin/bash
+sccmap --help &> ../two-log/sccmap.log

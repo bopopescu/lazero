@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh-keyscan -h &> ../one-log/ssh-keyscan.log

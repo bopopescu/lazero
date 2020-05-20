@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_UserEvent -h &> ../one-log/SDL_UserEvent.log

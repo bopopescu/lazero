@@ -1,0 +1,2 @@
+#!/bin/bash
+fallocate --help &> ../two-log/fallocate.log

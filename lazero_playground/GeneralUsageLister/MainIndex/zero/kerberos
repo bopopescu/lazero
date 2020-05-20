@@ -1,0 +1,2 @@
+#!/bin/bash
+kerberos &> ../zero-log/kerberos.log

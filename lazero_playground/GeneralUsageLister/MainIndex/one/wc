@@ -1,0 +1,2 @@
+#!/bin/bash
+wc -h &> ../one-log/wc.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+strip --help &> ../two-log/strip.log

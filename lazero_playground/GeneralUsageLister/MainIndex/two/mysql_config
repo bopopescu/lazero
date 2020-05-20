@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_config --help &> ../two-log/mysql_config.log

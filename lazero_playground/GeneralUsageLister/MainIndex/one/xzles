@@ -1,0 +1,2 @@
+#!/bin/bash
+xzles -h &> ../one-log/xzles.log

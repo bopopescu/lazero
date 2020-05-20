@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_setpermission --help &> ../two-log/mysql_setpermission.log

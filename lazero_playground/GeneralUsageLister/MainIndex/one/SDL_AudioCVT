@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_AudioCVT -h &> ../one-log/SDL_AudioCVT.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+chcon &> ../zero-log/chcon.log

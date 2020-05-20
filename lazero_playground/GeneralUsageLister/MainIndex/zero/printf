@@ -1,0 +1,2 @@
+#!/bin/bash
+printf &> ../zero-log/printf.log

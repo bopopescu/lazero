@@ -1,0 +1,2 @@
+#!/bin/bash
+chrt -h &> ../one-log/chrt.log

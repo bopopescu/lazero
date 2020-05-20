@@ -1,0 +1,2 @@
+#!/bin/bash
+iconv --help &> ../two-log/iconv.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+rlog -h &> ../one-log/rlog.log

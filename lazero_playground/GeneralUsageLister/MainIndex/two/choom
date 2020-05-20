@@ -1,0 +1,2 @@
+#!/bin/bash
+choom --help &> ../two-log/choom.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-fetch-pack --help &> ../two-log/git-fetch-pack.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_WasInit --help &> ../two-log/SDL_WasInit.log

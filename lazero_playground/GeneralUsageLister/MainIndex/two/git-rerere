@@ -1,0 +1,2 @@
+#!/bin/bash
+git-rerere --help &> ../two-log/git-rerere.log

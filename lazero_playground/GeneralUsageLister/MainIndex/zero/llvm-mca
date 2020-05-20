@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-mca &> ../zero-log/llvm-mca.log

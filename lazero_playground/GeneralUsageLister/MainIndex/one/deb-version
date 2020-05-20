@@ -1,0 +1,2 @@
+#!/bin/bash
+deb-version -h &> ../one-log/deb-version.log

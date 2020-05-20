@@ -1,0 +1,2 @@
+#!/bin/bash
+basenc -h &> ../one-log/basenc.log

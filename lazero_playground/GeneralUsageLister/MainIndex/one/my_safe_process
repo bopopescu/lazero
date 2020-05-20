@@ -1,0 +1,2 @@
+#!/bin/bash
+my_safe_process -h &> ../one-log/my_safe_process.log

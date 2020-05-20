@@ -1,0 +1,2 @@
+#!/bin/bash
+git-read-tree &> ../zero-log/git-read-tree.log

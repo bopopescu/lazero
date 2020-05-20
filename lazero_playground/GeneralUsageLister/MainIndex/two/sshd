@@ -1,0 +1,2 @@
+#!/bin/bash
+sshd --help &> ../two-log/sshd.log

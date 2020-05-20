@@ -1,0 +1,2 @@
+#!/bin/bash
+rcsmerge &> ../zero-log/rcsmerge.log

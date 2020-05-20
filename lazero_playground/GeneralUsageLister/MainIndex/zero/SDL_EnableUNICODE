@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_EnableUNICODE &> ../zero-log/SDL_EnableUNICODE.log

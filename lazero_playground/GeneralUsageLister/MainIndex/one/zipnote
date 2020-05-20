@@ -1,0 +1,2 @@
+#!/bin/bash
+zipnote -h &> ../one-log/zipnote.log

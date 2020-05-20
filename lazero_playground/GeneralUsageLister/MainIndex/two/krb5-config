@@ -1,0 +1,2 @@
+#!/bin/bash
+krb5-config --help &> ../two-log/krb5-config.log

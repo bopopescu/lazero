@@ -1,0 +1,2 @@
+#!/bin/bash
+chcon --help &> ../two-log/chcon.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+mm2gv -h &> ../one-log/mm2gv.log

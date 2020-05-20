@@ -1,0 +1,2 @@
+#!/bin/bash
+git-cherry -h &> ../one-log/git-cherry.log

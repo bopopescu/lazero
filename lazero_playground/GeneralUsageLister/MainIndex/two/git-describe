@@ -1,0 +1,2 @@
+#!/bin/bash
+git-describe --help &> ../two-log/git-describe.log

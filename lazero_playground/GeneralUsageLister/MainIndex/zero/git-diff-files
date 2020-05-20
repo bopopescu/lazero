@@ -1,0 +1,2 @@
+#!/bin/bash
+git-diff-files &> ../zero-log/git-diff-files.log

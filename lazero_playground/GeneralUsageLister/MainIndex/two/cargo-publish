@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-publish --help &> ../two-log/cargo-publish.log

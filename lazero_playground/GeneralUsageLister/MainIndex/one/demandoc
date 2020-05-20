@@ -1,0 +1,2 @@
+#!/bin/bash
+demandoc -h &> ../one-log/demandoc.log

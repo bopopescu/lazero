@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_msg_init_data --help &> ../two-log/zmq_msg_init_data.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-clean --help &> ../two-log/cargo-clean.log

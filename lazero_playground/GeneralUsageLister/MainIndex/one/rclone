@@ -1,0 +1,2 @@
+#!/bin/bash
+rclone -h &> ../one-log/rclone.log

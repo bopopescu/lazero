@@ -1,0 +1,2 @@
+#!/bin/bash
+git-pack-objects &> ../zero-log/git-pack-objects.log

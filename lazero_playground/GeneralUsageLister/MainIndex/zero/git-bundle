@@ -1,0 +1,2 @@
+#!/bin/bash
+git-bundle &> ../zero-log/git-bundle.log

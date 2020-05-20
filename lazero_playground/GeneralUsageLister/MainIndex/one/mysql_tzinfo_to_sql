@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_tzinfo_to_sql -h &> ../one-log/mysql_tzinfo_to_sql.log

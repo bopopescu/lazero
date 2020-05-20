@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CreateCursor -h &> ../one-log/SDL_CreateCursor.log

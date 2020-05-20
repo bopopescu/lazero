@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_timers &> ../zero-log/zmq_timers.log

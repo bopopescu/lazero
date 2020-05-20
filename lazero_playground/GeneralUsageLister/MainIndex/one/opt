@@ -1,0 +1,2 @@
+#!/bin/bash
+opt -h &> ../one-log/opt.log

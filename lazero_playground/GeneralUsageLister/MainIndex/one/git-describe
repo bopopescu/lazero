@@ -1,0 +1,2 @@
+#!/bin/bash
+git-describe -h &> ../one-log/git-describe.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_FreeSurface --help &> ../two-log/SDL_FreeSurface.log

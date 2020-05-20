@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-update --help &> ../two-log/cargo-update.log

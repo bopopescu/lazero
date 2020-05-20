@@ -1,0 +1,2 @@
+#!/bin/bash
+debugfs -h &> ../one-log/debugfs.log

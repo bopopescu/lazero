@@ -1,0 +1,2 @@
+#!/bin/bash
+FFI -h &> ../one-log/FFI.log

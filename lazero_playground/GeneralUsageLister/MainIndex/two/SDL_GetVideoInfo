@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetVideoInfo --help &> ../two-log/SDL_GetVideoInfo.log

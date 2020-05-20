@@ -1,0 +1,2 @@
+#!/bin/bash
+k5identit --help &> ../two-log/k5identit.log

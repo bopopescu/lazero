@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetGamma &> ../zero-log/SDL_GetGamma.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+w3mman --help &> ../two-log/w3mman.log

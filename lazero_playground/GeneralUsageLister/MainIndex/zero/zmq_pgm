@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_pgm &> ../zero-log/zmq_pgm.log

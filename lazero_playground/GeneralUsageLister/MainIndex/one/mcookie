@@ -1,0 +1,2 @@
+#!/bin/bash
+mcookie -h &> ../one-log/mcookie.log

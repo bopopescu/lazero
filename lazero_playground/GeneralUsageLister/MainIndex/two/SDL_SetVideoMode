@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SetVideoMode --help &> ../two-log/SDL_SetVideoMode.log

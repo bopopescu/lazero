@@ -1,0 +1,2 @@
+#!/bin/bash
+kswitch --help &> ../two-log/kswitch.log

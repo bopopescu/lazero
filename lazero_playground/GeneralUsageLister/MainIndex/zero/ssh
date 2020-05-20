@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh &> ../zero-log/ssh.log

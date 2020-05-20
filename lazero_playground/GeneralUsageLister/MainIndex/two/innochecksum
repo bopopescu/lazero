@@ -1,0 +1,2 @@
+#!/bin/bash
+innochecksum --help &> ../two-log/innochecksum.log

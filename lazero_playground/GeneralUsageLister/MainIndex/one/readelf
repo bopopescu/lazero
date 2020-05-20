@@ -1,0 +1,2 @@
+#!/bin/bash
+readelf -h &> ../one-log/readelf.log

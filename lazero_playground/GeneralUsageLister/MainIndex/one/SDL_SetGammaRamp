@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SetGammaRamp -h &> ../one-log/SDL_SetGammaRamp.log

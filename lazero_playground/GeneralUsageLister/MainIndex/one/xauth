@@ -1,0 +1,2 @@
+#!/bin/bash
+xauth -h &> ../one-log/xauth.log

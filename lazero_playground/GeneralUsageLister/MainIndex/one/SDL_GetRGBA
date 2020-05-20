@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetRGBA -h &> ../one-log/SDL_GetRGBA.log

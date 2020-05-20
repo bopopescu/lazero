@@ -1,0 +1,2 @@
+#!/bin/bash
+soelim -h &> ../one-log/soelim.log

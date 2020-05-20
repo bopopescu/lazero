@@ -1,0 +1,2 @@
+#!/bin/bash
+ar &> ../zero-log/ar.log

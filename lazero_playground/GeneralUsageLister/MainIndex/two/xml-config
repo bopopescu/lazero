@@ -1,0 +1,2 @@
+#!/bin/bash
+xml-config --help &> ../two-log/xml-config.log

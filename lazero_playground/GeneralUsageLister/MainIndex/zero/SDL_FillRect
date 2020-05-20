@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_FillRect &> ../zero-log/SDL_FillRect.log

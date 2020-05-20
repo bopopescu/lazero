@@ -1,0 +1,2 @@
+#!/bin/bash
+chgrp --help &> ../two-log/chgrp.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_version &> ../zero-log/zmq_version.log

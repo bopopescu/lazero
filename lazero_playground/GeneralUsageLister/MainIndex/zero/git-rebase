@@ -1,0 +1,2 @@
+#!/bin/bash
+git-rebase &> ../zero-log/git-rebase.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_keysym &> ../zero-log/SDL_keysym.log

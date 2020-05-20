@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_ResizeEvent &> ../zero-log/SDL_ResizeEvent.log

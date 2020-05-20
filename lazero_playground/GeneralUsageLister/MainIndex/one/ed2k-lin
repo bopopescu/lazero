@@ -1,0 +1,2 @@
+#!/bin/bash
+ed2k-lin -h &> ../one-log/ed2k-lin.log

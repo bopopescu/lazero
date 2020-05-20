@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_socket -h &> ../one-log/zmq_socket.log

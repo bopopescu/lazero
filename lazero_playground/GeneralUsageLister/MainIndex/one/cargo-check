@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-check -h &> ../one-log/cargo-check.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+aria_pack &> ../zero-log/aria_pack.log

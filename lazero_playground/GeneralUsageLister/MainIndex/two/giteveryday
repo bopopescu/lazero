@@ -1,0 +1,2 @@
+#!/bin/bash
+giteveryday --help &> ../two-log/giteveryday.log

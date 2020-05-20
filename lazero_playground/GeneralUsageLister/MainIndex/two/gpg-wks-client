@@ -1,0 +1,2 @@
+#!/bin/bash
+gpg-wks-client --help &> ../two-log/gpg-wks-client.log

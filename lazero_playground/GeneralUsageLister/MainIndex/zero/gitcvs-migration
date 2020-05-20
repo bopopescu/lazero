@@ -1,0 +1,2 @@
+#!/bin/bash
+gitcvs-migration &> ../zero-log/gitcvs-migration.log

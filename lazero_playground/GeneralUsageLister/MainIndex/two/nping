@@ -1,0 +1,2 @@
+#!/bin/bash
+nping --help &> ../two-log/nping.log

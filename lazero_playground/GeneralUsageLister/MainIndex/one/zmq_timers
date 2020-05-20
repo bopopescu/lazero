@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_timers -h &> ../one-log/zmq_timers.log

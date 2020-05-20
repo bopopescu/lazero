@@ -1,0 +1,2 @@
+#!/bin/bash
+tpmtool --help &> ../two-log/tpmtool.log

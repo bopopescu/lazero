@@ -1,0 +1,2 @@
+#!/bin/bash
+XCompose --help &> ../two-log/XCompose.log

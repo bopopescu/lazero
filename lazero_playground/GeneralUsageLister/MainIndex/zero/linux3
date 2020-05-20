@@ -1,0 +1,2 @@
+#!/bin/bash
+linux3 &> ../zero-log/linux3.log

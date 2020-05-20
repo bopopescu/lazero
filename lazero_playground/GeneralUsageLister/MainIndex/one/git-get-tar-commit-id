@@ -1,0 +1,2 @@
+#!/bin/bash
+git-get-tar-commit-id -h &> ../one-log/git-get-tar-commit-id.log

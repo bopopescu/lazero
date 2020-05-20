@@ -1,0 +1,2 @@
+#!/bin/bash
+git-cvsimport -h &> ../one-log/git-cvsimport.log

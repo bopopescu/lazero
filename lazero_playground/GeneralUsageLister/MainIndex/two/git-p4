@@ -1,0 +1,2 @@
+#!/bin/bash
+git-p4 --help &> ../two-log/git-p4.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+blockdev &> ../zero-log/blockdev.log

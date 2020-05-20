@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CondSignal -h &> ../one-log/SDL_CondSignal.log

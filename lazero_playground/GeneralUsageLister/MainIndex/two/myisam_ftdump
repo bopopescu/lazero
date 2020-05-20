@@ -1,0 +1,2 @@
+#!/bin/bash
+myisam_ftdump --help &> ../two-log/myisam_ftdump.log

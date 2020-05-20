@@ -1,0 +1,2 @@
+#!/bin/bash
+rename --help &> ../two-log/rename.log

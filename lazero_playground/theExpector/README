@@ -1,0 +1,6 @@
+Imagine a system, with expectations, can verify results if it is working well.
+If not working well, it will return exactly what gives to it, and then you have to search for another program.
+Recording that to a list, if needed for reference.
+
+it is the only way the computer understands the whole thing. returning None will not help. It is always relative.
+When error happens, what will you do?

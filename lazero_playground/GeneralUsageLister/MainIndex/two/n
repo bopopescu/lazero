@@ -1,0 +1,2 @@
+#!/bin/bash
+n --help &> ../two-log/n.log

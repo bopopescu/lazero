@@ -1,0 +1,2 @@
+#!/bin/bash
+git-instaweb &> ../zero-log/git-instaweb.log

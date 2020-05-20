@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_Palette &> ../zero-log/SDL_Palette.log

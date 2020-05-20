@@ -1,0 +1,2 @@
+#!/bin/bash
+galera_recovery --help &> ../two-log/galera_recovery.log

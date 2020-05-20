@@ -1,0 +1,2 @@
+#!/bin/bash
+pax11publish --help &> ../two-log/pax11publish.log

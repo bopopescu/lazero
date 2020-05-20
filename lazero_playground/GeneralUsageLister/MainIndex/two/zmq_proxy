@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_proxy --help &> ../two-log/zmq_proxy.log

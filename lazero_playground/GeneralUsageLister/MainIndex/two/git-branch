@@ -1,0 +1,2 @@
+#!/bin/bash
+git-branch --help &> ../two-log/git-branch.log

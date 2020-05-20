@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDStop &> ../zero-log/SDL_CDStop.log

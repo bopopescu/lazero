@@ -1,0 +1,2 @@
+#!/bin/bash
+ebrowse --help &> ../two-log/ebrowse.log

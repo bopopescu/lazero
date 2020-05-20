@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_MouseMotionEvent &> ../zero-log/SDL_MouseMotionEvent.log

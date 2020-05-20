@@ -1,0 +1,2 @@
+#!/bin/bash
+apropo -h &> ../one-log/apropo.log

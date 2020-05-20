@@ -1,0 +1,2 @@
+#!/bin/bash
+gpg-preset-passphrase &> ../zero-log/gpg-preset-passphrase.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+gpgconf --help &> ../two-log/gpgconf.log

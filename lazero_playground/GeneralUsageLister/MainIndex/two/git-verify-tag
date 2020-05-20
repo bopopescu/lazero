@@ -1,0 +1,2 @@
+#!/bin/bash
+git-verify-tag --help &> ../two-log/git-verify-tag.log

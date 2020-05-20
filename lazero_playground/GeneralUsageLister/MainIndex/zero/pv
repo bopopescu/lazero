@@ -1,0 +1,2 @@
+#!/bin/bash
+pv &> ../zero-log/pv.log

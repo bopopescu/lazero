@@ -1,0 +1,2 @@
+#!/bin/bash
+git-hash-object -h &> ../one-log/git-hash-object.log

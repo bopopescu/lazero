@@ -1,0 +1,2 @@
+#!/bin/bash
+addpart -h &> ../one-log/addpart.log

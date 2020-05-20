@@ -1,0 +1,2 @@
+#!/bin/bash
+pcap-tstamp --help &> ../two-log/pcap-tstamp.log

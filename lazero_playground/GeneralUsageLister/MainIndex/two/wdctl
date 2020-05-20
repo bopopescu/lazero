@@ -1,0 +1,2 @@
+#!/bin/bash
+wdctl --help &> ../two-log/wdctl.log

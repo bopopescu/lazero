@@ -1,0 +1,2 @@
+#!/bin/bash
+mingle -h &> ../one-log/mingle.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+losetup --help &> ../two-log/losetup.log

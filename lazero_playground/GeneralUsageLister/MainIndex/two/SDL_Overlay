@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_Overlay --help &> ../two-log/SDL_Overlay.log

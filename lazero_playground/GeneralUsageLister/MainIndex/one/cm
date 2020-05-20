@@ -1,0 +1,2 @@
+#!/bin/bash
+cm -h &> ../one-log/cm.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_AddTimer --help &> ../two-log/SDL_AddTimer.log

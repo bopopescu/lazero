@@ -1,0 +1,2 @@
+#!/bin/bash
+wge &> ../zero-log/wge.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SetModState --help &> ../two-log/SDL_SetModState.log

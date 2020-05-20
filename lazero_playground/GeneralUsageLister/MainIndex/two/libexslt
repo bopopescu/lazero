@@ -1,0 +1,2 @@
+#!/bin/bash
+libexslt --help &> ../two-log/libexslt.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SetPalette -h &> ../one-log/SDL_SetPalette.log

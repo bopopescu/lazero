@@ -1,0 +1,2 @@
+#!/bin/bash
+git-archimport &> ../zero-log/git-archimport.log

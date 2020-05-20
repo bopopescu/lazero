@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_waitpid &> ../zero-log/mysql_waitpid.log

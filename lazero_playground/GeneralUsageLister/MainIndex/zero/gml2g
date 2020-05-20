@@ -1,0 +1,2 @@
+#!/bin/bash
+gml2g &> ../zero-log/gml2g.log

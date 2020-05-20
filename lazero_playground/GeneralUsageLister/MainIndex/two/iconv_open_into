@@ -1,0 +1,2 @@
+#!/bin/bash
+iconv_open_into --help &> ../two-log/iconv_open_into.log

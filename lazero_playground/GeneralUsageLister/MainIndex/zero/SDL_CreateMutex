@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CreateMutex &> ../zero-log/SDL_CreateMutex.log

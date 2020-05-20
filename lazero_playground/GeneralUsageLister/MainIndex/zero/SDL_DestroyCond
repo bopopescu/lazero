@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_DestroyCond &> ../zero-log/SDL_DestroyCond.log

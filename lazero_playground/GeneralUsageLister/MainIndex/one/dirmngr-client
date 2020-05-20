@@ -1,0 +1,2 @@
+#!/bin/bash
+dirmngr-client -h &> ../one-log/dirmngr-client.log

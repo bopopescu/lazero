@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_version -h &> ../one-log/zmq_version.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+dc --help &> ../two-log/dc.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+ctags -h &> ../one-log/ctags.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+tee -h &> ../one-log/tee.log

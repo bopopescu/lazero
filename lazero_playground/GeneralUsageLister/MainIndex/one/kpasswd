@@ -1,0 +1,2 @@
+#!/bin/bash
+kpasswd -h &> ../one-log/kpasswd.log

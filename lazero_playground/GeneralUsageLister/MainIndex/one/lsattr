@@ -1,0 +1,2 @@
+#!/bin/bash
+lsattr -h &> ../one-log/lsattr.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+prlimit --help &> ../two-log/prlimit.log

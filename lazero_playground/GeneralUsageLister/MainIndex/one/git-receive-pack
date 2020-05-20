@@ -1,0 +1,2 @@
+#!/bin/bash
+git-receive-pack -h &> ../one-log/git-receive-pack.log

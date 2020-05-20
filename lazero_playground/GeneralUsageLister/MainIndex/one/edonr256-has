@@ -1,0 +1,2 @@
+#!/bin/bash
+edonr256-has -h &> ../one-log/edonr256-has.log

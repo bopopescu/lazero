@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SetTimer -h &> ../one-log/SDL_SetTimer.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-commit-graph --help &> ../two-log/git-commit-graph.log

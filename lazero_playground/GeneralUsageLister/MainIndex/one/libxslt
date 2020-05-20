@@ -1,0 +1,2 @@
+#!/bin/bash
+libxslt -h &> ../one-log/libxslt.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+ocsptool --help &> ../two-log/ocsptool.log

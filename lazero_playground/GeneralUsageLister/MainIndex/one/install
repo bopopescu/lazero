@@ -1,0 +1,2 @@
+#!/bin/bash
+install -h &> ../one-log/install.log

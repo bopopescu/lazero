@@ -1,0 +1,2 @@
+#!/bin/bash
+gitsubmodules -h &> ../one-log/gitsubmodules.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-readobj &> ../zero-log/llvm-readobj.log

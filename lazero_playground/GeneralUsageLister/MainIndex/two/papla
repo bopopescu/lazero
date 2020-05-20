@@ -1,0 +1,2 @@
+#!/bin/bash
+papla --help &> ../two-log/papla.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+zshcalsys &> ../zero-log/zshcalsys.log

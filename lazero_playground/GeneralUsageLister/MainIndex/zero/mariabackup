@@ -1,0 +1,2 @@
+#!/bin/bash
+mariabackup &> ../zero-log/mariabackup.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+pcap-linktype --help &> ../two-log/pcap-linktype.log

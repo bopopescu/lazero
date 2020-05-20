@@ -1,0 +1,2 @@
+#!/bin/bash
+xzdif --help &> ../two-log/xzdif.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_PumpEvents -h &> ../one-log/SDL_PumpEvents.log

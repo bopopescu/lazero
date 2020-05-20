@@ -1,0 +1,2 @@
+#!/bin/bash
+git-imap-send -h &> ../one-log/git-imap-send.log

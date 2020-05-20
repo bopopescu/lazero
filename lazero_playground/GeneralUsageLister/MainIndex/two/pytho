@@ -1,0 +1,2 @@
+#!/bin/bash
+pytho --help &> ../two-log/pytho.log

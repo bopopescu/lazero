@@ -1,0 +1,2 @@
+#!/bin/bash
+gpg-wks-server -h &> ../one-log/gpg-wks-server.log

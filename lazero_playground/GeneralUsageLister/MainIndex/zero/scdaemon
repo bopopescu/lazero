@@ -1,0 +1,2 @@
+#!/bin/bash
+scdaemon &> ../zero-log/scdaemon.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+gitrevisions --help &> ../two-log/gitrevisions.log

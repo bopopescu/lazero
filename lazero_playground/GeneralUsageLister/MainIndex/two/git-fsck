@@ -1,0 +1,2 @@
+#!/bin/bash
+git-fsck --help &> ../two-log/git-fsck.log

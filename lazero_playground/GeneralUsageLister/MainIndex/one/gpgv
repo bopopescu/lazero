@@ -1,0 +1,2 @@
+#!/bin/bash
+gpgv -h &> ../one-log/gpgv.log

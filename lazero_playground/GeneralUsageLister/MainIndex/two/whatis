@@ -1,0 +1,2 @@
+#!/bin/bash
+whatis --help &> ../two-log/whatis.log

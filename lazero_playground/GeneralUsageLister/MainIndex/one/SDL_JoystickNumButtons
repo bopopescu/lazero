@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickNumButtons -h &> ../one-log/SDL_JoystickNumButtons.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+gitmodules --help &> ../two-log/gitmodules.log

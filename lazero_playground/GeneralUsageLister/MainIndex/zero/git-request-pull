@@ -1,0 +1,2 @@
+#!/bin/bash
+git-request-pull &> ../zero-log/git-request-pull.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-update-index --help &> ../two-log/git-update-index.log

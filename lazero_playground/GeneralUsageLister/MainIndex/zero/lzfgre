@@ -1,0 +1,2 @@
+#!/bin/bash
+lzfgre &> ../zero-log/lzfgre.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+lsattr --help &> ../two-log/lsattr.log

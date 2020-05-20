@@ -1,0 +1,2 @@
+#!/bin/bash
+moduli --help &> ../two-log/moduli.log

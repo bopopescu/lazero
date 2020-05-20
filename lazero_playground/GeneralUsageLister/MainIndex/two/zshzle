@@ -1,0 +1,2 @@
+#!/bin/bash
+zshzle --help &> ../two-log/zshzle.log

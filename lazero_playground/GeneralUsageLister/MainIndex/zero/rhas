@@ -1,0 +1,2 @@
+#!/bin/bash
+rhas &> ../zero-log/rhas.log

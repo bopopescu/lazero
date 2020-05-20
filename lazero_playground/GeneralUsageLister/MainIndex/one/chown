@@ -1,0 +1,2 @@
+#!/bin/bash
+chown -h &> ../one-log/chown.log

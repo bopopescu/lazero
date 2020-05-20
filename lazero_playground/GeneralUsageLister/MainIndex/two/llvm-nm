@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-nm --help &> ../two-log/llvm-nm.log

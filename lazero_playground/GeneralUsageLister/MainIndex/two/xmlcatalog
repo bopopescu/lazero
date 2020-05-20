@@ -1,0 +1,2 @@
+#!/bin/bash
+xmlcatalog --help &> ../two-log/xmlcatalog.log

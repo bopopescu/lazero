@@ -1,0 +1,2 @@
+#!/bin/bash
+circ -h &> ../one-log/circ.log

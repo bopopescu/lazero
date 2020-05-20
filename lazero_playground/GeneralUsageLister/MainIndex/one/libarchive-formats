@@ -1,0 +1,2 @@
+#!/bin/bash
+libarchive-formats -h &> ../one-log/libarchive-formats.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+hexdump --help &> ../two-log/hexdump.log

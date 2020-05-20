@@ -1,0 +1,2 @@
+#!/bin/bash
+rhas --help &> ../two-log/rhas.log

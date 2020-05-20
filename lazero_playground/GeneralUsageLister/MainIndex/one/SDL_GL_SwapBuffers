@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GL_SwapBuffers -h &> ../one-log/SDL_GL_SwapBuffers.log

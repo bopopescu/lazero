@@ -1,0 +1,2 @@
+#!/bin/bash
+dir --help &> ../two-log/dir.log

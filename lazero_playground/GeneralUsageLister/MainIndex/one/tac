@@ -1,0 +1,2 @@
+#!/bin/bash
+tac -h &> ../one-log/tac.log

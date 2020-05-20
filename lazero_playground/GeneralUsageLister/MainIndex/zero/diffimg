@@ -1,0 +1,2 @@
+#!/bin/bash
+diffimg &> ../zero-log/diffimg.log

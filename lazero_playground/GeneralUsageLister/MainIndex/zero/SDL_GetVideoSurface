@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetVideoSurface &> ../zero-log/SDL_GetVideoSurface.log

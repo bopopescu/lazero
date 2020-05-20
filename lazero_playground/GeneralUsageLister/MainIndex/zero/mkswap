@@ -1,0 +1,2 @@
+#!/bin/bash
+mkswap &> ../zero-log/mkswap.log

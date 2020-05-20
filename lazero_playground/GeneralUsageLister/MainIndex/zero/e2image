@@ -1,0 +1,2 @@
+#!/bin/bash
+e2image &> ../zero-log/e2image.log

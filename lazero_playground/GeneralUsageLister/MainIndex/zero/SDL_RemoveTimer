@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_RemoveTimer &> ../zero-log/SDL_RemoveTimer.log

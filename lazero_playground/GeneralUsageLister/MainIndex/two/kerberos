@@ -1,0 +1,2 @@
+#!/bin/bash
+kerberos --help &> ../two-log/kerberos.log

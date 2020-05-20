@@ -1,0 +1,2 @@
+#!/bin/bash
+ctags --help &> ../two-log/ctags.log

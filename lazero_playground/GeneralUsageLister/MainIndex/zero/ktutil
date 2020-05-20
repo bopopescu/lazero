@@ -1,0 +1,2 @@
+#!/bin/bash
+ktutil &> ../zero-log/ktutil.log

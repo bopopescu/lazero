@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_NumJoysticks &> ../zero-log/SDL_NumJoysticks.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_Event --help &> ../two-log/SDL_Event.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+graphml2gv --help &> ../two-log/graphml2gv.log

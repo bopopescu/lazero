@@ -1,0 +1,2 @@
+#!/bin/bash
+base32 &> ../zero-log/base32.log

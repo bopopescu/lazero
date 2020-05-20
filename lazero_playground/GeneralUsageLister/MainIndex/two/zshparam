@@ -1,0 +1,2 @@
+#!/bin/bash
+zshparam --help &> ../two-log/zshparam.log

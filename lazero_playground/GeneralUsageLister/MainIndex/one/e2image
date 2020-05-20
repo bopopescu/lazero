@@ -1,0 +1,2 @@
+#!/bin/bash
+e2image -h &> ../one-log/e2image.log

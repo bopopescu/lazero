@@ -1,0 +1,2 @@
+#!/bin/bash
+gvpack &> ../zero-log/gvpack.log

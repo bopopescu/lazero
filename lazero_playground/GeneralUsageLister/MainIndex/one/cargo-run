@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-run -h &> ../one-log/cargo-run.log

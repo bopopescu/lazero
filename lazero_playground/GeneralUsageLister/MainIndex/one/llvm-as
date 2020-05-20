@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-as -h &> ../one-log/llvm-as.log

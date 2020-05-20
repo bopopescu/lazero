@@ -1,0 +1,2 @@
+#!/bin/bash
+netcat --help &> ../two-log/netcat.log

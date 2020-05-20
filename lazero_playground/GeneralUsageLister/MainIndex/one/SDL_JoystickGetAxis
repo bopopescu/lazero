@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickGetAxis -h &> ../one-log/SDL_JoystickGetAxis.log

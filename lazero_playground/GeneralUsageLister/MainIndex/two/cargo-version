@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-version --help &> ../two-log/cargo-version.log

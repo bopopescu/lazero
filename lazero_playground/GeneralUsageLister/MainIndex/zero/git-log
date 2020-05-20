@@ -1,0 +1,2 @@
+#!/bin/bash
+git-log &> ../zero-log/git-log.log

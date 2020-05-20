@@ -1,0 +1,2 @@
+#!/bin/bash
+git-merge-tree &> ../zero-log/git-merge-tree.log

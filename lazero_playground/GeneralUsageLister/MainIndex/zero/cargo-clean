@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-clean &> ../zero-log/cargo-clean.log

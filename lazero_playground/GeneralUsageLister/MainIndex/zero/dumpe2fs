@@ -1,0 +1,2 @@
+#!/bin/bash
+dumpe2fs &> ../zero-log/dumpe2fs.log

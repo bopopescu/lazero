@@ -1,0 +1,2 @@
+#!/bin/bash
+git-var --help &> ../two-log/git-var.log

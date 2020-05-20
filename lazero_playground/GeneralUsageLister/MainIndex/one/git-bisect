@@ -1,0 +1,2 @@
+#!/bin/bash
+git-bisect -h &> ../one-log/git-bisect.log

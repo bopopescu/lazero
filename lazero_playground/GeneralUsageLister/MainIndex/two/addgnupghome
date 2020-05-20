@@ -1,0 +1,2 @@
+#!/bin/bash
+addgnupghome --help &> ../two-log/addgnupghome.log

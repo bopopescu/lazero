@@ -1,0 +1,2 @@
+#!/bin/bash
+Wget --help &> ../two-log/Wget.log

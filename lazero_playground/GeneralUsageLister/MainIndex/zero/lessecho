@@ -1,0 +1,2 @@
+#!/bin/bash
+lessecho &> ../zero-log/lessecho.log

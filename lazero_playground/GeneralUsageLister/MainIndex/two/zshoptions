@@ -1,0 +1,2 @@
+#!/bin/bash
+zshoptions --help &> ../two-log/zshoptions.log

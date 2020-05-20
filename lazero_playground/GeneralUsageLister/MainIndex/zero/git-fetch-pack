@@ -1,0 +1,2 @@
+#!/bin/bash
+git-fetch-pack &> ../zero-log/git-fetch-pack.log

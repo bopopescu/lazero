@@ -1,0 +1,2 @@
+#!/bin/bash
+gitrepository-layout -h &> ../one-log/gitrepository-layout.log

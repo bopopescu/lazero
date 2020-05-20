@@ -1,0 +1,2 @@
+#!/bin/bash
+fsck -h &> ../one-log/fsck.log

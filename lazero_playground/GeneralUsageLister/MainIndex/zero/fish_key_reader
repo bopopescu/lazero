@@ -1,0 +1,2 @@
+#!/bin/bash
+fish_key_reader &> ../zero-log/fish_key_reader.log

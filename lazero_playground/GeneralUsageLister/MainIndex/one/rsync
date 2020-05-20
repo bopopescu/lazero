@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -h &> ../one-log/rsync.log

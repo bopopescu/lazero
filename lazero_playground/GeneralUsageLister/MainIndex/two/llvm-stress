@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-stress --help &> ../two-log/llvm-stress.log

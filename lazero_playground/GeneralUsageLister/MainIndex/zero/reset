@@ -1,0 +1,2 @@
+#!/bin/bash
+reset &> ../zero-log/reset.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SemWait --help &> ../two-log/SDL_SemWait.log

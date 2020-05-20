@@ -1,0 +1,2 @@
+#!/bin/bash
+libarchive-formats --help &> ../two-log/libarchive-formats.log

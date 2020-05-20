@@ -1,0 +1,2 @@
+#!/bin/bash
+blockdev --help &> ../two-log/blockdev.log

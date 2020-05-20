@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-uninstall &> ../zero-log/cargo-uninstall.log

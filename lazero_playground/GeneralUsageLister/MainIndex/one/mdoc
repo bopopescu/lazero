@@ -1,0 +1,2 @@
+#!/bin/bash
+mdoc -h &> ../one-log/mdoc.log

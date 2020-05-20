@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GL_GetProcAddress &> ../zero-log/SDL_GL_GetProcAddress.log

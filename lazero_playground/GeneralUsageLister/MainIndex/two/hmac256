@@ -1,0 +1,2 @@
+#!/bin/bash
+hmac256 --help &> ../two-log/hmac256.log

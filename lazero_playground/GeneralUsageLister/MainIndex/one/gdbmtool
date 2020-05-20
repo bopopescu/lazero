@@ -1,0 +1,2 @@
+#!/bin/bash
+gdbmtool -h &> ../one-log/gdbmtool.log

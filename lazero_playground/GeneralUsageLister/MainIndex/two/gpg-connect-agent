@@ -1,0 +1,2 @@
+#!/bin/bash
+gpg-connect-agent --help &> ../two-log/gpg-connect-agent.log

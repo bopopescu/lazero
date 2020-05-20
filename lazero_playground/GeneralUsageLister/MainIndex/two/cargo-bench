@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-bench --help &> ../two-log/cargo-bench.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+ksu -h &> ../one-log/ksu.log

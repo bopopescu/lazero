@@ -1,0 +1,2 @@
+#!/bin/bash
+git-interpret-trailers --help &> ../two-log/git-interpret-trailers.log

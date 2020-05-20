@@ -1,0 +1,2 @@
+#!/bin/bash
+tee &> ../zero-log/tee.log

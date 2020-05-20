@@ -1,0 +1,2 @@
+#!/bin/bash
+csplit --help &> ../two-log/csplit.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+xzmor --help &> ../two-log/xzmor.log

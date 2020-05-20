@@ -1,0 +1,2 @@
+#!/bin/bash
+git-ls-files -h &> ../one-log/git-ls-files.log

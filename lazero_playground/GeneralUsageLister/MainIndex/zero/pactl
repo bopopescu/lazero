@@ -1,0 +1,2 @@
+#!/bin/bash
+pactl &> ../zero-log/pactl.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-send-email -h &> ../one-log/git-send-email.log

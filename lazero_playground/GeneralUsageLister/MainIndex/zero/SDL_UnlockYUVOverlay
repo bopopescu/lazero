@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_UnlockYUVOverlay &> ../zero-log/SDL_UnlockYUVOverlay.log

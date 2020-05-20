@@ -1,0 +1,2 @@
+#!/bin/bash
+man --help &> ../two-log/man.log

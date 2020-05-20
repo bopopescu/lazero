@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_recvmsg &> ../zero-log/zmq_recvmsg.log

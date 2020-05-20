@@ -1,0 +1,2 @@
+#!/bin/bash
+make -h &> ../one-log/make.log

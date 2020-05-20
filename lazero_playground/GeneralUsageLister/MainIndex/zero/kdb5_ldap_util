@@ -1,0 +1,2 @@
+#!/bin/bash
+kdb5_ldap_util &> ../zero-log/kdb5_ldap_util.log

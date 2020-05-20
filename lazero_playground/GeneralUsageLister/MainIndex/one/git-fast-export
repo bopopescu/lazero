@@ -1,0 +1,2 @@
+#!/bin/bash
+git-fast-export -h &> ../one-log/git-fast-export.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+lzless -h &> ../one-log/lzless.log

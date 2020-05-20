@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDEject --help &> ../two-log/SDL_CDEject.log

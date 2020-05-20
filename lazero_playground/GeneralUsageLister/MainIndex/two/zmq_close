@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_close --help &> ../two-log/zmq_close.log

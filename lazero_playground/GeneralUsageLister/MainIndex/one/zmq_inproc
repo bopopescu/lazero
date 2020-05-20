@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_inproc -h &> ../one-log/zmq_inproc.log

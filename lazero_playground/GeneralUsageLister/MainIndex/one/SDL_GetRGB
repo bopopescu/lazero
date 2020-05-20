@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetRGB -h &> ../one-log/SDL_GetRGB.log

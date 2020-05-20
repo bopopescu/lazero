@@ -1,0 +1,2 @@
+#!/bin/bash
+gitglossary -h &> ../one-log/gitglossary.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+xzcat --help &> ../two-log/xzcat.log

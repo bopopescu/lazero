@@ -1,0 +1,2 @@
+#!/bin/bash
+view --help &> ../two-log/view.log

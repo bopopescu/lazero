@@ -1,0 +1,2 @@
+#!/bin/bash
+b2sum -h &> ../one-log/b2sum.log

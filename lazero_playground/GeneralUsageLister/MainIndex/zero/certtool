@@ -1,0 +1,2 @@
+#!/bin/bash
+certtool &> ../zero-log/certtool.log

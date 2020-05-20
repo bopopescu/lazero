@@ -1,0 +1,2 @@
+#!/bin/bash
+circ --help &> ../two-log/circ.log

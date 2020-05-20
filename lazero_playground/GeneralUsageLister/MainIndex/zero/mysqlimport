@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlimport &> ../zero-log/mysqlimport.log

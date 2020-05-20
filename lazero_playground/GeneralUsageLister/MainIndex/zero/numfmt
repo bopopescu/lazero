@@ -1,0 +1,2 @@
+#!/bin/bash
+numfmt &> ../zero-log/numfmt.log

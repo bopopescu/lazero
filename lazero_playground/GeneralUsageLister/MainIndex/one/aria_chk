@@ -1,0 +1,2 @@
+#!/bin/bash
+aria_chk -h &> ../one-log/aria_chk.log

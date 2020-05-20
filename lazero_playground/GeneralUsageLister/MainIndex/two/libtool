@@ -1,0 +1,2 @@
+#!/bin/bash
+libtool --help &> ../two-log/libtool.log

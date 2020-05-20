@@ -1,0 +1,2 @@
+#!/bin/bash
+dirmngr-client &> ../zero-log/dirmngr-client.log

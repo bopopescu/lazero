@@ -1,0 +1,2 @@
+#!/bin/bash
+rcsfile &> ../zero-log/rcsfile.log

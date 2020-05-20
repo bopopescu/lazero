@@ -1,0 +1,2 @@
+#!/bin/bash
+printenv --help &> ../two-log/printenv.log

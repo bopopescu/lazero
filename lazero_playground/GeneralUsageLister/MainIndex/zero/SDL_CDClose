@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDClose &> ../zero-log/SDL_CDClose.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+mesg -h &> ../one-log/mesg.log

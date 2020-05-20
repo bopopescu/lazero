@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqld --help &> ../two-log/mysqld.log

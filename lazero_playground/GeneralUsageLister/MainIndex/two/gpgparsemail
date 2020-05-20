@@ -1,0 +1,2 @@
+#!/bin/bash
+gpgparsemail --help &> ../two-log/gpgparsemail.log

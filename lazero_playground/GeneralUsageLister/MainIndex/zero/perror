@@ -1,0 +1,2 @@
+#!/bin/bash
+perror &> ../zero-log/perror.log

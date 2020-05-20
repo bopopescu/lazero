@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_FunctionName &> ../zero-log/SDL_FunctionName.log

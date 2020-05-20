@@ -1,0 +1,2 @@
+#!/bin/bash
+ffi_cif -h &> ../one-log/ffi_cif.log

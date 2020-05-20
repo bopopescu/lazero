@@ -1,0 +1,2 @@
+#!/bin/bash
+kdestroy &> ../zero-log/kdestroy.log

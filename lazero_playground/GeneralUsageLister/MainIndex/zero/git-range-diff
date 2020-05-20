@@ -1,0 +1,2 @@
+#!/bin/bash
+git-range-diff &> ../zero-log/git-range-diff.log

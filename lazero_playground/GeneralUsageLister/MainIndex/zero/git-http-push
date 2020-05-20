@@ -1,0 +1,2 @@
+#!/bin/bash
+git-http-push &> ../zero-log/git-http-push.log

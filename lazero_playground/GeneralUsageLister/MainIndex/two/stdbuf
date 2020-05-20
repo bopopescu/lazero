@@ -1,0 +1,2 @@
+#!/bin/bash
+stdbuf --help &> ../two-log/stdbuf.log

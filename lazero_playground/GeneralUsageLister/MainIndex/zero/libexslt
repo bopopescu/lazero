@@ -1,0 +1,2 @@
+#!/bin/bash
+libexslt &> ../zero-log/libexslt.log

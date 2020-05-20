@@ -1,0 +1,2 @@
+#!/bin/bash
+tokuft_logprint --help &> ../two-log/tokuft_logprint.log

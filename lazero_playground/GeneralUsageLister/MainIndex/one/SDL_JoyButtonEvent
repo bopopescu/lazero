@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoyButtonEvent -h &> ../one-log/SDL_JoyButtonEvent.log

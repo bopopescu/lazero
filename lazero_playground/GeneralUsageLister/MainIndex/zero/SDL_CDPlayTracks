@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDPlayTracks &> ../zero-log/SDL_CDPlayTracks.log

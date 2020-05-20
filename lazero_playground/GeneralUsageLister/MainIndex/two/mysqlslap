@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlslap --help &> ../two-log/mysqlslap.log

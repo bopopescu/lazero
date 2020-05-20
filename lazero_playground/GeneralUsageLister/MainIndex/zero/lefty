@@ -1,0 +1,2 @@
+#!/bin/bash
+lefty &> ../zero-log/lefty.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-publish -h &> ../one-log/cargo-publish.log

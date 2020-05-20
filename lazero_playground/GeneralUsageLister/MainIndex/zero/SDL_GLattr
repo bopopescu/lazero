@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GLattr &> ../zero-log/SDL_GLattr.log

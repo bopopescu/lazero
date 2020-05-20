@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_ipc &> ../zero-log/zmq_ipc.log

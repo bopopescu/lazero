@@ -1,0 +1,2 @@
+#!/bin/bash
+gvpr -h &> ../one-log/gvpr.log

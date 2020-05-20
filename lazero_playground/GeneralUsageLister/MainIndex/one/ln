@@ -1,0 +1,2 @@
+#!/bin/bash
+ln -h &> ../one-log/ln.log

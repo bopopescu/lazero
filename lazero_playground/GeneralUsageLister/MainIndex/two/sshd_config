@@ -1,0 +1,2 @@
+#!/bin/bash
+sshd_config --help &> ../two-log/sshd_config.log

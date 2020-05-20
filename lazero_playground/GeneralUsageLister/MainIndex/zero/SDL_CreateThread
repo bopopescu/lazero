@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CreateThread &> ../zero-log/SDL_CreateThread.log

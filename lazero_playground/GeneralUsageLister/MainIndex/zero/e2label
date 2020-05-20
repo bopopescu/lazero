@@ -1,0 +1,2 @@
+#!/bin/bash
+e2label &> ../zero-log/e2label.log

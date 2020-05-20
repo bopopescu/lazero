@@ -1,0 +1,2 @@
+#!/bin/bash
+iconv_close -h &> ../one-log/iconv_close.log

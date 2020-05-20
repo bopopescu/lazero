@@ -1,0 +1,2 @@
+#!/bin/bash
+w3m -h &> ../one-log/w3m.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+basename -h &> ../one-log/basename.log

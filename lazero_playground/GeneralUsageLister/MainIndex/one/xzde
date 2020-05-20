@@ -1,0 +1,2 @@
+#!/bin/bash
+xzde -h &> ../one-log/xzde.log

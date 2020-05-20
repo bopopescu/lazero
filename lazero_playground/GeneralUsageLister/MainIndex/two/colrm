@@ -1,0 +1,2 @@
+#!/bin/bash
+colrm --help &> ../two-log/colrm.log

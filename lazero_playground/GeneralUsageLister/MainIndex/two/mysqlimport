@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlimport --help &> ../two-log/mysqlimport.log

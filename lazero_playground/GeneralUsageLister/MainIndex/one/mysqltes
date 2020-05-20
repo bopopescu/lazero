@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqltes -h &> ../one-log/mysqltes.log

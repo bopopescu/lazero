@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CondSignal --help &> ../two-log/SDL_CondSignal.log

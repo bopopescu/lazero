@@ -1,0 +1,2 @@
+#!/bin/bash
+nping -h &> ../one-log/nping.log

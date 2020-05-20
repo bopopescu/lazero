@@ -1,0 +1,2 @@
+#!/bin/bash
+git-check-mailmap &> ../zero-log/git-check-mailmap.log

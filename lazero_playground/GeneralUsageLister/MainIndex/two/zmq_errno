@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_errno --help &> ../two-log/zmq_errno.log

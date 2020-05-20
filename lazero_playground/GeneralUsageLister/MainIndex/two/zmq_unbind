@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_unbind --help &> ../two-log/zmq_unbind.log

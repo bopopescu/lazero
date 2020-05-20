@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_ExposeEvent --help &> ../two-log/SDL_ExposeEvent.log

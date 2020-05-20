@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CD &> ../zero-log/SDL_CD.log

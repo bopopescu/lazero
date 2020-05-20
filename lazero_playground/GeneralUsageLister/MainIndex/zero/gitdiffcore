@@ -1,0 +1,2 @@
+#!/bin/bash
+gitdiffcore &> ../zero-log/gitdiffcore.log

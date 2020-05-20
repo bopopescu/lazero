@@ -1,0 +1,2 @@
+#!/bin/bash
+ident -h &> ../one-log/ident.log

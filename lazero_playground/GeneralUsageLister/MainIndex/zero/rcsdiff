@@ -1,0 +1,2 @@
+#!/bin/bash
+rcsdiff &> ../zero-log/rcsdiff.log

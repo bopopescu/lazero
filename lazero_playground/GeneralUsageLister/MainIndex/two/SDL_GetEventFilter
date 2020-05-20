@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetEventFilter --help &> ../two-log/SDL_GetEventFilter.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-help &> ../zero-log/git-help.log

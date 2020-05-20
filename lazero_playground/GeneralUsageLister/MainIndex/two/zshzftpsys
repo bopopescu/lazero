@@ -1,0 +1,2 @@
+#!/bin/bash
+zshzftpsys --help &> ../two-log/zshzftpsys.log

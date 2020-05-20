@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_PixelFormat --help &> ../two-log/SDL_PixelFormat.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+lzcm --help &> ../two-log/lzcm.log

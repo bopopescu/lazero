@@ -1,0 +1,2 @@
+#!/bin/bash
+paste -h &> ../one-log/paste.log

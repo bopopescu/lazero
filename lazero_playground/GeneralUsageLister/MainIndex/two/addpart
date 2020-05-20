@@ -1,0 +1,2 @@
+#!/bin/bash
+addpart --help &> ../two-log/addpart.log

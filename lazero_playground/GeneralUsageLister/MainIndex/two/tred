@@ -1,0 +1,2 @@
+#!/bin/bash
+tred --help &> ../two-log/tred.log

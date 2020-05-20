@@ -1,0 +1,2 @@
+#!/bin/bash
+gittutorial-2 --help &> ../two-log/gittutorial-2.log

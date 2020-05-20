@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_pgm -h &> ../one-log/zmq_pgm.log

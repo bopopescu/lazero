@@ -1,0 +1,2 @@
+#!/bin/bash
+nca -h &> ../one-log/nca.log

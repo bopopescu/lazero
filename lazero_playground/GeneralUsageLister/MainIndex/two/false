@@ -1,0 +1,2 @@
+#!/bin/bash
+false --help &> ../two-log/false.log

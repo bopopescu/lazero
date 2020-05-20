@@ -1,0 +1,2 @@
+#!/bin/bash
+ffi_prep_cif_va --help &> ../two-log/ffi_prep_cif_va.log

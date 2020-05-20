@@ -1,0 +1,2 @@
+#!/bin/bash
+fdformat &> ../zero-log/fdformat.log

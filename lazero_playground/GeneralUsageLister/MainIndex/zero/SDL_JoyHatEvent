@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoyHatEvent &> ../zero-log/SDL_JoyHatEvent.log

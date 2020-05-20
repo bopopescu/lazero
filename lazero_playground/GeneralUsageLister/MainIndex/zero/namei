@@ -1,0 +1,2 @@
+#!/bin/bash
+namei &> ../zero-log/namei.log

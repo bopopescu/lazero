@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_ctx_term &> ../zero-log/zmq_ctx_term.log

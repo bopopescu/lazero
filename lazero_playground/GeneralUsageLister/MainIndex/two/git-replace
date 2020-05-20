@@ -1,0 +1,2 @@
+#!/bin/bash
+git-replace --help &> ../two-log/git-replace.log

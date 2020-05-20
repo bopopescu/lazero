@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_AudioSpec -h &> ../one-log/SDL_AudioSpec.log

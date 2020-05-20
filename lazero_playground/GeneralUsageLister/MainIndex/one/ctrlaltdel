@@ -1,0 +1,2 @@
+#!/bin/bash
+ctrlaltdel -h &> ../one-log/ctrlaltdel.log

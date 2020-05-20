@@ -1,0 +1,2 @@
+#!/bin/bash
+e2label -h &> ../one-log/e2label.log

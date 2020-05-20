@@ -1,0 +1,2 @@
+#!/bin/bash
+git-whatchanged &> ../zero-log/git-whatchanged.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+ext4 &> ../zero-log/ext4.log

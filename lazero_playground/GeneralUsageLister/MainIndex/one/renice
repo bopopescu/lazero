@@ -1,0 +1,2 @@
+#!/bin/bash
+renice -h &> ../one-log/renice.log

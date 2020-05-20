@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-package -h &> ../one-log/cargo-package.log

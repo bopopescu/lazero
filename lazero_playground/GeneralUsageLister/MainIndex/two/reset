@@ -1,0 +1,2 @@
+#!/bin/bash
+reset --help &> ../two-log/reset.log

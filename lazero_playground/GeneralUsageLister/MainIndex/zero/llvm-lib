@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-lib &> ../zero-log/llvm-lib.log

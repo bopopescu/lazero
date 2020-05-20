@@ -1,0 +1,2 @@
+#!/bin/bash
+AS --help &> ../two-log/AS.log

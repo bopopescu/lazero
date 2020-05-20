@@ -1,0 +1,2 @@
+#!/bin/bash
+pv --help &> ../two-log/pv.log

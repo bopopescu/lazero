@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_MixAudio --help &> ../two-log/SDL_MixAudio.log

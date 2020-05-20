@@ -1,0 +1,2 @@
+#!/bin/bash
+sha512sum &> ../zero-log/sha512sum.log

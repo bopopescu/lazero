@@ -1,0 +1,2 @@
+#!/bin/bash
+git-index-pack --help &> ../two-log/git-index-pack.log

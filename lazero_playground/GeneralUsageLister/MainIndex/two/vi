@@ -1,0 +1,2 @@
+#!/bin/bash
+vi --help &> ../two-log/vi.log

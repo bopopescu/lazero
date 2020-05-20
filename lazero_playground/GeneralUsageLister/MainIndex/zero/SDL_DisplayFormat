@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_DisplayFormat &> ../zero-log/SDL_DisplayFormat.log

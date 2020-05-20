@@ -1,0 +1,2 @@
+#!/bin/bash
+dsymutil -h &> ../one-log/dsymutil.log

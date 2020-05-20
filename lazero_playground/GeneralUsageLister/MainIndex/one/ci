@@ -1,0 +1,2 @@
+#!/bin/bash
+ci -h &> ../one-log/ci.log

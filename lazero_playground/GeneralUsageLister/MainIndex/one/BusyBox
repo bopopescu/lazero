@@ -1,0 +1,2 @@
+#!/bin/bash
+BusyBox -h &> ../one-log/BusyBox.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CondWaitTimeout &> ../zero-log/SDL_CondWaitTimeout.log

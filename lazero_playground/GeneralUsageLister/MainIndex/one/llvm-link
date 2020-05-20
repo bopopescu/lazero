@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-link -h &> ../one-log/llvm-link.log

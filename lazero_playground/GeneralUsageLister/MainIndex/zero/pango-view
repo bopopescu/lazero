@@ -1,0 +1,2 @@
+#!/bin/bash
+pango-view &> ../zero-log/pango-view.log

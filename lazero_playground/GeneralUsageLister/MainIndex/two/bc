@@ -1,0 +1,2 @@
+#!/bin/bash
+bc --help &> ../two-log/bc.log

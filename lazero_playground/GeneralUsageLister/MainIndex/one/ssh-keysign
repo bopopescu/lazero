@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh-keysign -h &> ../one-log/ssh-keysign.log

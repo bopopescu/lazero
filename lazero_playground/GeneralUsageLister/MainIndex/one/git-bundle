@@ -1,0 +1,2 @@
+#!/bin/bash
+git-bundle -h &> ../one-log/git-bundle.log

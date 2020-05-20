@@ -1,0 +1,2 @@
+#!/bin/bash
+adjtime_confi &> ../zero-log/adjtime_confi.log

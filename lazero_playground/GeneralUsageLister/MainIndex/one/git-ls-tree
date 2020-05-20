@@ -1,0 +1,2 @@
+#!/bin/bash
+git-ls-tree -h &> ../one-log/git-ls-tree.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+mandoc &> ../zero-log/mandoc.log

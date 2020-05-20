@@ -1,0 +1,2 @@
+#!/bin/bash
+gre --help &> ../two-log/gre.log

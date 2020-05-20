@@ -1,0 +1,2 @@
+#!/bin/bash
+sha256sum &> ../zero-log/sha256sum.log

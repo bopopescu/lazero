@@ -1,0 +1,2 @@
+#!/bin/bash
+git-interpret-trailers &> ../zero-log/git-interpret-trailers.log

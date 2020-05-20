@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir --help &> ../two-log/mkdir.log

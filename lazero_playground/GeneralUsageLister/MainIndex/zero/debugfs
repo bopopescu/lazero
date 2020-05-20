@@ -1,0 +1,2 @@
+#!/bin/bash
+debugfs &> ../zero-log/debugfs.log

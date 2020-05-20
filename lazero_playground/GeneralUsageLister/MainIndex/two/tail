@@ -1,0 +1,2 @@
+#!/bin/bash
+tail --help &> ../two-log/tail.log

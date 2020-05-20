@@ -1,0 +1,2 @@
+#!/bin/bash
+paste --help &> ../two-log/paste.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+isympy --help &> ../two-log/isympy.log

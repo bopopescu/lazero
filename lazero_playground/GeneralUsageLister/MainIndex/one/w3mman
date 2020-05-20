@@ -1,0 +1,2 @@
+#!/bin/bash
+w3mman -h &> ../one-log/w3mman.log

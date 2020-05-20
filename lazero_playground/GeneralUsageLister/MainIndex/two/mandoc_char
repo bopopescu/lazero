@@ -1,0 +1,2 @@
+#!/bin/bash
+mandoc_char --help &> ../two-log/mandoc_char.log

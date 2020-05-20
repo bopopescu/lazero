@@ -1,0 +1,2 @@
+#!/bin/bash
+e2freefrag &> ../zero-log/e2freefrag.log

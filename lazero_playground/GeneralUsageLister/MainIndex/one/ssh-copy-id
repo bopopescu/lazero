@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh-copy-id -h &> ../one-log/ssh-copy-id.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_RemoveTimer --help &> ../two-log/SDL_RemoveTimer.log

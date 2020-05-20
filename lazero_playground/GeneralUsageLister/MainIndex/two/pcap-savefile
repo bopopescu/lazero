@@ -1,0 +1,2 @@
+#!/bin/bash
+pcap-savefile --help &> ../two-log/pcap-savefile.log

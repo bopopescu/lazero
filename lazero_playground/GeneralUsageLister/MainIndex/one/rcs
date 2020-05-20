@@ -1,0 +1,2 @@
+#!/bin/bash
+rcs -h &> ../one-log/rcs.log

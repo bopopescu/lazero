@@ -1,0 +1,2 @@
+#!/bin/bash
+git-pack-refs -h &> ../one-log/git-pack-refs.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+idn2 --help &> ../two-log/idn2.log

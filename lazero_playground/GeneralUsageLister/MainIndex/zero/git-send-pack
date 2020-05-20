@@ -1,0 +1,2 @@
+#!/bin/bash
+git-send-pack &> ../zero-log/git-send-pack.log

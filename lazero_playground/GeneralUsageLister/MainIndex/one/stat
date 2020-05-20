@@ -1,0 +1,2 @@
+#!/bin/bash
+stat -h &> ../one-log/stat.log

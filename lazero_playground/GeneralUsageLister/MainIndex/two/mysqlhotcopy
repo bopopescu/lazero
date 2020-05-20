@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlhotcopy --help &> ../two-log/mysqlhotcopy.log

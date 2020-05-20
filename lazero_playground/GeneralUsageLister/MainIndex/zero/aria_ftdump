@@ -1,0 +1,2 @@
+#!/bin/bash
+aria_ftdump &> ../zero-log/aria_ftdump.log

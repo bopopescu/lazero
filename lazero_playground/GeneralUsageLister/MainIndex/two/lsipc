@@ -1,0 +1,2 @@
+#!/bin/bash
+lsipc --help &> ../two-log/lsipc.log

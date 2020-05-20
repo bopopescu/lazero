@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_ListModes &> ../zero-log/SDL_ListModes.log

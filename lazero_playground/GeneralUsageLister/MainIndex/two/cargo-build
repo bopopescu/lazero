@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-build --help &> ../two-log/cargo-build.log

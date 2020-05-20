@@ -1,0 +1,2 @@
+#!/bin/bash
+join --help &> ../two-log/join.log

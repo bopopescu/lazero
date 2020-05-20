@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SetCursor --help &> ../two-log/SDL_SetCursor.log

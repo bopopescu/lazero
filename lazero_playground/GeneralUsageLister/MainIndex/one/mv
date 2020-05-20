@@ -1,0 +1,2 @@
+#!/bin/bash
+mv -h &> ../one-log/mv.log

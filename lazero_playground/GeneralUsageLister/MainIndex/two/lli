@@ -1,0 +1,2 @@
+#!/bin/bash
+lli --help &> ../two-log/lli.log

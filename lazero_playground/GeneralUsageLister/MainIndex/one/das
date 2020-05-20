@@ -1,0 +1,2 @@
+#!/bin/bash
+das -h &> ../one-log/das.log

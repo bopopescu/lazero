@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_atomic_counter_inc -h &> ../one-log/zmq_atomic_counter_inc.log

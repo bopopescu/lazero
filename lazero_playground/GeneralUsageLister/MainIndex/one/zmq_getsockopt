@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_getsockopt -h &> ../one-log/zmq_getsockopt.log

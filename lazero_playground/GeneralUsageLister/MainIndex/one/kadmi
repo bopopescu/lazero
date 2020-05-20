@@ -1,0 +1,2 @@
+#!/bin/bash
+kadmi -h &> ../one-log/kadmi.log

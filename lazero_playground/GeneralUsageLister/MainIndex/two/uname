@@ -1,0 +1,2 @@
+#!/bin/bash
+uname --help &> ../two-log/uname.log

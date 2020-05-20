@@ -1,0 +1,2 @@
+#!/bin/bash
+scdaemon --help &> ../two-log/scdaemon.log

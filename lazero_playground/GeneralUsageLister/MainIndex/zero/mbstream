@@ -1,0 +1,2 @@
+#!/bin/bash
+mbstream &> ../zero-log/mbstream.log

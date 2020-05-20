@@ -1,0 +1,2 @@
+#!/bin/bash
+das --help &> ../two-log/das.log

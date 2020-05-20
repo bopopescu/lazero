@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GetEventFilter &> ../zero-log/SDL_GetEventFilter.log

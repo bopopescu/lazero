@@ -1,0 +1,2 @@
+#!/bin/bash
+acyclic -h &> ../one-log/acyclic.log

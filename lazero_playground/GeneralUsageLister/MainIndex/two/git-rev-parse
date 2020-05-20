@@ -1,0 +1,2 @@
+#!/bin/bash
+git-rev-parse --help &> ../two-log/git-rev-parse.log

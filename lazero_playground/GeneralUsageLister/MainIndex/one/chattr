@@ -1,0 +1,2 @@
+#!/bin/bash
+chattr -h &> ../one-log/chattr.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_embedded -h &> ../one-log/mysql_embedded.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+tth-has --help &> ../two-log/tth-has.log

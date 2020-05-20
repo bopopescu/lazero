@@ -1,0 +1,2 @@
+#!/bin/bash
+realpath --help &> ../two-log/realpath.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+curl-config &> ../zero-log/curl-config.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+date --help &> ../two-log/date.log

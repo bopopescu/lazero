@@ -1,0 +1,2 @@
+#!/bin/bash
+gitrevisions &> ../zero-log/gitrevisions.log

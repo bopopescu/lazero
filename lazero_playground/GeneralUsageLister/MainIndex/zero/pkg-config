@@ -1,0 +1,2 @@
+#!/bin/bash
+pkg-config &> ../zero-log/pkg-config.log

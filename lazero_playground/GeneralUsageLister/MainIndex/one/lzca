@@ -1,0 +1,2 @@
+#!/bin/bash
+lzca -h &> ../one-log/lzca.log

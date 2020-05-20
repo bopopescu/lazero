@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_ctx_set --help &> ../two-log/zmq_ctx_set.log

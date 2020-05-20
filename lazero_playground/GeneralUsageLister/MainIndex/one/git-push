@@ -1,0 +1,2 @@
+#!/bin/bash
+git-push -h &> ../one-log/git-push.log

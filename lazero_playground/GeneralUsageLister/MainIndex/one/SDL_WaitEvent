@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_WaitEvent -h &> ../one-log/SDL_WaitEvent.log

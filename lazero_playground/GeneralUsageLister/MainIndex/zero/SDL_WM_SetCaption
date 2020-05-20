@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_WM_SetCaption &> ../zero-log/SDL_WM_SetCaption.log

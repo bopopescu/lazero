@@ -1,0 +1,2 @@
+#!/bin/bash
+kadmind &> ../zero-log/kadmind.log

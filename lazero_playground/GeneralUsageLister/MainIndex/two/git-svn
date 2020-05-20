@@ -1,0 +1,2 @@
+#!/bin/bash
+git-svn --help &> ../two-log/git-svn.log

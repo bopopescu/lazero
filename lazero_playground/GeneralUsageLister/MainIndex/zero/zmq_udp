@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_udp &> ../zero-log/zmq_udp.log

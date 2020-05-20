@@ -1,0 +1,2 @@
+#!/bin/bash
+pamo &> ../zero-log/pamo.log

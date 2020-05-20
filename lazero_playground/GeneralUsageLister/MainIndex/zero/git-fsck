@@ -1,0 +1,2 @@
+#!/bin/bash
+git-fsck &> ../zero-log/git-fsck.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+kadmi --help &> ../two-log/kadmi.log

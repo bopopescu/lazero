@@ -1,0 +1,2 @@
+#!/bin/bash
+e2fsc --help &> ../two-log/e2fsc.log

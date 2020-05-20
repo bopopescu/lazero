@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-owner -h &> ../one-log/cargo-owner.log

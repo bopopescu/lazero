@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlshow -h &> ../one-log/mysqlshow.log

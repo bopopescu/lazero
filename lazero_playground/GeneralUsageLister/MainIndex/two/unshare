@@ -1,0 +1,2 @@
+#!/bin/bash
+unshare --help &> ../two-log/unshare.log

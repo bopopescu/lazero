@@ -1,0 +1,2 @@
+#!/bin/bash
+git-symbolic-ref &> ../zero-log/git-symbolic-ref.log

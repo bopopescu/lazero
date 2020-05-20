@@ -1,0 +1,2 @@
+#!/bin/bash
+rm -h &> ../one-log/rm.log

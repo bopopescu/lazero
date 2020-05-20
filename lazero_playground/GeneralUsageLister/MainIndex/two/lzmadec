@@ -1,0 +1,2 @@
+#!/bin/bash
+lzmadec --help &> ../two-log/lzmadec.log

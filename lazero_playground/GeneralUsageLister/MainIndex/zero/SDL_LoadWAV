@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_LoadWAV &> ../zero-log/SDL_LoadWAV.log

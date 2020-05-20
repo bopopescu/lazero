@@ -1,0 +1,2 @@
+#!/bin/bash
+myisamchk --help &> ../two-log/myisamchk.log

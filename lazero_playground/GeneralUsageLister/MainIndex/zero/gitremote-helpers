@@ -1,0 +1,2 @@
+#!/bin/bash
+gitremote-helpers &> ../zero-log/gitremote-helpers.log

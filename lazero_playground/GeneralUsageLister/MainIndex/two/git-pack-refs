@@ -1,0 +1,2 @@
+#!/bin/bash
+git-pack-refs --help &> ../two-log/git-pack-refs.log

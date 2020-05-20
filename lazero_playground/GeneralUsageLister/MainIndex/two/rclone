@@ -1,0 +1,2 @@
+#!/bin/bash
+rclone --help &> ../two-log/rclone.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+klist &> ../zero-log/klist.log

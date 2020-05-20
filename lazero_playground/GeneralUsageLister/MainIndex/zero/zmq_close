@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_close &> ../zero-log/zmq_close.log

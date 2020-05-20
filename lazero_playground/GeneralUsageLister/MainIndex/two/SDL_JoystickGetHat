@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickGetHat --help &> ../two-log/SDL_JoystickGetHat.log

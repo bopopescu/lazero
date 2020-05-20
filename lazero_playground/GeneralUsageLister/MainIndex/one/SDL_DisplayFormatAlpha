@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_DisplayFormatAlpha -h &> ../one-log/SDL_DisplayFormatAlpha.log

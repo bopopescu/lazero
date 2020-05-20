@@ -1,0 +1,2 @@
+#!/bin/bash
+xmllint -h &> ../one-log/xmllint.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+touch &> ../zero-log/touch.log

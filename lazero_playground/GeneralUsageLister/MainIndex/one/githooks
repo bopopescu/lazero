@@ -1,0 +1,2 @@
+#!/bin/bash
+githooks -h &> ../one-log/githooks.log

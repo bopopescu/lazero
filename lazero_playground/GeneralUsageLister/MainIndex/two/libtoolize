@@ -1,0 +1,2 @@
+#!/bin/bash
+libtoolize --help &> ../two-log/libtoolize.log

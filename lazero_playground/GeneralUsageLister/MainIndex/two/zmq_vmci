@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_vmci --help &> ../two-log/zmq_vmci.log

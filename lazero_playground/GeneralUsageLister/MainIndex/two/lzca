@@ -1,0 +1,2 @@
+#!/bin/bash
+lzca --help &> ../two-log/lzca.log

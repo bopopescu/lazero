@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir -h &> ../one-log/mkdir.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_LockSurface -h &> ../one-log/SDL_LockSurface.log

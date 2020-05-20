@@ -1,0 +1,2 @@
+#!/bin/bash
+git-name-rev --help &> ../two-log/git-name-rev.log

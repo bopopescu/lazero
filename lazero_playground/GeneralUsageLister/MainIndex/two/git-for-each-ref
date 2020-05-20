@@ -1,0 +1,2 @@
+#!/bin/bash
+git-for-each-ref --help &> ../two-log/git-for-each-ref.log

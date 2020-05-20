@@ -1,0 +1,2 @@
+#!/bin/bash
+rmt --help &> ../two-log/rmt.log

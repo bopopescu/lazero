@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickNumAxes --help &> ../two-log/SDL_JoystickNumAxes.log

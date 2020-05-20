@@ -1,0 +1,2 @@
+#!/bin/bash
+dd --help &> ../two-log/dd.log

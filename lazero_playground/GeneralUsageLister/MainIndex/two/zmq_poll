@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_poll --help &> ../two-log/zmq_poll.log

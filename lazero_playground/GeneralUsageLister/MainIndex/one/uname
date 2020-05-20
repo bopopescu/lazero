@@ -1,0 +1,2 @@
+#!/bin/bash
+uname -h &> ../one-log/uname.log

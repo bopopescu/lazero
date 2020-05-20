@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SetColorKey -h &> ../one-log/SDL_SetColorKey.log

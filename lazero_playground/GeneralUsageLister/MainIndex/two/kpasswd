@@ -1,0 +1,2 @@
+#!/bin/bash
+kpasswd --help &> ../two-log/kpasswd.log

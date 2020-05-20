@@ -1,0 +1,2 @@
+#!/bin/bash
+script -h &> ../one-log/script.log

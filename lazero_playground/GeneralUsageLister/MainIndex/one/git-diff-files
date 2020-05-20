@@ -1,0 +1,2 @@
+#!/bin/bash
+git-diff-files -h &> ../one-log/git-diff-files.log

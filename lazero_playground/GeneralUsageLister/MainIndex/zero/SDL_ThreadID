@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_ThreadID &> ../zero-log/SDL_ThreadID.log

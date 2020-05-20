@@ -1,0 +1,2 @@
+#!/bin/bash
+gitweb -h &> ../one-log/gitweb.log

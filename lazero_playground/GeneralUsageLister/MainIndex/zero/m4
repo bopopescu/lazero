@@ -1,0 +1,2 @@
+#!/bin/bash
+m4 &> ../zero-log/m4.log

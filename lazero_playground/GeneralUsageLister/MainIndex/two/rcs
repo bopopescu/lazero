@@ -1,0 +1,2 @@
+#!/bin/bash
+rcs --help &> ../two-log/rcs.log

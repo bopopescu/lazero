@@ -1,0 +1,2 @@
+#!/bin/bash
+git-sh-i18n--envsubst &> ../zero-log/git-sh-i18n--envsubst.log

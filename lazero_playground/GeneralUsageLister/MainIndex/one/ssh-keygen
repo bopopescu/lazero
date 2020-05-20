@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh-keygen -h &> ../one-log/ssh-keygen.log

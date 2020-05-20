@@ -1,0 +1,2 @@
+#!/bin/bash
+touch --help &> ../two-log/touch.log

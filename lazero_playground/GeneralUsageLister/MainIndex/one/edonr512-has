@@ -1,0 +1,2 @@
+#!/bin/bash
+edonr512-has -h &> ../one-log/edonr512-has.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+lneato --help &> ../two-log/lneato.log

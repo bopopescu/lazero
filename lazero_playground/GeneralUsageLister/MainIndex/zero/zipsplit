@@ -1,0 +1,2 @@
+#!/bin/bash
+zipsplit &> ../zero-log/zipsplit.log

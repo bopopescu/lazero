@@ -1,0 +1,2 @@
+#!/bin/bash
+tse -h &> ../one-log/tse.log

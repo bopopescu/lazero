@@ -1,0 +1,2 @@
+#!/bin/bash
+cm --help &> ../two-log/cm.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+makewhatis --help &> ../two-log/makewhatis.log

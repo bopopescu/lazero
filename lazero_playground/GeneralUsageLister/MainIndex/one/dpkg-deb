@@ -1,0 +1,2 @@
+#!/bin/bash
+dpkg-deb -h &> ../one-log/dpkg-deb.log

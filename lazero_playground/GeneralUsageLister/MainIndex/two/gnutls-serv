@@ -1,0 +1,2 @@
+#!/bin/bash
+gnutls-serv --help &> ../two-log/gnutls-serv.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+zshmodules --help &> ../two-log/zshmodules.log

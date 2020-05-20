@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-yank --help &> ../two-log/cargo-yank.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+tbl &> ../zero-log/tbl.log

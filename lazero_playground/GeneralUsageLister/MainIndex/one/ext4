@@ -1,0 +1,2 @@
+#!/bin/bash
+ext4 -h &> ../one-log/ext4.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+dirname &> ../zero-log/dirname.log

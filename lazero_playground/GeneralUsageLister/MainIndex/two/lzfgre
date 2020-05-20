@@ -1,0 +1,2 @@
+#!/bin/bash
+lzfgre --help &> ../two-log/lzfgre.log

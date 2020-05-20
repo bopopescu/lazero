@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqldumpslow -h &> ../one-log/mysqldumpslow.log

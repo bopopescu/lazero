@@ -1,0 +1,2 @@
+#!/bin/bash
+base32 --help &> ../two-log/base32.log

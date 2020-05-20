@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoyAxisEvent &> ../zero-log/SDL_JoyAxisEvent.log

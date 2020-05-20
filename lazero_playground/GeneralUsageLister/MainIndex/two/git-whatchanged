@@ -1,0 +1,2 @@
+#!/bin/bash
+git-whatchanged --help &> ../two-log/git-whatchanged.log

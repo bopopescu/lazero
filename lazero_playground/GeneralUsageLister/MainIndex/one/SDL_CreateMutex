@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CreateMutex -h &> ../one-log/SDL_CreateMutex.log

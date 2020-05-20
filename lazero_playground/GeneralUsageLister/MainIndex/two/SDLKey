@@ -1,0 +1,2 @@
+#!/bin/bash
+SDLKey --help &> ../two-log/SDLKey.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-p4 &> ../zero-log/git-p4.log

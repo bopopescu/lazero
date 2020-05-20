@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-ar -h &> ../one-log/llvm-ar.log

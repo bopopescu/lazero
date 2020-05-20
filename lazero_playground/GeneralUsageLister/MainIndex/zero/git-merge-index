@@ -1,0 +1,2 @@
+#!/bin/bash
+git-merge-index &> ../zero-log/git-merge-index.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDtrack -h &> ../one-log/SDL_CDtrack.log

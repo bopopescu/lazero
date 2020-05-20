@@ -1,0 +1,2 @@
+#!/bin/bash
+gitcore-tutorial -h &> ../one-log/gitcore-tutorial.log

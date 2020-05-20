@@ -1,0 +1,2 @@
+#!/bin/bash
+gvgen --help &> ../two-log/gvgen.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+gpg --help &> ../two-log/gpg.log

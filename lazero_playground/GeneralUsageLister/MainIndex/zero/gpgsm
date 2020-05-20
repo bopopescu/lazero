@@ -1,0 +1,2 @@
+#!/bin/bash
+gpgsm &> ../zero-log/gpgsm.log

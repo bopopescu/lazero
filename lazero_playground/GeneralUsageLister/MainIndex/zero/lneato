@@ -1,0 +1,2 @@
+#!/bin/bash
+lneato &> ../zero-log/lneato.log

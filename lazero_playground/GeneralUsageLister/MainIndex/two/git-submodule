@@ -1,0 +1,2 @@
+#!/bin/bash
+git-submodule --help &> ../two-log/git-submodule.log

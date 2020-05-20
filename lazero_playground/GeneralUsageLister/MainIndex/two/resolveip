@@ -1,0 +1,2 @@
+#!/bin/bash
+resolveip --help &> ../two-log/resolveip.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-repack &> ../zero-log/git-repack.log

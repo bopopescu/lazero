@@ -1,0 +1,2 @@
+#!/bin/bash
+gpgtar --help &> ../two-log/gpgtar.log

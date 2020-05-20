@@ -1,0 +1,2 @@
+#!/bin/bash
+sha224sum -h &> ../one-log/sha224sum.log

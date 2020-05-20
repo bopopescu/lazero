@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickOpen --help &> ../two-log/SDL_JoystickOpen.log

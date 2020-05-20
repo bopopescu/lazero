@@ -1,0 +1,2 @@
+#!/bin/bash
+strip -h &> ../one-log/strip.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+nop -h &> ../one-log/nop.log

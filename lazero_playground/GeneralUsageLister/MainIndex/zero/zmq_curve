@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_curve &> ../zero-log/zmq_curve.log

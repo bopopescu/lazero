@@ -1,0 +1,2 @@
+#!/bin/bash
+tse --help &> ../two-log/tse.log

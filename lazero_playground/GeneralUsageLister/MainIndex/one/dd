@@ -1,0 +1,2 @@
+#!/bin/bash
+dd -h &> ../one-log/dd.log

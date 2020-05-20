@@ -1,0 +1,2 @@
+#!/bin/bash
+git-imap-send &> ../zero-log/git-imap-send.log

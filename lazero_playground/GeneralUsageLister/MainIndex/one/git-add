@@ -1,0 +1,2 @@
+#!/bin/bash
+git-add -h &> ../one-log/git-add.log

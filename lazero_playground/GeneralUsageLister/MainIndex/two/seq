@@ -1,0 +1,2 @@
+#!/bin/bash
+seq --help &> ../two-log/seq.log

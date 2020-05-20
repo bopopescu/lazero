@@ -1,0 +1,2 @@
+#!/bin/bash
+zshmisc &> ../zero-log/zshmisc.log

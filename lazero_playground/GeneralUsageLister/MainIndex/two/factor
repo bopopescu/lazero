@@ -1,0 +1,2 @@
+#!/bin/bash
+factor --help &> ../two-log/factor.log

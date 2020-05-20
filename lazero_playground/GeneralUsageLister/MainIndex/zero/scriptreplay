@@ -1,0 +1,2 @@
+#!/bin/bash
+scriptreplay &> ../zero-log/scriptreplay.log

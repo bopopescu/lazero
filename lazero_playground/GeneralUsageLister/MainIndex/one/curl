@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -h &> ../one-log/curl.log

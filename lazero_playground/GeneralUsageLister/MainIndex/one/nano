@@ -1,0 +1,2 @@
+#!/bin/bash
+nano -h &> ../one-log/nano.log

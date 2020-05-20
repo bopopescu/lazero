@@ -1,0 +1,2 @@
+#!/bin/bash
+yes --help &> ../two-log/yes.log

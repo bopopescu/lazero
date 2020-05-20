@@ -1,0 +1,2 @@
+#!/bin/bash
+my_print_defaults --help &> ../two-log/my_print_defaults.log

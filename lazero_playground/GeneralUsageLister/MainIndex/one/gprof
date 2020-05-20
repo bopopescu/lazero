@@ -1,0 +1,2 @@
+#!/bin/bash
+gprof -h &> ../one-log/gprof.log

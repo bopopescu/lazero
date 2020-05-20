@@ -1,0 +1,2 @@
+#!/bin/bash
+git-check-ignore &> ../zero-log/git-check-ignore.log

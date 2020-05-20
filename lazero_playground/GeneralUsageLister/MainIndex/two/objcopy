@@ -1,0 +1,2 @@
+#!/bin/bash
+objcopy --help &> ../two-log/objcopy.log

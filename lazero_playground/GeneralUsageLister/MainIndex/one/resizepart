@@ -1,0 +1,2 @@
+#!/bin/bash
+resizepart -h &> ../one-log/resizepart.log

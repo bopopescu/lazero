@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_msg_gets -h &> ../one-log/zmq_msg_gets.log

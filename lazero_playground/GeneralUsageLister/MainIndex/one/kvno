@@ -1,0 +1,2 @@
+#!/bin/bash
+kvno -h &> ../one-log/kvno.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickEventState -h &> ../one-log/SDL_JoystickEventState.log

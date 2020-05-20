@@ -1,0 +1,2 @@
+#!/bin/bash
+lzm -h &> ../one-log/lzm.log

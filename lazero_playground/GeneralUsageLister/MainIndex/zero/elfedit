@@ -1,0 +1,2 @@
+#!/bin/bash
+elfedit &> ../zero-log/elfedit.log

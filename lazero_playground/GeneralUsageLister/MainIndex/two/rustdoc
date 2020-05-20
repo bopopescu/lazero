@@ -1,0 +1,2 @@
+#!/bin/bash
+rustdoc --help &> ../two-log/rustdoc.log

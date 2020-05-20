@@ -1,0 +1,2 @@
+#!/bin/bash
+git-read-tree --help &> ../two-log/git-read-tree.log

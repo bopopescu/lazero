@@ -1,0 +1,2 @@
+#!/bin/bash
+ld --help &> ../two-log/ld.log

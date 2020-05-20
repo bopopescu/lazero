@@ -1,0 +1,2 @@
+#!/bin/bash
+git-var &> ../zero-log/git-var.log

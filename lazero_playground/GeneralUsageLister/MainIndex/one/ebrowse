@@ -1,0 +1,2 @@
+#!/bin/bash
+ebrowse -h &> ../one-log/ebrowse.log

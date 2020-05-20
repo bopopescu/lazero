@@ -1,0 +1,2 @@
+#!/bin/bash
+dd &> ../zero-log/dd.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+stdbuf &> ../zero-log/stdbuf.log

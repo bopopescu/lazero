@@ -1,0 +1,2 @@
+#!/bin/bash
+dirmngr-client --help &> ../two-log/dirmngr-client.log

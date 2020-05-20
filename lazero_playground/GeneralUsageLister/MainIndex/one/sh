@@ -1,0 +1,2 @@
+#!/bin/bash
+sh -h &> ../one-log/sh.log

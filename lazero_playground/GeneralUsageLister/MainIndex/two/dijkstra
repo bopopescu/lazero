@@ -1,0 +1,2 @@
+#!/bin/bash
+dijkstra --help &> ../two-log/dijkstra.log

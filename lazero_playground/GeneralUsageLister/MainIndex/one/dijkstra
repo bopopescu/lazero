@@ -1,0 +1,2 @@
+#!/bin/bash
+dijkstra -h &> ../one-log/dijkstra.log

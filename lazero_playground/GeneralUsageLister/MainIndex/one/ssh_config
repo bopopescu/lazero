@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh_config -h &> ../one-log/ssh_config.log

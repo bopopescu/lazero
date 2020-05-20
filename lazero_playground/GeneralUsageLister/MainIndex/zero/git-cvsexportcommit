@@ -1,0 +1,2 @@
+#!/bin/bash
+git-cvsexportcommit &> ../zero-log/git-cvsexportcommit.log

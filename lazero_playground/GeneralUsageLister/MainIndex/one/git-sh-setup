@@ -1,0 +1,2 @@
+#!/bin/bash
+git-sh-setup -h &> ../one-log/git-sh-setup.log

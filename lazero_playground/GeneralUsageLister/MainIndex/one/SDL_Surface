@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_Surface -h &> ../one-log/SDL_Surface.log

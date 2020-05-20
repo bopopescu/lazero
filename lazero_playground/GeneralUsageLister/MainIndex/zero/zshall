@@ -1,0 +1,2 @@
+#!/bin/bash
+zshall &> ../zero-log/zshall.log

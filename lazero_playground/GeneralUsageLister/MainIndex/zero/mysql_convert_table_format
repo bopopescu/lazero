@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_convert_table_format &> ../zero-log/mysql_convert_table_format.log

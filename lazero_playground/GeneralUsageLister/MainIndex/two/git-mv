@@ -1,0 +1,2 @@
+#!/bin/bash
+git-mv --help &> ../two-log/git-mv.log

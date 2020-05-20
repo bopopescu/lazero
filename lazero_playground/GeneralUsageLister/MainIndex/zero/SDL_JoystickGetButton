@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickGetButton &> ../zero-log/SDL_JoystickGetButton.log

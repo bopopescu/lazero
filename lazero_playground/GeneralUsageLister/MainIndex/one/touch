@@ -1,0 +1,2 @@
+#!/bin/bash
+touch -h &> ../one-log/touch.log

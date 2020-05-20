@@ -1,0 +1,2 @@
+#!/bin/bash
+lzdiff -h &> ../one-log/lzdiff.log

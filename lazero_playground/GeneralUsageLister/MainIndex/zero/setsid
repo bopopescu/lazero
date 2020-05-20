@@ -1,0 +1,2 @@
+#!/bin/bash
+setsid &> ../zero-log/setsid.log

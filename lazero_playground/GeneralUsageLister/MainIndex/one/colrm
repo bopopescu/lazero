@@ -1,0 +1,2 @@
+#!/bin/bash
+colrm -h &> ../one-log/colrm.log

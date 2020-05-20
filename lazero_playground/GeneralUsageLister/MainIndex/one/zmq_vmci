@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_vmci -h &> ../one-log/zmq_vmci.log

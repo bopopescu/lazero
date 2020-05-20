@@ -1,0 +1,2 @@
+#!/bin/bash
+git-quiltimport -h &> ../one-log/git-quiltimport.log

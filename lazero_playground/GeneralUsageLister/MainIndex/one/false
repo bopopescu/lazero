@@ -1,0 +1,2 @@
+#!/bin/bash
+false -h &> ../one-log/false.log

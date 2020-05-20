@@ -1,0 +1,2 @@
+#!/bin/bash
+git-var -h &> ../one-log/git-var.log

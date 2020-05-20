@@ -1,0 +1,2 @@
+#!/bin/bash
+egre -h &> ../one-log/egre.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+srptool -h &> ../one-log/srptool.log

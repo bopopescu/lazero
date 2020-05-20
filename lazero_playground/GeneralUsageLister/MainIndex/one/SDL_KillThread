@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_KillThread -h &> ../one-log/SDL_KillThread.log

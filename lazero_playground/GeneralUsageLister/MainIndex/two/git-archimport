@@ -1,0 +1,2 @@
+#!/bin/bash
+git-archimport --help &> ../two-log/git-archimport.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+clear &> ../zero-log/clear.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-write-tree --help &> ../two-log/git-write-tree.log

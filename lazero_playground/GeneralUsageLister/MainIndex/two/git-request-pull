@@ -1,0 +1,2 @@
+#!/bin/bash
+git-request-pull --help &> ../two-log/git-request-pull.log

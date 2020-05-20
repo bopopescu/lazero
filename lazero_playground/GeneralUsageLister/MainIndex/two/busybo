@@ -1,0 +1,2 @@
+#!/bin/bash
+busybo --help &> ../two-log/busybo.log

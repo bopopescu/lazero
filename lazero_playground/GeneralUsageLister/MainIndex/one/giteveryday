@@ -1,0 +1,2 @@
+#!/bin/bash
+giteveryday -h &> ../one-log/giteveryday.log

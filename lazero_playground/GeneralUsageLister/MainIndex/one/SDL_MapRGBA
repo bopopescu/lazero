@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_MapRGBA -h &> ../one-log/SDL_MapRGBA.log

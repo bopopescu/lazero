@@ -1,0 +1,2 @@
+#!/bin/bash
+git-prune-packed -h &> ../one-log/git-prune-packed.log

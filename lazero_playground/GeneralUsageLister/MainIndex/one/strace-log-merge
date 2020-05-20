@@ -1,0 +1,2 @@
+#!/bin/bash
+strace-log-merge -h &> ../one-log/strace-log-merge.log

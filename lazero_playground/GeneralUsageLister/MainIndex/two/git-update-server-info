@@ -1,0 +1,2 @@
+#!/bin/bash
+git-update-server-info --help &> ../two-log/git-update-server-info.log

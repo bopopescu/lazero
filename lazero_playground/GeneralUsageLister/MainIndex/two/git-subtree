@@ -1,0 +1,2 @@
+#!/bin/bash
+git-subtree --help &> ../two-log/git-subtree.log

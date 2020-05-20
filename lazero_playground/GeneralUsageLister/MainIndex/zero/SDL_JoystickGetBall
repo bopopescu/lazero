@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickGetBall &> ../zero-log/SDL_JoystickGetBall.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+nop --help &> ../two-log/nop.log

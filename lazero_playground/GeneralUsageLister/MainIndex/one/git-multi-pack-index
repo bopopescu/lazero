@@ -1,0 +1,2 @@
+#!/bin/bash
+git-multi-pack-index -h &> ../one-log/git-multi-pack-index.log

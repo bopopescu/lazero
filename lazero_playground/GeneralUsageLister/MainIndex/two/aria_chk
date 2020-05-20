@@ -1,0 +1,2 @@
+#!/bin/bash
+aria_chk --help &> ../two-log/aria_chk.log

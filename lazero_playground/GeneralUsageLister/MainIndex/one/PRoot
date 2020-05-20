@@ -1,0 +1,2 @@
+#!/bin/bash
+PRoot -h &> ../one-log/PRoot.log

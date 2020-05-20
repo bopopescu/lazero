@@ -1,0 +1,2 @@
+#!/bin/bash
+applygnupgdefaults -h &> ../one-log/applygnupgdefaults.log

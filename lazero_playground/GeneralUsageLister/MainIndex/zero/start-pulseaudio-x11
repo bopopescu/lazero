@@ -1,0 +1,2 @@
+#!/bin/bash
+start-pulseaudio-x11 &> ../zero-log/start-pulseaudio-x11.log

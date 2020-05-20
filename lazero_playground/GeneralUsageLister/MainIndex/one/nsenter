@@ -1,0 +1,2 @@
+#!/bin/bash
+nsenter -h &> ../one-log/nsenter.log

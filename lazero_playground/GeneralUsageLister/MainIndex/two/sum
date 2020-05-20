@@ -1,0 +1,2 @@
+#!/bin/bash
+sum --help &> ../two-log/sum.log

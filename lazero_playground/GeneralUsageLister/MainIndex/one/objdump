@@ -1,0 +1,2 @@
+#!/bin/bash
+objdump -h &> ../one-log/objdump.log

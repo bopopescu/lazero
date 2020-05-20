@@ -1,0 +1,2 @@
+#!/bin/bash
+png -h &> ../one-log/png.log

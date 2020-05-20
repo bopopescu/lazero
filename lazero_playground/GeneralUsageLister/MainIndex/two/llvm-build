@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-build --help &> ../two-log/llvm-build.log

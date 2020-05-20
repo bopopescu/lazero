@@ -1,0 +1,2 @@
+#!/bin/bash
+ext --help &> ../two-log/ext.log

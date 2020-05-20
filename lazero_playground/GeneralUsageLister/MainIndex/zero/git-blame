@@ -1,0 +1,2 @@
+#!/bin/bash
+git-blame &> ../zero-log/git-blame.log

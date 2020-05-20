@@ -1,0 +1,2 @@
+#!/bin/bash
+tiger-has &> ../zero-log/tiger-has.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-mktree -h &> ../one-log/git-mktree.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-reset --help &> ../two-log/git-reset.log

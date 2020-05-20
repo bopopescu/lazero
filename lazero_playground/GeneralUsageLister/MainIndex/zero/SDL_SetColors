@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SetColors &> ../zero-log/SDL_SetColors.log

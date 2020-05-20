@@ -1,0 +1,2 @@
+#!/bin/bash
+addgnupghome &> ../zero-log/addgnupghome.log

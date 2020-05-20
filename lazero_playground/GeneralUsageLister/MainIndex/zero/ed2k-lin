@@ -1,0 +1,2 @@
+#!/bin/bash
+ed2k-lin &> ../zero-log/ed2k-lin.log

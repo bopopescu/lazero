@@ -1,0 +1,2 @@
+#!/bin/bash
+git-stash &> ../zero-log/git-stash.log

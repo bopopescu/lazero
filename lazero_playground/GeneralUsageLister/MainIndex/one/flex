@@ -1,0 +1,2 @@
+#!/bin/bash
+flex -h &> ../one-log/flex.log

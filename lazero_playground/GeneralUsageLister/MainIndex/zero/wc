@@ -1,0 +1,2 @@
+#!/bin/bash
+wc &> ../zero-log/wc.log

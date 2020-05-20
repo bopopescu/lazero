@@ -1,0 +1,2 @@
+#!/bin/bash
+zshtcpsys --help &> ../two-log/zshtcpsys.log

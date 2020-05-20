@@ -1,0 +1,2 @@
+#!/bin/bash
+seq -h &> ../one-log/seq.log

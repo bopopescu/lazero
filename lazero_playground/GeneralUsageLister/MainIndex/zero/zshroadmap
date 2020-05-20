@@ -1,0 +1,2 @@
+#!/bin/bash
+zshroadmap &> ../zero-log/zshroadmap.log

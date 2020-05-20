@@ -1,0 +1,2 @@
+#!/bin/bash
+aria2c &> ../zero-log/aria2c.log

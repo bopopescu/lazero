@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-cxxmap --help &> ../two-log/llvm-cxxmap.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqltest_embedded -h &> ../one-log/mysqltest_embedded.log

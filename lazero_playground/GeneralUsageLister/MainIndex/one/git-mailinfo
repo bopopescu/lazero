@@ -1,0 +1,2 @@
+#!/bin/bash
+git-mailinfo -h &> ../one-log/git-mailinfo.log

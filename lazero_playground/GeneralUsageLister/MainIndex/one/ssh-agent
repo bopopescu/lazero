@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh-agent -h &> ../one-log/ssh-agent.log

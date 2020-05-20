@@ -1,0 +1,2 @@
+#!/bin/bash
+ffi_call -h &> ../one-log/ffi_call.log

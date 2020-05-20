@@ -1,0 +1,2 @@
+#!/bin/bash
+git-remote-fd &> ../zero-log/git-remote-fd.log

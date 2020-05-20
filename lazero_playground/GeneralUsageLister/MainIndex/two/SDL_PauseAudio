@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_PauseAudio --help &> ../two-log/SDL_PauseAudio.log

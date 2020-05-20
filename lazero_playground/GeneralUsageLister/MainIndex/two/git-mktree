@@ -1,0 +1,2 @@
+#!/bin/bash
+git-mktree --help &> ../two-log/git-mktree.log

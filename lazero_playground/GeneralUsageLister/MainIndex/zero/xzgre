@@ -1,0 +1,2 @@
+#!/bin/bash
+xzgre &> ../zero-log/xzgre.log

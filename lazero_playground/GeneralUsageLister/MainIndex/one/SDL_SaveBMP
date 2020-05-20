@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SaveBMP -h &> ../one-log/SDL_SaveBMP.log

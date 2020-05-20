@@ -1,0 +1,2 @@
+#!/bin/bash
+tr -h &> ../one-log/tr.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+hmac256 -h &> ../one-log/hmac256.log

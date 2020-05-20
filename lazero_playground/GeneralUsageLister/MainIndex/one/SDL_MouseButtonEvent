@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_MouseButtonEvent -h &> ../one-log/SDL_MouseButtonEvent.log

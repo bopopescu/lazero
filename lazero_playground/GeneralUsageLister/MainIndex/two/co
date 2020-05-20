@@ -1,0 +1,2 @@
+#!/bin/bash
+co --help &> ../two-log/co.log

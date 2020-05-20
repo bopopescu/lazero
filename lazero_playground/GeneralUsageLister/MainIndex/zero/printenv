@@ -1,0 +1,2 @@
+#!/bin/bash
+printenv &> ../zero-log/printenv.log

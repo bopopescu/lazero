@@ -1,0 +1,2 @@
+#!/bin/bash
+zlib --help &> ../two-log/zlib.log

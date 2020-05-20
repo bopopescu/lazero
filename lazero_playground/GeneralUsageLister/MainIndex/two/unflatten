@@ -1,0 +1,2 @@
+#!/bin/bash
+unflatten --help &> ../two-log/unflatten.log

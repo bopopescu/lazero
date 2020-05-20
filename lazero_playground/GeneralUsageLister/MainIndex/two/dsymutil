@@ -1,0 +1,2 @@
+#!/bin/bash
+dsymutil --help &> ../two-log/dsymutil.log

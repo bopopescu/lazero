@@ -1,0 +1,2 @@
+#!/bin/bash
+ext4 --help &> ../two-log/ext4.log

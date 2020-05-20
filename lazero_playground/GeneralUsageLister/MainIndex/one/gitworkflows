@@ -1,0 +1,2 @@
+#!/bin/bash
+gitworkflows -h &> ../one-log/gitworkflows.log

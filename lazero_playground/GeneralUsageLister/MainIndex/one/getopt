@@ -1,0 +1,2 @@
+#!/bin/bash
+getopt -h &> ../one-log/getopt.log

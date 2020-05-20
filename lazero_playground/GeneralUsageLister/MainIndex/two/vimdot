@@ -1,0 +1,2 @@
+#!/bin/bash
+vimdot --help &> ../two-log/vimdot.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+mesg &> ../zero-log/mesg.log

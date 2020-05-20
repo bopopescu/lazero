@@ -1,0 +1,2 @@
+#!/bin/bash
+git-mktag -h &> ../one-log/git-mktag.log

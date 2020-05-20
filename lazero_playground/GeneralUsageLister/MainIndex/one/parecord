@@ -1,0 +1,2 @@
+#!/bin/bash
+parecord -h &> ../one-log/parecord.log

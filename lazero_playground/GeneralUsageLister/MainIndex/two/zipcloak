@@ -1,0 +1,2 @@
+#!/bin/bash
+zipcloak --help &> ../two-log/zipcloak.log

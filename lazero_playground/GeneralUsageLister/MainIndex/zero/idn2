@@ -1,0 +1,2 @@
+#!/bin/bash
+idn2 &> ../zero-log/idn2.log

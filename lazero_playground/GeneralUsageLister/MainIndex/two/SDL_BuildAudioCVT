@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_BuildAudioCVT --help &> ../two-log/SDL_BuildAudioCVT.log

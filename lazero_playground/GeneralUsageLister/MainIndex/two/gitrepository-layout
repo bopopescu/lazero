@@ -1,0 +1,2 @@
+#!/bin/bash
+gitrepository-layout --help &> ../two-log/gitrepository-layout.log

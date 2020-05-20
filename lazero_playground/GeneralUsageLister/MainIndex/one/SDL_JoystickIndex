@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickIndex -h &> ../one-log/SDL_JoystickIndex.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+sshd_config -h &> ../one-log/sshd_config.log

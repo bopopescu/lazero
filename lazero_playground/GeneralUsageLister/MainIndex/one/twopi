@@ -1,0 +1,2 @@
+#!/bin/bash
+twopi -h &> ../one-log/twopi.log

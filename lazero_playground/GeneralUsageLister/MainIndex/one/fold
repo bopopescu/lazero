@@ -1,0 +1,2 @@
+#!/bin/bash
+fold -h &> ../one-log/fold.log

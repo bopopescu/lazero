@@ -1,0 +1,2 @@
+#!/bin/bash
+unexpand --help &> ../two-log/unexpand.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+ocsptool -h &> ../one-log/ocsptool.log

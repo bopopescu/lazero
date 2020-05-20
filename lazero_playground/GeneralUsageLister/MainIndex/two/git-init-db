@@ -1,0 +1,2 @@
+#!/bin/bash
+git-init-db --help &> ../two-log/git-init-db.log

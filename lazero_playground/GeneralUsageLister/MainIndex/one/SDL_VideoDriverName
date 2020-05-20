@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_VideoDriverName -h &> ../one-log/SDL_VideoDriverName.log

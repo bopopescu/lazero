@@ -1,0 +1,2 @@
+#!/bin/bash
+ionice &> ../zero-log/ionice.log

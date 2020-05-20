@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlshow &> ../zero-log/mysqlshow.log

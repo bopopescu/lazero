@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-search --help &> ../two-log/cargo-search.log

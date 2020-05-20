@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GL_SetAttribute --help &> ../two-log/SDL_GL_SetAttribute.log

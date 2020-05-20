@@ -1,0 +1,2 @@
+#!/bin/bash
+git-tag --help &> ../two-log/git-tag.log

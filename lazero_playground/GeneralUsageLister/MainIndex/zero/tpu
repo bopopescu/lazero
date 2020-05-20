@@ -1,0 +1,2 @@
+#!/bin/bash
+tpu &> ../zero-log/tpu.log

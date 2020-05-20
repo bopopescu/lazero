@@ -1,0 +1,2 @@
+#!/bin/bash
+pathchk --help &> ../two-log/pathchk.log

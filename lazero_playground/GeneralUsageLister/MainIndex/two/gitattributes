@@ -1,0 +1,2 @@
+#!/bin/bash
+gitattributes --help &> ../two-log/gitattributes.log

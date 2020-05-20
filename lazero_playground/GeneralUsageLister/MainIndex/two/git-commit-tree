@@ -1,0 +1,2 @@
+#!/bin/bash
+git-commit-tree --help &> ../two-log/git-commit-tree.log

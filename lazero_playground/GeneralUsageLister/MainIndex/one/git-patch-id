@@ -1,0 +1,2 @@
+#!/bin/bash
+git-patch-id -h &> ../one-log/git-patch-id.log

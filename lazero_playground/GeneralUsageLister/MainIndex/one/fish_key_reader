@@ -1,0 +1,2 @@
+#!/bin/bash
+fish_key_reader -h &> ../one-log/fish_key_reader.log

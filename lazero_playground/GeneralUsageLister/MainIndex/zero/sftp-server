@@ -1,0 +1,2 @@
+#!/bin/bash
+sftp-server &> ../zero-log/sftp-server.log

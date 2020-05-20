@@ -1,0 +1,2 @@
+#!/bin/bash
+gxl2g -h &> ../one-log/gxl2g.log

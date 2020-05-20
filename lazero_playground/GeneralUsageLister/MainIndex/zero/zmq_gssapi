@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_gssapi &> ../zero-log/zmq_gssapi.log

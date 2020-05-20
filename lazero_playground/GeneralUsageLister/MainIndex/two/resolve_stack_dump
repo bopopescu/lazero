@@ -1,0 +1,2 @@
+#!/bin/bash
+resolve_stack_dump --help &> ../two-log/resolve_stack_dump.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+emacsclient -h &> ../one-log/emacsclient.log

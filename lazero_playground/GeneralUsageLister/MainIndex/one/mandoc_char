@@ -1,0 +1,2 @@
+#!/bin/bash
+mandoc_char -h &> ../one-log/mandoc_char.log

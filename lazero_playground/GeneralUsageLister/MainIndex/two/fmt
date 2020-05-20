@@ -1,0 +1,2 @@
+#!/bin/bash
+fmt --help &> ../two-log/fmt.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+idn2 -h &> ../one-log/idn2.log

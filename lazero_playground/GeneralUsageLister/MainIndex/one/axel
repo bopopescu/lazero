@@ -1,0 +1,2 @@
+#!/bin/bash
+axel -h &> ../one-log/axel.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+sha384sum &> ../zero-log/sha384sum.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-bcanalyzer --help &> ../two-log/llvm-bcanalyzer.log

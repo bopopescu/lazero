@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_tipc -h &> ../one-log/zmq_tipc.log

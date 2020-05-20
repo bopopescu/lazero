@@ -1,0 +1,2 @@
+#!/bin/bash
+git-tag &> ../zero-log/git-tag.log

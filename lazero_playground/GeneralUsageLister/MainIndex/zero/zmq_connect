@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_connect &> ../zero-log/zmq_connect.log

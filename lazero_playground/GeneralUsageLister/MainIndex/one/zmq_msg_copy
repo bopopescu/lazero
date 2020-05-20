@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_msg_copy -h &> ../one-log/zmq_msg_copy.log

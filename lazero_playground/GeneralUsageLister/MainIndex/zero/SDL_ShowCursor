@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_ShowCursor &> ../zero-log/SDL_ShowCursor.log

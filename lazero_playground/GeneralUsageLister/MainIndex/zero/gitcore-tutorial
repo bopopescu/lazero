@@ -1,0 +1,2 @@
+#!/bin/bash
+gitcore-tutorial &> ../zero-log/gitcore-tutorial.log

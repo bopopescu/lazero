@@ -1,0 +1,2 @@
+#!/bin/bash
+groups --help &> ../two-log/groups.log

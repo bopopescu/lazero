@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_Quit --help &> ../two-log/SDL_Quit.log

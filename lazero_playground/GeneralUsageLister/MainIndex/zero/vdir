@@ -1,0 +1,2 @@
+#!/bin/bash
+vdir &> ../zero-log/vdir.log

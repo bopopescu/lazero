@@ -1,0 +1,2 @@
+#!/bin/bash
+hwclock -h &> ../one-log/hwclock.log

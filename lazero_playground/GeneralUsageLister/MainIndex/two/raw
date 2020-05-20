@@ -1,0 +1,2 @@
+#!/bin/bash
+raw --help &> ../two-log/raw.log

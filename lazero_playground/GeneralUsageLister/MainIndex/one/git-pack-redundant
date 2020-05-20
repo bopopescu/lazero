@@ -1,0 +1,2 @@
+#!/bin/bash
+git-pack-redundant -h &> ../one-log/git-pack-redundant.log

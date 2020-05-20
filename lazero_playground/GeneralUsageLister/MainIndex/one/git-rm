@@ -1,0 +1,2 @@
+#!/bin/bash
+git-rm -h &> ../one-log/git-rm.log

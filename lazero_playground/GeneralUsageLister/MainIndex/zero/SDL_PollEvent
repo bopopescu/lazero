@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_PollEvent &> ../zero-log/SDL_PollEvent.log

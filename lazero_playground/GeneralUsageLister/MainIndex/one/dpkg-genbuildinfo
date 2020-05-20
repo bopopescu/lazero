@@ -1,0 +1,2 @@
+#!/bin/bash
+dpkg-genbuildinfo -h &> ../one-log/dpkg-genbuildinfo.log

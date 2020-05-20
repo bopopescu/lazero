@@ -1,0 +1,2 @@
+#!/bin/bash
+git-mailsplit &> ../zero-log/git-mailsplit.log

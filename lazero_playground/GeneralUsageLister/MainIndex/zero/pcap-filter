@@ -1,0 +1,2 @@
+#!/bin/bash
+pcap-filter &> ../zero-log/pcap-filter.log

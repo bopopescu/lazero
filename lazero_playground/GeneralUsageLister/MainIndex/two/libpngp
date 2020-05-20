@@ -1,0 +1,2 @@
+#!/bin/bash
+libpngp --help &> ../two-log/libpngp.log

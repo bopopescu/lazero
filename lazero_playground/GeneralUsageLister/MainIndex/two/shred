@@ -1,0 +1,2 @@
+#!/bin/bash
+shred --help &> ../two-log/shred.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+my_safe_process &> ../zero-log/my_safe_process.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_DisplayYUVOverlay --help &> ../two-log/SDL_DisplayYUVOverlay.log

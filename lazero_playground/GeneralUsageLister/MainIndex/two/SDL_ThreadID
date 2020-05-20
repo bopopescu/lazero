@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_ThreadID --help &> ../two-log/SDL_ThreadID.log

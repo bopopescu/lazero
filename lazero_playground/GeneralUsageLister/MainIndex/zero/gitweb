@@ -1,0 +1,2 @@
+#!/bin/bash
+gitweb &> ../zero-log/gitweb.log

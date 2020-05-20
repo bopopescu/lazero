@@ -1,0 +1,2 @@
+#!/bin/bash
+git-prune -h &> ../one-log/git-prune.log

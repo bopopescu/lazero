@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_WM_IconifyWindow -h &> ../one-log/SDL_WM_IconifyWindow.log

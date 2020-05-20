@@ -1,0 +1,2 @@
+#!/bin/bash
+wdctl -h &> ../one-log/wdctl.log

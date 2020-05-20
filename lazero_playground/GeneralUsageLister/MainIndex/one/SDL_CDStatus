@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CDStatus -h &> ../one-log/SDL_CDStatus.log

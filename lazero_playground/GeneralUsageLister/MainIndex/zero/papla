@@ -1,0 +1,2 @@
+#!/bin/bash
+papla &> ../zero-log/papla.log

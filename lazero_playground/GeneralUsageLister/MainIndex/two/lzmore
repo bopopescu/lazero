@@ -1,0 +1,2 @@
+#!/bin/bash
+lzmore --help &> ../two-log/lzmore.log

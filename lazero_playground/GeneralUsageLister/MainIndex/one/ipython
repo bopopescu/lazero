@@ -1,0 +1,2 @@
+#!/bin/bash
+ipython -h &> ../one-log/ipython.log

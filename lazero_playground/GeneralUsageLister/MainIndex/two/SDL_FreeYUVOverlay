@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_FreeYUVOverlay --help &> ../two-log/SDL_FreeYUVOverlay.log

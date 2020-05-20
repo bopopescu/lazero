@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_curve_public --help &> ../two-log/zmq_curve_public.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+gitcli &> ../zero-log/gitcli.log

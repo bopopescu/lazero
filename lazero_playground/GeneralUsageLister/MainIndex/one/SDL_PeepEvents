@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_PeepEvents -h &> ../one-log/SDL_PeepEvents.log

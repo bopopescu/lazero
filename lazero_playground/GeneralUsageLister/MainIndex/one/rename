@@ -1,0 +1,2 @@
+#!/bin/bash
+rename -h &> ../one-log/rename.log

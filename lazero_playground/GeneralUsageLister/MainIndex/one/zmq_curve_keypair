@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_curve_keypair -h &> ../one-log/zmq_curve_keypair.log

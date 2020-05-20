@@ -1,0 +1,2 @@
+#!/bin/bash
+less --help &> ../two-log/less.log

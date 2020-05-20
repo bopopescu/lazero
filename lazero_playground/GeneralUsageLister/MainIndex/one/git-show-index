@@ -1,0 +1,2 @@
+#!/bin/bash
+git-show-index -h &> ../one-log/git-show-index.log

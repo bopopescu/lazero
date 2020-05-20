@@ -1,0 +1,2 @@
+#!/bin/bash
+FileCheck &> ../zero-log/FileCheck.log

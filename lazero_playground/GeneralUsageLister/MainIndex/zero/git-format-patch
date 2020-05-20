@@ -1,0 +1,2 @@
+#!/bin/bash
+git-format-patch &> ../zero-log/git-format-patch.log

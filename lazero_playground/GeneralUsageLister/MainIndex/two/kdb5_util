@@ -1,0 +1,2 @@
+#!/bin/bash
+kdb5_util --help &> ../two-log/kdb5_util.log

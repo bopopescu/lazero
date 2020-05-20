@@ -1,0 +1,2 @@
+#!/bin/bash
+uname &> ../zero-log/uname.log

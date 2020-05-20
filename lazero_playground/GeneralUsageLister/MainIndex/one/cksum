@@ -1,0 +1,2 @@
+#!/bin/bash
+cksum -h &> ../one-log/cksum.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_FreeSurface &> ../zero-log/SDL_FreeSurface.log

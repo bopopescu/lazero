@@ -1,0 +1,2 @@
+#!/bin/bash
+scp --help &> ../two-log/scp.log

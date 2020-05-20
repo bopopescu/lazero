@@ -1,0 +1,2 @@
+#!/bin/bash
+dif --help &> ../two-log/dif.log

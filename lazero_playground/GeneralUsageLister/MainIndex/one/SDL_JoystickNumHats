@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickNumHats -h &> ../one-log/SDL_JoystickNumHats.log

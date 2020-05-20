@@ -1,0 +1,2 @@
+#!/bin/bash
+strace --help &> ../two-log/strace.log

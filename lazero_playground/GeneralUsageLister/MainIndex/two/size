@@ -1,0 +1,2 @@
+#!/bin/bash
+size --help &> ../two-log/size.log

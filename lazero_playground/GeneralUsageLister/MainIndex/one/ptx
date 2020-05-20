@@ -1,0 +1,2 @@
+#!/bin/bash
+ptx -h &> ../one-log/ptx.log

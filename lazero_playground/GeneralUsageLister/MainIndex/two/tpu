@@ -1,0 +1,2 @@
+#!/bin/bash
+tpu --help &> ../two-log/tpu.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+git-clean --help &> ../two-log/git-clean.log

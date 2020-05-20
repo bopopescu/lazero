@@ -1,0 +1,2 @@
+#!/bin/bash
+wipefs -h &> ../one-log/wipefs.log

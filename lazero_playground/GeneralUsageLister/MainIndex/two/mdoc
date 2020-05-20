@@ -1,0 +1,2 @@
+#!/bin/bash
+mdoc --help &> ../two-log/mdoc.log

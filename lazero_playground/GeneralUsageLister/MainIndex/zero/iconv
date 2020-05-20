@@ -1,0 +1,2 @@
+#!/bin/bash
+iconv &> ../zero-log/iconv.log

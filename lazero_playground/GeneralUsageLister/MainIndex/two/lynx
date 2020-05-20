@@ -1,0 +1,2 @@
+#!/bin/bash
+lynx --help &> ../two-log/lynx.log

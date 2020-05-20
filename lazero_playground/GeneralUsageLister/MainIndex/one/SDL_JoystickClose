@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickClose -h &> ../one-log/SDL_JoystickClose.log

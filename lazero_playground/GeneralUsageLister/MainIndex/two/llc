@@ -1,0 +1,2 @@
+#!/bin/bash
+llc --help &> ../two-log/llc.log

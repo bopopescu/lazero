@@ -1,0 +1,2 @@
+#!/bin/bash
+git-branch -h &> ../one-log/git-branch.log

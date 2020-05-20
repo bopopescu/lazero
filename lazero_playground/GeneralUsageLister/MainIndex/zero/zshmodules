@@ -1,0 +1,2 @@
+#!/bin/bash
+zshmodules &> ../zero-log/zshmodules.log

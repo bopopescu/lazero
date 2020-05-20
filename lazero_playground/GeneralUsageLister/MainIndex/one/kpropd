@@ -1,0 +1,2 @@
+#!/bin/bash
+kpropd -h &> ../one-log/kpropd.log

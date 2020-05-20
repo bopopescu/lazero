@@ -1,0 +1,2 @@
+#!/bin/bash
+do --help &> ../two-log/do.log

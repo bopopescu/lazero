@@ -1,0 +1,2 @@
+#!/bin/bash
+git-read-tree -h &> ../one-log/git-read-tree.log

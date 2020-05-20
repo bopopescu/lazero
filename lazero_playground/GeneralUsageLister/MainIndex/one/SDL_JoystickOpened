@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_JoystickOpened -h &> ../one-log/SDL_JoystickOpened.log

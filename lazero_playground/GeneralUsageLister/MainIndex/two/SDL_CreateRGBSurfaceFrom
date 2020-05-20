@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CreateRGBSurfaceFrom --help &> ../two-log/SDL_CreateRGBSurfaceFrom.log

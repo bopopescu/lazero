@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_InitSubSystem &> ../zero-log/SDL_InitSubSystem.log

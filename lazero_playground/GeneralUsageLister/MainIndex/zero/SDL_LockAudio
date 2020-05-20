@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_LockAudio &> ../zero-log/SDL_LockAudio.log

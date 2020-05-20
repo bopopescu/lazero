@@ -1,0 +1,2 @@
+#!/bin/bash
+Wget -h &> ../one-log/Wget.log

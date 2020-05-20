@@ -1,0 +1,2 @@
+#!/bin/bash
+fd --help &> ../two-log/fd.log

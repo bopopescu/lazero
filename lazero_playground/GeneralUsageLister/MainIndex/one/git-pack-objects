@@ -1,0 +1,2 @@
+#!/bin/bash
+git-pack-objects -h &> ../one-log/git-pack-objects.log

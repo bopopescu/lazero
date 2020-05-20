@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_msg_move &> ../zero-log/zmq_msg_move.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-cov --help &> ../two-log/llvm-cov.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+chgrp -h &> ../one-log/chgrp.log

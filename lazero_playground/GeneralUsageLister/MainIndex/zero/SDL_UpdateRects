@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_UpdateRects &> ../zero-log/SDL_UpdateRects.log

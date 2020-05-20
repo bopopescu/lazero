@@ -1,0 +1,2 @@
+#!/bin/bash
+git-count-objects --help &> ../two-log/git-count-objects.log

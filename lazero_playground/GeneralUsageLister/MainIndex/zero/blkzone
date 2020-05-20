@@ -1,0 +1,2 @@
+#!/bin/bash
+blkzone &> ../zero-log/blkzone.log

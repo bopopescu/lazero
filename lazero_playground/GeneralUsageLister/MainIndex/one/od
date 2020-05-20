@@ -1,0 +1,2 @@
+#!/bin/bash
+od -h &> ../one-log/od.log

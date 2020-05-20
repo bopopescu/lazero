@@ -1,0 +1,2 @@
+#!/bin/bash
+truncate --help &> ../two-log/truncate.log

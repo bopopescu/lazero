@@ -1,0 +1,2 @@
+#!/bin/bash
+namei -h &> ../one-log/namei.log

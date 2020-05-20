@@ -1,0 +1,2 @@
+#!/bin/bash
+mtree -h &> ../one-log/mtree.log

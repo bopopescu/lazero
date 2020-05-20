@@ -1,0 +1,2 @@
+#!/bin/bash
+xzfgrep --help &> ../two-log/xzfgrep.log

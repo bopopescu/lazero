@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_proxy_steerable --help &> ../two-log/zmq_proxy_steerable.log

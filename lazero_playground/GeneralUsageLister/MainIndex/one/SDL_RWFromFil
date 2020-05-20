@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_RWFromFil -h &> ../one-log/SDL_RWFromFil.log

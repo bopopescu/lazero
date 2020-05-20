@@ -1,0 +1,2 @@
+#!/bin/bash
+apropo &> ../zero-log/apropo.log

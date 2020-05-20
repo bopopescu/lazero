@@ -1,0 +1,2 @@
+#!/bin/bash
+zshtcpsys &> ../zero-log/zshtcpsys.log

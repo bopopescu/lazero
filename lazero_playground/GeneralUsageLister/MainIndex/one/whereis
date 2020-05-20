@@ -1,0 +1,2 @@
+#!/bin/bash
+whereis -h &> ../one-log/whereis.log

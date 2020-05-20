@@ -1,0 +1,2 @@
+#!/bin/bash
+cat --help &> ../two-log/cat.log

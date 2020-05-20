@@ -1,0 +1,2 @@
+#!/bin/bash
+netcat -h &> ../one-log/netcat.log

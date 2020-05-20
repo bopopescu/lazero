@@ -1,0 +1,2 @@
+#!/bin/bash
+b2sum &> ../zero-log/b2sum.log

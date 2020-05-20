@@ -1,0 +1,2 @@
+#!/bin/bash
+sfd --help &> ../two-log/sfd.log

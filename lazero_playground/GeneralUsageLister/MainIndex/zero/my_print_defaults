@@ -1,0 +1,2 @@
+#!/bin/bash
+my_print_defaults &> ../zero-log/my_print_defaults.log

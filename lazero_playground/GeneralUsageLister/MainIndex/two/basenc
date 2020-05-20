@@ -1,0 +1,2 @@
+#!/bin/bash
+basenc --help &> ../two-log/basenc.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+objcopy &> ../zero-log/objcopy.log

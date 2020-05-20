@@ -1,0 +1,2 @@
+#!/bin/bash
+Compos &> ../zero-log/Compos.log

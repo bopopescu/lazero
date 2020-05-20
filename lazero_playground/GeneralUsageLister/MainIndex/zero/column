@@ -1,0 +1,2 @@
+#!/bin/bash
+column &> ../zero-log/column.log

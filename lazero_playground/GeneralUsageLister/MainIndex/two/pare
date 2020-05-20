@@ -1,0 +1,2 @@
+#!/bin/bash
+pare --help &> ../two-log/pare.log

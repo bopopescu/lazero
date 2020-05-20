@@ -1,0 +1,2 @@
+#!/bin/bash
+ul -h &> ../one-log/ul.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+getconf &> ../zero-log/getconf.log

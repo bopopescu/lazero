@@ -1,0 +1,2 @@
+#!/bin/bash
+zshall --help &> ../two-log/zshall.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+smyrna -h &> ../one-log/smyrna.log

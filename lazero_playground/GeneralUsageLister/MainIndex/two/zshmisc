@@ -1,0 +1,2 @@
+#!/bin/bash
+zshmisc --help &> ../two-log/zshmisc.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+gitk &> ../zero-log/gitk.log

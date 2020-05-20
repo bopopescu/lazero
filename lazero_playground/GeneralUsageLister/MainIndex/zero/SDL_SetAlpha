@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SetAlpha &> ../zero-log/SDL_SetAlpha.log

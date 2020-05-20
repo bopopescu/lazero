@@ -1,0 +1,2 @@
+#!/bin/bash
+mysqlimport -h &> ../one-log/mysqlimport.log

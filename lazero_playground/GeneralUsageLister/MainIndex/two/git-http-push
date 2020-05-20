@@ -1,0 +1,2 @@
+#!/bin/bash
+git-http-push --help &> ../two-log/git-http-push.log

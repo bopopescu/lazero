@@ -1,0 +1,2 @@
+#!/bin/bash
+colrm &> ../zero-log/colrm.log

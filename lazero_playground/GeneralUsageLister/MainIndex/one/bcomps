@@ -1,0 +1,2 @@
+#!/bin/bash
+bcomps -h &> ../one-log/bcomps.log

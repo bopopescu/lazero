@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_client_tes --help &> ../two-log/mysql_client_tes.log

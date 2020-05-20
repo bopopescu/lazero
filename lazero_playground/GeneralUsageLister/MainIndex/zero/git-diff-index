@@ -1,0 +1,2 @@
+#!/bin/bash
+git-diff-index &> ../zero-log/git-diff-index.log

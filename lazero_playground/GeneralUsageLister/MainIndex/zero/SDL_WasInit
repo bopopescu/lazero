@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_WasInit &> ../zero-log/SDL_WasInit.log

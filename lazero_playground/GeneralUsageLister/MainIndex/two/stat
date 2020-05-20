@@ -1,0 +1,2 @@
+#!/bin/bash
+stat --help &> ../two-log/stat.log

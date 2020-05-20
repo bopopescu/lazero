@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-dwarfdump &> ../zero-log/llvm-dwarfdump.log

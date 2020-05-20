@@ -1,0 +1,2 @@
+#!/bin/bash
+git-verify-tag -h &> ../one-log/git-verify-tag.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+opt --help &> ../two-log/opt.log

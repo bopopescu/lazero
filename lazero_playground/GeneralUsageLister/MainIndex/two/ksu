@@ -1,0 +1,2 @@
+#!/bin/bash
+ksu --help &> ../two-log/ksu.log

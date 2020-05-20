@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_UnlockSurface -h &> ../one-log/SDL_UnlockSurface.log

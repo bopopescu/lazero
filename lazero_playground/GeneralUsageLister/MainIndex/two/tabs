@@ -1,0 +1,2 @@
+#!/bin/bash
+tabs --help &> ../two-log/tabs.log

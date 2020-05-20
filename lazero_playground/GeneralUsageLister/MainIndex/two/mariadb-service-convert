@@ -1,0 +1,2 @@
+#!/bin/bash
+mariadb-service-convert --help &> ../two-log/mariadb-service-convert.log

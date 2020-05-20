@@ -1,0 +1,2 @@
+#!/bin/bash
+fish_indent -h &> ../one-log/fish_indent.log

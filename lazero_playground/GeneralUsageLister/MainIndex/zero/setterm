@@ -1,0 +1,2 @@
+#!/bin/bash
+setterm &> ../zero-log/setterm.log

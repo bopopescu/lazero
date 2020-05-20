@@ -1,0 +1,2 @@
+#!/bin/bash
+krb5kdc -h &> ../one-log/krb5kdc.log

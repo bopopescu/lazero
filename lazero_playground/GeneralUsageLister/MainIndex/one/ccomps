@@ -1,0 +1,2 @@
+#!/bin/bash
+ccomps -h &> ../one-log/ccomps.log

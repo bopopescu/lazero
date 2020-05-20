@@ -1,0 +1,2 @@
+#!/bin/bash
+logsave -h &> ../one-log/logsave.log

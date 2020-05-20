@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_bind &> ../zero-log/zmq_bind.log

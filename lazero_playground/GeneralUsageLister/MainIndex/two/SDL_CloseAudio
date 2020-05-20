@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CloseAudio --help &> ../two-log/SDL_CloseAudio.log

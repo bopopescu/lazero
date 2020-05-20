@@ -1,0 +1,2 @@
+#!/bin/bash
+lsipc -h &> ../one-log/lsipc.log

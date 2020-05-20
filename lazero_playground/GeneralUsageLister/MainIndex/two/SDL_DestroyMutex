@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_DestroyMutex --help &> ../two-log/SDL_DestroyMutex.log

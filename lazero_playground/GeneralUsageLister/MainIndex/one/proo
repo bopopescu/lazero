@@ -1,0 +1,2 @@
+#!/bin/bash
+proo -h &> ../one-log/proo.log

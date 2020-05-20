@@ -1,0 +1,2 @@
+#!/bin/bash
+readlink &> ../zero-log/readlink.log

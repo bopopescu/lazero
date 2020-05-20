@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_AddTimer &> ../zero-log/SDL_AddTimer.log

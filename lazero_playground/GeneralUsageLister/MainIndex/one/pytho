@@ -1,0 +1,2 @@
+#!/bin/bash
+pytho -h &> ../one-log/pytho.log

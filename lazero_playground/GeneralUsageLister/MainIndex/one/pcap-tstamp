@@ -1,0 +1,2 @@
+#!/bin/bash
+pcap-tstamp -h &> ../one-log/pcap-tstamp.log

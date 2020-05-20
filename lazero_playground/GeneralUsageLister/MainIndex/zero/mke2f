@@ -1,0 +1,2 @@
+#!/bin/bash
+mke2f &> ../zero-log/mke2f.log

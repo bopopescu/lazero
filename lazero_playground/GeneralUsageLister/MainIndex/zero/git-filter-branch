@@ -1,0 +1,2 @@
+#!/bin/bash
+git-filter-branch &> ../zero-log/git-filter-branch.log

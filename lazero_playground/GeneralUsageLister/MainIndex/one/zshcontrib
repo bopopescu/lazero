@@ -1,0 +1,2 @@
+#!/bin/bash
+zshcontrib -h &> ../one-log/zshcontrib.log

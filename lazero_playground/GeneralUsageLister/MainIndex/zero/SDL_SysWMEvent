@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_SysWMEvent &> ../zero-log/SDL_SysWMEvent.log

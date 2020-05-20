@@ -1,0 +1,2 @@
+#!/bin/bash
+infocmp --help &> ../two-log/infocmp.log

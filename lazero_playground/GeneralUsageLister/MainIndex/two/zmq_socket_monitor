@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_socket_monitor --help &> ../two-log/zmq_socket_monitor.log

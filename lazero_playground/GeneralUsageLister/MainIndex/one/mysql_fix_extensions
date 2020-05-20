@@ -1,0 +1,2 @@
+#!/bin/bash
+mysql_fix_extensions -h &> ../one-log/mysql_fix_extensions.log

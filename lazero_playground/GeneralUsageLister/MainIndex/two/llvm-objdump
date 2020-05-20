@@ -1,0 +1,2 @@
+#!/bin/bash
+llvm-objdump --help &> ../two-log/llvm-objdump.log

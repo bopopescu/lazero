@@ -1,0 +1,2 @@
+#!/bin/bash
+mesg --help &> ../two-log/mesg.log

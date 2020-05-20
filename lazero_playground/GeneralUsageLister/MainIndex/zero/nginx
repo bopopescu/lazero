@@ -1,0 +1,2 @@
+#!/bin/bash
+nginx &> ../zero-log/nginx.log

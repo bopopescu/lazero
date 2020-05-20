@@ -1,0 +1,2 @@
+#!/bin/bash
+nanorc &> ../zero-log/nanorc.log

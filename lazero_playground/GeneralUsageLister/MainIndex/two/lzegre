@@ -1,0 +1,2 @@
+#!/bin/bash
+lzegre --help &> ../two-log/lzegre.log

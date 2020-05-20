@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_QuitSubSystem &> ../zero-log/SDL_QuitSubSystem.log

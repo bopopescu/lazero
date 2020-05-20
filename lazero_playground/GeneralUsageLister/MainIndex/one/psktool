@@ -1,0 +1,2 @@
+#!/bin/bash
+psktool -h &> ../one-log/psktool.log

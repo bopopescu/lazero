@@ -1,0 +1,2 @@
+#!/bin/bash
+aria_read_log --help &> ../two-log/aria_read_log.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+wsrep_sst_mysqldump &> ../zero-log/wsrep_sst_mysqldump.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+fincore -h &> ../one-log/fincore.log

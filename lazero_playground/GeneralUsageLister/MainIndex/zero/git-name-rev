@@ -1,0 +1,2 @@
+#!/bin/bash
+git-name-rev &> ../zero-log/git-name-rev.log

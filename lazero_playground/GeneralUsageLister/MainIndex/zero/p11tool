@@ -1,0 +1,2 @@
+#!/bin/bash
+p11tool &> ../zero-log/p11tool.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+partx --help &> ../two-log/partx.log

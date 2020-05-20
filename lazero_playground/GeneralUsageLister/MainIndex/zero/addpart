@@ -1,0 +1,2 @@
+#!/bin/bash
+addpart &> ../zero-log/addpart.log

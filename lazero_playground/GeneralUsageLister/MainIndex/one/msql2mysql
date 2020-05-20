@@ -1,0 +1,2 @@
+#!/bin/bash
+msql2mysql -h &> ../one-log/msql2mysql.log

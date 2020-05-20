@@ -1,0 +1,2 @@
+#!/bin/bash
+zshoptions &> ../zero-log/zshoptions.log

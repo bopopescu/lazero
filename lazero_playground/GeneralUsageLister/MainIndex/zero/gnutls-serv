@@ -1,0 +1,2 @@
+#!/bin/bash
+gnutls-serv &> ../zero-log/gnutls-serv.log

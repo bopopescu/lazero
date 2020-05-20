@@ -1,0 +1,2 @@
+#!/bin/bash
+whoami -h &> ../one-log/whoami.log

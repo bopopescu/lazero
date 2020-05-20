@@ -1,0 +1,2 @@
+#!/bin/bash
+whirlpool-hash --help &> ../two-log/whirlpool-hash.log

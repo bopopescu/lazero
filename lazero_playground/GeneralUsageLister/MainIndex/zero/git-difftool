@@ -1,0 +1,2 @@
+#!/bin/bash
+git-difftool &> ../zero-log/git-difftool.log

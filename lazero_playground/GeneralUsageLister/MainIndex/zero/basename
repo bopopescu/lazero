@@ -1,0 +1,2 @@
+#!/bin/bash
+basename &> ../zero-log/basename.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+cksum &> ../zero-log/cksum.log

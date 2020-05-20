@@ -1,0 +1,2 @@
+#!/bin/bash
+basenc &> ../zero-log/basenc.log

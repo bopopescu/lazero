@@ -1,0 +1,2 @@
+#!/bin/bash
+cargo-metadata &> ../zero-log/cargo-metadata.log

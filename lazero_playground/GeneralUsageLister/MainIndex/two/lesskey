@@ -1,0 +1,2 @@
+#!/bin/bash
+lesskey --help &> ../two-log/lesskey.log

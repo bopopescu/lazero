@@ -1,0 +1,2 @@
+#!/bin/bash
+git-archive -h &> ../one-log/git-archive.log

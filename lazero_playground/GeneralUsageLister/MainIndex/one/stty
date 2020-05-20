@@ -1,0 +1,2 @@
+#!/bin/bash
+stty -h &> ../one-log/stty.log

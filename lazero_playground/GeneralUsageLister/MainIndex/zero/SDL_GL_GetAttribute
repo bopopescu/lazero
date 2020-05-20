@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_GL_GetAttribute &> ../zero-log/SDL_GL_GetAttribute.log

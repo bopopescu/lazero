@@ -1,0 +1,2 @@
+#!/bin/bash
+git-filter-branch --help &> ../two-log/git-filter-branch.log

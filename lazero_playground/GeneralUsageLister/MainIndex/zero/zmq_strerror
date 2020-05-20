@@ -1,0 +1,2 @@
+#!/bin/bash
+zmq_strerror &> ../zero-log/zmq_strerror.log

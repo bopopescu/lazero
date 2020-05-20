@@ -1,0 +1,2 @@
+#!/bin/bash
+md5sum &> ../zero-log/md5sum.log

@@ -1,0 +1,2 @@
+#!/bin/bash
+SDL_CondBroadcast --help &> ../two-log/SDL_CondBroadcast.log

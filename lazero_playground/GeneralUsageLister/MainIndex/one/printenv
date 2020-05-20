@@ -1,0 +1,2 @@
+#!/bin/bash
+printenv -h &> ../one-log/printenv.log
