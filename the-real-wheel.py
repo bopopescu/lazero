@@ -1,7 +1,7 @@
 import requests
-
+from dbM import up
 import urllib.parse
-
+import time
 from requests.exceptions import RequestException
 
 from urllib.parse import urljoin
@@ -105,10 +105,15 @@ def main():
 
     results = parse_page(url, page)
     # 写入文件
-    file = open("data.json", 'w+', encoding='utf-8')
+    # file = open("data.json", 'w+', encoding='utf-8')
+    file = 0
+    t = int(time.time())
     for result in results:
+        up(t, file, keyword, result)
+        file += 1
+        # waht if we want to use the result?
         print(result)
-        file.write(json.dumps(result, indent=2, ensure_ascii=False))
+    #     file.write(json.dumps(result, indent=2, ensure_ascii=False))
 
 
 if __name__ == '__main__':
