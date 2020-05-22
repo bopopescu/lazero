@@ -1,14 +1,27 @@
 # coding: utf-8 -*-
-from py2neo import Graph, Node
+from py2neo import Graph, Node, Relationship
 # import re
+# better have some time.
 # Node,Relationship,NodeMatcher
 graph = Graph("http://localhost:7474", username="neo4j", password="kali")
 
-#graph.run("create index on :key(name)")
+# graph.run("create index on :key(name)")
+# always worried about some weird things.
+# is that all? we can collect more things and be more.
 
 
 def createIndex():
     graph.run("create index on :shell_commands(name)")
+
+
+def createIndexII():
+    graph.run("create index on :shell_output(name)")
+# must specify the directions
+# can we actually execute these things?
+# anyway, it is just a test command.
+# meta-operations are also considered to be programs.
+# all you need is some kind of abstraction?
+# it is always about copy and paste.
 
 #graph.run("USING PERIODIC COMMIT LOAD CSV FROM 'file:///root/lazer-ubuntu/metalearning/net/keyboardMap/fuck.csv' AS line WITH line MERGE (a:key{name:line[0]}) WITH a,line MATCH (b:key{name:line[1]}) WITH a,b MERGE (a)-[:nextTo]-(b);")
 
@@ -34,6 +47,52 @@ def merge_node(a):
 # graph.create(test_node_2)
 
 
+def createLinks(t, row, a, k, b, y):
+    # destination_airport = row['destination']
+    source_airport_node = Node(
+        label="shell_commands", name=a, sequence=k, timestamp=t)
+    destination_airport_node = Node(label="shell_output", name=b, sequence=y)
+    # does not have timestamp here.
+    # source_airport_node = airport_nodes[source_airport]
+    # will we have different timestamp?
+    # strange.
+    # destination_airport_node = airport_nodes[destination_airport]
+    # node_properties = {'distance':row['distance']}
+    node_properties1 = {'duration': row, 'timestamp': t}
+    # relative duration.
+    graph.merge(source_airport_node)
+    graph.merge(destination_airport_node)
+    # graph.create(Relationship(source_airport_node, destination_airport_node,**node_properties1))
+    graph.merge(Relationship(source_airport_node, "gets",
+                             destination_airport_node, **node_properties1))
+
+# you can do some sub-command.
+# really?
+
+
+def createLinksII(t, row, a, k, b):
+    # destination_airport = row['destination']
+    source_airport_node = Node(
+        label="shell_commands", name=a, sequence=k, timestamp=t)
+    # destination_airport_node = Node(label="shell_output", name=b, sequence=y)
+    destination_airport_node = Node(
+        label="shell_commands", name=b, sequence=k+1, timestamp=t)
+    # source_airport_node = airport_nodes[source_airport]
+    # will we have different timestamp?
+    # strange.
+    # destination_airport_node = airport_nodes[destination_airport]
+    # node_properties = {'distance':row['distance']}
+    node_properties1 = {'duration': row, 'timestamp': t}
+    # relative duration.
+    # what is on the relationship?
+    graph.merge(source_airport_node)
+    graph.merge(destination_airport_node)
+    # graph.create(Relationship(source_airport_node, destination_airport_node,**node_properties1))
+    graph.merge(Relationship(source_airport_node, "then",
+                             destination_airport_node, **node_properties1))
+
+
+    # we need it anyway.
 """分别建立了test_node_1指向test_node_2和test_node_2指向test_node_1两条关系，
 关系的类型为"CALL"，两条关系都有属性count，且值为1。"""
 #node_1_call_node_2 = Relationship(test_node_1,'CALL',test_node_2)
