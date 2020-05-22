@@ -39,6 +39,7 @@ def get_page(url):
         }
         response = requests.get(url=url, headers=headers)
         # 更改编码方式，否则会出现乱码的情况
+        # but it is no faster than this.
         response.encoding = "utf-8"
         print(response.status_code)
         # print(response.text)

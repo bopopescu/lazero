@@ -4,7 +4,9 @@ from multiprocessing import Pool, freeze_support
 from endmark import windowEndMarkEx as wex
 import random
 from sub2 import timeout
-
+# not working on android, but that's fair.
+# we can remote connect android via ssh!
+# sweet dinner!
 # TODO: switch between different mirrors so no one will block us.
 # TODO: make it sound.
 # TODO: tolerate missing packages.

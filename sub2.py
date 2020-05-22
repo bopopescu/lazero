@@ -1,6 +1,6 @@
 from threading import Thread
 import functools
-# notice, you might need to write a browser?
+
 
 def timeout(timeout):
     def deco(func):

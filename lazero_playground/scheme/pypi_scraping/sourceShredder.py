@@ -2,6 +2,8 @@ from storeADill import storeXList
 from getFromPickleR import returnWTF
 import re
 def openfinder(a):
+    # writing a shell is direct approach.
+    # but who cares?
     # with open(a,"r") as f:
     return re.findall(r'[a-zA-Z0-9\-\_]+',a)
 
