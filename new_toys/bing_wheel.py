@@ -1,15 +1,20 @@
 import time
 from pythonbasics import getSearched as getLinked
 from dbM import up
+
+
 def ml(x):
     return [z for y in x for z in y]
 
+
 def main():
     keyword = input("输入关键字:")
-    page = input("输入查找页数:")
+    # only supports one page.
+    # page = input("输入查找页数:")
     # url = get_url(keyword)
-    p=int(page)
-    results=ml([getLinked(keyword,d) for d in range(p)])
+    # p=int(page)
+    # results=ml([getLinked(keyword) for d in range(p)])
+    results = getLinked(keyword)
     # results = parse_page(url, page)
     # # 写入文件
     # file = open("data.json", 'w+', encoding='utf-8')
@@ -22,6 +27,7 @@ def main():
         # waht if we want to use the result?
         print(result)
     #     file.write(json.dumps(result, indent=2, ensure_ascii=False))
+
 
 if __name__ == '__main__':
     main()
