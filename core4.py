@@ -49,9 +49,10 @@ def merge_node(a):
 
 def createLinks(t, row, a, k, b, y):
     # destination_airport = row['destination']
+    # args, kwargs.
     source_airport_node = Node(
-        label="shell_commands", name=a, sequence=k, timestamp=t)
-    destination_airport_node = Node(label="shell_output", name=b, sequence=y)
+        "shell_commands", name=a, sequence=k, timestamp=t)
+    destination_airport_node = Node("shell_output", name=b, sequence=y)
     # does not have timestamp here.
     # source_airport_node = airport_nodes[source_airport]
     # will we have different timestamp?
@@ -73,10 +74,10 @@ def createLinks(t, row, a, k, b, y):
 def createLinksII(t, row, a, k, b):
     # destination_airport = row['destination']
     source_airport_node = Node(
-        label="shell_commands", name=a, sequence=k, timestamp=t)
+        "shell_commands", name=a, sequence=k, timestamp=t)
     # destination_airport_node = Node(label="shell_output", name=b, sequence=y)
     destination_airport_node = Node(
-        label="shell_commands", name=b, sequence=k+1, timestamp=t)
+        "shell_commands", name=b, sequence=k+1, timestamp=t)
     # source_airport_node = airport_nodes[source_airport]
     # will we have different timestamp?
     # strange.
