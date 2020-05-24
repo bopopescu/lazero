@@ -8,3 +8,11 @@ direct access to memory? c language?
 these are identical outputs. beware.
 
 one could train the bot to find some files inside the xml tree, finding structures inside by comparing the formatted document and the html thing.
+
+what is your plan? download via commandline or a download manager?
+anyway, download manager might just screw things together. wget is a good choice. run download inside the script.
+how about database? again, this is no joke.
+do you really want multithreading? it will screw you up.
+
+does these .arpa stuff really help? i don't know shit, but consider some tools to deal it.
+just use some pool workers, and do not do it with force.
