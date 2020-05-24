@@ -98,10 +98,10 @@ def parse_page(url, page):
             yield data
 
 
-def main():
-    keyword = input("输入关键字:")
-#    page = input("输入查找页数:")
-    page = 2
+def main(keyword, page):
+    # keyword = input("输入关键字:")
+    #    page = input("输入查找页数:")
+    # page = 2
     url = get_url(keyword)
 
     results = parse_page(url, page)
@@ -117,5 +117,5 @@ def main():
     #     file.write(json.dumps(result, indent=2, ensure_ascii=False))
 
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
