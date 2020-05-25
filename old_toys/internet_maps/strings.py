@@ -7,6 +7,7 @@ from basepak import getPic
 from multiprocessing import Process, freeze_support
 import time
 GFC = 100
+THROTTLE = 10
 # def parallel(v, z):
 #     with Pool(processes=len(z)) as pool:
 #         return pool.map(v, z)
@@ -18,6 +19,7 @@ GFC = 100
 
 def check(a):
     return sum([int(x.is_alive()) for x in a]+[0])
+
 
 def clean(a):
     return [x for x in a if x.is_alive()]
@@ -83,13 +85,12 @@ def checker(a, c):
     print("DONE", b, a)
     return
 
-
     # dead code?
 # i do not know. maybe it is for http only.
 if __name__ == "__main__":
     r = regcheck("projects")
     # # print(r)
-    a=[]
+    a = []
     # a = "proc_shuffle.log"
     # check_w(a, 0)
     # r = list(map(lambda x: x[0], r))
@@ -98,18 +99,22 @@ if __name__ == "__main__":
     # maybe the .gz file really helps.
     print("REMAINING WORK", len(r))
     for x in r:
-        a=clean(a)
-        b=check(a)
+        a = clean(a)
+        b = check(a)
         # b = check_r(a)
         if b < GFC:
-            print("dispached", b)
-            # cannot pass this around?
-            # strange.
-            p = Process(target=checker, args=(x, b))
-            p.start()
-            a.append(p)
-            # b += 1
-            # check_w(a, b)
+            i = []
+            for x in range(THROTTLE):
+                c = x+b
+                i.append(c)
+                # cannot pass this around?
+                # strange.
+                p = Process(target=checker, args=(x, c))
+                p.start()
+                a.append(p)
+        # b += 1
+            print("dispached", *i)
+        # check_w(a, b)
         else:
             print("waiting", b)
             time.sleep(1)
