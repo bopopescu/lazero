@@ -4,6 +4,7 @@ import sys
 cmdline=sys.argv[1].replace("-","_")
 temp = """#import font_unicode
 import {{ MODULE }}
+import time as time_notsame_absolute
 from simpleStorageR import storeListV
 
 
@@ -61,11 +62,14 @@ def checkSingle(base_package, sub_package=None, sub_package_name=None):
     return evaluation
 
 def recurCheck(main_module, max_depth, buff=[]):
+    print("at level", max_depth)
+    t=time_notsame_absolute.time()
     assert max_depth >= 0 and type(max_depth) == int
     if buff == []:
         c = checkSingle(main_module)
         # maybe it is because of the name.
         buff.append(c)
+        print("time spent",time_notsame_absolute.time()-t)
         return recurCheck(main_module, max_depth - 1, buff)
     elif max_depth > 0 and buff[-1] != {}:
         d = {}
@@ -76,6 +80,7 @@ def recurCheck(main_module, max_depth, buff=[]):
             # merged result.
             d.update(checkSingle(main_module, c[e], e))
         buff.append(d)
+        print("time spent",time_notsame_absolute.time()-t)
         return recurCheck(main_module, max_depth - 1, buff)
     else:
         return buff
@@ -84,6 +89,7 @@ if __name__ == "__main__":
 # print(c)
     d = recurCheck({{ MODULE }}, {{ MAX_DEPTH }})
 #print(d)
+# suggest using other things?
 # do not print info for it.
     d=list(map(lambda x: {y:str(type(x[y])) for y in x.keys()}, d))
     # do not visualize the shit.

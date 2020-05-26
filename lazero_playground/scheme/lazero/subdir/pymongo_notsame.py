@@ -1,5 +1,5 @@
 #import font_unicode
-import torch
+import pymongo
 import time as time_notsame_absolute
 from simpleStorageR import storeListV
 
@@ -118,7 +118,7 @@ def recurCheck(main_module, max_depth, buff=[]):
 
 if __name__ == "__main__":
 # print(c)
-    d = recurCheck(torch, 5)
+    d = recurCheck(pymongo, 5)
 #print(d)
 # suggest using other things?
 # do not print info for it.
@@ -128,7 +128,7 @@ if __name__ == "__main__":
     # print(d)
     # what the heck?
     # just check it.
-    storeListV(d,"torch")
+    storeListV(d,"pymongo")
 #    for x in d.keys():
 #    print(str(d))
 #        print(x)

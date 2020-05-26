@@ -3,5 +3,16 @@ Warning: Never conflict with python namespace.
 If having same name as a site-package, python will prefer the local package and therefore all our efforts will be in vain!
 
 Examples:
-	python3 metaCheckIII.py  sklearn > subdir/sklearn_notsame.py
-	python3 metaCheckIII.py  torch > subdir/torch_notsame.py
+	python3 metaCheckVI.py  sklearn > subdir/sklearn_notsame.py
+	python3 metaCheckVI.py  torch > subdir/torch_notsame.py
+
+Suggestions:
+	IDE Framework
+	IDE for machine users
+	Javadoc or Pythondoc
+	Documentation parser
+	Package analyzer
+	Static code analyzer
+	OR... some custom hack
+
+I have no idea why my scanner tends to be huger than the Everything database. Maybe some hidden directory-like logic inside the source code?

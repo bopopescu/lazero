@@ -1,15 +1,21 @@
-#import font_unicode
-import torch
+from jinja2 import Template
+# result_buffer = []
+import sys
+cmdline = sys.argv[1].replace("-", "_")
+# and/or?
+# it could be horrible, or not so.
+temp = """#import font_unicode
+import {{ MODULE }}
 import time as time_notsame_absolute
 from simpleStorageR import storeListV
 
 
-strictness=2
+strictness={{ STRICTNESS }}
 stiffness="".join(["_" for x in range(strictness)])
 
 def binary_scan(a):
     if len(a)>strictness*2:
-        if a[:strictness]==stiffness and a[-strictness:]==stiffness:
+        if a[:strictness]==stiffness {{ LOGIC }} a[-strictness:]==stiffness:
             return True
     return False
 
@@ -19,19 +25,19 @@ def chainScan(a):
 def filter_scan(a):
     f=chainScan(a)
     f0=list(map(int,f))
-    gf=4
+    gf={{ R_TOLERANCE }}
     if len(f0)>gf:
         fg=sum(f0[gf:])
         if fg:
             return False
     f0=sum(f0)
-    if f0>=2:
+    if f0>={{ G_TOLERANCE }}:
         return False
     y=0
     for x in f:
         if x:
             y+=1
-            if y>=2:
+            if y>={{ L_TOLERANCE }}:
                 return False
                 # break
                 # i didn't wrote this.
@@ -118,7 +124,7 @@ def recurCheck(main_module, max_depth, buff=[]):
 
 if __name__ == "__main__":
 # print(c)
-    d = recurCheck(torch, 5)
+    d = recurCheck({{ MODULE }}, {{ MAX_DEPTH }})
 #print(d)
 # suggest using other things?
 # do not print info for it.
@@ -128,7 +134,7 @@ if __name__ == "__main__":
     # print(d)
     # what the heck?
     # just check it.
-    storeListV(d,"torch")
+    storeListV(d,"{{ MODULE }}")
 #    for x in d.keys():
 #    print(str(d))
 #        print(x)
@@ -147,3 +153,16 @@ if __name__ == "__main__":
 #     d=combine(a,b)
 #     d0=list(map(lambda x: (x,typecheck(x)),d))
 #     return d0
+"""
+template = Template(temp)  # strange.
+# if going too deep this shit will never quit.
+# there is the assertation.
+result = template.render(MODULE=cmdline, MAX_DEPTH=5,
+                         STRICTNESS=2, LOGIC="and", L_TOLERANCE=2, G_TOLERANCE=2, R_TOLERANCE=4)
+# also consider max tolerance of underlined things?
+# not running same shit again.
+print(result)
+# should we accept that idea?
+# this looks stupid.
+# time to eat up all memory?
+# computer is about to blow.

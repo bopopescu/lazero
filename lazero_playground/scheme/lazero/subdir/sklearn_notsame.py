@@ -1,11 +1,42 @@
 #import font_unicode
 import sklearn
+import time as time_notsame_absolute
 from simpleStorageR import storeListV
 
 
-def filter_out(a):
-    return list(filter(lambda x: len(x) == len(set(x)), a))
+strictness=2
+stiffness="".join(["_" for x in range(strictness)])
 
+def binary_scan(a):
+    if len(a)>strictness*2:
+        if a[:strictness]==stiffness and a[-strictness:]==stiffness:
+            return True
+    return False
+
+def chainScan(a):
+    return [binary_scan(x) for x in a]
+
+def filter_scan(a):
+    f=chainScan(a)
+    f0=list(map(int,f))
+    f0=sum(f0)
+    if f0>=3:
+        return False
+    y=0
+    for x in f:
+        if x:
+            y+=1
+            if y>=2:
+                return False
+                # break
+                # i didn't wrote this.
+        else:
+            y=0
+    return True
+
+
+def filter_out(a):
+    return list(filter(lambda x: filter_scan(x) and len(x) == len(set(x)), a))
 
 def b_global(y):
     return list(filter(lambda x: len(x) > 0, y.split(".")))
@@ -57,11 +88,14 @@ def checkSingle(base_package, sub_package=None, sub_package_name=None):
     return evaluation
 
 def recurCheck(main_module, max_depth, buff=[]):
+    print("at level", max_depth)
+    t=time_notsame_absolute.time()
     assert max_depth >= 0 and type(max_depth) == int
     if buff == []:
         c = checkSingle(main_module)
         # maybe it is because of the name.
         buff.append(c)
+        print("time spent",time_notsame_absolute.time()-t)
         return recurCheck(main_module, max_depth - 1, buff)
     elif max_depth > 0 and buff[-1] != {}:
         d = {}
@@ -72,14 +106,16 @@ def recurCheck(main_module, max_depth, buff=[]):
             # merged result.
             d.update(checkSingle(main_module, c[e], e))
         buff.append(d)
+        print("time spent",time_notsame_absolute.time()-t)
         return recurCheck(main_module, max_depth - 1, buff)
     else:
         return buff
 
 if __name__ == "__main__":
 # print(c)
-    d = recurCheck(sklearn, 7)
+    d = recurCheck(sklearn, 5)
 #print(d)
+# suggest using other things?
 # do not print info for it.
     d=list(map(lambda x: {y:str(type(x[y])) for y in x.keys()}, d))
     # do not visualize the shit.
