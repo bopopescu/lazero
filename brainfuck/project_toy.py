@@ -1,6 +1,7 @@
 # import sklearn
 from sklearn import datasets
 from sklearn.datasets import clear_data_home
+# i cannot tell difference between package and modules.
 # is this how to import deepshit?
 # print(dir(datasets))
 # fake news!

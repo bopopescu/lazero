@@ -17,3 +17,17 @@ haskell vs. brainfuck! perfect fucking combination!
 apt install beef gir1.2-cattle-1.0 hsbrainfuck libcattle-1.0-0 libcattle-1.0-dev libcattle-1.0-doc libghc-brainfuck-dev libghc-brainfuck-doc libghc-brainfuck-prof
 
 the speed is limited. but i've made things offline.
+
+The command below just won't work. I do not know why.
+    firefox -P scraper -headless --screenshot  yankee.png "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+
+It turns out to be a pop-up over the place. Error message, but being ignored.
+So toggling switches is needed when SHIT happens.
+Set it to default profile and retry.
+
+it is all about headless mode and screenshot.
+and they are combined.
+fuck.
+
+maybe it is about the canvas? too damn big?
+so never do screenshot to unbounded objects.

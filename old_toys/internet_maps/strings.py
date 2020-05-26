@@ -8,7 +8,7 @@ from multiprocessing import Process, freeze_support
 import time
 from endmark import windowEndMarkEx as windowEndmarkEx
 GFC = 100
-THROTTLE=10
+THROTTLE = 10
 # def parallel(v, z):
 #     with Pool(processes=len(z)) as pool:
 #         return pool.map(v, z)
@@ -20,6 +20,7 @@ THROTTLE=10
 
 def check(a):
     return sum([int(x.is_alive()) for x in a]+[0])
+
 
 def clean(a):
     return [x for x in a if x.is_alive()]
@@ -91,8 +92,8 @@ def checker(a, c):
 if __name__ == "__main__":
     r = regcheck("projects")
     # # print(r)
-    zr=windowEndmarkEx(r,THROTTLE)
-    a=[]
+    zr = windowEndmarkEx(r, THROTTLE)
+    a = []
     # a = "proc_shuffle.log"
     # check_w(a, 0)
     # r = list(map(lambda x: x[0], r))
@@ -101,15 +102,16 @@ if __name__ == "__main__":
     # maybe the .gz file really helps.
     print("REMAINING WORK", len(r))
     for x in zr:
-        a=clean(a)
-        b=check(a)
+        a = clean(a)
+        b = check(a)
         # b = check_r(a)
         if b < GFC:
             for y in range(len(x)):
-                c=b+y # just a hint.
+                c = b+y  # just a hint.
                 print("dispached", c)
                 # cannot pass this around?
                 # strange.
+                # just do not make the fucking same mistake.
                 p = Process(target=checker, args=(x[y], c))
                 p.start()
                 a.append(p)
