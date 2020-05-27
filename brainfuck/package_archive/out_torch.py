@@ -8,6 +8,8 @@ import time
 # total time 113.9896514415741
 # ideep, hip, msnpu, mkldnn
 # opengl, opencl
+# language is a sparse matrix.
+# many things are sparse. just wait and see.
 device = torch.device("cpu")
 # total time 42.38628387451172
 # you know, it is not significantly faster.
