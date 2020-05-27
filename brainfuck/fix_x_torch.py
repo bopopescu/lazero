@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import time
 import random
+# https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 # it is not getting any better.
 # strange.
 # we will check cpu later.
