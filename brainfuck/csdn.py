@@ -1,4 +1,6 @@
 # no such package.
+# reversed learning: upside-down RL
+# this is how we become responsible: we'd like to take the hit.
 import torch
 from torch.autograd import Variable
 # does this work?
@@ -6,6 +8,7 @@ from sub2 import timeout
 import torch.nn.functional as F
 # ?????
 # import functools
+# fit-in, fit-out, run.
 import numpy as np
 # it nearly kills me.
 # what the heck is going on?
@@ -25,6 +28,7 @@ xo = timeout(2)(torch.randn)
 # xo=xo((48,48,47,48))
 # RuntimeError: Given groups=1, weight of size [18, 3, 3, 3], expected input[48, 48, 47, 48] to have 3 channels, but got 48 channels instead
 xo = xo((100, 3, 48, 48))
+# tensorflow will become another battlefield.
 # print(dir(xo))
 # print(xo)
 # strange shit.
@@ -52,6 +56,8 @@ a = torch.nn.Conv2d(3, 18, kernel_size=3, stride=4, padding=2)
 # it matters to the size.
 # what about the stride here?
 # print(dir(a))
+# the computer is really heated.
+# if you get some screws bounced off, you will be screwed.
 # print(checkFlow(a))
 # b=torch.nn.Conv2d(3,18,kernel_size=3,stride=1,padding=1)
 b = torch.nn.MaxPool2d(kernel_size=2, stride=(2, 1), padding=0)
@@ -86,6 +92,21 @@ y0=np.array(xd).prod()
 print(y0)
 # this is no exception.
 x = x.view(-1, y0)
+# print(x.shape)
+z0=torch.nn.Linear(y0,64)
+z0.__name__ = "arbitrary"
+# internal logic applies.
+x= timeout(2)(z0)(x)
+x= timeout(2)(F.relu)(x) # why different names?
+z1=torch.nn.Linear(64,10)
+z1.__name__= "arbitrary"
+x= timeout(2)(z1)(x)
+# print(x)
+print(x.shape)
+# that is one-hot vector.
+# it marks my machine.
+# put the training later on.
+# time to pause.
 # either you work to death or computer.
 # fuck.
 # the third and forth shit -> cut half.
