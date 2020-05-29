@@ -7,12 +7,13 @@ from basepak import getPic
 from multiprocessing import Process, freeze_support
 import time
 from endmark import windowEndMarkEx as windowEndmarkEx
-GFC = 45
+GFC = 100
 # does not matter. it is all the same.
 # limitation on max connection.
 THROTTLE = 10
 MAX_PATIENCE = 5
 RESETTING = 5
+MAX_TOLERANCE = 5
 # def parallel(v, z):
 #     with Pool(processes=len(z)) as pool:
 #         return pool.map(v, z)
@@ -23,25 +24,25 @@ RESETTING = 5
 
 
 def check(a):
-    return sum([int(x.is_alive()) for x in a]+[0])
+    return sum([int(x[0].is_alive()) for x in a]+[0])
 
 
 def clean(a):
-    return [x for x in a if x.is_alive()]
+    return [x for x in a if x[0].is_alive()]
 
-# def check_w(s, x):
-#     while True:
-#         try:
-#             # r = random.random()*0.1
-#             # time.sleep(r)
-#             with open(s, "w+") as f:
-#                 f.write(str(x))
-#             break  # also dead code.
-#         except:
-#             dum()
-#             continue
-#     return
-# just dead code.
+def check_w(s, x):
+    while True:
+        try:
+            # r = random.random()*0.1
+            # time.sleep(r)
+            with open(s, "w+") as f:
+                f.write(str(x))
+            break  # also dead code.
+        except:
+            dum()
+            continue
+    return
+#just dead code.
 
 
 def dum():
@@ -49,19 +50,21 @@ def dum():
     time.sleep(r)
 
 
-# def check_r(s):
-#     while True:
-#         try:
-#             with open(s, "r") as f:
-#                 return int(f.read())
-#             break  # also dead code.
-#         except:
-#             dum()
-#             continue
+def check_r(s):
+    # while True:
+    try:
+        with open(s, "r") as f:
+            return int(f.read())
+#        break  # also dead code.
+    except:
+        # dum()
+        # continue
+        return 0
+    # return 0
 #     return GFC  # dead code.
-    # not greater than 10.
+#     not greater than 10.
 # just pass it through.
-    # return
+#     return
 # use a database to do the task.
 # this sucks.
 # it is getting sparsed.
@@ -81,9 +84,10 @@ def scars(r0):
     return
 # no idea where it is heading to.
 
+
 def checker(a, c):
     d = scars(a)
-    inf("projects", [(d, *a)]) # it should be inserted.
+    inf("projects", [(d, *a)])  # it should be inserted.
     dum()
     # b = check_r(c)-1
     # check_w(c, b)
@@ -97,43 +101,60 @@ if __name__ == "__main__":
     # # print(r)
     zr = windowEndmarkEx(r, THROTTLE)
     a = []
-    # a = "proc_shuffle.log"
+    apr = "proc_shuffle.log"
     # check_w(a, 0)
     # r = list(map(lambda x: x[0], r))
     # r = windowEndMarkEx(r, 10)  # strange
     # do it on cellphone. pack it up.
     # maybe the .gz file really helps.
-    print("REMAINING WORK", len(r))
+    lf=len(r)
+    print("REMAINING WORK", lf)
+    print("PROGRESS",check_r(apr)-lf)
+    check_w(apr,lf)
+    time.sleep(2)
     pxx = 0
+    pdd = 0
+    pcc = 0
     pb = None
+    # does this work?
+    # print("sleepover")
     for x in zr:
         a = clean(a)
         b = check(a)
         # b = check_r(a)
         if b < GFC:
+            # pdd = 0
             for y in range(len(x)):
                 c = b+y  # just a hint.
                 print("dispached", c)
+                zx = x[y]
                 # cannot pass this around?
                 # strange.
                 # just do not make the fucking same mistake.
-                p = Process(target=checker, args=(x[y], c))
+                p = Process(target=checker, args=(zx, c))
                 p.start()
-                a.append(p)
+                a.append((p, zx))
+            pcc += 1
+            if pcc > int(GFC//THROTTLE)+5:
+                pcc = 0
+                pdd = 0
             # b += 1
             # check_w(a, b)
         else:  # do a purge logic.
+            pcc = 0
             if pb == b:
                 pxx += 1
             else:
                 pxx = 0
             pb = b
             if pxx >= MAX_PATIENCE:
+                pool = []
                 counter = 0
                 skip_counter = 0
                 for f0 in a:
                     try:
-                        f0.terminate()
+                        f0[0].terminate()
+                        pool.append(f0[1])
                         print("purge", counter)
                         # that process does not indicate shit.
                         counter += 1
@@ -142,15 +163,26 @@ if __name__ == "__main__":
                         skip_counter += 1
                         pass
                 print("kill", counter, "skip", skip_counter)
+                zr = zr+windowEndmarkEx(pool, THROTTLE)
+                # DOES THIS REALLY WORK?
+                # it is fucking horrible!
                 a = []
-                time.sleep(RESETTING)
-                print("RESETTING FOR", RESETTING, "SECS")
-                # reset the pxx.
-                pxx = 0
+                if pdd < MAX_TOLERANCE:
+                    print("RESETTING FOR", RESETTING, "SECS")
+                    print("TOLERANCE", MAX_TOLERANCE-pdd)
+                    time.sleep(RESETTING)
+                    # reset the pxx.
+                    pxx = 0
+                    pdd += 1
+                else:
+                    print("resetting your blocked IP!")
+                    break
             else:
+                # pcc = 0
                 print("waiting", b, "patience", MAX_PATIENCE-pxx)
                 time.sleep(1)
         # else:
+        # hope it will work?
         #     print("OVERLOAD!", b)
         #     print("RESETTING TO ZERO!")
         #     check_w(a, 0)

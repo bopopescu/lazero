@@ -5,6 +5,7 @@ import traceback
 import time
 import random
 
+
 def dum():
     r = random.random()*0.1
     time.sleep(r)
@@ -72,7 +73,6 @@ def regcheck(_table):
         f.append(row)
     conn.close()
     return f
-
 # batch commit? then there is no need for filesystem.
 
 
@@ -91,7 +91,8 @@ def inf(_table, _t):
         # finally!
     for x, y, z, a in _t:
         if x is not None:
-            patience = 3
+            # patience = 3
+            patience = 5
             while patience > 0:
                 try:
                     sql(x, y, z, a)
