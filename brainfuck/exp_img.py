@@ -15,3 +15,5 @@ def recv(number):
 px=[1,2,3,4,5,4,3,2,1]
 for x in px:
     print(recv(x))
+    # are you sure we can do deeplearning by generating numbers?
+    # yes! i am pretty sure. by generating numbers, computer can turn some abstract things into their puriest form.

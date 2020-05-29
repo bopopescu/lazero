@@ -17,6 +17,9 @@ var data = fs.readFileSync('bf.bf', 'utf8'); // it works.
 // var data = fs.readFileSync('./fix_x_torch.py', 'utf8');
 var a = Highlight(data, "brainfuck");// does this work?
 console.log('<html><head><link rel="stylesheet" type="text/css" href="androidstudio.css" ></head><body><pre><code>' + a + "</code></pre></body></html>");
+// when it is about ai training, no one ever mentions about the highlighter.
+// cause you do not even care about it. you do not read it line by line.
+// then there will be problems. deeply rooted inside.
 // it got shit for every shit.
 // what about other languages?
 // var highlight = new Highlight()
