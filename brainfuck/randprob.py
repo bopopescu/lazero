@@ -1,6 +1,8 @@
 # import random
 # what is this random for?
 # randomly select shits, and yinject them
+# how about not combining, but return some internal model?
+# it will be great, toward higher-order.
 def radrepl(a, b, f=0):
     assert f >= 0 and type(f) == int and f <= len(a)
     # s0=[x for x in a]
@@ -8,10 +10,25 @@ def radrepl(a, b, f=0):
     sf = []
     for r in range(len(s)-f+1):
         for z in b:
-            sx = r''.join([r0(s[:r]), r0(z), r0(s[r+f:])])
+            sx = r''.join((r0(s[:r]), r0(z), r0(s[r+f:])))
             sf.append(sx)
     return sf
+# all bullshits.
 
+def metarad(a, b, f=0):
+    assert f >= 0 and type(f) == int and f <= len(a)
+    # s0=[x for x in a]
+    def r0(x): return r'{}'.format(x)
+    sf = []
+    for r in range(len(s)-f+1):
+        for z in b:
+            sx = (r0(s[:r]), r0(z), r0(s[r+f:]))
+            sf.append(sx)
+    return sf
+# replace any of them?
+
+
+# usually chaotic result.
 # i do not want to learn any fucking c code.
 # i just want to fuck.
 # let the mean value be that value.
@@ -35,10 +52,11 @@ s = r"""print(f"\033[1m\033[92m=======")"""
 # also consider zero. for insertion.
 # that's how we do the job.
 # consider len(a) for replace.
-sx=[""]
+sx = [""]
 # want to replace? just do it.
 # works for all shit.
-r = radrepl(s, sx, 5)
+r = metarad(s, sx, 5)
+# r = radrepl(s, sx, 5)
 for x in r:
     print(x, type(x))
 # print(s1)
