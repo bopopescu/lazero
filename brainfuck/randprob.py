@@ -14,7 +14,8 @@ def radrepl(a, b, f=0):
             sf.append(sx)
     return sf
 # all bullshits.
-
+# it is only a platform.
+# out of tricks? better evolve.
 def metarad(a, b, f=0):
     assert f >= 0 and type(f) == int and f <= len(a)
     # s0=[x for x in a]
@@ -26,7 +27,8 @@ def metarad(a, b, f=0):
             sf.append(sx)
     return sf
 # replace any of them?
-
+# i really hate commandline, hate coding, and especially hate reading and writing.
+# formost, my fucking keyboard!
 
 # usually chaotic result.
 # i do not want to learn any fucking c code.
