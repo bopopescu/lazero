@@ -4,10 +4,12 @@ import numpy as np
 #     return np.maximum(0,a)
 # # wha the fuck?
 
-
+# tanh?
 def sigmoid(a):
-    return np.matrix((1-np.e**np.array(a)/(1+np.e**np.array(a))))
-    # this value is a symbol!
+    return np.matrix((1/(1+np.e**-(np.array(a))))-0.5)
+# def sigmoid(a):
+#     return np.matrix((1-np.e**np.array(a)/(1+np.e**np.array(a))))
+#     # this value is a symbol!
 
 
 def mean_squ(a):
