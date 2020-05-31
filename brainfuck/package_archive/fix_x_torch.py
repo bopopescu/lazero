@@ -25,10 +25,11 @@ n_in, n_h, n_out, batch_size = 10, 5, 1, 10
 
 def baseIV():
     # x = torch.randn(batch_size, n_in)
-    y = torch.tensor([random.choice([[1.0], [0.0]]) for x in  range(10)])
+    y = torch.tensor([random.choice([[1.0], [0.0]]) for x in range(10)])
     # x = x.to(device)
     y = y.to(device)
     return y
+
 
 x = torch.randn(batch_size, n_in)
 x = x.to(device)
@@ -49,7 +50,7 @@ optimizer = torch.optim.SGD(model.parameters(), lr=0.01)  # learning rate
 model = model.to(device)
 t = time.time()
 for epoch in range(50000):
-    y=baseIV() # very strange.
+    y = baseIV()  # very strange.
     y_pred = model(x)
     print("prediction", y_pred)
     loss = criterion(y_pred, y)
