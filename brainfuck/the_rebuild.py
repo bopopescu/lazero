@@ -19,7 +19,8 @@ def one_hotter(am, bm):
     r[bm.index(am)] = 1
     return r
 
-
+# one extra recommendation: when not importable, release this thing to another category: unknown.
+# and when shape problem occurs, raise the exception.
 def dec_one(cm, bm):
     return bm[cm.index(1)]
 # i know the principles. i just hate to manually check all the shits.
