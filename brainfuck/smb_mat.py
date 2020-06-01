@@ -48,7 +48,7 @@ c1 = mean_squ(c0-r)  # the usage.
 # horrible nightmare.
 # print(b.shape,a.shape,d.shape,c.shape,c0.shape,r.shape)
 # c2=
-lr = -0.01 # simpler.
+lr = -0.01  # simpler.
 e = Derivative(c1, a).doit()
 # do you need to initialize this thing?
 # you can plot these things. too damn many variables.
@@ -57,6 +57,13 @@ f = Derivative(c1, d).doit()
 du = d+f*lr
 g = Derivative(c1, b0).doit()
 b0u = b0+g*lr
+rc = Derivative(c1, r).doit()
+# this is the magic shit. changing both the source and the result.
+ru = r+rc*lr
+bc = Derivative(c1, b).doit()
+# this is the magic shit. changing both the source and the result.
+bu = b+bc*lr
+# you can try it, indeed. just think about some dummy matrix which gives out the same output.
 # does this really work? but i have to say, that i have no fucking choice.
 # # so, how do you evaluate this shit?
 # # is it possible without symbols?
@@ -65,7 +72,7 @@ b0u = b0+g*lr
 # i will take another.
 # print(e.shape, f.shape)
 # print(g)
-
+# yesterday you've talked about some glue matricies, glue functions. which are not covered under this category.
 # print("derivative with respect of d:{}".format(e.doit()))
 # this is horrible.
 # is that really the function?
