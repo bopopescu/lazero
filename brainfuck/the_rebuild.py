@@ -40,7 +40,10 @@ x = torch.Tensor(o.tolist())[:100,:]
 # y = torch.Tensor([one_hotter(x0[0],hotter) for x0 in actual.tolist()])[:100,:]
 y = torch.Tensor([one_hotter_R(hotter) for x0 in actual.tolist()])[:100,:] # this one is dummy data
 print(x.shape,y.shape)
+# we cannot set parameter here.
 # print(y)
+# but no avaliable optimizer.
+# can we use the same thing?
 # at least the sample has to be 20.
 # contain all 20 categories.
 # teaching the wrong thing?

@@ -20,7 +20,7 @@ def mean_squ(a):
     return b
 
 # this is one of many samples.
-
+# never mind.
 
 b = np.matrix([[symbols('d{}{}'.format(x, y)) for x in range(6)]
                for y in range(5)])  # <--
