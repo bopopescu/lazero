@@ -7,7 +7,7 @@ from basepak import getPic
 from multiprocessing import Process, freeze_support
 import time
 from endmark import windowEndMarkEx as windowEndmarkEx
-GFC = 100
+GFC = 75
 # does not matter. it is all the same.
 # limitation on max connection.
 THROTTLE = 10
@@ -205,3 +205,5 @@ if __name__ == "__main__":
         # do it.
         # r0=r[0]
         # print(r0)
+# you consider evaluate the predictions to get the real thing.
+# yes you might consider this is right. GAN.

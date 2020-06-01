@@ -13,6 +13,7 @@ actual, o = get_writings()
 # all the same.
 # cannot use cuda this time, don't know why.
 
+
 def one_hotter_R(bm):
     r = [0 for x in range(len(bm))]
     # r[bm.index(am)] = 1
@@ -127,10 +128,18 @@ for i in range(epochs):
         # # this is crazy.
         w1.data -= lr*w1.grad.data  # would you print it?
         w2.data -= lr*w2.grad.data
-        y.data -= lry*y.grad.data
+        # working?
+        # you are like some crazy mathematician, cannot limit the form of the thing.
+        # is this transformer? or likely be?
         w1.grad.data.zero_()
         w2.grad.data.zero_()
-        y.grad.data.zero_()
+    y.data -= lry*y.grad.data
+    # better use some method to change this thing, instead of just adding things up.
+    y.grad.data.zero_()
+        # does that count?
+    # y.data -= lry*y.grad.data
+    # y.grad.data.zero_()
+    # sometimes, i think i need to take a look at it, see if it is independent gradient.
         # it is been reduced, much better than that fucking optimizer.
         # x.grad.data.zero_()  # is this going to work anyway?
         # x.data -= lrx*x.grad.data

@@ -1,5 +1,6 @@
 import requests
 import traceback
+import copy
 
 
 def getPic(a, b, c):
@@ -24,3 +25,22 @@ def getRange(a):
     a = 2**a
     return [(x, y) for x in range(a) for y in range(a)]
     # it should be preconfigured.
+
+
+def getShift(a, s, c):
+    # a is a pair.
+    # remove candidate?
+    b = copy.deepcopy((a[0], a[1]))
+    assert type(s) == int and s in [0, 1, 2, 3]
+    # must include themselves.
+    # length == 0 -> do not check.
+    if s == 0:
+        return []
+    elif s == 1:
+        return [(c, b[0]+1, b[1])]
+    elif s == 2:
+        return [(c, b[0], b[1]+1)]
+    else:
+        return [(c, b[0], b[1]+1), (c, b[0]+1, b[1]), (c, b[0]+1, b[1]+1)]
+        # domain problem. just observe this.
+# talk about arrangement.

@@ -4,6 +4,10 @@ d=dir(l2l)
 e=dir(pd3)
 print(d)
 print(e)
+# consider this problem: why your heart beats when seeing others not beating?
+# the only way to break the rule, is making up a rule to monitor something uncertain (not the rule).
+# FUCK.
+# what is this anyway?
 # this clone might increase some bytes on your machine!
 # oh? may it be?
 # ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '__version__', '_version', 'algorithms', 'clone_distribution', 'clone_module', 'clone_parameters', 'copy', 'data', 'detach_distribution', 'detach_module', 'gym', 'magic_box', 'text', 'torch', 'utils', 'vision']
