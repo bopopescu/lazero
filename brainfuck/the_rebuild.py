@@ -44,7 +44,9 @@ for epoch in range(50000):
     loss = criterion(y_pred, y)
     print("loss",loss)
     # print("epoch", epoch, "loss", loss, type(loss))
-    optimizer.zero_grad()
-    loss.backward()
-    optimizer.step()
+    optimizer.zero_grad() # what are those two?
+    loss.backward() # to initialize the state. clear all grad.
+    optimizer.step() # what are those two?
+    # to add some grad to the thing. alright. nothing new.
+    # the callback function: check whether the optimization is useful.
 print("total time", time.time()-t)

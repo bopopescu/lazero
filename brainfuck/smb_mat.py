@@ -5,6 +5,8 @@ import numpy as np
 # # wha the fuck?
 
 # tanh?
+
+
 def sigmoid(a):
     return np.matrix((1/(1+np.e**-(np.array(a))))-0.5)
 # def sigmoid(a):
@@ -16,6 +18,8 @@ def mean_squ(a):
     b = np.mean(
         list(map(lambda z: sqrt(abs(z)), [x for y in a.tolist() for x in y])))
     return b
+
+# this is one of many samples.
 
 
 b = np.matrix([[symbols('d{}{}'.format(x, y)) for x in range(6)]
@@ -39,22 +43,29 @@ r = np.matrix([[symbols('r{}{}'.format(x, y)) for x in range(1)]
 # mean square error?
 c = sigmoid(b*a+b0)
 c0 = sigmoid(c*d+b1)
-c1 = mean_squ(c0-r)
+c1 = mean_squ(c0-r)  # the usage.
 # print(c1)
 # horrible nightmare.
 # print(b.shape,a.shape,d.shape,c.shape,c0.shape,r.shape)
 # c2=
+lr = -0.01 # simpler.
 e = Derivative(c1, a).doit()
+# do you need to initialize this thing?
+# you can plot these things. too damn many variables.
+au = a+e*lr
 f = Derivative(c1, d).doit()
+du = d+f*lr
 g = Derivative(c1, b0).doit()
+b0u = b0+g*lr
 # does this really work? but i have to say, that i have no fucking choice.
 # # so, how do you evaluate this shit?
 # # is it possible without symbols?
 # # no?
 # # not the same.
 # i will take another.
-print(e.shape, f.shape)
-print(g)
+# print(e.shape, f.shape)
+# print(g)
+
 # print("derivative with respect of d:{}".format(e.doit()))
 # this is horrible.
 # is that really the function?
