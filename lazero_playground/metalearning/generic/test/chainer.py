@@ -1,4 +1,5 @@
 keyboard=[['q','w','e','r','t','y','u','i','o','p'],['a','s','d','f','g','h','j','k','l'],['z','x','c','v','b','n','m']]
+from core4 import createLinks
 def returnNear(a):
     b=[]
     for x in range(3):
@@ -20,10 +21,21 @@ def returnNear(a):
                 return (keyboard[1][b[1]+1],*keyboard[1][b[1]:b[1]+3])
             else:
                 return (*keyboard[0][b[1]:b[1]+3],)
-
+# imperfect but yet enough.
 def curse():
+    j={}
     for k0 in range(ord("a"),ord("z")+1):
         r=returnNear(chr(k0))
-        print(chr(k0),r if r!= False else "nothing")
+        if r!= False:
+            j.update({chr(k0):r})
+        else:
+            pass
+    return j
 
-curse()
+c=curse()
+# print(c)
+for x in c.keys():
+    y=c[x]
+    for z in y:
+        createLinks(x,z)
+print("QWERTY keyboard imported!")
