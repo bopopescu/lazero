@@ -4,7 +4,7 @@ import json
 import traceback
 import time
 import random
-
+import json
 # just use a different database.
 
 
@@ -28,7 +28,7 @@ def createMain():
     iterator_x integer NOT NULL,
     iterator_y integer NOT NULL,
     shift integer NOT NULL,
-	content text,
+	content json,
     CONSTRAINT unq UNIQUE (iterator,iterator_x,iterator_y,shift)
 );"""
 # four kinds of shift: 0: no shift,1: right shift,2: down shift,3: right and down shift ( merge four )
@@ -90,7 +90,7 @@ def inf(_table, _t):
 
     def sql(x, y, z, a, s):
         c.execute("UPDATE "+_table +
-                  " SET content = ? WHERE iterator = ? AND iterator_x = ? AND iterator_y = ? AND shift = ?", (x, y, z, a, s))
+                  " SET content = ? WHERE iterator = ? AND iterator_x = ? AND iterator_y = ? AND shift = ?", (json.dumps(x), y, z, a, s))
         # c.execute("UPDATE "+_table +
         #   " SET iterator = 1 WHERE filelink = ?", (y,))
         return

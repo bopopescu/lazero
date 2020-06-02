@@ -22,6 +22,7 @@ def getText(f):
 # if __name__ == "__main__":
   # freeze_support()
   # do this in __main__
+  # i do not know why the image turns to be like shit, unlike windows.
 def getRead(image):
   # image = cv2.imread(sx)
   gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 from dbM2 import regcheck, inf
 from basepak import getShift
-from classic import getRead as batchRead
+from classic_segment import getRead as batchRead
 # use some image reading thing.
 from dbM import show
 import time
@@ -15,13 +15,14 @@ from endmark import windowEndMarkEx as windowEndmarkEx
 # TimeoutError?
 # use graph query to do this.
 # randomly select three?
-GFC = 7
+GFC = 25
 # does not matter. it is all the same.
 # limitation on max connection.
-THROTTLE = 3
+THROTTLE = 5
 table_name = "projects"
 # use tesseract now!
-threshold = 5
+threshold = 2 # very fucking awful and nasty.
+# this is really messy.
 # batch_size = 10
 
 def check(a):
@@ -172,9 +173,9 @@ def getDouble(sample):
     if ver_black(g):
         return {sample: batchRead(g)}
     else:
-        return {sample: ""}
+        return {sample: []}
 
-
+# there's still something?
 # def streamDouble(smp):
 #     r = parallel(len(smp), getDouble, smp)
 #     r0 = {}
@@ -193,6 +194,7 @@ def upDouble(d):
     # print("imports:", len(y), "contents:", *[d[x] for x in y])
     return
 # all shit.
+# you may increase the workload?
 def singleton(a):
     r=getDouble(a)
     upDouble(r)
