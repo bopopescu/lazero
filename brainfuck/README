@@ -34,7 +34,7 @@ so never do screenshot to unbounded objects.
 
 using highlighter to highlight HTML? what the heck?
 
-remainder:
+reminder:
     httrack --continue http://rosettacode.org -W -O "./rosettacode"  -%v
 
 it is not too crazy, not yet.
@@ -134,3 +134,7 @@ all console users strongly believe that there's magic gonna happen if they just 
 also for gui users, keep clicking and typing and magic will happen.
 
 magically, nothing happens, but for clogged brain vessles and death.
+
+apparently, the derivative may not be obvious when you consider some concrete functions, such as a program.
+
+it depends on the data, logic and more.

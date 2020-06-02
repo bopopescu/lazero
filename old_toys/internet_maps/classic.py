@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 
 def getText(f):
-  config = ("--oem 1 --psm 6")  # LSTM is awful.
+  config = ("-c tessedit_do_invert=0 --oem 1 --psm 12")  # LSTM is awful.
   # get it a try.
   # must likely we shall use a language detector before use?
   return pytesseract.image_to_string(f, lang="eng+",config=config,nice=0)
