@@ -18,18 +18,20 @@ def dum():
 # these people always concern about safety, which leads to nothing.
 # think about that brainfuck thing!
 
-
+# it is working anyway.
+# that thing will not be updated to the repo.
 def createMain():
     conn = sqlite3.connect('Monitor2.db', timeout=45)
     c = conn.cursor()  # zoom_level,corresponding_text.
     # you may miss the spot!
     sql = """CREATE TABLE IF NOT EXISTS projects (
-    iterator integer NOT NULL,
+    timestamp float NOT NULL,
     iterator_x integer NOT NULL,
     iterator_y integer NOT NULL,
-    shift integer NOT NULL,
-	content json,
-    CONSTRAINT unq UNIQUE (iterator,iterator_x,iterator_y,shift)
+    height integer NOT NULL,
+    width integer NOT NULL,
+	content blob,
+    CONSTRAINT unq UNIQUE (height,iterator_x,iterator_y,width,timestamp)
 );"""
 # four kinds of shift: 0: no shift,1: right shift,2: down shift,3: right and down shift ( merge four )
 # when want to create shift, first check avaliability.
@@ -55,16 +57,17 @@ def initial(_table, _t):
     c = conn.cursor()
     # sql = "SELECT name FROM "+_table+";"
     # at most two.
-    def sql(t, x, y, z, s): return c.execute("INSERT INTO " + t +
-                                             " (iterator,iterator_x,iterator_y,shift) VALUES(?,?,?,?);", (x, y, z, s))
+    # use some raw data? png? not python object, or just binarize it first?
+    def sql(x, y, z, s, a, b): return c.execute("INSERT INTO " + _table +
+                                                " (timestamp,iterator_x,iterator_y,height,width,content) VALUES(?,?,?,?,?,?);", (x, y, z, s, a, b))
     # f = []
     # hell is the formatter.
     # for row in c.execute(sql):
     #     f.append(row)
-    for x, y, z, s in _t:
+    for x, y, z, s, a, b in _t:
         # print(x, y, z)
         # this thing must be done after every execute.
-        sql(_table, x, y, z, s)
+        sql(x, y, z, s, a, b)
     # return f
     conn.commit()
     conn.close()

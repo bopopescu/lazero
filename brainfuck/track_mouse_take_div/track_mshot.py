@@ -1,6 +1,7 @@
 import pynput
 import time
 import pyautogui
+from dbM2 import initial
 # import cv2
 # while True:
 # fuck.
@@ -17,11 +18,40 @@ import pyautogui
 # def calc(a):
 #     r=list(map(lambda x: x[:2],a))
 #     print(der(r))
+cons_int=0.0
+LIMIT_INTERVAL=3
+
 def a(*b):
     # global glob
-    print(time.time(),*b)
-    if len(b)>2:
-        p=pyautogui.screenshot(region=[b[0]-25,b[1]-25,25,25])
+    # only record the thing?
+    # not the button?
+    global cons_int
+    # print([type(x) for x in b])
+    # print(time.time(), *b)
+    interval = time.time()
+    if len(b) > 2:
+        if type(b[3]) == bool:
+            if interval-cons_int>LIMIT_INTERVAL:
+                akx = b[0]-25
+                aky = b[1]-25
+                akx = akx if akx >= 0 else 0
+                akx = akx if akx <= 1920-25 else 1920-25
+                aky = aky if aky >= 0 else 0
+                aky = aky if aky <= 1080-25 else 1080-25
+                aka = [akx, aky, 25, 25]
+                p = pyautogui.screenshot(region=aka)  # this to some raw string.
+                # print("picture!",type(p),dir(p))
+                # usually have some deficiencies here.
+                # do not save them!
+                # print(aka)
+                # without clicking data?
+                # i don't care!
+                p = p.tobytes("raw")
+                initial("projects", [[interval, *aka, p]])
+                print("imported snapshot",aka)
+                cons_int=interval
+            # print(p)
+            # print(type(p))
         # can you see the cursor?
         # use boundary-safe function to do this cropping task.
         # with mouse?
@@ -46,7 +76,8 @@ def a(*b):
     # use pipe???
     # how to write these shits?
 # with pynput.mouse.Listener(on_move=lambda x:a(p,x),on_scroll=lambda x:a(p,x),on_click=lambda x:a(p,x)) as l:
-with pynput.mouse.Listener(on_move=a,on_scroll=a,on_click=a) as l:
+# there must be a loop.
+with pynput.mouse.Listener(on_move=a, on_scroll=a, on_click=a) as l:
     try:
         l.join()
     except:

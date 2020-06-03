@@ -25,6 +25,7 @@ def a(*b):
         print(calc(glob))
         glob=[]
 # def a(p,*b):
+# without cursor? fine.
 #     print(time.time(),*b)
     # how to pass to another function?
     # send via network.
