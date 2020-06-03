@@ -44,7 +44,8 @@ def getDump(d):
     d.shell_command("uiautomator dump")
     f=d.shell_command("cat /sdcard/window_dump.xml")
     return f
-
+# wtf?
+# your phone triggered the devmode switch, which is a kill switch.
 def getRandomAct(a,d):
     p=random.choice([getTap,getSwipe])
     p0=p(a)
@@ -85,7 +86,9 @@ e=d0[1]
 # print(e)
 # check if it is the same?
 # i do not know if this works the same for py2.
-getLoop(SCALE,d)
+g=getDump(d)
+print(g)
+# getLoop(SCALE,d)
 # print(g0)
 # print(e0)
 # fucking hell.

@@ -39,7 +39,7 @@ def initial(_table, _t):
     # sql = "SELECT name FROM "+_table+";"
     # at most two.
     # still not fast enough.
-    def sql(t, x, y, z): return c.execute("INSERT INTO "+t +
+    def sql(t, x, y, z): return c.execute("INSERT INTO "+ t +
                                           " (ts,op_type,op_output) VALUES(?,?,?);", (x, y, z))
     # f = []
     # hell is the formatter.
