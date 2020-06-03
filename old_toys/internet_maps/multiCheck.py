@@ -15,15 +15,19 @@ from endmark import windowEndMarkEx as windowEndmarkEx
 # TimeoutError?
 # use graph query to do this.
 # randomly select three?
+# this will not work.
 GFC = 25
+# 25 -> 75
+# you can do this at night, but not when you are working.
 # does not matter. it is all the same.
 # limitation on max connection.
 THROTTLE = 5
 table_name = "projects"
 # use tesseract now!
-threshold = 2 # very fucking awful and nasty.
+threshold = 2  # very fucking awful and nasty.
 # this is really messy.
 # batch_size = 10
+
 
 def check(a):
     return sum([int(x[0].is_alive()) for x in a]+[0])
@@ -106,6 +110,8 @@ def get_0(s0, sv):
     return s2
 
 # it keeps ketting stuck.
+
+
 def get_3(s0, sv):
     assert sv == 3
     assert len(s0) == 4
@@ -171,10 +177,12 @@ def ver_black(p):
 def getDouble(sample):
     g = getSingle(sample)
     if ver_black(g):
-        return {sample: batchRead(g)}
+        b = batchRead(g)
+        return {sample: b if b is not None else []}
+        # this sometimes doesn't return shit.
     else:
         return {sample: []}
-
+# no, just stop?
 # there's still something?
 # def streamDouble(smp):
 #     r = parallel(len(smp), getDouble, smp)
@@ -195,18 +203,21 @@ def upDouble(d):
     return
 # all shit.
 # you may increase the workload?
+
+
 def singleton(a):
-    r=getDouble(a)
+    r = getDouble(a)
     upDouble(r)
     return
+
 
 if __name__ == "__main__":
     freeze_support()
     f = regcheck(table_name)
-    print("WORKLOAD",len(f))
+    print("WORKLOAD", len(f))
     a = []
     # you can set some batch size.
-    f0 = windowEndmarkEx(f,THROTTLE)
+    f0 = windowEndmarkEx(f, THROTTLE)
     # print(f0)  # working.
     for z in f0:
         a = clean(a)
@@ -217,7 +228,7 @@ if __name__ == "__main__":
                 c = b+y  # just a hint.
                 print("dispached", c)
                 zx = z[y]
-                p=Process(target=singleton, args=(zx,))
+                p = Process(target=singleton, args=(zx,))
                 p.start()
                 a.append((p, zx))
         else:
