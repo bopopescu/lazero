@@ -50,14 +50,16 @@ def initial(_table, _t):
         # z=str(z)
         # codec problem.
         # this thing must be done after every execute.
-        while True:
-            try:
-                sql(_table, x, y, z)
-                break
-            except:
-                e= traceback.format_exc()
-                print(e)
-                dum()
+        # while True:
+        try:
+            sql(_table, x, y, z)
+            # break
+        except:
+            # just do this??
+            e= traceback.format_exc()
+            print(e)
+            raise Exception("NOT AGAIN!")
+                # break
     # return f
     conn.commit()
     conn.close()

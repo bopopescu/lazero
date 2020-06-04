@@ -90,7 +90,7 @@ def inf(_table, _t):
 
     def sql(x, y, z, a, s):
         c.execute("UPDATE "+_table +
-                  " SET content = ? WHERE iterator = ? AND iterator_x = ? AND iterator_y = ? AND shift = ?", (json.dumps(x), y, z, a, s))
+                  " SET content = ? WHERE iterator = ? AND iterator_x = ? AND iterator_y = ? AND shift = ?", (json.dumps(x if x != None else []), y, z, a, s))
         # c.execute("UPDATE "+_table +
         #   " SET iterator = 1 WHERE filelink = ?", (y,))
         return

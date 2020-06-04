@@ -178,7 +178,7 @@ def getDouble(sample):
     g = getSingle(sample)
     if ver_black(g):
         b = batchRead(g)
-        return {sample: b if b is not None else []}
+        return {sample: b if b != None else []}
         # this sometimes doesn't return shit.
     else:
         return {sample: []}
@@ -203,7 +203,7 @@ def upDouble(d):
     return
 # all shit.
 # you may increase the workload?
-
+# always like to tap dev options. it is killing me.
 
 def singleton(a):
     r = getDouble(a)
@@ -223,6 +223,7 @@ if __name__ == "__main__":
         a = clean(a)
         b = check(a)
         # b = check_r(a)
+        # what the fuck.
         if b < GFC:
             for y in range(len(z)):
                 c = b+y  # just a hint.
