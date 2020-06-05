@@ -25,7 +25,7 @@ class args_:
 args=args_()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
 # Load data
-adj, features, labels, idx_train, idx_val, idx_test = load_data(path="pygcn/data/cora/")
+adj, features, labels, idx_train, idx_val, idx_test = load_data(path="/root/AGI/lazero/brainfuck/pygcn/data/cora/")
 # you'd better see this.
 # idx is for index.
 # active: 10:00 AM -> 12:00 PM

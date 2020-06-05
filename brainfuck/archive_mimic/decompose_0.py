@@ -4,6 +4,10 @@ idx_features_labels = np.genfromtxt("pygcn/data/cora/cora.content",
                                         dtype=np.dtype(str))
 print(idx_features_labels)
 print(idx_features_labels.shape)
+# whatever shit you do.
+# do something useful?
+# such as some char?
+# great. do it.
 # it is not adj matrix.
 # why so many zeros? i need to check.
 # so both thing have some property.

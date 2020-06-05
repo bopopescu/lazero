@@ -14,7 +14,7 @@ def returnAdj():
 def returnLab(a, b=5):
     k = list(range(b))
     return torch.LongTensor([random.choice(k) for x in range(a)])
-
+# this lable is not good.
 
 def returnRandomFeature(a, b=100, c=0.5):
     k = np.linspace(0, 1, 100)
