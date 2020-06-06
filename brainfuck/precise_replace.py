@@ -9,7 +9,9 @@ from multiprocessing import Process, freeze_support
 # stop thinking about real-time ML or any other real-time stuff. just focus on the basics.
 # or, more likely, the 10000x times slower rule.
 # you can also do multi-user image editing, video-editing and so on.
-
+# i don't see the point of it.
+# i mean, can we just use some other fs supports multiple changes?
+# hold on. it is not important. we have the answer.
 # how about this?
 class PublicDocument(object):
     def __init__(self, a):
@@ -152,3 +154,4 @@ if __name__ == "__main__":
             time.sleep(1)
             print("await")
 # equal for insert, and cross-editing is about...
+# think about it. just think.
