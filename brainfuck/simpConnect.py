@@ -10,6 +10,8 @@
 # the target is to see it again?
 import os
 o = os.listdir("/media/root/Seagate1000")
+# so you are good at this?
+# human tends to be proud of common sense. i'm not. i'm here to be humble.
 # this one makes me feel sick.
 # now i have to read and pick up my pdf?
 # you do some random translation inbetween?

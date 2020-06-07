@@ -17,3 +17,4 @@ def createMain():
     conn.commit()
     # this thing must be done after every execute.
     conn.close()
+# i do not care about internal logic. all i need is to fuck it up.
