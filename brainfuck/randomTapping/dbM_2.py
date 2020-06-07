@@ -4,6 +4,8 @@ import time
 # import random
 import traceback
 import random
+
+
 def dum():
     r = random.random()*0.1
     time.sleep(r)
@@ -17,7 +19,7 @@ def dum():
 
 def createMain():
     conn = sqlite3.connect('Monitor.db', timeout=45)
-    conn.text_factory=str
+    conn.text_factory = str
     c = conn.cursor()
     sql = "CREATE TABLE IF NOT EXISTS projects ( \
     ts float NOT NULL, \
@@ -30,16 +32,19 @@ def createMain():
     conn.close()
 
 # fucking shit.
+
+
 def initial(_table, _t):
     #  is it good for me to get connection with python3?
     # conn = sqlite3.connect('Monitor.db', timeout=45)
     conn = sqlite3.connect('Monitor.db', timeout=45)
-    conn.text_factory=str
+    conn.text_factory = str
     c = conn.cursor()
     # sql = "SELECT name FROM "+_table+";"
     # at most two.
     # still not fast enough.
-    def sql(t, x, y, z): return c.execute("INSERT INTO "+ t +
+
+    def sql(t, x, y, z): return c.execute("INSERT INTO " + t +
                                           " (ts,op_type,op_output) VALUES(?,?,?);", (x, y, z))
     # f = []
     # hell is the formatter.
@@ -56,10 +61,10 @@ def initial(_table, _t):
             # break
         except:
             # just do this??
-            e= traceback.format_exc()
+            e = traceback.format_exc()
             print(e)
             raise Exception("NOT AGAIN!")
-                # break
+            # break
     # return f
     conn.commit()
     conn.close()

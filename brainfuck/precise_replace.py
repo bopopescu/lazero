@@ -6,6 +6,7 @@ import copy
 # passing to multiple clients or threads?
 from multiprocessing import Process, freeze_support
 
+# yes you propose few shits upon my face. and then what?
 # stop thinking about real-time ML or any other real-time stuff. just focus on the basics.
 # or, more likely, the 10000x times slower rule.
 # you can also do multi-user image editing, video-editing and so on.
@@ -13,6 +14,7 @@ from multiprocessing import Process, freeze_support
 # i mean, can we just use some other fs supports multiple changes?
 # hold on. it is not important. we have the answer.
 # how about this?
+
 class PublicDocument(object):
     def __init__(self, a):
         self.a = a
