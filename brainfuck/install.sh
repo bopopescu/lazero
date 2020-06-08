@@ -1,6 +1,8 @@
 #!/bin/sh
 # Copyright 2019 the Deno authors. All rights reserved. MIT license.
 # TODO(everyone): Keep this script simple and easily auditable.
+# i do computer because it is right.
+# like my plan before. it is simlpy right and just.
 
 set -e
 

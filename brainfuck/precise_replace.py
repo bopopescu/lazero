@@ -14,6 +14,7 @@ from multiprocessing import Process, freeze_support
 # i mean, can we just use some other fs supports multiple changes?
 # hold on. it is not important. we have the answer.
 # how about this?
+# there's thing, and it is not too bad?
 
 class PublicDocument(object):
     def __init__(self, a):
