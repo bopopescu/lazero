@@ -45,7 +45,6 @@ def initial(_table, _t):
     # sql = "SELECT name FROM "+_table+";"
     # at most two.
     # still not fast enough.
-
     def sql(t, x, y, z): return c.execute("INSERT INTO " + t +
                                           " (ts,op_code,op_output) VALUES(?,?,?);", (x, y, json.dumps(z)))
     # f = []
