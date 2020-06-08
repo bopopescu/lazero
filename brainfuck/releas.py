@@ -4,6 +4,8 @@ import sqlite3
 # try debugging?
 # why so many shits?
 # not reading correct programs.
+# what does it mean really?
+# nothing. believe it or not, there's only one thing over there. it is always right.
 def createMain():
     conn = sqlite3.connect('Monitor.db', timeout=45)
     conn.text_factory=str
