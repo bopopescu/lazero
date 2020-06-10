@@ -15,7 +15,7 @@ def akII(a, s=2):
     else:
         return a
 # double derivative.
-
+# when is the time that you do not need to learn shit?
 
 def am(a):
     i = al(a)
