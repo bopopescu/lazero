@@ -21,5 +21,6 @@ public class Assign extends Node {
     @Override
     public String toString() {
         return "(" + target + " = " + value + ")";
-    }
+    }// they always think it is a run-after-free thing.
+    // maybe you can use some prolog.
 }
