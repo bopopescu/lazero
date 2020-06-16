@@ -12,6 +12,11 @@ GeneralUsageLister/MainIndex/*
 !*.m
 !*.az
 !.git
+!.pro
+!.mm
+!.f90
+!.jl
+!.lisp
 !.gitinnore
 !requirements*
 !lazero.png
@@ -34,7 +39,10 @@ GeneralUsageLister/MainIndex/*
 !*/*.reg
 !*/*.ps1
 !*/*.lua
+!*.lua
+!*.mm
 !*/*.lisp
+!*.scm
 !*/*.c
 !*/*.h
 !*/*.js

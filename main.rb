@@ -1,0 +1,3 @@
+print("this is the main lazero program.\n")
+# what is this about, different language, procedure?
+# go to sicp...
