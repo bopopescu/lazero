@@ -9,4 +9,6 @@ sayMe x = "Not between 1 and 5"
 -- not defining then everything is fine.
 -- can we not doing this?
 -- main = print "this is main lazero program."
+-- what i see is a huge waste in storage space and computation.
+-- the space shall be unified, while computation should be non-deterministic.
 main = print $ sayMe 5
