@@ -41,6 +41,7 @@ GeneralUsageLister/MainIndex/*
 !*/*.lua
 !*.lua
 !*.mm
+!*.agda
 !*/*.lisp
 !*.scm
 !*/*.c
