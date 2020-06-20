@@ -7,8 +7,10 @@
 ;; shit. it is scheme.
 ;; (define size 2)
 ;; (print size)
+;; what is jcmd???
 ;; (print "racket is a reimplementation of scheme.")
 ;; (exit)
+;; \x0D
 ;; there is no experimental execution here. but at least it is open-sourced.
 ;; anyway, it is not that bad.
 ;; they would like to see dense things. but it is way too sparse.
