@@ -1,9 +1,10 @@
 #!/bin/bash
-# mkfifo /tmp/lazero
-# mkfifo /tmp/lazero_python
-timeout 2 cat /tmp/lazero &
-timeout 2 cat Main.py > /tmp/lazero_python &
-timeout 2 python3 /tmp/lazero_python > /tmp/lazero 
+mkfifo /tmp/lazero
+mkfifo /tmp/lazero_python
+# no newline???
+# timeout 2 cat /tmp/lazero &
+# timeout 2 cat Main.py > /tmp/lazero_python &
+# timeout 2 python3 /tmp/lazero_python > /tmp/lazero 
 # ls -lth | awk '{print $1 " " $3}'
 # xargs. and more.
 # no we cannot share file content. it is use-after-free.

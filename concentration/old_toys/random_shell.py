@@ -5,7 +5,7 @@ import traceback
 # private_key = paramiko.RSAKey.from_private_key_file('/root/.ssh/id_rsa')#使用目标的私钥来登录
 # consider that.
 # should you cut it down? by means of optimization.
-
+# you are some agencies sharing the same screen.
 
 def getOutput(remote_conn):
     timeall = 10
@@ -52,7 +52,7 @@ def getOutput(remote_conn):
     # how about writing a shell in python? which will be a lot easier than anything?
     # really? not for me?
     # what the heck?
-
+# if i can only debug vscode.
 # it will always clear the buffer, which is fairly awful.
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
@@ -62,7 +62,7 @@ ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 # ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
 # 连接服务器
-ssh.connect(hostname='127.0.0.1', port=22, username='test', password='test')
+ssh.connect(hostname='127.0.0.1', port=22, username='root', password='kali')
 # it is my system password after all.
 # cannot let you do no harm.
 # create user on windows as well!
@@ -84,7 +84,8 @@ time.sleep(2)
 # same to me! ok?
 output = remote_conn.recv(1000)
 # remote_conn.send("happybirthday\n")
-remote_conn.send("vim\n")
+remote_conn.send("screen -x ServerFault\n")
+# allow same input??
 getOutput(remote_conn)
 # time.sleep(20)
 # what is going on?
@@ -99,8 +100,8 @@ getOutput(remote_conn)
 # sleep for a while?
 # timeall=10
 # it is just moving around the shell.
-remote_conn.send(":help\n")
-getOutput(remote_conn)
+# remote_conn.send(":help\n")
+# getOutput(remote_conn)
 # do we really know it is repl?
 # never mind. we can do manual debugging from now on.
 #    result = stderr.read()
