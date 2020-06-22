@@ -1,0 +1,17 @@
+the attempt to make this project somewhat right, by trying to write the main file.
+a terminal emulator would be just perfect for this job. BUT NOT LIMITED TO THAT THING.
+
+we need to take control of the entire system.
+replaceable module? for example, you get screenshot today from scrot, but next time you do this directly from the source code?
+
+cannot say anything about it. this dynamic modularization is configuration-free.
+so do we really need to hard-code things? I mean, what are these code for?
+
+what does it represent?
+do we need a custom complier? assembler maybe?
+
+that history file really counts.
+you want to write platform independent things? better not to try C.
+
+better yes???
+so what is your opinion on the code?

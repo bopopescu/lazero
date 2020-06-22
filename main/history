@@ -1,0 +1,3639 @@
+ls
+clear
+history --search git
+history --help
+history
+hostory
+code  --user-data-dir ~/.vscode .
+python3 mainPipe.py
+rm /tmp/lazero.sock
+pip3 install requests-unixsocket
+python3
+links "https://stackoverflow.com/questions/26964595/whats-the-correct-way-to-use-a-unix-domain-socket-in-requests-framework"
+python3 mainSock.py
+cd tmp
+cd /
+firefox -d
+code --args  --user-data-dir ~/.vscode .
+cd AGI/lazero
+cd /root/AGI/lazero/concentration/brainfuck/track_mouse_take_div
+python3 track_mshot.py
+./sch_linux.sh
+cd /root/AGI/keylogger
+./hot_solution.py
+nodejs main.js
+rm typescript
+cat typescript
+timeout 2 script
+script --help
+celar
+R -f Main.r
+python3 Main.py
+python3 Main
+echo "[~3"
+echo "[3"
+reboot
+nc lazero.sock
+echo "hello world\n" > lazero.sock
+rm lazero.sock
+echo "hello world\n" > lazero.sock \
+/
+cd /tmp
+poweroff
+clewr
+./upload.sh
+kitty --dump-commands
+man kitty
+kitty
+xsel
+apt install kitty
+apt search kitty
+man \dd
+mandd
+timeout 2 cat /dev/pts/7
+tty
+rm sample.log
+xsel --help
+pwd
+xsel -o > sample.log
+xsel -o
+apt install xsel
+links "https://askubuntu.com/questions/690703/save-current-terminal-scrollback-to-file"
+cd
+setterm --dump 5
+setterm --dump 6
+setterm --dump 7
+setterm --dump pts/7
+setterm --dump tty0
+setterm --dump=0
+setterm --dump 0
+setterm --dump
+man setterm
+setterm
+setterm --file sample.log
+setterm --help
+ls -lth
+rm 2020-06-21-182118_1920x1080_scrot.png
+scrot
+apt search file2sock
+xtrace --help
+clearf
+xtrace -d 0
+xtrace :9
+xtrace:9
+xtrace
+alacritty
+apt search ftrace
+apt install ftrace
+proc:::exec-success
+apt search dtrace
+timeout 10  strace -e read,write  -p 29744
+watch strace -e read,write  -p 29744
+echo "hello world\n" > /proc/29744/fd/0
+echo "hello world" > /proc/29744/fd/0
+tmux2html 0
+python3 mainPush.py
+strace -e read,write  -p 29744
+strace -e read.write  -p 29744
+strace -e read，write  -p 29744
+strace -e read, write -p 29744
+strace -h
+man rr
+rr
+rr yes
+apt install rr
+apt search ptrace
+strace -p  29744
+strace 29744
+strace
+cleaere
+kill 44636
+perl -MCPAN -e shell
+                    install ttylog
+ps -ef | grep perl
+ps -ef | grep cpan
+kill 37692
+kill 45111
+ps -ef | grep CPAN
+top | grep CPAN
+perl -MCPAN -e shell
+perl -MCPAN -e shell install ttylog
+apt search cpanm
+apt install shellnoob
+apt install xtrace
+apt install strace
+apt install strace strace64
+apt install strace strace64 xtrace
+apt search strace
+cpan install -x intel
+cpan install -x meta
+cpan install meta
+cpan install -x ttylog
+tmux -h
+tmux attach -t 0
+open code --args  --user-data-dir ~/.vscode .
+code cd ..
+cd lazero
+cleare
+tmux list-sessions
+tmux kill-session -t 1
+tmux kill-session 1
+dtach --help
+dvtm --help
+apt install dvtm dtach
+code --user-data-dir ~/.vscode .
+code --user-data-dir ~/.vscode . --remote-debugging-port=8315
+tmux capture-pane -epJ -t 0
+tmux display-message -p -t 0 -F 80
+tmux display-message -p -t 0 -F 0
+tmux display-message -p -t 0 -F 0 80
+tmux display-message -p -t 0 -F
+tmux display-message -p -t 0
+cd AGI/
+tmux kill
+tmux list
+tmux -l
+tmux -ls
+rm sample.html
+top
+kill 32220
+cat sample.html
+firefox sample.html
+tmux2html 0 -o sample.html
+cd /AGI
+pty
+tmux --help
+cd /usr/local/lib/python3.8/dist-packages/tmux2html
+' c
+c
+`
+'
+locate tmux2html
+updatedb
+man tmux
+cd agi
+tmux
+tmux2html
+pip3 install tmux2html
+python3 pypi_indexer.py
+cd new_toys/
+cd new
+cd ..
+cd old_toys/
+kls
+cd concentration/
+pip3 search tmux
+tmux ls
+nodejs
+npm uninstall tty.js
+npm uninstall -g tty.js
+tty.js --help
+tty.js
+npm install -g mkdirp connect
+npm install -g tty.js
+npm install tty.js
+open code --args  --user-data-dir ~/.vscode . --remote-debugging-port=8315
+open code --user-data-dir ~/.vscode . --remote-debugging-port=8315
+open
+cpan install ttylog
+cpan install Text::Levenshtein
+cpan install Text
+cpan search ttylog
+ttylog
+cpan --help
+screen -ls
+screen -ls\
+/
+screen -lt
+git clone https://github.com/liftoff/GateOne/
+pip3 install spyder-terminal
+rm termpage.html
+rm mainTerminal.py
+touch termpage.html
+python3 mainTerminal.py
+pip3 install tornado_xstatic
+apt autoremove
+apt remove terminus
+apt --fix-broken install
+apt install gconf-service
+dpkg -i  terminus-1.0.112-linux.deb
+apt install libappindicator1
+apt
+apt install terminus-1.0.112-linux.deb
+apt remove hyper
+apt uninstall hyper
+hyper
+terminus_showhide
+terminus
+apt install libappindicator3-1
+apt install libappendicator3-1
+dpkg -i hyper_3.1.0-canary.4_amd64.deb
+cd terminado/
+xterm
+nodejs mainScreen.js
+cler
+cd \/usr/local/lib/node_modules
+echo $NODE_PATH
+touch index.html
+npm install -g xterm
+npm install xterm
+npm install -g system-sleep
+npm install -g node_sleep
+npm install -g sleep
+cd fish/
+cd .config/
+nodejs --help
+nodejs ==help
+cat headless-terminal.js | grep require
+cat headless-terminal.js
+npm install -g screen-buffer@~0.4.0
+npm install -g creen-buffer@~0.4.0
+cd headless-terminal/
+sudo npm install -g headless-terminal
+rm headless-terminal
+cd node_modules/
+cd lib
+cd /usr/local/
+sudo npm uninstall -g headless-terminal
+npm uninstall -g headless-terminal
+npm install -g headless-terminal
+npm uninstall -g  screen-buffer
+npm uninstall-g  screen-buffer
+npm uninstall screen-buffer
+rm -rf headless-terminal/
+npm install -g screen-buffer
+npm install -g headless-terminal/
+rm headless-terminal.js
+cp headless-terminal/headless-terminal.js  .
+rm -rf  headless-terminal/.git
+git clone https://github.com/dtinth/headless-terminal
+l;s
+npm install -g vt
+npm install =g vt
+npm install -g headless-console
+termineter
+terminado
+locate hyper
+dpkg -i terminus-1.0.112-linux.deb
+alacritty --help
+dpkg -i Alacritty-v0.4.3-ubuntu_18_04_amd64.deb
+tee
+snap search hyper
+apt search hyper
+pip3 install terminado
+pip3 search linux screen
+python3 random_shell.py
+cd concentration/old_toys/
+watch ls
+screen -x ServerFault
+clera
+whoami
+echo -e "\x54\x12"
+echo -e "\x54\s12"
+echo -e "\x54\12"
+echo -e "\x12"
+echo -e "\x54"
+printf "\e[0n"
+printf "\e[5n"
+\e
+echo "\e[5n"
+echo "\e[0n"
+man bind
+zsh
+man print
+print "hello world"
+print''
+print -z echo text
+print -z echo "hello world"
+print -z
+print --help
+screen -r ServerFault
+python3 mainScreen.py
+links "https://www.endpoint.com/blog/2015/01/28/getting-realtime-output-using-python"
+cat hardcopy.0
+cd AGI
+screen -S ServerFault
+cd /dev
+rm hardcopy.1
+ls -lth hardcopy.1
+cat hardcopy.1
+rm hardcopy.0
+screen -r ServerFault -L
+rm screenlog.0
+cat screenlog.0
+snap search console-tools
+pip3 search console-tools
+apt install php-zeta-console-tools
+apt search  console-tools
+apt install console-tools
+links "https://unix.stackexchange.com/questions/12601/how-to-get-the-output-inside-screen-out-to-a-script"
+screen -Logfile sample -r ServerFault
+screen -L sample -r ServerFault
+screen -r ServerFault -L sample
+screen --help
+rm sample
+cat sample
+screen -r ServerFault &> sample
+watch lw
+watch
+apt search writevt
+cd usb
+cd fd
+cat /dev/fb
+cat /dev/fb0
+man  --help
+man  --hwlp
+man7 pipe
+man pipe7
+man pipe(7)
+man pipe
+./cmd hello world
+./cmd
+gcc cmd.c -o cmd
+echo  -n "hello world" > /proc/10140/fd/0
+python3 Main.py < /tmp/lazero
+echo  -n "hello world" > /tmp/lazero
+echo  -e "hello world\n" > /tmp/lazero
+echo -n "hello world" > /tmp/lazero
+echo -n "hello world"
+help echo
+./main.sh
+write --help
+code
+links "https://unix.stackexchange.com/questions/48103/construct-a-command-by-putting-a-string-into-a-tty/48120#48120"
+python3 track_mshot.py
+cd /root/AGI/lazero/concentration/brainfuck/track_mouse_take_div
+200 foo
+./cmd 200 foo\n
+./cmd 200 foo
+./cmd 200 foo\
+/
+cat /tmp/lazero
+./cmd 200 foo > /tmp/lazero
+./cmd 200 foo < /tmp/lazero
+./cmd foo bar
+ls | rev | cut -d'.' -f1 | rev |sort |uniq -c
+ls | rev | cut -d'.' -f1 | rev |sort |uniq -C
+ls | rev | cut -d'.' -f1 | rev |sort |uniq
+ls | rev | cut -d'.' -f1 | rev
+ls | rev | cut -d'.' -f1
+ls | rev | cut -d'.' -fi
+ls | rev | cut -d'.' -fl
+ls | rev | cut -d'.'
+ls | rev | cut -d "."
+ls | rev
+screen -r ServerFault &> /tmp/lazero
+screen -r ServerFault > /tmp/lazero
+pidof
+pid
+./mainScreen.sh
+screen -list
+exit
+screen -l
+chmod +x mainScreen.sh
+fexsend
+fex :1 :-2 &lt; /etc/passwd
+apt install fex
+man expect
+expect --help
+expect
+xdotool key  --repeat 5 a
+xdotool key a --repeat 5
+xdotool key a =--repeat 5
+xdotool key aa
+xdotool key a
+xdotool key
+xdotool
+apt install xdotool
+cxlear
+pydoc3 fcntl
+pydoc3 termios
+cd 65283
+cat */cmdline
+cat comm
+cat cmdline
+cd /proc/65283
+echo -e  "import this\x0D" >0
+cd 65108
+cklear
+cd /proc
+cd/proc
+bccmd
+jcmd -l
+jcmd --help
+jcmd
+cmd
+screen stuff
+stuff
+ls * | xargs  wc
+xargs --help
+xargs
+echo -e  "import this\n" >1
+echo -e  "import this\n"
+echo -e  "import this\n" > 0
+cd /proc/self/fd
+cat ptmx
+cd dev
+ls -lth | awk '{print $1 " " $11}'
+ls -lth | awk '{print $1 " " $12}'
+ls -lth | awk '{print $1 " " $13}'
+ls -lth | awk '{print $1 " " $15}'
+ls -lth | awk '{print $1 " " $20}'
+ls -lth | awk '{print $1 " " $10}'
+ls -lth | awk '{print $1 " " $6}'
+ls -lth | awk '{print $1 " " $5}'
+ls -lth | awk '{print $1 " " $-5}'
+ls -lth | awk '{print $1 " " $-6}'
+ls -lth | awk '{print $1 " " $-1}'
+ls -lth | awk '{print $1 " " $4}'
+ls -lth | awk '{print $1 " " $2}'
+echo -e 'hello world\x05' > 0
+echo -e 'hello world\x08\xE6' > 0
+echo -e 'hello world\xE6' > 0
+echo -e 'hello world\x08\x16' > 0
+echo -e 'hello world\x08\x08' > 0
+echo -e 'hello world\x08\x08' > 1
+echo -e 'hello world\x08' > 1
+echo -e 'hello world\x03' > 1
+echo -e 'hello world\x01' > 1
+echo -e 'hello world\x02' > 1
+echo -e 'hello world\x04' > 1
+cat < echo "hello world"
+cat <(cat <(cat <("ls -l")))
+cat <(cat <(cat <(ls -l)))
+cat <(ls -l)
+cat < (ls -l)
+cat < (ls -l)O
+cat < ls -l
+cat <ls -l
+cd 56580
+cat environ
+cd cwd
+cat cwd
+cat timers
+cat times
+cat mem
+cat me,
+cat nf_log
+cd netfilter/
+cd netfilter/LS
+cat raw
+cat arp
+cd net
+echo -e 'hello world\n' > 1
+echo -e 'hello world\n' > 2
+echo -e 'hello world\n' > 0
+echo 'hello world' > 0
+echo 'hello world' > /dev/pts/0\
+/
+cd /proc/56580/
+cat 18
+cmp 18 19
+cmp 30 31
+cmp 30 20
+cmp 1 2
+cmp 0 1
+echo 'hello world' > /dev/pts/0
+echo -e "hello world\n" > 0
+cd /proc/54304
+echo -e "hello world\n" > /dev/pts/4
+/usr/bin/python3
+echo -e  "import this\n" > /tmp/lazero_python /tmp/lazero
+echo -e  "import this\n" > /tmp/lazero_python > /tmp/lazero
+cat /tmp/lazero_python
+echo -e  "import this\n" > /tmp/lazero_python
+python3 < /tmp/lazero_python
+jobs -l
+kill 50825
+cat /tmp/lazero &
+cleara
+tr a-z A-Z
+tr a-z A_Z
+rm string
+exec 6> "string"
+echo "fuck you "\n >&6
+echo -e "hello world"
+echo -e "hello world\r" > 0
+echo -e "hello world\a" > 0
+echo -e "hello world\c" > 0
+man echo
+echo --help
+cd 47213
+timeout 2 python3 Main.py
+echo "fuck you "\n > /tmp/lazero
+cat /proc/meminfo
+free
+lpunlock
+python3 /tmp/lazero_python
+cat Main.py > /tmp/lazero_python
+timeout 10 cat /tmp/lazero
+timeout 2 yes > /tmp/lazero
+timeout 2 yes
+python3 /tmp/lazero_python > /tmp/lazero
+cat Main.py | python3
+python3 Main.py > /tmp/lazero
+cat lazero
+python3 Main.py > lazero
+cat mongodb-27017.sock
+echo "fuck you "\n > lazero
+echo "print(1111); "\n > lazero
+echo "print(1111) "\n > lazero
+echo "import this    "\n > lazero
+echo "import this"\n > lazero
+echo "fuck shit"\n > lazero
+cat lazero_python
+cat lazero | python3 &> lazero_python
+echo "fuck "\n > lazero
+echo "import this "\n > lazero
+cat lazero | python3 > lazero_python
+mkfifo lazero_python
+echo "fucking shit "\n > lazero
+echo "fucking shit"\n > lazero
+cat lazero | python3
+echo "fuck"\n > lazero
+echo "print(1)"\n > lazero
+cat lazero | python3 -
+python3 -
+python3 -c
+echo "nothing\n" > lazero
+echo "nothing" > lazero
+echo \n > lazero
+cat lazero | python3 -c
+echo "import this" > lazero
+python3 lazero
+python3 --help
+echo "hello world" > lazero
+cat "hello world" > lazero
+cat > lazero &
+ls -lt
+ls -t
+ls -l > lazero
+echo \$!
+sl
+apt install portmir
+write root tty3
+write root tty
+write root tty2
+write root tty1
+write root
+write tty
+write tty2
+write tty1
+write pty/4
+write tty0
+tty 0
+tty tty1
+tty tty0
+tty --help
+cat /dev/tty
+cat /dev/tty0
+cd /dev/tty
+cat /dev/pts/4
+cat socket:[40512]
+cat socket:[40512]'
+'
+cat 'socket:[40512]'
+cat 'ocket:[40512]'
+socket:[40512]
+pwd &&echo 'pwd'\n> /dev/pts/5
+pwd |echo 'pwd'\n> /dev/pts/5
+echo 'pwd'\n> /dev/pts/5
+echo 'hello world'\n > /dev/pts/5
+echo 'hello world'\n> /dev/pts/5
+echo 'hello world\n'> /dev/pts/5
+echo "hello world\n"> /dev/pts/5
+echo "hello world/n"> /dev/pts/5
+echo "hello world\\n"> /dev/pts/5
+echo "hello"> /dev/pts/5
+echo "hello"> /dev/pts/1
+echo "hello"> /dev/pts/2
+echo "hello"> /dev/pts/3
+echo "hello"> /dev/pts/0
+echo "hello">0
+cd 17169/
+cd proc
+echo "hello world">0
+echo "hello world\\n" >1
+echo "hello world\\n" >0
+echo "hello world\n" >0
+;s
+cd 15561/
+cd 15561/`
+cd //
+python3 main.py
+echo "hello world" >0
+cat 3
+cat 1
+cat 2
+readlink exe
+./exe
+cd 1
+cat 1/exe
+cat 1/environ;echo
+cat 1/environ
+cd /devb
+cat *
+cd events
+cat freeze_on_smi
+cd cpu
+cd devices/
+ckear
+cd kernel/
+cd hypervisor
+cd /sys
+echo "hello world"
+cat /dev/stdin
+echo "hello world" && cat /dev/stdout
+echo "hello world" | cat /dev/stdout
+l
+cat autofs
+cd autofs
+cd input
+cat stdin
+cat uinput
+echo "hello world" > uinput
+cat "hello world" > uinput
+uinput
+cat tty
+cd /dev/
+rustc --help
+chromium --no-sandbox
+cat autogroup
+cat syscall
+cat io
+cat uid_map
+cd 4105
+julia
+cd AGI/lazero/
+go help  run
+go run --help
+go help
+go shell
+go run main.go
+snap install --edge deno
+snap install --classic deno
+deno
+eval $FISH | python3 -
+set FISH "cat Mainshot.py"
+set FISH "cat mainShot.py"
+set $FISH "cat mainShot.py"
+rm python3
+rm oython3
+eval $FISH >python3 -
+python3 --help | grep std
+eval $FISH >python3
+eval $FISH
+echo ($FISH)
+bash $FISH
+bash "$FISH"
+bash cat main.c
+print main.agda
+echo  $NEW | print
+print $NEW
+echo $NEW
+$NEW
+set NEW (eval $FISH)
+set NEW ("eval $FISH")
+set NEW "(eval $FISH)"
+set NEW "($FISH)"
+set NEW eval("eval $FISH")
+set NEW "eval $FISH"
+$FISH
+set FISH 'cat main.c'
+set FISH ('cat main.c')
+set FISH ("cat main.c")
+bash
+snap install deno
+exec cat
+exec $SET
+$SET
+set SET $FISH
+set SET ($FISH)
+cat
+cat ($FISH)
+echo ($STR)
+set STR "cat mainProgram.pro"
+echo ($str)
+echo (str)
+set str "cat mainProgram.pro"
+echo "($str)"
+echo "$str"
+set str "cat main.pro"
+echo --gelp
+snap search deno
+tac --separator="\\n" main.agda
+tac --seperator="\\n" main.agda
+tac -s="\\n" main.agda
+tac --help
+tac
+tac -s "\\n" main.agda
+tac -s "\\\n" main.agda
+tac -s "\n" main.agda
+cat --help
+tac main.agda
+man cat
+cat Mainshot.py
+"cat Mainshot.py"
+string "$ADD"
+string $ADD
+help string
+string
+cat -n  Mainshot.py
+cat -e  Mainshot.py
+python3 -c ($FISH)
+echo  -e ($FISH)
+echo -h
+echo  ($FISH)
+set ADD ($FISH)
+cat new_file.py
+echo $ADD > new_file.py
+echo $ADD
+cat $ADD
+python3 -c $ADD
+$ADD
+set ADD $FISH
+python3 -c $FISH
+set FISH cat Mainshot.py
+FISH
+rm cat
+python3 -c >  cat  Mainshot.py
+python3 -c | cat  Mainshot.py
+python3 -c < Mainshot.py
+python3 -c < cat Mainshot.py
+python -c "import this"
+python --help
+apt remove csh
+csh
+apt install csh
+ledit -t
+ledit -help
+ledit --help
+ledit
+apt search csh
+jardetector
+java
+which java
+java -version
+jshell --help
+jshell main.jsh
+jshell - main.jsh
+jshell -main.jsh
+jshell --startup main.jsh
+jshell --startop main.jsh
+mkdir lazero
+rm lazero
+cd /tmp/lazero
+jruby main.rb
+jruby
+csharp
+jshell
+links "https://www.tutorialspoint.com/unix/unix-using-variables.htm"
+touch lazero
+rm -rf lazero_playground/
+mkdir lazero_playground
+scm main.scm
+tsc --help
+node --help
+node main.ts
+tsc main.ts
+which tsc
+npm install -g typescript
+node  main.ts
+octave main.m
+apt install node-typescript
+apt search typescript
+chmod +x main.sh
+php --help
+php main.php
+touch main.php
+ruby --help
+ruby main.rb
+gem list
+mendex
+type man
+type --help
+type
+rm main
+./main
+rustc main.rs
+cargo install deno
+cd .cargo
+vim config
+touch config
+rm -rf config
+cd config/
+rm config/
+mkdir config
+cd ~/.cargo/registry/index/github.com-1ecc6299db9ec823/
+apt install cargo cargo-doc
+apt search cargo | grep cargo
+apt search cargo
+apt install rustc
+apt search rust
+apt install rust-lang
+apt install rust
+claer
+go build main.go
+go
+links "https://stackoverflow.com/questions/19889777/i-cannot-use-camera-in-genymotion-emulator"
+python3 Mainshot.py
+python3 mainshot.py
+gdb
+mi
+cat /tmp/Microsoft-MIEngine-In-mkmtg9x1.5e1
+cat /tmp/Microsoft-MIEngine-Cmd-b0d3ksmh.zif
+cat /tmp/Microsoft-MIEngine-Pid-bzvbcdpb.cnn
+cat /tmp/Microsoft-MIEngine-Out-skklpxy0.mh8
+cat /tmp/Microsoft-MIEngine-In-33aj4ges.6zo
+cat /tmp/Microsoft-MIEngine-Cmd-hsn3u2zg.fa2
+lua main.lua
+env --help
+redis-server
+python3 -m idle
+id
+snap help --all
+snap help
+snap clean
+snap clear
+snap install --classic eclipse
+locate agda-stdlib
+./Main
+ghc -o Main Main.hs
+ghc -o Main main.hs
+ghc --help
+rm Main
+chmod +x Main
+ghc -c Main.hs -o Main
+ghc -c Main.hs
+ghc -c Main.hs `
+apt search eclipse
+agda -i /usr/share/agda-stdlib/ -c main.agda
+agda --help
+agda --compile main.agda
+agda -I
+cat /usr/bin/agda-mode
+which agda-mode
+agda-stdlib-doc
+agda-stdlib-dov
+man agda-stdlib
+man agda
+man agda-mode
+apt search agda-mode
+agda -c main.agda
+agda -c main.agda -o main
+apt install agda-stdlib agda-stdlib-doc
+apt search agda-stdlib
+cat main
+emacs
+agda main.agda
+agda hello-world.agda
+agda hello-world.agda\
+/
+cat /usr/bin/agda | grep H
+cat /usr/bin/agda
+cat /usr/bin/agda | grep d
+cat /usr/bin/agda | grep c
+which agda
+agda --interaction
+agda
+agda-mode compile
+agda-mode complie
+prolog -f mainProgram.pro
+prolog mainProgram.pro
+rm hello-world.agda
+agda -i
+agda -c hello-world.agda
+rm hello-world.agdai
+gcc hello-world.agdai -o hell
+gcc --help
+rm -rf MAlonzo/
+agda  --help
+./update.sh
+rm sample.mat
+clisp main.lisp
+cd abi
+./sample
+gfortran -o sample main.f90
+agda --compile hello-world.agda
+rm -rf  MAlonzo/
+agda --complie hello-world.agda
+agda  hello-world.agda
+rg Str
+rg put
+cd   /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin
+cat  /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin/*
+cat  /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin/* | grep p
+cat  /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin/* | grep put
+cat -f /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin/* | grep put
+cat /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin/* | grep put
+cat /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin/*
+cat /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin
+cat /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin/IO.agdai
+cat /usr/share/libghc-agda-dev/lib/prim/Agda/Builtin/IO.agda
+locate IO.agda
+cat   /root/.cabal/share/x86_64-linux-ghc-8.6.5/Agda-2.6.1/lib/prim/System/IO.agda
+cat   /root/.cabal/share/x86_64-linux-ghc-8.6.5/Agda-2.6.1/lib/prim/System/IO.lagda | grep str
+cabal install text-icu
+apt-get install zlib1g-dev libncurses5-dev
+agda-mode setup
+agda-mode
+ln -s  /root/.cabal/bin/agda-mode  agda-mode
+ln -s  /root/.cabal/bin/agda agda
+rm agda
+./agda
+ln -s agda /root/.cabal/bin/agda
+ls agda
+ls agda\*
+ls agda*
+cd /usr/bin/
+cd /bin
+which mvn
+sage
+sagemath
+apt search sage
+apt search wolfram
+pip3 search wolfram
+apt remove agda\*
+apt remove agda*
+metamath main.mm
+coqidetop
+coqc
+coq
+cabal  install --reinstall  Agda
+cabal  install Agda
+apt remove agda
+apt uninstall agda
+cabal  install agda
+cabal update
+vim ~/.cabal/config
+cabal install agda
+cabal --help
+agda2-mode
+apt install agda-mode agda-stdlib
+apt install libghc-agda-dev
+cp -R Agda/Builtin/* .
+cp Agda/Builtin/* .
+rm -rf prim
+cp -R Builtin/ prim
+cd build
+cd Primitive/
+cd Builtin/
+cd Agda/
+cd prim
+cd /usr/share/libghc-agda-dev
+cleaer
+mv main.agda  hello-world.agda
+metamath
+rm a.out
+gfortran --help
+gfortran main.f90
+octave
+gfortran
+apt search gfortra
+apt search gfortram
+apt search g95
+node main.js
+nodeclear
+codequery --help
+apt install codequery
+apt search source code database
+apt search sbcl
+mv main.rkt main.lisp
+racket -r  main.rkt
+racket --help
+racket main.rkt
+mv main.lisp main.scheme
+scm main.lisp
+apt install scm
+cd ctry/
+cd AGI/\
+/
+locate scheme
+apt install scheme9
+scm
+apt search scheme
+mzscheme
+lispmtopgm
+haskell-compiler Main.hs
+ghci
+haskell-compiler
+cat Main.r | R --no-save
+cat Main.r | R
+R --help
+R Main.r
+r --help
+r
+julia main.jl
+swipl
+swipl --pldoc
+swipl --help
+mv MainProgram.pl  mainProgram.pl
+prolog -l MainProgram.pl
+prolog --help
+prolog
+gprolog
+gprolog --consule-file Main.prolog
+gprolog --help
+gprolog Main.prolog
+cd dogtail/
+git clone https://gitlab.com/dogtail/dogtail
+cd ctry
+gsettings --help
+gsettings set org.gnome.desktop.interface toolkit-accessibility true
+gdb update.sh
+gdb --help
+pydoc3 dogtail
+pip3 install dogtail
+cat /root/.cpan/CPAN/MyConfig.pm
+cpan
+perl Main.pl
+perl main.pl
+jdb Mainshot.java
+rm testConn.*
+rm -rf org
+java testConn
+javac testConn.java
+rm -rf META-INF/
+jar xf redisson-3.13.1.jar
+screendump -h
+screendump --help
+screendump
+rm *.class
+rm META-INF/
+rm testConnection.java
+rm testConnection.
+java testConnection
+javac testConnection.java
+cd relate/
+cd metadata/
+cd meta
+cd Compressed/
+cd Downloads
+cd Download
+find | grep Value
+find | grep My
+cd org/
+cd Downloads/
+jar tf redisson-3.13.1.jar
+jar tf redisson-3.13.1.jar | grep My
+jar tf redisson-3.13.1.jar | grep MyKey
+links "https://www.baeldung.com/javac"
+javac --help
+javac -h
+java testConnection.java
+7z x redisson-3.13.1.jar
+cd redisson-examples/
+git clone https://github.com/redisson/redisson-examples
+java Mainshot
+javac Mainshot.java
+mv Main.java Mainshot.java
+echo "https://raw.githubusercontent.com/JuliaLang/docs.julialang.org/assets/julia-1.4.2.pdf" | nc termbin.com 9999
+echo "https://raw.githubusercontent.com/JuliaLang/docs.julialang.org/assets/julia-1.4.2.pdf" | nc termbin 9999
+pip3 install aioredis
+gprof
+apt install julia
+cal
+apt search julia
+cleawr
+vim notebook_1
+vim notebook_
+touch notebook_1
+cd diary/
+apt install gpp gprolog gprolog-doc
+apt search gnu prolog
+pip3 search lua > lua.log
+pip3 search ruby > ruby.log
+pip3 search python > python.log
+pip3 search python
+cd support/
+cd spring/
+cd redisson/
+cd org
+cd classes/
+cd annotations/
+cd generated-sources/
+cd target/
+cd redisson
+mvn compile
+cd red
+mvn all
+mvn
+mvn complie -e
+mvn compli-ee
+mvn complie Redisson
+mvn complie
+cat createdFiles.lst
+cat inputFiles.lst
+cd maven-status/maven-compiler-plugin/compile/default-compile/
+cd redisson-redisson-3.6.0/
+cd relate
+cd metadata
+javadoc --help
+javadoc java
+javadoc java.lang
+mkdir relate
+java Main
+javac Main.java
+links "https://stackoverflow.com/questions/5266532/can-i-get-all-methods-of-a-class"
+java Main.
+links "https://stackoverflow.com/questions/2126714/java-get-all-variable-names-in-a-class"
+mvn package
+cd maven
+cd etc
+which nvm
+vim pom.xml
+javadoc Main.java
+apt install maven
+apt search maven
+redis-cli
+rm main.java
+mv main.java  Main.java
+mv Submain.java  main.java
+rm submain.java
+java main
+javac main.java
+java main.java
+rm -rf  package0/
+java Submain
+java Submain.class
+java main.java 1 2 3
+mv submain.class  Submain.class
+mv submain.java  submain.class
+python3 deb_0.py
+CLEAR
+python3 -m pdb nope.py
+python3 nope.py
+pydoc3 pdb
+pydoc3
+links "https://stackoverflow.com/questions/25308847/attaching-a-process-with-pdb"
+python3 sample.py
+pip3 install runpy
+links "https://stackoverflow.com/questions/436198/what-is-an-alternative-to-execfile-in-python-3"
+./nope
+gcc nope.c  -o nope
+gcc sample.c -o sample
+gcc *.c -o sample
+diff main_loop.py  viewer.py
+cd py_vers/
+diff --help
+diff
+cp ../lazero/upload.sh  .
+cp ../lazero/update.sh  .
+cd quantum_bot/
++
+git clone https://github.com/james4deutschland/quantum_bot
+xset dpms force off
+touch notebook_0
+timestamp -d
+timestamp
+cl
+clender
+mkdir diary
+xset dpms force off]
+python3 multiCheck.py
+cd internet_maps/
+cd /media/root/Toshiba3000/
+lsmod
+apt search ros
+apt search inference
+pip3 search inference
+gem
+pip3 search conscious
+apt search conscious
+apt search deno
+apt search wasm
+apt search gas
+gas
+clea
+xdman
+apt search fortran
+nasm
+apt install nasm
+cat /etc/os-release
+lsb_release -a
+python3 new_play.py
+apt-get install python3-pygame
+apt-get install python-pygame
+ls -lrg
+chmod +x metamath
+apt-file update
+apt-file search font
+apt install font image mixer png jpeg scrap portmidi porttime
+pip3 install pygame
+apt install apt-file  libsdl1.2-dev
+apt install apt-file apt install libsdl1.2-dev
+rlwrap
+./metamath set.mm
+cat set.mm
+./metamath
+gcc *.c -o metamath
+gcc *c -o metamath
+cd metamath/
+rm metamath.tar
+7z x metamath.tar
+7z x metamath.tar.bz2
+apt install libsdl2-dev
+apt search sdl | grep dev
+apt search sdl
+cd metamath_midi/
+mkdir metamath_midi
+cd AGI_legacy/
+clear\
+/
+httrack --continue http://rosettacode.org -W -O "./rosettacode"  -%v
+cd rosettacode/
+git clone https://github.com/ryanjmccall/LIDA-Framework-1.2b
+git clone https://ryanjmccall/LIDA-Framework-1.2b
+unix-privesc-check standard
+unix-privesc-check standart
+unix-privesc-check
+ping 183.207.204.197
+ping 10.136.167.226
+ping 221.176.19.222
+./fuckyou.sh
+cd brainfuck/
+7z a internet-maps.7z *
+rm -rf __pycache__/
+python3 main_loop.py
+python3 viewer.py
+./sqlite3 --help
+./sqlite3
+cd sqlite-tools-linux-x86-3320200/
+7z x sqlite-tools-linux-x86-3320200.zip
+mkdir py_vers
+wget https://www.sqlite.org/2020/sqlite-tools-linux-x86-3320200.zip
+pyidm
+rm sqlite-tools-linux-x86-3320200.zip
+mkdir ctry
+rm ctry
+touch ctry
+python3 load_pac.py > remember_what_can.log
+python3 load_pac.py
+python3 testFreak.py
+c;ear
+cd adobe_references/
+cd /media/root/Seagate1000/
+python3 framework_.py
+python3 read_shit.py
+mv out.txt  after_effects.pdf
+mutool convert -F txt after_effects_reference.pdf
+mutool convert
+python3 focus_off.py
+cp focus_on.py  focus_off.py
+python3 focus_on.py
+python focus_on.py
+rg --help
+cat *.py | grep sqlite
+ls -1 | grep py > cat
+ls -1 | grep py | cat
+ls -1 | grep py
+ls -1
+python3 testFrame.py
+timeout 0.5 yes
+timeout 1 yes
+timeout 10 msfconsole
+timeout 5 msfconsole
+yes "-\
+ \f"
+yes "- \f"
+yes "- f"
+yes "-"'f'
+yes "-""f"
+yes "-"
+yes "\-"f
+yes "\-
+"f
+yes \-f
+yes "\-f"
+yes "-f"
+yes --help
+yes -f
+yes
+pydoc3 subprocess.Popen
+pydoc3 stringio
+echo hello > sample
+touch sample
+pip3 install stringio
+pydoc3 sys.stdin
+mutool run
+pip3 install commands-generator
+pip3 search commands
+pip3 install commands
+cd AGI/lazero/brainfuck/\
+/
+which which
+which mutool
+python3 random_interactive.py
+c,ear
+pydoc3 zmq.Socket.recv
+python3 bing_wheel.py
+pydoc3 zmq.Context.socket
+pydoc3 pyzmq.Context.socket.recv_pyobj
+pydoc3 zmq.Context.socket.recv_pyobj
+cd ../lazero/brainfuck/
+virtualenv
+venv
+cd AGI/keylogger/
+mutool --help &> commands.log
+mutool --help > commands.log
+mutool --help
+cd /root/AGI/lazero/brainfuck/track_mouse_take_div
+cd theMonkey/
+cd toemonkey
+virtualbox
+python3 looklikes.py
+./install.sh
+cd AGI/lazerpo
+python3 simpConnect.py
+pdb simpConnect.py
+echo hello | nc 192.168.1.1:8080
+echo hello | nc localhost:8080
+echo hello | nc localhost
+echo hello | nc 0.0.0.0:80
+echo hello | nc 192.168.1.1:80
+rm nc
+echo hello | nc localhost:80
+echo hello > nc localhost:80
+python3 nl.py
+mv --help
+mv sskc
+cd Seagate1000/
+cd media/root/
+cd .
+cd lazero/brainfuck/
+links "https://wiki.ros.org/ROS/Introduction"
+poqweoff
+python3 sim0.py
+vim README
+cd randomTapping/
+cd AGI/lazero/brainfuck/
+elinks "https://stackoverflow.com/questions/54038470/how-to-boot-androidx86-in-gui"
+cd brain
+touch README
+--help
+python random_interactive.py
+xset --help
+elinks bing.com
+snap search "android emulator"
+snap search android emulator
+apt remove anbox
+apt install anbox-modules-dkms
+apt update
+add-apt-repository ppa:morphis/anbox-support
+anbox
+anbox check-features
+anbox system-info
+anbox sysyem-info
+anbox wait-ready
+anbox help
+anbox launch --package=org.anbox.appmgr --component=org.anbox.appmgr.AppViewActivity
+anbox launch --package=org.anbox.appmgr
+anbox launch
+apt install anbox
+apt search anbox
+anbox-installer
+apt search android emulator
+adb devices
+pip3 search multi edit text
+python3 precise_replace.py
+python3 check_mgr.py
+python3 multiEdit.py
+cp precise_replace.py  multiEdit.py
+links "https://stackoverflow.com/questions/49977765/python-multiple-process-share-the-same-object-or-not"
+links
+python socks2.py
+adb
+ssh -p 23 tc@10.0.2.15
+ssh -p 23 box@10.0.2.15
+ifconfig
+ssh -p 23 box@192.168.43.52
+ssh -p 23 tc@192.168.43.52
+ssh -p 23 tc@localhost
+CD
+cd  rosettacode/
+python3 testCheck.py
+cp sim0.py  /root/AGI/lazero/old_toys/internet_maps/
+touch sim0.py
+screen -S deno
+cleatr
+python3 social_learning.py
+la
+python3 char_decomp.py
+pydoc3 unicodedata
+python3 randomSwap.py
+git clone https://github.com/pytorch/tutorials/
+python3 randomForget.py
+python3 decompose_char.py
+python3 hebb_simu.py
+ipython3
+cd the_new_pack
+cp dbM_2.py ../theMonkey/
+cp sub2.py  ~/AGI/lazero/brainfuck/theMonkey/
+cp endmark.py  ../brainfuck/theMonkey/
+cp repeating.py  ../brainfuck/theMonkey/
+cd ..\/
+cp random_interactive.py  ../brainfuck/theMonkey/
+cat random_interactive.py
+ssh
+ssh \
+/
+ssh tc@localhost
+ssh tc@localhost:22
+ssh tc@localhost:23
+links bing.com
+ssh tc@10.0.2.15
+ssh root@10.0.2.15
+C
+ls .*
+info link
+man link
+link --help
+locate onboot
+virtual
+cp multiCheck.py  /root/AGI/lazero/old_toys/internet_maps/
+cp dbM2.py  /root/AGI/lazero/old_toys/internet_maps/
+code --user-data-dir ~/.vscode/ .
+vim dbM_2.py
+;r
+python3 blower.py
+pydoc3 virtualbox.Session.console
+python3  social_learning.py
+pydoc3 virtualbox.Session.unlock_machine
+pydoc3 virtualbox.Session.console.mouse
+pydoc3 virtualbox.Session.console.keyboard
+pydoc3 virtualbox.VirtualBox.find_machine
+pydoc3 virtualbox.VirtualBox
+pydoc3 virtualbox.VirtualBox.find_machine.launch_vm_process
+cd track_mouse_take_div/
+cd cd lazero
+cp multiCheck.py  testCheck.py
+/usr/bin/python /root/AGI/lazero/brainfuck/theMonkey/blower.py
+pydoc3 virtualbox
+cd /usr/local/lib/python3.8/dist-packages
+pip3 install pyvbox
+pydoc3 rondo
+pydoc3 pyvbox
+pydoc pyvbox
+pip3 install rondo
+virtualbox --help
+pydoc3 vboxapi
+pip3 search virtualbox
+.//fuckyou.sh
+python theSock.py
+python thesoc
+dsdasdasdc
+rm -rf pyadb-0.1.1.dist-info/
+rm -rf pyadb
+2to3-2.7 -w adb.py
+2to3-2.7 --help
+python3 adb.py
+2to3-2.7  adb.py
+rm adb.pyc
+rm __init__.pyc
+cat __init__.pyc
+cd pyadb
+rm -rf taos-1.4.15.linux-x86_64.tar.gz
+rm -rf home/
+cp -R /usr/local/lib/python2.7/dist-packages/pyadb-0.1.1.dist-info/ .
+cp -R /usr/local/lib/python2.7/dist-packages/pyadb .
+cd dist-packages/
+cp theSock.py  socks2.py
+python
+cat dbM.py
+rg "CREATE TABLE"
+rg CREATE TABLE
+taos
+cd AGI/taos
+pydoc taos
+mv * ../dist-packages/
+cd site-packages/
+cd python2.7
+cd python3.7
+cd python3.8
+cd /usr/local/lib/python2.7/site-packages
+cp -R * /usr/local/lib/python2.7/site-packages/
+cd hzcheng/local/anaconda2/lib/python2.7/site-packages/
+cd home/
+tar -xvzf taos-1.4.15.linux-x86_64.tar.gz
+locate site-packages | grep python2.7
+cp /usr/local/taos/connector/python/linux/python2/dist/taos-1.4.15.linux-x86_64.tar.gz .
+rm -rf *
+cd ...
+cd lib/
+cd anaconda2/
+cd local/
+cd hzcheng/
+cp /usr/local/taos/connector/python/linux/python3/dist/taos-1.4.15.linux-x86_64.tar.gz .
+locate taos | grep tar
+rm *
+cd python2.7/
+cd taos
+cd python2.7/site-packages/
+cd home
+tar -xjvf taos-1.4.15.linux-x86_64.tar.gz
+cd taos/
+mkdir taos
+locate taos
+cp ../../old_toys/core4.py  .
+pip2 install py2neo
+screen -fA
+screen -help
+pip2 insrall py2neo
+python theSock.py2
+python theDock.py2
+python3 theSock.py2
+cc
+cp theDock.py2  theSock.py2
+python3 thedock
+ssh pi@10.42.0.1
+elinks "https://bing.csdn.net/jibing57/article/details/7491666"
+elinks "https://bing.csdn.net/ch717828"
+erl
+service sshd start
+service sshd stop
+neo4j --help
+service --help
+service sshd --help
+sshd
+ssh pi@10.42.0.1  --help
+rasm2 --help
+ssh pi@10.42.0.1 --help
+ssh root@10.42.0.1
+ssh root@
+python3 simp_mod.py
+adb shell /system/bin/screencap -h
+adb shell /system/bin/screencap -p
+adb shell /system/bin/screencap --help
+adb shell screenshot --help
+p
+adb version
+adb jdwp
+adb logcat
+/usr/bin/python
+which adb
+pydoc pyadb.adb
+/usr/bin/python /root/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/pyvsc-run-isolated.py pip install -U "pylint<2.0.0" --user
+git clone https://github.com/cleesmith/tinycore_with_python_plus
+pydoc pyadb
+python2
+pip2 install pyadb
+pip3 uninstall  pyadb
+pip3 install pyadb
+pip3 search pyadb
+pip3 search ypyadb
+ssh root@localhost
+ssh kali
+pydoc3 torch
+pydoc3 tensorflow
+pydoc paddle.complex
+pydoc paddle
+pip2 install paddlepaddle_gpu-1.8.1.post107-cp27-cp27mu-manylinux1_x86_64.whl
+pip2 install paddlepaddle-gpu
+pip3 install  paddlepaddle-gpu
+pip3 search paddlepaddle
+python3 -m pip install paddlepaddle-gpu -i https://mirror.baidu.com/pypi/simple
+python3 -m pip install paddlepaddle-gpu==1.8.1.post107 -i https://mirror.baidu.com/pypi/simple
+python3 -m pip install paddlepaddle-gpu==1.8.1.post107 -i https://mirror.baidu.com/pypi.simple
+cd core_dump_pickle/
+v
+pydoc3 PIL.Image.Image
+links "https://pyautogui.readthedocs.io/en/latest/screenshot.html"
+links "https://stackoverflow.com/questions/59603337/mouse-cursor-included-when-taking-screenshots-with-imageio-or-pyautogui"
+cat basepak.py
+cp old_toys/internet_maps/dbM2.py brainfuck/track_mouse_take_div/
+python3 chainer.py
+cd ../old_toys/
+python3 core4.py
+cd test/
+cd AGI/lazero/lazero_playground/metalearning/generic/
+mkdir randomTapping
+adb device
+apt install adb android-libadb android-libadb-dev
+pyadb
+apt search adb
+python3 onlyMine.py
+python3 onlymin
+cp if_onlywecanuse.py  onlyMine.py
+python3 onlyif.py
+python3 not_special.py
+pydoc3 scipy.sparse.coo_matrix
+python3 decompose_0.py
+cp if_onlywecanuse.py  onlyif.py
+pydoc3 networkx.to_numpy_array
+python3 if_onlywecanuse.py
+python3 train.py --help
+python3 train.py
+cd pygcn
+cd pygcn/
+pydoc3 pygcn.models
+pydoc3 pygcn.train
+python3 -m pygcn.train
+pydoc3 pygcn.utils
+pydoc3 pygcn.layers
+pydoc3 pygcn
+python3 setup.py install
+rm -rf .git
+git clone https://github.com/tkipf/pygcn
+leafpad  networkx_reference.txt
+cat networkx_reference.txt | grep numpy
+cat networkx_reference.txt
+cd networkx_research/
+cd scheme/lazero/
+cd lazero_playground/
+pydoc3 networkx
+rg .gpickle
+rg gpickle
+cd bookgrep/
+xs ..
+cd ../../brainfuck/
+cp noneTheLess.gpickle  ../../brainfuck/
+ls -thl *.gpickle
+ls *.gpickle
+cd AGI/laaero
+python3 configure2.py
+python3 test_ocr.py
+rm .fuse_hidden000329*
+rm .fuse_hidden000329b000000032
+fm .fuse_hidden000329b000000032
+rm .fuse_hidden000329b000000031
+rm .fuse_hidden000329b000000030
+rm Monitor2.db
+PYTHON3
+rm Monitor2.db-journal
+python3 classic_segment.py
+pydoc3 pytesseract
+pydoc3 pytesseract.image_to_string
+links "https://www.tutorialkart.com/opencv/python/opencv-python-resize-image/"
+cd daily_shot/
+cd AGI/lazero/lazero_playground/
+tesseract --help-extra
+tesseract  --list-langs
+set  -U TESSDATA_PREFIX "/usr/share/tesseract-ocr/4.00/tessdata"
+set  -g TESSDATA_PREFIX "/usr/share/tesseract-ocr/4.00/tessdata"
+set  -g TESSDATA_PREFIX "/usr/share/tesseract-ocr/4.00/tessdata/"c
+echo $TESSDATA_PREFIX
+set  -g TESSDATA_PREFIX "/usr/share/tesseract-ocr/4.00/tessdata/"
+set  -U TESSDATA_PREFIX "/usr/share/tesseract-ocr/4.00/tessdata/"
+set  --help
+echo $TESSERACT_PREFIX
+set  TESSDATA_PREFIX "/usr/share/tesseract-ocr/4.00/tessdata/"
+set  TESSDATA_PREFIX="/usr/share/tesseract-ocr/4.00/tessdata/"
+set  $TESSDATA_PREFIX="/usr/share/tesseract-ocr/4.00/tessdata/"
+links "https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/"
+echo $PATH
+echo PATH
+xscreensaver
+su - test
+apt install xscreensaver
+apt search blank screen
+pip3 install -U requests
+pip3 install -U urllib3 chardet
+python3 download_dataset.py
+python3 dummy_scr.py
+mv learn2learn/ l2l_docs
+cd learn2learn/
+pydoc3 torch.utils.data.Dataset
+git clone https://github.com/learnables/learn2learn
+git clone https://github.com/learnable/learn2learn
+pydoc3 learn2learn.vision.models
+pydoc3 learn2learn.models
+pydoc3 learn2learn.vision
+pydoc3 learn2learn.utils
+pydoc3 learn2learn.gym.envs
+pydoc3 learn2learn.gym
+pydoc3 learn2learn.data.transforms
+pydoc3 learn2learn.data
+pydoc3 learn2learn.data.utils
+pydoc3 learn2learn.algorithms
+pydoc3 learn2learn
+x
+links https://github.com/learnables/learn2learn
+links github.com/learnables/learn2learn
+q
+pydoc3 l2l
+pydooc3 l2l
+cd pytorch-custom-dataset-examples/
+git clone https://github.com/utkuozbulak/pytorch-custom-dataset-examples
+git clone https://github.com/utkuozbulak/pytorch-custom0dataset/examples
+pydoc3 torch.Datasets
+pydoc3 torch.Dataset
+pydoc3 torch.datasets
+pydoc3 torch.dataset
+rm -rf data/
+mv MNIST/processed/train  .
+mv train MNIST/processed/
+rm MNIST/
+mv train ../../
+gzip -d train.gz
+mv train-images.idx3-ubyte.gz  train.gz
+rm \Xfe\x1d
+rm \Xfc\Xfc\Xee
+rm \Xe1
+rm \Xcb\Xf7\Xfa\Xfd\Xfd\Xfd\Xaf9
+rm \X94
+tar -xvzf train-images.idx3-ubyte.gz
+tar -xvjf train-images.idx3-ubyte.gz
+gzip -d train-images.idx3-ubyte
+gzip -d gunzip train-images.idx3-ubyte.gz
+gzip -d train-images.idx3-ubyte.gz
+7z x train.gz
+cd MNIST/raw
+cd raw
+cd data
+links -dump "http://yann.lecun.com" > ylk.log
+mkdir data
+pydoc3 torchvision.datasets.MNIST
+leafpad classic.py
+leafpad multiCheck.py
+tesseract --help
+lstmtraining --help
+python3 util_func.py
+leafpad README
+httrack  --continue
+rm -rf opencv4.3/
+mv checkMulti.py  multiCheck.py
+cp checkSingle.py  checkMulti.py
+python3 checkSingle.py
+pip3 install pytesseract
+cd scheme
+elinks "https://stackoverflow.com/questions/7589012/combining-two-images-with-opencv"
+links "https://stackoverflow.com/questions/17170752/python-opencv-load-image-from-byte-string"
+pydoc3 cv2
+apt install python3-opencv
+apt search opencv
+apt install python3-dev
+apt install python-dev
+cd opencv4.3/
+mkdir opencv4.3
+leafpad 12109868.log
+./install_cv.sh
+vim install_cv.sh
+chmod +x install_cv.sh
+7z a internet-maps.7z internet_maps/*
+python3 chords.py
+python3 the_alternative.py
+python3  the_exam.py
+cp the_alternative.py  the_exam.py
+ps -ef | grep python
+python3 the_rebuild.py
+chmod +x install.sh
+pydoc3 torch.optim.XG
+pydoc3 torch.optim.XGD
+pydoc3 torch.optim.SGD
+pydoc3 torch.optim
+pydoc3 torch.optim.SGD.step
+pydoc3 torch.optim.SGD.zero_grad
+pydoc3 optim.SGD.zero_grad
+apt search mkl
+apt search mathematica
+python3 gonna_veri.py
+python3 smb_mat.py
+python3 exp_sym.py
+python3 smb_
+python3 smb_dev.py
+pydoc3 sympy
+python3 matrix_dummy.py
+python3 confirm_shape.py
+pydoc3 -k load_csv
+cp dummy_matrix.py matrix_dummy.py
+cp dummy_matrix.py
+cd rosettacode
+./bash
+cd bin
+chroot .
+cd root
+cd /media/root/rootfs/
+python3 dummy_matrix.py
+python3 simple_reverse.py
+python3 vertical.py
+\clear
+python3 track_mouse_take_div/track_mshot.py
+pip3 install opencv-pythonc
+pip3 search opencv
+pydoc3 pyautogui.screenshot
+python3 track_mouse_take_div/track_m.py
+python3 track_m.py
+'ls
+'
+cd brainfuck
+vim chords.py
+cat keylinux.py
+cat keylinux.
+cat sch_linux.sh
+cat sch_linux.
+cat sch
+pydoc3 pynput.mouse
+pydoc3 pynput.mouse.Listener
+pydoc3 pynput
+mkdir track_mouse_take_div
+rm track_mouse_take_div
+touch track_mouse_take_div
+cd Toshiba3000/
+cd media
+ls'
+'
+cat install.sh
+wget  https://deno.land/x/install/install.sh
+vim
+curl -fsSL https://deno.land/x/install/install.sh | sh
+curl -fsSL https://demo.land/x/install/install.sh | sh
+git clone https://github.com/suragnair/alpha-zero-general
+luarocks install --check-lua-versions  cutorch
+luarocks install --check-lua-versions  optim
+luarocks install --check-lua-versions  nngraph
+luarocks install nngraph
+luarocks install nngraph optim nn cutorch cunn
+th
+luarocks --help
+./configure && make && make install
+cd luarocks-3.3.1/
+lua
+make install
+make linux
+make
+cd lua-5.3.5/
+tar zxvf lua-5.3.5.tar.gz
+rm -rf lua-5.3.5
+rm lua-5.3.5
+make uninstall
+cd lua
+apt remove lua5.1
+apt uninstall lua5.1
+luadoc
+apt install luadoc
+which lua
+vim Makefile
+cp /root/AGI/lazero/lazero_playground/lua-5.3.5.tar.gz .
+mkdir lua
+apt remove lua5.3 luadoc
+locate lua-5
+apt remove luadoc
+apt install lua5.3 luadoc
+apt uninstall lua
+cd include
+cd usr/local
+cd usr/lib
+cd/
+apt install lua5.1
+apt install lua
+find / | grep lua.h
+find /
+locate lua.h
+elinks
+apt search lua-dev
+apt search lua dev
+tar zxpf luarocks-3.3.1.tar.gz
+wget https://luarocks.org/releases/luarocks-3.3.1.tar.gz
+rm -rf */.git
+snap search luarocks
+git clone https://github.com/karpathy/researchpooler
+git clone https://github.com/karpathy/neuraltalk2
+cd convnetjs/
+git clone https://github.com/karpathy/reinforcejs
+git clone https://github.com/karpathy/convnetjs
+git clone https://github.com/karpathy/conventjs
+git clone https://github.com/karpathy/convent-js
+git clone https://github.com/karpathy/char-rnn
+cd arxiv-sanity-preserver/
+git clone https://github.com/karpathy/arxiv-sanity-preserver
+wget https://arxiv.org/pdf/1912.02875.pdf
+cd atari-py/
+cd RocAlphaGo/
+git clone https://github.com/openai/atari-py
+git clone https://github.com/Rochester-NRT/RocAlphaGo
+python3 randprob.py
+echo "\033[1m\033[92m======="
+apt install octave octave-doc
+apt search matlab
+apt clean
+kill 113713
+elinks "0dayproxies.blogspot.com/feeds/posts/default?alt=rss"
+racket -i
+racket -r
+apt install racket
+cd agi/lazero
+locate AlphaGo
+locate AlphaZero
+locate Alphazero
+locate alphazero
+locate alphago
+wine mono
+wine hellouser.exe
+mono hellouser.exe
+cd hello-user/
+cd Results/
+cd AI-Programmer/
+llvm-addr2line-9 --help
+llvm-addr2line-9
+mono  --help
+apt install mono-complete mono-dbg mono-runtime-dbg
+./bf0.bf
+chmod +x bf0.bf
+moztools
+apt search mono | grep mono
+apt search mono
+mono
+pydoc3 -k namespace
+pydoc3 namespace
+which open
+open random_approach.py
+mpi
+python3 demo_leaving.py
+jupyter notebook --allow-root
+pip3 install jupyter
+python3 random_approach.py
+pydoc3 statistics
+pydoc3 math
+cd  /media/root/Toshiba3000/
+python3 the_real_wheel.py
+python3 recursive_networks.py
+pydoc3 random.sample
+python3 the_abstraction.py
+cd AGI//lazero
+cmatrix
+0 is 0
+is
+hacking is fun
+python3 check_useful_func.py
+python3 we_do_have_words.py
+pydoc3 numba
+pydoc cython.*
+cweave --help
+cweave
+pydoc3 spacy
+pydoc3 spacy.about
+pydoc3 thinc.api
+pydoc3 thinc.about
+pydoc3 thinc
+pip3 install  thinc
+pip3 install spacy
+rm spacy-2.2.4-cp38-cp38-manylinux1_x86_64.whl
+rm blis-0.4.1-cp38-cp38-manylinux1_x86_64.whl
+pip3 install blis-0.4.1-cp38-cp38-manylinux1_x86_64.whl
+pip3 install spacy-2.2.4-cp38-cp38-manylinux1_x86_64.whl
+wget https://pypi.tuna.tsinghua.edu.cn/packages/92/6e/7191dafd1f5dca140e9a61a387c114e14fd730dc5953ee1aca8b5ac5600d/blis-0.4.1-cp38-cp38-manylinux1_x86_64.whl
+locate random_stuff
+find | grep random_stuff
+find | grep random
+aria2c -i ADM.log
+vim ADM.log
+touch ADM.log
+cat lazero_playground/metalearning/scanner/retribution/thinc-8.0.0a0/thinc/backends/__init__.py | grep jit
+cat lazero_playground/metalearning/scanner/retribution/useR/rpy2/rpy2/robjects/lib/ggplot2.py | grep jit
+cat lazero_playground/metalearning/scanner/retribution/useR/rpy2/rpy2/robjects/lib/ggplot2.py
+pip3 install spacy thinc
+cat lazero_playground/metalearning/scanner/retribution/thinc-8.0.0a0/thinc/model.py | grep JIT
+cat lazero_playground/metalearning/scanner/retribution/thinc-8.0.0a0/thinc/model.py | grep jit
+cat lazero_playground/metalearning/scanner/retribution/thinc-8.0.0a0/thinc/model.py
+python3 indexer.py
+python3 standard_parse.py
+pydoc3 -k jit
+pydoc3 -k cython jit
+cp say_we_have_words.py  we_do_have_words.py
+python3 say_we_have_words.py
+python3 form_truth_matrix.py
+go doc -all
+go doc *
+go doc
+luadoc --help
+coqidetop --help
+coqc  --help
+./pylint
+cd /root/.local//bin
+./root/.local/bin/pylint
+locate pylint
+pylint
+python3 exp_img.py
+python3 convent.py
+python3 isint.py
+pydoc3 isinstance
+CD /
+cd homemade-machine-learning/
+rm -rf.git
+git clone https://github.com/trekhleb/homemade-machine-learning
+lynx bing.com
+w3m bing.com
+apt install python3-theano theano-doc
+pip3 search theano gpu
+apt search theano gpu
+beef -d "bf.bf"
+beef --help
+beef
+beef  "bf.bf"
+beef -i "bf.bf"
+beef -i=bf.bf
+beef -i bf.bf
+beef -p bf.bf
+python3 rsdn.py
+python3 nrav.py
+pydoc3 numpy.ndarray.ravel
+pydoc3 numpy.array.ravel
+pydoc3 numpp.array.ravel
+pydoc3 np.ndarray.ravel
+pydoc3 np.array.ravel
+pydoc3 torch.Tensor.ravel
+pydoc3 torch.Tensor.data.numpy.ravel
+./red --help
+./red
+,.red
+ls *
+rm  /bin/red
+red
+mv _red-latest  /bin/red
+which bash
+rm /usr/bin/red
+mv _red-latest  /usr/bin/red
+mv red /usr/bin/
+wget https://static.red-lang.org/dl/auto/linux/red-latest.zip
+apt-get install libc6:i386 libcurl4:i386
+apt-get install libc6:i386 libcurl4:i386 libcurl3:i386
+apt -get install libc6:i386 libcurl4:i386 libcurl3:i386
+links "https://www.red-lang.org/p/download.html"
+linls "https://www.red-lang.org/p/download.html"
+snap search red
+snap search red-lang
+apt search red-lang
+apt search red
+python3 rgrad.py
+pydoc3 torch.Tensor.grad
+pydoc3 torch.Tensor.backward
+pydoc3 torch.cat
+pydoc3 torch.mm
+pydoc3 torch.cat.mm
+links https://www.red-lang.org
+links https://red-lang.org
+apt install cmatrix
+apt search dim screen
+pip3 search screenoff
+apt search screenoff
+cd blog-posts/
+git clone https://github.com/ImadDabbura/blog-posts
+wget https://nbviewer.jupyter.org/github/ImadDabbura/blog-posts/blob/master/notebooks/Character-LeveL-Language-Model.ipynb
+wget https://nbviewer.jupyter.org/github/ImadDabbura/blog-posts/blob/master/notebooks/Character-Level-Language-Model.ipynb
+python3 csdn.py
+./bf.bf
+firefox -P scraper highlight_brainfuck.html
+nodejs highlight_mycode.js > highlight_brainfuck.html
+rm highlight_branifuck.html
+rm highlight_brainfuck.html
+firefox -P scraper highlight_branifuck.html
+nodejs highlight_mycode.js > highlight_branifuck.html
+python3 extend_while_iterate.py
+touch extend_while_iterate.py
+cp strings.py chords.py
+links "https://stackoverflow.com/questions/13638898/how-to-use-filter-map-and-reduce-in-python-3"
+links "https://stackoverflow.com/questions/5349570/how-can-i-get-the-product-of-all-elements-in-a-one-dimensional-numpy-array"
+pydoc3 torch.nn.MaxPool2d
+python3 strings.py
+pydoc3 torch.nn.Conv2d
+pydoc3 torch.Tensor.stride
+python3 strik.py
+pydoc3 torch.tensor
+pydoc3 torch.tensor.stride
+cp sub2.py  ~/AGI/lazero/brainfuck/
+cat waifu2x.py
+cd pypi_scraping/
+cd scheme/
+python3 linspa.py
+python3 reshaper.py
+du -h
+du --help
+du
+python3 complex_torch.py
+python3 super_0.py
+pydoc3 super
+pydoc3 code
+pydoc3 __code__
+pydoc3 seaborn.regplot
+pydoc3 seaborn.lmplot
+pip3 install seaborn
+links chacuo.net
+links http://sgi.io
+locate mnist
+chromium --no-sandbox "file:///root/AGI/lazero/brainfuck/highlight_scipy.html"
+LS
+ls png
+ls *.png
+chromium --no-sandbox --headless  --screenshot=capture.png "file:///root/AGI/lazero/brainfuck/highlight_scipy.html"
+firefox -P scraper  "file:///root/AGI/lazero/brainfuck/highlight_scipy.html"
+nodejs highlight_mycode.js > highlight_scipy.html
+cd AGI/lazer
+cd root/Toshiba3000/
+cd /media/
+python3 complex_show.py
+cp complex_torch.py  complex_show.py
+pip3 cache clean
+pip3 cache lean
+pip3 clean
+pip3
+pip3 install torch-gpt-2
+pip3 install pytorch-complex-tensor
+links "https://pypi.org/project/torch-complex/"
+links "https://pypi.org/project/pytorch-complex-tensor/"
+touch torch_complex.log
+pip3 search torch complex
+doxygen --help
+roxygen2
+httrack
+httrack --help
+mkdir rosettacode
+ghc
+cabal
+apt search httrack
+apt search rosetta
+apt install r-cran-roxygen2
+apt install haskell-platform
+apt install cabal
+cargo
+apt install doxygen doxygen-doxyparse doxygen-doc
+apt install doxygen
+apt search doxygen
+apt search doxyugen
+cran
+R
+links "https://itsfoss.com/install-r-ubuntu/"
+apt install r-base
+r2
+apt search r programming language statistic
+apt search r language
+apt search r doc
+r doc
+rdoc --help
+rm -rf doc
+rdoc
+cp out_torch.py  complex_torch.py
+python3 find_load.py
+aria2c "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz"
+rm cifar-10-python.tar.gz
+cd data/
+locate boston
+pip3 search learn2learn
+pip3 install learn2learn
+firefox -P scraper  "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+firefox -P scraper --screenshot  "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+firefox -P scraper --screenshot  yankee.png "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+firefox -P scraper -headless --screenshot  yankee.png "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+firefox   -P scraper "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+firefox   -P normal "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+firefox   "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+kill 51124 51172 51221 51359 51363
+kill 51124 51172 51221 51359 51363 51903
+kill --help
+kill firefox
+ps -ef | grep firefox
+\
+firefox -P scraper -headless "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+firefox  -P scraper "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+firefox  "file:///root/AGI/lazero/brainfuck/fix_x_torch.html"
+cat shotlog.log
+ls *.log
+cat all_commands.log
+cat all_commands.
+cat *.log
+nrm use taobao
+nrm help
+npm search syntax
+npm search highlight
+nrm  use npm
+npm search hoghlight
+nrm  use cnpm
+nrm ls
+npm install nrm -g --save
+npm config set registry https://registry.npm.taobao.org
+npm search --help
+npm config list
+npm config set registry https://registry.npmjs.org
+npm docs highlighter
+cnpm web
+cnpm  --help
+npm install -g cnpm
+firefox
+nodejs highlight_mycode.js > fix_x_torch.html
+nodejs highlight_mycode.js
+npm install  highlighter
+npm uninstall  escape-html
+npm uninstall  syntax-highlighter
+npm install  syntax-highlighter
+npm install -g highlighter
+npm install -g syntax-highlighter
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+npm config --list
+npm config
+apt install npm
+npm
+python3 graph_impl.py
+pydoc3  torch_geometric.nn
+pydoc3  torch_geometric > torch_geometric.log
+pydoc3 -w  torch_geometric
+pydoc3 -w  torch-geometric
+pydoc3 -m  torch-geometric
+vim strings.py
+pydoc3 -w networkx
+pydoc3 -w sympy
+pydoc3 -w scipy
+pydoc3 -w numpy
+pydoc3 -w torch
+pip3  install torch-geometric
+pydoc3 torch-geometric
+pydoc3 torch_geometric
+touch graph_impl.py
+links "https://github.com/rusty1s/pytorch_geometric"
+links "github.com/rusty1s/pytorch_geometric"
+code .
+rm Monitor.db-journal
+pip3 install torch-geometric
+pip3 install torch-geometry
+pip3 install torch_geometry
+pip3 install "torch_spline_conv-latest+cu101-cp38-cp38-linux_x86_64.whl"
+pip3 install "torch_sparse-latest+cu101-cp38-cp38-linux_x86_64.whl"
+pip3 install "torch_scatter-latest+cu101-cp38-cp38-linux_x86_64.whl"
+pip3 install "torch_cluster-latest+cu101-cp38-cp38-linux_x86_64.whl"
+aria2c -i simple.log
+apt install aria2
+touch simple.log
+cd torch_geom
+mkdir torch_geom
+pip3 search torch-geometry
+python3 fix_x_torch.py
+cp rand_torch.py  fix_x_torch.py
+python3 fix_y_torch.py
+cp rand_torch.py  fix_y_torch.py
+python3 rand_torch.py
+cp out_torch.py  rand_torch.py
+python3 out_torch.py
+pydoc3 torch.nn.ReLU
+pygettext
+go version
+go help vet
+go vet
+mv endmark.py  internet_maps/
+mv strings.py  internet_maps/
+cp endmark.py  /media/root/Toshiba3000/
+cp strings.py  /media/root/Toshiba3000/
+python3 toy_project.py
+pydoc3 -k boston
+./doc --help
+./doc
+./oc
+vet
+doc
+cd //usr/lib/go-1.14/pkg/tool/linux_amd64
+go env
+go godoc
+locate godoc
+go version'
+/.
+/
+'
+godoc
+pydoc3 buffer
+pydoc3 for
+links -dump tensorflow.html > tensorflow.log
+links tensorflow.html
+pydoc3 -w tensorflow
+pydoc3 -k database
+pydoc3 > pydoc3.log
+cat sklearn.log
+pydoc3 sklearn > sklearn.log
+pydoc3  -w sklearn.html sklearn
+pydoc3 sklearn -w sklearn.html
+python3 --version
+pydoc3 cyberbrain
+lws
+kali-treecd /root/
+kali-treecd /
+kali-treecd
+pydoc3 sklearn.datasets
+pydoc3 --help
+pydoc3 markovtextgen
+pydoc3 sklearn
+pydoc3 scikit-learn
+pydoc scikit-learn
+pydoc sklearn
+python3.7
+python3 project_toy.py
+pytnon3
+./fixme.sh
+cd subdir/
+cd ../lazero/lazero_playground/scheme/lazero/
+cd subdir/megaDatabase/
+cd /root/AGI/keylogger/
+which fish
+chmod +x fixme.sh
+cd megaDatabase/
+python3 metaCheckVI.py cyberbrain > subdir/cyberbrain_notsame.py
+python3 metaCheckVI.py pymongo > subdir/pymongo_notsame.py
+python3 metaCheckVI.py networkx > subdir/networkx_notsame.py
+python3 metaCheckVI.py pracmln > subdir/pracmln_notsame.py
+python3 metaCheckVI.py requests > subdir/requests_notsame.py
+python3 metaCheckVI.py py2neo > subdir/py2neo_notsame.py
+python3 metaCheckVI.py ipykernel > subdir/ipykernel_notsame.py
+python3 metaCheckVI.py ipython > subdir/ipython_notsame.py
+python3 metaCheckVI.py beautifulsoup4 > subdir/beautifulsoup4_notsame.py
+python3 metaCheckVI.py pyro4 > subdir/pyro4_notsame.py
+python3 metaCheckVI.py autokeras > subdir/autokeras_notsame.py
+python3 metaCheckVI.py keras > subdir/keras_notsame.py
+python3 metaCheckVI.py sympy > subdir/sympy_notsame.py
+python3 metaCheckVI.py pyzmq > subdir/pyzmq_notsame.py
+python3 metaCheckVI.py torchvision > subdir/torchvision_notsame.py
+python3 metaCheckVI.py pylint > subdir/pylint_notsame.py
+pip3 list
+python3 pandas_notsame.py
+python3 metaCheckVI.py tensorflow > subdir/tensorflow_notsame.py
+python3 metaCheckVI.py scipy > subdir/scipy_notsame.py
+python3 metaCheckVI.py numpy > subdir/numpy_notsame.py
+python3 metaCheckVI.py pandas > subdir/pandas_notsame.py
+rm pandas.pickle
+python3 tensorflow_notsame.py
+python3 scipy_notsame.py
+python3 numpy_notsame.py
+python3 metaCheckV.py pandas > subdir/pandas_notsame.py
+python3 metaCheckV.py numpy > subdir/numpy_notsame.py
+python3 metaCheckV.py scipy > subdir/scipy_notsame.py
+python3 metaCheckV.py tensorflow > subdir/tensorflow_notsame.py
+python3 metacheckV.py tensorflow > subdir/tensorflow_notsame.py
+python3 torch_notsame.py
+python3 metaCheckVI.py torch > subdir/torch_notsame.py
+python3 metacheckVI.py torch > subdir/torch_notsame.py
+python3 metacheckvi.py torch > subdir/torch_notsame.py
+cp metaCheckV.py  metaCheckVI.py
+python3 metaCheckV.py  torch > subdir/torch_notsame.py
+python3 metaCheckV.py  sklearn > subdir/sklearn_notsame.py
+python3 sklearn_notsame.py
+python3 metaCheckIV.py  sklearn > subdir/sklearn_notsame.py
+python3 metaCheckV.py  torch >subdir/torch_notsame.py
+python3 metaCheckV.py  torch  > subdir/torch_notsame.py
+cp metaCheckIV.py  metaCheckV.py
+lcear
+cd lazero/
+./the_complete_sample.sh
+cp the_right_sample.sh  the_complete_sample.sh
+cp metaCheckIII.py  metaCheckIV.py
+cp experiment.py  experimentII.py
+python3 experiment.py
+pip3 install searx
+apt install libxslt
+apt install libxslt1
+apt install libxslt-dev
+snap install libxslt-dev
+apt install libxml2-dev
+pip3 install -U scikit-learn
+pip3 uninstall sklearn
+pip3 install scikit-learn
+pip3 install sklearn
+./the_right_sample.sh
+chmod +x the_right_sample.sh
+rm torch.py
+rm sklearn.py
+python3 metaCheckIII.py  torch > subdir/torch_notsame.py
+python3 metaCheckIII.py  sklearn > subdir/sklearn_notsame.py
+python3 torch.py
+python3 metaCheckIII.py  torch > subdir/torch.py
+apt install libxml2 && snap install libxslt
+apt install libxml2 libxslt
+python3 sklearn.py
+python3 metaCheckIII.py  sklearn > subdir/sklearn.py
+cd ../subdir/
+cat torch.py
+mkdir maybe_useless
+pip3 install jinja2
+vim experiment.py
+cp font-unicode.py  ../experiment.py
+cat font-unicode.py
+cat getFromPickleR.py
+pip3 search sklearn data
+pip3 search seaborn
+python3 metaCheckII.py  sklearn > subdir/sklearn.py
+pip3.7
+apt search cudnn
+nvcc  --version
+nvcc  --help
+nvcc  --hlep
+nvcc
+ipython --help
+ipython
+cd AGI/lazero/brainfuck/n
+snap search luarock
+snap install luarock
+ls -d s*
+cleaar
+ls s*
+apt install luarock
+apt install lua5.3
+luahbtex
+pip3 install pyro4
+pip3 uninstall pyro4
+pip3 uninstall pyro5
+pip3 install pyro5
+links "https://pypi.org/project/Pyro5/"
+links "https://pypi.org/project/Pyro4/"
+cd AGI/lazero/old_toys/internet_maps/
+python3 microscope.py
+ls -lth]
+python3 basepak.py
+python3 configure.py
+links "https://stackoverflow.com/questions/7407506/unique-combination-of-fields-in-sqlite"
+cp ../links_play/strings.py  .
+cp ../links_play/dbM.py  .
+links "https://pypi.org/project/internet/"
+pip search internet map
+links "http://internet-map.net/"
+python3 telescoper.py
+cd ../old_toys/links_play/
+cd ../
+cd ../old_toys
+links "http://spmode.ne.jp/"
+links "https://www.telstra.com.au/"
+links "http://telstra.net/"
+links "customer.krypt.com"
+links "customer.krypt.co"
+links "http://nttpc.ne.jp/"
+links "http://aptg.com.tw/my/"
+rm 2020-04-29-1588174350-rdns.json.gz
+cd /media/root/Toshiba3000//rdns/
+7z x 2020-04-29-1588174350-rdns.json.gz
+cd rdns/
+which beef
+chmod +x bf.bf
+cat bf.bf | beef
+cd  ..
+help expand
+?lear
+c?lear
+hsbrainfuck  -?
+hsbrainfuck  ?
+hsbrainfuck  --help
+hsbrainfuck bf.bf
+beef -p=bf.bf
+beef --input-file=bf.bf
+beef bf.bf
+hsbrainfuck --help
+vim bf.bf
+touch bf.bf
+cd ag
+hsbrainfuck -h
+hsbrainfuck
+brainfuck
+apt install beef gir1.2-cattle-1.0 hsbrainfuck libcattle-1.0-0 libcattle-1.0-dev libcattle-1.0-doc libghc-brainfuck-dev libghc-brainfuck-doc libghc-brainfuck-prof
+apt search brainfuck
+git clone https://github.com/primaryobjects/AI-Programmer
+cat README
+mkdir brainfuck
+vim AGI/
+mv iana_rdns.7z ~/
+7z a iana_rdns.7z *
+7z
+python3 formal.py
+lcc
+cp ../endmark.py .
+links "https://pypi.org/project/requests-ftp/"
+pip3 install requests-ftp
+pip3 search ftp download
+pip3 install -U chardet
+pip3 install -U urllib
+pip3 install -U urllib3
+python3 formal.pyc
+python3 initial_works.py
+rm Monitor.db
+./createdir.sh
+vim createdir.sh
+python3 create_dir.py  > createdir.sh
+cp ../../new_toys/dbM.py .
+cp ../../new_toys/dbM.py
+./crea
+chmod +x createdir.sh
+apt search dns
+apt search arpa
+python3 naus.py
+cp ../storeADill.py  .
+cp ../getFromDill.py  .
+cat lacnic_rdns.log
+cat lacnic_rdns.
+links -dump "file:///root/AGI/lazero/old_toys/links_play/lacnic_rdns.html"  > lacnic_rdns.log
+links -dump "file:///root/AGI/lazero/old_toys/links_play/ripe_rdns.html"  > ripe_rdns.log
+links -dump "file:///root/AGI/lazero/old_toys/links_play/afrinic_rdns.html"  > afrinic_rdns.log
+links -source "ftp://ftp.ripe.net/pub/zones" > ripe_rdns.html
+links -source "ftp://ftp.lacnic.net/pub/zones" > lacnic_rdns.html
+links -source "ftp://ftp.afrinic.net/pub/zones" > afrinic_rdns.html
+cd links_play/
+lks
+links -dump "file:///root/AGI/lazero/old_toys/links_play/apnic_rdns.html"  > apnic_rdns.log
+links -dump "file:///root/AGI/lazero/old_toys/links_play/arin_rdns.html"  > arin_rdns.log
+vim rdns_public_registry.log
+touch rdns_public_registry.log
+cat apnic_rdns.html
+cat arin_rdns.html
+links -source "ftp://ftp.apnic.net/pub/zones" > apnic_rdns.html
+links -source "ftp://ftp.arin.net/pub/zones" > arin_rdns.html
+acd lazero
+shutdown 0
+shutdown -t 0
+shutdown -c
+shutdown -f
+shutdown
+python3 lida_y.py
+cp rockstar.dill  new_toys/rockstars.dill
+python3 special_parser.py
+vim special_parser.py
+links -dump "file:///root/AGI/lazero/old_toys/links_play/source.html"  > source.log
+links -dump "https://www.programiz.com/" > dump.log
+links -source "https://www.programiz.com/" > source.html
+mkdir links_play
+links -source "https://www.programiz.com/"
+links --help
+links "https://www.programiz.com/"
+python3 lida_x.py
+mv rockstar.dill  new_toys/
+cp rockstar.dill  new_toys/
+python3 trench_exam.py
+pip search js traverse
+links  "https://pypi.org/project/pywalk/"
+pip3 install pywalk
+pip search dict walk
+pip search json walk
+cp old_toys/storeADill.py  .
+cp old_toys/getFromDill.py  .
+cd ~/AGI/lazero/
+cp trench.log ~/AGI/lazero/
+cp trench.dill  ~/AGI/lazero/
+pip3 install ipython
+cat trench.log
+cat trench.
+cat fuck.log
+cat scheme.log
+cd ../lazero_playground/
+mariadb
+mysql
+echo $PATH > path.log
+$PATH
+mysql -u root -p
+mysql -u root
+cd enwiki/
+cd /media/root
+links "https://stackoverflow.com/questions/8940230/how-to-run-sql-script-in-mysql"
+mysql --help
+systemctl start taosd
+systemctl enable taosd
+systemctl enable taos
+systemctl enable mysqld
+systemctl start mysqld
+systemctl start mysql
+systemctl enable mysql
+vim random_interactive.py
+touch hashcat.log
+lc
+msfpc
+psfpc
+cat all_commands.log  | grep msf
+ecl
+cat modprep.lisp
+cd linkkit/
+cat asdf.lisp
+cd asdf
+cd /usr/lib/clisp-2.49.92/
+cat /usr/bin/clisp
+which clisp
+clisp
+python3 frozen_demo.py
+sweipl
+cat /usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb
+locate /usr/share/metasploit-framework/lib/metasploit/framework/command/console.rb
+locate metasploit/framework/profiler
+cat /usr/bin/msfconsole
+locate metasploit/
+locate metasploit
+which msfconsole
+sidguess -i 127.0.0.1 -d hot_solution.py
+sidguess
+cat /usr/bin/sidguess
+which sidguess
+where sidguess
+sidguess -d
+sidguess -p 1521 -i 127.0.0.1 -m findfirst
+sidguess -p 1521 -i 127.0.0.1
+sidguess -p 1521
+man rush
+rm -rf cvsroot/
+rm -rf incoming/
+rm -rf rush/
+rm rush/
+rush
+mkdir cvsroot
+mkdir incoming
+mkdir rush
+cd srv
+touch /srv
+cat shell.log
+rm terminal.log
+cat terminal.log
+apt search ternimal > terminal.log
+apt search shell > shell.log
+apt search screen > screen.log
+apt search screen
+cat README.md
+python-argcomplete-check-easy-install-script README.md
+python-argcomplete-check-easy-install-script bash
+python-argcomplete-check-easy-install-script
+ps -ef | grep ssh
+rm rock.dill
+vim waifu2x.py
+rg Pool
+cd lazero_playground/scheme/pypi_scraping/
+neo4j start
+rm -rf /usr/share/neo4j/data/databases/graph.db/*
+neo4j stop
+locate graph.db
+vim /usr/share/neo4j/conf
+cim /usr/share/neo4j/conf
+cat /usr/share/neo4j/logs/neo4j.log
+neo4j restart
+rm -rf .vscode/
+code --user-data-dir .vscode .
+code --user-data-dir .vscode
+python23
+python3 dc_demo.py
+python3 cd_demo.py
+vim cd_demo.py
+vim dc_demo.py
+cp cd_demo.py  dc_demo.py
+vim frozen_demo.py
+cat endmark.py  | grep def
+cd ../../../
+CD ../../../
+cp endmark.py  ../../../
+cd scheme/pypi_scraping/
+cat random_shell.py
+ssh test@localhost
+sh
+links "https://blog.erratasec.com/"
+apt search scanrand
+apt search unicornscan
+apt search unicodrnscan
+pip3 install python-masscan
+pip3 install masscan
+pip3 install ipwhois
+masscan
+zmap --help
+zmap -p 80
+zmap
+apt install zmap
+apt search zmap
+cd lida
+git clone https://github.com/Wluper/lida
+links "https://github.com/Wluper/lida"
+cp lazero_playground/storeADill.py  .
+cp ssh_interactive.py random_interactive.py
+python3 ssh_interactive.py
+cp ssh_manual_shell.py random_shell.py
+python3 ssh_manual_shell.py
+cat indexer.py
+ca]t indexer.py
+czt indexer.py
+vim ssh_manual_shell.py
+vim ssh_interactive.py
+useradd -m test -G testgroup
+passwd test
+useradd -m -d /test test
+userdel test
+userdel text
+useradd test
+python3 tts.py
+vim tts.py
+vim tts
+touch tts.py
+pip3 install cyberbrain
+links "https://stackoverflow.com/questions/2594560/how-to-write-a-shell-in-python"
+python3 test.py
+vim test.py
+python3 process_dom.py
+vim  process_dom.py
+cat geckodriver.log
+python3 pythonbasics.py
+vim pythonbasics.py
+chromium --virtual-time-budget=1000  --no-sandbox --headless --dump-dom "https://cn.bing.com/search?q=yankee+with+no+brim&qs=n&form=QBRE&sp=-1&pq=yankee+with+no+brim&sc=3-19&sk=" > brim.log
+chromedriver --help
+chromedriver
+rm -rf yankee\ with\ no\ brim\ -\ 国内版\ Bing_files/
+rm yankee\ with\ no\ brim\ -\ 国内版\ Bing.html yankee\ with\ no\ brim\ -\ 国内版\ Bing_files/
+python3 pythonbasics.py > scraped.html
+geckodriver
+geckodriver --help
+firefox -P scraper -headless --jsconsole "https://cn.bing.com/search?q=yankee+with+no+brim&qs=n&form=QBRE&sp=-1&pq=yankee+with+no+brim&sc=3-19&sk="
+firefox --help
+cat pythonbasics.py
+links "https://askubuntu.com/questions/851401/where-to-find-geckodriver-needed-by-selenium-python-package"
+apt search geckodriver
+touch pythonbasics.py
+chromium --virtual-time-budget=1000  --no-sandbox --headless  --repl "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+pip3 install selenium
+chromium --help
+chromium --virtual-time-budget=1000  --no-sandbox --headless  --dump-dom  "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk=" > dom.html
+chromium --virtual-time-budget=1000  --no-sandbox --headless  --screenshot=stdout.png "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+chromium --virtual-time-budget=1000 --run-all-compositor-stages-before-draw --no-sandbox --headless  --screenshot=stdout.png "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+chromium --run-all-compositor-stages-before-draw --no-sandbox --headless  --screenshot=stdout.png "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+links "https://stackoverflow.com/questions/46077392/additional-options-in-chrome-headless-print-to-pdf"
+chromium --no-sandbox --headless  --screenshot=stdout "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+chromium --no-sandbox --headless  --screenshot=capture.png "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+chromium --no-sandbox --headless  --print-to-pdf=out.pdf
+chromium --no-sandbox --headless  --print-to-pdf -o out.pdf
+chromium --no-sandbox --headless  --print-to-pdf > out.pdf
+chromium --no-sandbox --headless  --print-to-pdf -h
+chromium --no-sandbox --headless  --print-to-pdf --help
+chromium --no-sandbox --headless  --print-to-pdf
+chromium -remote-debugging-port=9222  --no-sandbox --headless  --dump-dom "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk=&cvid=D6AACF5704314C26AE3335F4E4E402D8" > dump.html
+chromium --no-sandbox --headless  --screenshot capture.png "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+chromium --no-sandbox --headless  --print-to-pdf  "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk=" output0.pdf
+chromium --no-sandbox --headless  --print-to-pdf output0.pdf "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+chromium --no-sandbox --headless  --print-to-pdf "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+chromium --no-sandbox --headless  --screenshot "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk="
+chromium --no-sandbox --headless  --screenshot "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk=&cvid=D6AACF5704314C26AE3335F4E4E402D8"
+chromium --no-sandbox --headless  --dump-dom "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk=&cvid=D6AACF5704314C26AE3335F4E4E402D8" > dump.html
+chromium --no-sandbox --headless --disable-gpu --dump-dom "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk=&cvid=D6AACF5704314C26AE3335F4E4E402D8" > dump.html
+chromium --no-sandbox --headless --disable-gpu --dump-dom "https://cn.bing.com/search?q=firefox+headless+dump+html&qs=n&form=QBLHCN&sp=-1&ghc=1&pq=firefox+headless+dump+html&sc=0-26&sk=&cvid=D6AACF5704314C26AE3335F4E4E402D8"
+chromium --no-sandbox --headless --disable-gpu --dump-dom "https://dustinoprea.com/2017/08/27/chrome-at-the-command-line-to-dump-website-structure/"
+chromium --headless --disable-gpu --dump-dom "https://dustinoprea.com/2017/08/27/chrome-at-the-command-line-to-dump-website-structure/"
+vim shotlog.log
+links "https://dustinoprea.com/2017/08/27/chrome-at-the-command-line-to-dump-website-structure/"
+touch shotlog.log
+firefox -P scraper -headless --screenshot  yankee.png "https://cn.bing.com/search?q=yankee+with+no+brim&qs=n&form=QBRE&sp=-1&pq=yankee+with+no+brim&sc=3-19&sk="
+firefox -P scraper -headless --screenshot  yankee.png "https://cn.bing.com/search?q=bing+search+api+key&qs=n&form=QBRE&sp=-1&pq=yankee+with+no+brim&sc=3-19&sk="
+firefox --headless -P scraper --search "yankee with no brim" --screenshot yankee.png
+firefox --headless -P scraper --search yankee with no brim --screenshot yankee.png
+firefox -P scraper -headless --screenshot  test.png "https://cn.bing.com/search?q=bing+search+api+key&qs=n&form=QBRE&sp=-1&pq=bing+search+api+key&sc=3-19&sk="
+rm test.jpg
+firefox -P scraper -headless --screenshot  test.jpg "https://cn.bing.com/search?q=bing+search+api+key&qs=n&form=QBRE&sp=-1&pq=bing+search+api+key&sc=3-19&sk="
+links "https://cn.bing.com/search?q=bing+search+api+key&qs=n&form=QBRE&sp=-1&pq=bing+search+api+key&sc=3-19&sk=&cvid=7568FD1A696344D3A02F1E0FBC813796"
+pip3 install py-bing-search
+pip3 install pybing
+rg bing
+python3 chaotic_search.py
+rg traceback
+vim ssh_manual_shell.py\
+/
+cp sub2.py  ~/AGI/lazero/
+cp ssh_interactive.py  ssh_manual_shell.py
+python ssh_interactive.py
+ssh localhost
+rm your_key
+ssh-add /root/.ssh/your_key
+touch /root/.ssh/your_key
+service sshd restart
+ssh restart
+vim /etc/ssh/sshd_config
+vim /etc/ssh/ssh/sshd_config
+netstat -anp| grep sshd
+cat id_rsa
+ssh-keygen -p -m PEM -f ~/.ssh/id_rsa
+cp id_rsa id_rsa.bak
+ssh-keygen -t rsa
+ssh-keygen -t -rsa
+rm  -rf *
+cd ~/.ssh
+ssh status
+ssh start
+vim sshd_config
+cd /etc/ssh/
+ssh-keygen -p -m PEM -f ~/.ssh/id_rsa.priv
+wpd
+pip3 install paramiko
+touch ssh_interactive.py
+cp id_rsa.pub authorized_keys
+rm -rf authorized_keys/
+cat id_rsa.pub
+cp id_rsa.pub authorized_keys/
+mkdir authorized_keys
+cd .ssh
+ssh-keygen
+systemctl start ssh
+systemctl enable ssh
+systemctl enable sshd
+sshd /
+sshd .
+ld
+msfconsole
+cat apache-user-enum-1.0.txt
+cd dirbuster/
+cleaR
+cat ws-files.txt
+cat ws-
+cd webservices/
+cdwebservice
+cat apache.txt
+cat domino.txt
+cd vulns/
+ks
+cd wfuzz
+cat common.txt
+cd fern-wifi/
+fern-wifi
+cat dnsmap.txt
+mv new_toys/fuckyou.sh  .
+./updateYourFuck.sh
+pip3 search trackingshell
+links "https://pypi.org/project/guesslang/"
+pip3 uninstall guesslang
+pip3 install guesslang
+pip3 search program detect
+pip3 search parglare
+pip3 uninstall simple-shell-parser
+cat metadata.json
+car metadata.json
+cat DESCRIPTION.rst
+cat INSTALLER
+cd simple_shell_parser-0.1.3.dist-info/
+locate simple_shell
+locate simple-shell
+cat * | grep package
+cat * | grep name
+cd /usr/local/lib/python3.8/dist-packages/simple_shell_parser-0.1.3.dist-info
+pip3 install simple_shell_parser
+links "https://pypi.org/project/simple-shell-parser/"
+rg subprocess
+python3 insert_command_name.py
+touch insert_command_name.py
+pip3 install py2neo
+cp lazero_playground/metalearning/generic/test/core4.py .
+rm batch_command_search.sh
+cat lazero_playground/metalearning/generic/test/core4.py
+./batch_command_search.sh
+chmod +x batch_command_search.sh
+vim batch_command_search.sh
+cat batch_command_search.sh
+cat all_commands.log | awk '{print "echo  \""$1 "\" | python3 batch_wheel.py"}' > batch_command_search.sh
+cat all_commands.log | awk '{print $1 " | python3 batch_wheel.py"}' > batch_command_search.sh
+cat all_commands.log | awk '{print $1 " | python3 batch_wheel.py"}'
+vim batch_wheel.py
+cp the_real_wheel.py  batch_wheel.py
+pip3 search pyspark
+locate seq2seq
+locate caffe2
+rm seq2seq-0.1-py3.8.egg
+cat seq2seq-0.1-py3.8.egg
+ls | grep seq
+cd /usr/local/lib/python3.8/dist-packages/
+cd /usr/local/lib/python3.8/dist-packages/seq2seq-0.1-py3.8.egg
+locate seq2seq | grep python
+cd tools/
+pip3 search tensorflow v1
+cat train.py
+cat tensorflow.py
+python3 tensorflow.py
+python3 metaCheckII.py  tensorflow > subdir/tensorflow.py
+python3 metaCheckII.py  tensorflow
+cd subdir
+cd lazero'
+'
+cat infer.py
+cd bin'
+ls/.
+.
+'
+python3 setup.py --help
+python3 setup.py remove
+cat setup.py
+python3 setup.py uninstall
+python3 setup.py uninstal
+cd seq2seq/
+git clone https://github.com/google/seq2seq
+cat storeADill.py
+python3 markovgen.py
+cat __init__.py
+cd __init__.py
+cd models
+cd model
+cd musicnet/
+cat resample.py
+caT resample.py
+cd scripts/
+cd deep_complex_networks/
+cp all_commands.log  ../
+links "https://www.guru99.com/seq2seq-model.html"
+vim markovgen.py
+vim  /usr/local/lib/python3.8/dist-packages/markovtextgen.py
+locate markovtextgen
+vim chaotic_search.py
+cat markovgen.py
+pip3 install keras autokeras
+cat lazero_playground/deep_complex_networks/musicnet/musicnet/models/complex/__init__.py
+cat dataset.py
+mlnlearn
+cd meals/
+mlnquery
+rm  /root/.local/share/pracmln/.pracmln.conf
+touch /root/.local/share/pracmln/.pracmln.conf
+mkdir /root/.local/share/pracmln/
+cd object-recognition/
+cd meals
+cd examples/
+cd pracmln/
+git clone https://github.com/danielnyga/pracmln.git
+python3 browse_description.py
+pip3 install program-synthesis
+touch markovgen.py
+cat pypi_indexer.py
+cat markovtextgen.py
+cd markovtextgen-0.4.2.dist-info/
+cd /usr/lib/python3/dist-packages/
+cd python3.8/
+cd /usr/lib/python3.7/
+mv the-real-wheel.py  the_real_wheel.py
+python3 the-real-wheel.py
+pip3 install jieba
+cat chaotic_search.py
+vim hot_solution.py
+touch chaotic_search.py
+pracmlntest
+pip3 search markov
+CD lazero/
+CD LAZERO
+mv .atilo/ ATILO
+cd .atilo/ubuntu/root/legacy/nltk_data/
+pip3 install markovtextgen
+python3 search_info.py
+mongod --auth
+mongo
+mongodb
+python3 pracquery.py
+python pracquery.py
+pip3 install -r python3/requirements.txt
+cd nltk_data/
+cd data]
+cd prac
+mongod
+systemctl start mongod
+systemctl enable mongod
+mkdir /data/db
+mkdir /data
+mongod init
+dpkg -i mongodb-org-server_4.2.6_amd64.deb
+cd ../../Downloads/Programs/
+hostnamectl
+cat os-release
+cd /etc
+lsb_release
+systeminfo
+os-prober
+git clone https://github.com/danielnyga/prac.git
+apt install mongodb
+pip3 search prac
+apt search mongodb
+apt search mongo
+pip3 install high-level-markov-logic-network
+vim pypi_indexer.py
+cp indexer.py  pypi_indexer.py
+cp shredded_keywords_pypi.dill  ~/AGI/lazero
+python3 sourceShredder.py
+cp getFromDill.py  scheme/pypi_scraping/
+cp storeADill.py  scheme/pypi_scraping/
+cp sourceShredder.py  scheme/pypi_scraping/
+python3 dump_description.py
+cd AGI/keylogger
+cd lazero_playground
+pip3 install chardet2
+pip3 search detect encoding
+vim standard_parse.py
+chardet Monitor.db
+chardet updateYourFuck.sh
+chardet shredded_realcode.dill
+links "www.baidu.com/link?url=VJvv6-SAA9QlFyaqhBPUdWrjHK1QxjcRuIg1c3v5I_To7AIM-aZLK7_nYLs-4oOnE_TM3qYzL1ZThaWG7RIdaq"
+systemctl enable neo4j-service
+systemctl enable neo4j
+systemctl -h
+systemctl
+links https://neo4j.com/docs/operations-manual/current/installation/linux/systemd/
+systemd --help
+neo4j install-service
+cat no_extra.php
+cat lazero_playground/scheme/randomspeak/exec-random-code/pairserver.py
+php no.php
+cat lazero_playground/scheme/lazero/cmd_report.py
+echo "http://www.baidu.com/link?url=77I2GJqjJ4zBBpC8yDF8xDhiqDSn1JZjFWsHhEoSNd85PkV8Xil-rckpQ8_kjGKNNq" | php no_extra.php
+vim no_extra.php
+cp curl_.php no_extra.php
+echo "http://www.baidu.com/link?url=77I2GJqjJ4zBBpC8yDF8xDhiqDSn1JZjFWsHhEoSNd85PkV8Xil-rckpQ8_kjGKNNq" | php curl_.php
+php curl_.php
+vim curl_.php
+cat curl_.php
+pip3 search php
+apt install php-symfony-http-client
+apt install php-curl
+apt search php curl
+apt search php chrl
+touch curl_.php
+vim script.php
+apt install libcurl4
+apt install libcurl-dev
+apt install libcurl
+php
+curl --manual | grep info
+curl --manual | grep into
+curl --manual
+curl init()
+php script.php
+mv script.sh  script.php
+vim script.sh
+rk script.sh
+./script.sh
+chmod +x script.sh
+touch script.sh
+curl "http://www.baidu.com/link?url=aTqKgWPmoNaquuY9UYutYBhzZztZ25tyuE45uNzP6d6t6aff6Vk0PHTQqa2sUbmYQNqR44q4Zp4bdmrmWEl0da"
+cat dbM.py | grep def
+rm link\?url=aTqKgWPmoNaquuY9UYutYBhzZztZ25tyuE45uNzP6d6t6aff6Vk0PHTQqa2sUbmYQNqR44q4Zp4bdmrmWEl0da
+cd ../ && wget "http://www.baidu.com/link?url=aTqKgWPmoNaquuY9UYutYBhzZztZ25tyuE45uNzP6d6t6aff6Vk0PHTQqa2sUbmYQNqR44q4Zp4bdmrmWEl0da"
+cat data.json
+car data.json
+vim the-real-wheel.py
+cp lazero_playground/multilingual/rockstar/the-real-wheel.py .
+cp .lazero_playground/multilingual/rockstar/the-real-wheel.py
+cat the_selector.py
+cat examine_csv.py
+pip3 install dill
+/usr/bin/python3 /root/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/pyvsc-run-isolated.py pip install -U flake8 --user
+cp shredded_realcode.dill  ../
+cat *.py | grep dill
+cat *.py | grep functors_and_classes.dill
+virtualenv --help
+cd venv
+links "https://stackoverflow.com/questions/40517129/git-merge-with-force-overwrite"
+links "https://stackoverflow.com/questions/670460/move-all-files-except-one"
+rm example.at\~
+cat example.at\~
+dos2unix updateYourFuck.sh
+dos2unix fuckyou.sh
+mv updateYourFuck.sh ../
+mv fuckyou.sh ../
+mv lazero_background.png  ../
+mv README.md ../
+mv  ../lazero_playground/ .
+rm -rf  lazero_playground/
+cp -r ../lazero_playground/ .
+cp ../lazero_playground/ .
+cp ../lazero_playground/
+mv * ../lazero_playground/
+word2vec
+word2vec --help
+rm another.log
+cat another.log
+word2phrase -train another.c -output another.log
+word2phrase
+word2vec-word-analogy another.log
+word2vec-word-analogy
+cat another.c
+word2vec -train another.c -output another.log
+word2vec -train another.c
+cat automatic-programming.txt
+pip3 install word2vec
+apt search word2vec
+find --help
+find -executable
+find
+echo -n $PATH | xargs -d : -I %P\n find %P\n -maxdepth 1 -executable -type f
+echo -n $PATH | xargs -d : -I %P find \n -maxdepth 1 -executable -type f
+echo -n $PATH | xargs -d : -I %P find \n -maxdepth 1 -executable -type
+echo -n $PATH | xargs -d : -I %P\n find %P\n -maxdepth 1 -executable -type
+echo -n $PATH | xargs -d : -I {} find {} -maxdepth 1 -executable -type f
+echo -n $PATH | xargs -d : -I {} find {} -maxdepth 1 -executable
+echo -n $PATH | xargs -d : -I {} find {} -maxdepth 1
+echo -n $PATH | xargs -d : -I
+echo -n $PATH | xargs -d
+echo -n $PATH | xargs
+echo -n $PATH
+cat XListAllCommandsWithAlias.sh
+./XListAllCommandsWithAlias.sh
+dos2unix  XListAllCommandsWithAlias.sh
+chmod +x XListAllCommandsWithAlias.sh
+./XListAllCommands.sh > all_commands.log
+cat alienware.log
+./XListAllCommands.sh
+cd Documents/
+ps -ef
+cd scheme/lazero
+cat remoteCommand.py
+python3 remoteCommand.py
+python3 firstLogger.py
+vim firstLogger.py
+cat firstLogger.py
+vim remoteCommand.py
+vim server_linux.py
+cat server_linux.py
+cat keyserver.py
+cd ../keylogger/
+touch firstLogger.py
+cd autoCompute/
+mkdir autoCompute
+dos2unix  XListAllCommands.sh
+chmod +x XListAllCommands.sh
+cd Aux0/
+cat XListAllCommands.sh
+chardet --version
+cat someCode.py
+vim someCode.py
+cd theExpector/
+mkdir theExpector
+cat playAddict.c
+chardet re.html
+./remove_cache.sh
+chardet --help
+de ..
+chardet 导出QQ.az
+cd script_language/
+chardet metaCheck.py
+chardet
+cat simplex.py
+python3 example.py
+cd scheme/antiSearch/
+python3 simple_reader.py
+cd lazero/scheme/lazero/networkx_research/
+cd AGI/lazero/scheme
+vim example.py
+cd antiSearch/
+service jobber status
+jobber --help
+jobber init
+which links
+cd linux/
+phantomjs --help
+cd autobrowse
+le
+cd .vscode
+./fuckyou.fish
+mv remove_cache.sh  ~/
+chmod +x remove_cache.sh
+code remove_cache.sh
+python3 count_visible_things.py > remove_cache.sh
+python3 count_visible_things.py
+code --user-data-dir .
+mkdir antiSearch
+rm wget-log
+cat wget-log
+code --user-data-dir
+cp networkx_readings  networkx_readings.gpickle
+gnome-terminal -q
+gnome-terminal --help
+gnome-terminal code
+whereis gnome-terminal
+gnome-terminal
+gnome-console
+screen
+autopep8
+/usr/bin/python3 /root/.vscode/extensions/ms-python.python-2020.5.78807/pythonFiles/pyvsc-run-isolated.py pip install -U autopep8 --user
+/usr/bin/python3 /root/.vscode/extensions/ms-python.python-2020.5.78807/pythonFiles/pyvsc-run-isolated.py pip install -U pylint --user
+code --user-data-dir /root/
+snap install --classic code
+cd scheme/lazero/networkx_research/
+apt install ttf-anonymous-pro
+apt search font anonymous
+apt-get install fonts-droid-fallback ttf-wqy-zenhei ttf-wqy-microhei fonts-arphic-ukai fonts-arphic-uming
+apt search language-pack
+apt search language-packs
+clcear
+vim .jobber
+dpkg -i jobber_1.4.2-1_amd64.deb
+apt search jobber
+crontab -e
+apt search task automation > auto.log
+apt search task automation
+rm -rf whenjobs-0.7.3
+rm whenjobs-0.7.3
+rm whenutils.mli
+rm -rf goaljobs-0.2
+rm goaljobs-0.2
+rm goaljobs.ml
+cd goaljobs-0.2/
+cd ..\
+/
+rm whenproto_aux.mli
+rm whenproto_aux.ml
+./configure
+cd whenjobs-0.7.3/
+cd /root/AGI/cronic && tar -zxvf goaljobs-0.2.tar.gz
+git clone https://git.annexia.org/git/goaljobs.git
+git clone git://git.annexia.org/git/goaljobs.git
+cd cronic
+apt install ocaml ocaml-findlib libcalendar-ocaml libcalendar-ocaml-dev camlp4-extra libocamlnet-ocaml-bin
+apt install ocaml ocaml-findlib libcalender-ocaml libcalender-ocaml-dev camlp4-extra libocamlnet-ocaml-bin
+apt search goaljobs
+links "http://people.redhat.com/~rjones/whenjobs"
+apt search gnome-schedule
+apt search gnome task
+apt search when
+apt search whenjob
+apt search whenjobs
+apt search whenjibs
+./keylinux.py
+source venv/bin/activate
+virtualenv  venv
+virtualenv --no-site-packages venv
+vim keylinux.py
+cat  keylinux.py
+cd keylogger/
+pip3 install virtualenv
+pip3 search virtualenv > virtualenv.log
+pip3 search virtualenv
+env python
+env | grep p
+env | grep py
+env | grep python
+env
+cat cron0.log
+cat cron.log
+cd AGI/cronic/
+mkdir cronic
+./server_linux.py
+chmod a+x server_linux.py
+which env
+cd /usr/local
+mod
+env python3 -m http.server
+chmod a+x keylinux.py
+service cron status
+/usr/bin/python3 /root/hot_solution.py
+python3 cron_mod.py
+python36 cron_mod.py
+nano cron_mod.py
+touch cron_mod.py
+/usr/bin/python3 /root/AGI/keylogger/keylinux.py & /usr/bin/python3 /root/AGI/keylogger/server_linux.py
+/usr/bin/python3 /root/AGI/keylogger/keylinux.py
+pip3 install python-crontab
+man anacrontab
+nano anacrontab
+cd /etc/
+anacron -T anacrontab
+man anacron
+anacron -T -t
+anacron -T
+anacron -t
+anacron -h
+anacron --help
+apt search chronos
+apt search fcron
+apt search jams
+apt install fcron
+apt install hcron
+apt install anacron
+apt search cron
+python3 keylinux.py
+which python3
+ping python.org
+ping python.prg
+nano networkx_reference.txt
+ls python*
+chmod a+x  hot_solution.py
+cp hot_solution.py  ~/
+cron
+vim sch_linux.sh
+python3 hot_solution.py
+cd AGi
+vim AGI
+rm keylog.sh
+cd /etc/init.d/
+sudo update-rc.d -f keylog.sh remove
+sudo update-rc.d -f remotecontrol.sh remove
+python3 server_linux.py
+service  keylog.sh restart
+service restart keylog.sh
+x ..
+ps -ef | grep cron
+service --status-all
+service keylog.sh start
+sudo systemctl daemon-reload
+sudo update-rc.d keylog.sh defaults
+sudo chmod 777 keylog.sh
+chmod 777 sch_linux.sh
+vim keylog.sh
+daemonize python
+daemonize "ls /"
+daemonize ls /
+daemonize ls .
+daemonize ls
+daemonize --help
+daemonize
+apt install daemonize
+apt search daemonize
+ps -ef | grep xdm
+redis-benchmark
+d
+cc --help
+crontab  -e
+cat server_linux.log
+cat server_demo.py
+cat keylinux.log
+python3 keylinux.py &> keylinux.log
+python3 keylinux.py > keylinux.log
+python3 keylinux.py > keylinux.log 2>&1
+ps
+cat  client_module.py
+vim client_module.py
+cd  /root/AGI/keylogger/
+python3 /root/AGI/keylogger/server_linux.py
+python3 python3 /root/AGI/keylogger/server_linux.py
+python3 /root/AGI/keylogger/keylinux.py
+psw
+dos2unix keylinux.py
+sleep 3
+python3 keytime.py
+pip3 install pynput
+ps -efb | grep python
+ps -A
+ps -A | grep python
+python3 keylinux.py &
+python3 server_linux.py &
+apt search cronie
+cron --help
+cron -e
+grep -i cron /var/log/syslog
+ps -a
+ps --help all
+ps -efb | grep key
+ps -ef | grep key
+cat keytime.py
+cat schedule_1.cmd
+cleat
+ps -ef | grep crom
+systemctl enable cron
+crontab  --help
+crontab  -l
+systemctl list-jobs
+apt install cron
+ls -lthc
+rm keylogger.desktop
+cd .config/autostart/
+links "https://stackoverflow.com/questions/24518522/run-python-script-at-startup-in-ubuntu"
+vim .bash_profile
+vim keylogger.desktop
+cat keylogger.desktop
+systemctl enable cron.service
+cd /etc/systemd/system/
+cat xdman.desktop
+cp xdman.desktop  keylogger.desktop
+cd autostart/
+cd ~/.config/
+pip search task schedule
+cd AGI/ke
+rm run-at-startup.service
+systemctl disable run-at-startup.service
+systemd --help  =ls
+systemd
+ps -ef | grep startup
+rebooot
+systemctl enable run-at-startup.service
+systemctl remove run-at-startup.service
+systemctl uninstall run-at-startup.service
+vim run-at-startup.service
+ps all
+ps --help
+dos2unix sch_linux.sh
+cp sch_linux.fish  sch_linux.sh
+systemctl daemon-reload
+systemctl enable run-at-startup.service\
+/
+cat run-at-startup.service
+systemd enable run-at-startup.service
+nano run-at-startup.service
+touch run-at-startup.service
+wall -V
+wall -v
+wall  --help
+wall "hello"
+crontab -l
+cd /root/AGI/lazero
+sudo chmod a+x rc.local
+ls -lth bash
+ls bash
+cat bash
+vim rc.local
+touch rc.local
+ls rc.local
+/root/AGI/keylogger/sch_linux.fish
+/root/AGI/keylogger/sch_fish.fish
+./root/AGI/keylogger/sch_fish.fish
+crontab --help
+vim sch_linux.fish
+cat sch_linux.fish
+apt install systemd-cron
+apt search crontab
+apt search schedule
+look --help
+cat networkx.pickle
+look networkx.pickle
+look
+mkdir logs
+mkdir run
+cd /usr/share/neo4j/
+systemctl start neo4j
+neo4j status
+neo4j
+apt install neo4j python3-py2neo
+apt search neo4j
+./sch_linux.fish
+mv sch_linux.sh  sch_linux.fish
+cat fuckyou.sh
+chmod +x sch_linux.sh
+cp schedule_1.cmd sch_linux.sh
+dos2unix  keylinux.py
+cp keytime.py  keylinux.py
+dos2unix  server_linux.py
+cp server_demo.py server_linux.py
+cat kl.py
+cat kl
+cat schedule.cmd
+vim README.md
+./updateYourFuck.fish
+ping github.com
+dos2unix  updateYourFuck.fish
+apt install git
+chmod +x updateYourFuck.sh
+chmod +x fuckyou.sh
+cp Pictures/lazero_background.png  AGI/lazero/
+vim internet
+apt install virtualbox
+apt search virtualbox
+vbox
+apt install haskell
+cat docker.sock
+cd /var/run
+dockerd
+apt install erlang
+apt search erlang
+epmd
+apt upgrade && apt dist-upgrade
+kali-setup
+kali-winexec
+dpkg --add-architecture i386 && apt-get update && apt-get install wine32
+wine
+apt install libwine-32
+apt install libwine32
+apt install libwine
+apt install wine32
+apt search wine32
+wine --help
+apt install wine wine-development
+apt install wine-stable
+apt search ida pro
+apt search ida
+apt search hex2ray
+apt search doc
+ghex C290M11F1A64P_sharedcc_root_G41L00
+apt install zenlisp ecl acl2 clojure
+apt search lisp
+cd javasharedresources/
+pip search anonymous
+apt install tor
+apt search anonymous
+sdptool
+sdiff
+help
+mv config,fish  config.fish
+cd ~/.config/fish
+c
+lt
+nano README
+phantomjs
+apt install phantomjs
+apt search phantom
+mutool convert -o printed.pdf printed.log
+mutool convert -o printed.png printed.log
+mutool convert -o printed.jpg printed.log
+mutool convert printed.log  -o printed.jpg
+mutool
+convert printed.log  printed.jpg
+cat printed.log
+ls -lth > printed.log
+pip3 install networkx
+python3 scan_code.py
+cat scan_code.py
+rm --help
+rm
+ghc'
+'
+jupyter notebook
+0trace.sh --help
+cat torch.log
+rm sogoupinyin_2.3.1.0112_amd64.deb\?st=C89IJ-LdxVAP-y88OlzKGA\&e=1589641171\&fn=sogoupinyin_2.3.1.0112_amd64.deb
+emacs --daemon
+emacs --help
+emacs --helkp
+emacs -h
+emacs -d
+apt install tesseract-ocr
+jruby --help
+jython
+locate jython.jar
+which jruby
+which jython
+apt install libopencv4.2-java libopencv4.2-jni
+apt search opencv java
+apt install jruby jython
+./sikulixide-2.0.4.jar
+cd Desktop/
+apt search tesseract opencv
+apt search tesseract open
+apt search tesseract cuda
+apt search tesseract
+apt install redis
+apt install scrot
+cat stackMe.py
+cp metalearning/scanner/retribution/stackMe.py  scheme/tempShot/
+cat layer_* | rg stackMe.py
+cd tempShot
+mkdir tempShot
+apt search codium
+pip3 install tensorflow-gpu keras autokeras
+pip3 search tensorflow > tensorflow.log
+cls
+pip3 search tensorflow
+cat 导出QQ.az
+cd lazero/scheme/lazero/script_language/
+nvcc --version
+apt install nvidia-cuda-toolkit
+apt search nvidia cuda
+nvidia-settings
+nvidia-modprobe
+./NVIDIA.run
+rm sogoupinyin_2.3.1.0112_amd64.deb
+cd ../Desktop/
+cd. ../Desktop/
+.bin
+ls .bin
+ls *.bin
+mv .bin NVIDIA.run
+cd /root/Downloads
+apt install locate
+apt install mupdf-tools
+apt install mupdf
+rm -rf _temp_sogoupinyin_2.3.1.0112_amd64.deb_parts_/
+rm _temp_sogoupinyin_2.3.1.0112_amd64.deb_parts_/
+rm _temp_sogoupinyin_2.3.1.0112_amd64.deb
+pyide
+nvidia-xconfig
+nvidia-config
+dpkg -i  sogoupinyin_2.3.1.0112_amd64.deb
+xdm
+nano install.sh
+cd xdm
+pip3 install -U pip3
+pip3 install -U pip
+pip install -U pip
+pip3 install pyIDM
+pip install pyIDM
+apt install python-pip python3-pip python3-tk xclip ffmpeg
+apt search wine > wine.log
+apt search wine
+apt install gcc make cmake clang
+wget "http://cdn2.ime.sogou.com/dl/index/1571302197/sogoupinyin_2.3.1.0112_amd64.deb?st=C89IJ-LdxVAP-y88OlzKGA&e=1589641171&fn=sogoupinyin_2.3.1.0112_amd64.deb"
+apt install fcitx
+docker start
+docker stats
+docker --help
+docker
+rm -rf docker
+cp * /usr/bin/
+which pip
+cd docker/
+tar -zxvf docker-19.03.8.tgz
+dpkg -i TDengine-server-1.6.5.8-Linux-x64.deb
+cd tdengine/
+apt install fish links elinks w3m netcat lynx curl
+restart
+apt update && apt upgrade && apt dist-upgrade
+apt --fix-broken -f install
+dpkg -i --force-overwrite /var/cache/apt/archives/ruby-progressbar_1.10.1-1_all.deb
+dpkg
+apt install fish
+apt dist-upgrade
+apt-get install links elinks w3m curl netcat lynx
+apt install links elinks w3m curl netcat lynx
+apt-get upgrade
+apt-get dist-upgrade
+apt dist upgrade
+vim /etc/apt/sources.list
+cd /etc/apt/sources.list
+pip install scipy
+pip install numpy
+ls pip*
+cd /usr/bin
+where pip
+pip3.6 install numpy
+pip36 install numpy
+pip3 install numpy
+pip search search
+pip
+nano pip.conf
+touch pip.conf
+cd .pip
+mkdir .pip
+cd /root
+python36
+cd lazero/scheme/
+start
+cat justImport.py
+shotdown
+vim dbM.py
+cat *.py | grep Monitor.db
+grep Monitor.db
+emacs README
+fish
+mv AGI ../
+cd Desktop
+vim sources.list
+cd /etc/apt
