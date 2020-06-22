@@ -1,4 +1,4 @@
-(display "this is the main lazero program\n")
+(display "this is the main lazero program.\n")
 ; (define returnx "\n")
 ; (print returnx)
 ; ;; if you have that idea, you better reckon.
@@ -9,4 +9,5 @@
 ; can we use quantum mechanics to explain the process of learning?
 ; we can always create temp files, knowing where it is and then roll it back and forth.
 ; for those unknown techniques, I decide to know less of them.
+; you've got the index, now what?
 (exit)

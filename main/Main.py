@@ -3,13 +3,18 @@ import os,sys
 import time
 i=os.getpid()
 print(i)
+# dynamic page, static page.
 # you can generate two locks: .rlock, .wlock.
 # the only solution is to put pid inside the lock.
 # print("$ echo 'foobar' > /proc/{0}/fd/0".format(os.getpid()))
 print("this is the main lazero program.")
 # with open("/tmp/lazero","r") as f:
+# are you sure it is still working without x11??
 # print("read :: [" + sys.stdin.readline() + "]")
+# let's suppose this is not right. and we need supervise the process.
 k=5
+# detach a process from shell??
+# all that kind of boring stuff??
 while k>=0:
     s=sys.stdin.readline()
     if len(s)==0:

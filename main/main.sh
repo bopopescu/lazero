@@ -1,6 +1,7 @@
 #!/bin/bash
+# start a language server?
 mkfifo /tmp/lazero
-mkfifo /tmp/lazero_python
+# mkfifo /tmp/lazero_python
 # no newline???
 # timeout 2 cat /tmp/lazero &
 # timeout 2 cat Main.py > /tmp/lazero_python &
