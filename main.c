@@ -2,6 +2,8 @@
 // #include <sqlite3.h>
 int main(int argc, char* argv[]) {
     printf("this is the main lazero program.\n");
+    // mupdf? some custom functions? custom parsers???
+    // well, what is the most basic shit????
     // do you consider doing this above some source code?
     // like chrome or something? I cannot write shit at this place!
     // curl will also be great. wget, nc....
