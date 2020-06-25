@@ -11,7 +11,8 @@ def pr(a, d):
         print(b, c, d)
     else:
         print(b, c)
-
+# code can be simple or complex. redirect the result to somewhere else?
+# you think you might save some time over this.
 
 def chick(a, r):
     pr(windowEndMarkEx(a, r), r)
@@ -21,7 +22,7 @@ def chick(a, r):
 
 # def chick(a,r):
 #     pr(windowEndMarkEx(a,r))
-
+# you are fucking nuts.
 
 with open("random_interactive.py", "r") as f:
     g = f.read()

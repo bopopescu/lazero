@@ -5,6 +5,10 @@
 // I started typing with TERMUX. I started learning via cmd.exe, and I start to evolve by cracking terminals.
 // #include <sqlite3.h>
 // memoir.
+// it is a matter of killing.
+// you are all dead. fucking idiots.
+// you are nuts.
+// not for shit. all for killing.
 // can check the android phone automator.
 // there is no way I can code without reading others code.
 // especially python code.
@@ -36,6 +40,8 @@ int main(int argc, char* argv[]) {
     // like chrome or something? I cannot write shit at this place!
     // curl will also be great. wget, nc....
     // some basic GNU tools?
+    // i'm gonna fix you.
+    // you are broken.
     // printf("%d",argc);
     // mkfifo???? rm lazero???
     // system("pwd");

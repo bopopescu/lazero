@@ -1,3 +1,3 @@
 #include <stdio.h>
-int main(){printf("this is the main lazero program");
-}
+int main(){printf("this is the main lazero program");}
+// useless pricks.

@@ -4,6 +4,7 @@ import utl
 import zmq
 
 # well, the client can always be listening.
+# nuts.
 class Broker(object):
     def __init__(self, ctl,xsub_port, xpub_port):
         self.xsub_socket, self.xpub_socket = utl.get_broker(ctl,
@@ -41,7 +42,7 @@ class Broker(object):
                 else:
                     self.xsub_socket.send_string(topic)
 
-
+# you are nuts.
 if __name__ == '__main__':
 	# The 1st argument is XSub port number, the 2nd is XPub port number
   # what if we have dots?

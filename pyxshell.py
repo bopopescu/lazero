@@ -21,10 +21,10 @@ To test, run:
 Type exactly two Control-D's to exit the shell
 
 """
-
+# I AM THE KING OF SHIT!
 from __future__ import absolute_import, print_function, with_statement
 
-
+# fucking dicks.
 # Python3-friendly imports
 try:
     import queue
@@ -39,6 +39,7 @@ else:
     unicode = str
 # i mean, compliers are great, picture readers are great, and so are great about many manipulation softwares.
 # but what's not great is that they can only do limited stuff. also unrelated.
+# so you'd expressed your fucking idea. that's good. that's primarily dope shit.
 import errno
 import fcntl
 import logging
@@ -121,10 +122,10 @@ def set_tty_echo(fd, enabled):
     else:
         tem_settings[3] &= ~termios.ECHO
     termios.tcsetattr(fd, termios.TCSADRAIN, tem_settings)
-
+# nuts.
 def is_executable(filepath):
     return os.path.isfile(filepath) and os.access(filepath, os.X_OK)
-
+# eat shit your dickheads!!!!!!!
 def which(filepath, add_path=[]):
     filedir, filename = os.path.split(filepath)
     if filedir:
@@ -164,6 +165,15 @@ def getcwd(pid):
         return ""
     try:
         if sys.platform.startswith("linux"):
+            # it is nothing.
+            # i'm gonna kill them all.
+            # this shitty programs are nuts.
+            # fucking idiots.
+            # you will never get the core of it.
+            # you fucking nuts.
+            # you are dead.
+            # fucking sick shits.
+            # bullshit everywhere.
             return std_out.split()[1]
         else:
             return std_out.split("\n")[1][1:]
@@ -201,7 +211,7 @@ def setup_logging(log_level=logging.ERROR, filename="", file_level=None):
         fhandler.setFormatter(formatter)
         logger.addHandler(fhandler)
 
-
+# you dickheads. you nuts. you have shit in your fucking mind.
 class Terminal(object):
     """Single pseudo-tty"""
     def __init__(self, term_name, fd, pid, manager, height=25, width=80, winheight=0, winwidth=0,
