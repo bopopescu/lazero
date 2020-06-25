@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+// is it all about shell? I mean, you can do shits, but cannot do it with shell.
+// or some sort of GUI???
+// so you fucking explain this to me, what is the point of learning cooking, without digging into the learning itself?
+// and you wanna talk about doing this without the aid of me>
 // void concatenate(char p[], char q[]) {
 //    int c, d;
 //    c = 0;
@@ -14,7 +18,9 @@
 //    }
 //    p[c] = '\0';
 // }
-
+// here's the thing. I cannot get info about how to find fucking string inside the fucking shit.
+// well, you do not have to store shit inside your fucking mind.
+// here brings the change.
 int writeTemp(char *filename,char *data){
    FILE *fp;
    char a[50];
@@ -31,19 +37,30 @@ int writeTemp(char *filename,char *data){
 // //    printf("hello world");
    strcat(a,filename);
 // concatenate(a,filename);
+// this is all bullshit.
+// they will all gonna die.
+// fucking nuts.
 //    printf("hello world");
 //    printf("%s",a);
    fp = fopen(a, "w+");
 //    fprintf(fp, "This is testing for fprintf...\n");
    fputs(data, fp);
    fclose(fp);
+   // I AM NOT GOOD WITH IT!
    //what the fuck?
+   // say what is the deal? you want to remember things, calculate things, prank things.
 }
-
-int main(){
-    // printf("hello world");
-    char *filename="lazero_console_buffer";
-    char *data="sample console data";
-    // printf("%s %s", filename, data);
-    writeTemp(filename,data);
-    return 0;}
+// all fucked up.
+// there better be some virtualization over the place.
+// so do not execute random shits?????
+// ok, random shit sucks, okay?
+// int main(){
+//     // printf("hello world");
+//     char *filename="lazero_console_buffer";
+//     char *data="sample console data";
+//     // printf("%s %s", filename, data);
+//     writeTemp(filename,data);
+//     return 0;}
+// don't you fucking worry. just think that you have secret shits, or this computer has secret shits, and you are the one who's gonna to dig it out.
+// yes surely you can randomly picking up things. but that does not mean you have knowledge.
+// a exhaustive web, list or matrix?

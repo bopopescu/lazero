@@ -1,5 +1,9 @@
-#!/usr/bin/env python
-
+#!/usr/bin/env python3
+# so, what is the deal? how to get real input???
+# there is no fucking need to talk about learning.
+# learning does not exist. which means it is impossible to seek for it.
+# no such thing called learning
+# nor the so-called learning program.
 """ pyxshell.py: pseudo-tty shell wrapper for terminals
 
 Derived from the public-domain Ajaxterm code, v0.11 (2008-11-13).
@@ -33,7 +37,8 @@ if sys.version_info[0] < 3:
 else:
     byte_code = lambda x: x
     unicode = str
-
+# i mean, compliers are great, picture readers are great, and so are great about many manipulation softwares.
+# but what's not great is that they can only do limited stuff. also unrelated.
 import errno
 import fcntl
 import logging
@@ -56,7 +61,7 @@ try:
     random = random.SystemRandom()
 except NotImplementedError:
     import random
-
+from pywrite import updateBuffer, initBuffer
 
 ENV_PREFIX = "PYXTERM_"       # Environment variable prefix
 NO_COPY_ENV = set([])         # Do not copy these environment variables
@@ -69,18 +74,20 @@ DEFAULT_TERM_TYPE = "xterm"
 
 IDLE_TIMEOUT = 300            # Idle timeout in seconds
 UPDATE_INTERVAL = 0.05        # Terminal output update time interval
+#  you really have to update the fucking buffer?????
 CHUNK_BYTES = 4096            # Chunk size for receiving data in stdin
 
 TERM_NAME_RE = re.compile(r"^[a-z][a-z0-9_]*$")   # Allowed terminal names
-
+# well, how should you fucking name me?
 # Helper functions
 def make_term_cookie():
     return "%016d" % random.randrange(10**15, 10**16)
-
+# real shit will gonna disappear.
 def command_output(command_args, **kwargs):
     """ Executes a command and returns the string tuple (stdout, stderr)
     keyword argument timeout can be specified to time out command (defaults to 15 sec)
     """
+    # putting a 17'in alienware on your fucking knee is no fucking fun.
     timeout = kwargs.pop("timeout", 15)
     def command_output_aux():
         try:
@@ -267,7 +274,8 @@ class Terminal(object):
 
     def reconnect(self, response_id=""):
         self.update_callback(response_id=response_id)
-
+# well, this language you can never give up, but it is still used by you.
+# that fucking c language is not even used by me.
     def write(self, data):
         """ Displays byte-encoded output data on terminal screen (every update interval) """
         # print("the entire buffer",[self.update_buf])
@@ -279,6 +287,8 @@ class Terminal(object):
         self.output_time = time.time()
         self.update_needed = True
         self.update_buf += data
+        # updateBuffer("terminal",self.update_buf)
+        updateBuffer("terminal",data)
 
     def read(self):
         """ Returns any reply text in response to terminal query sequences """
@@ -289,6 +299,7 @@ class Terminal(object):
     def pty_write(self, data):
         """ Writes to stdin of process running within terminal """
         # fucking hell.
+        # updateBuffer("terminal",data)
         assert isinstance(data, unicode), "Must write unicode data"
         raw_data = data.encode(self.term_encoding)
         nbytes = len(raw_data)
@@ -664,11 +675,11 @@ class TermManager(object):
                 logging.warning("TermManager.loop: ERROR %s", excp)
                 break
         self.kill_all()
-
+# some control sequences are inside.
 
 if __name__ == "__main__":
     ## Code to test shell wrapper
-
+    initBuffer("terminal")
     from optparse import OptionParser
     usage = "usage: %prog [<shell_command>]"
     parser = OptionParser(usage=usage)
@@ -679,7 +690,7 @@ if __name__ == "__main__":
     (options, args) = parser.parse_args()
 
     shell_cmd = args[:] if args else ["bash"]
-
+# well, only for UNIX, but quite good though.
     # Determine terminal width, height
     height, width = struct.unpack("hh", fcntl.ioctl(pty.STDOUT_FILENO, termios.TIOCGWINSZ, "1234"))
     if not width or not height:
@@ -705,13 +716,13 @@ if __name__ == "__main__":
 # oh shit this is the main sequence.
 # this is a different tty.
 # if it is windows... worse still.
-    test_str = b'\xe2\x94\x80 \xe2\x94\x82 \xe2\x94\x8c \xe2\x94\x98 \xe2\x94\x90 \xe2\x94\x94 \xe2\x94\x9c \xe2\x94\xa4 \xe2\x94\xac \xe2\x94\xb4 \xe2\x94\xbc \xe2\x95\x90 \xe2\x95\x91 \xe2\x95\x94 \xe2\x95\x9d \xe2\x95\x97 \xe2\x95\x9a \xe2\x95\xa0 \xe2\x95\xa3 \xe2\x95\xa6 \xe2\x95\xa9 \xe2\x95\xac'.decode("utf-8")
+    # test_str = b'\xe2\x94\x80 \xe2\x94\x82 \xe2\x94\x8c \xe2\x94\x98 \xe2\x94\x90 \xe2\x94\x94 \xe2\x94\x9c \xe2\x94\xa4 \xe2\x94\xac \xe2\x94\xb4 \xe2\x94\xbc \xe2\x95\x90 \xe2\x95\x91 \xe2\x95\x94 \xe2\x95\x9d \xe2\x95\x97 \xe2\x95\x9a \xe2\x95\xa0 \xe2\x95\xa3 \xe2\x95\xa6 \xe2\x95\xa9 \xe2\x95\xac'.decode("utf-8")
 
     Term_attr = termios.tcgetattr(pty.STDIN_FILENO)
     try:
         tty.setraw(pty.STDIN_FILENO)
         expectEOF = False
-        Term_manager.term_write(Term_name, "echo '%s'\n" % test_str)
+        Term_manager.term_write(Term_name, "tty\n")
         # term-write?
         while True:
             ##data = raw_input(Prompt)

@@ -4,6 +4,7 @@
 // the history command.
 // to check if it is intelligent, you need rules.
 // you need to write some terminal emulator?
+// we can pass tempfiles to the argument.
 int main(){
     // int a =1;
     // int b=2;
