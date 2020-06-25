@@ -18,6 +18,12 @@
 //    }
 //    p[c] = '\0';
 // }
+// we've got fucking progress here! to comprehend all shits on this fucking drive.
+// and that's the basic task. cause the internet is nearly infinite.
+// the local drive is huge, but not yet fucked up.
+// you might want to set up some goals on understanding the fucking apt shit, but that is not good at all. you cannot do that.
+// and that is not good.
+// only shit I feel good is the fucking directory.
 // here's the thing. I cannot get info about how to find fucking string inside the fucking shit.
 // well, you do not have to store shit inside your fucking mind.
 // here brings the change.

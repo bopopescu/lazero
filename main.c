@@ -5,6 +5,11 @@
 // I started typing with TERMUX. I started learning via cmd.exe, and I start to evolve by cracking terminals.
 // #include <sqlite3.h>
 // memoir.
+// you can do a checklist. it does not matter.
+// this is shit.
+// always the same. no matter it is online or offline.
+// it's shit.
+// don't you need some function selector? all you can think of is the fucking hierachy.
 // it is a matter of killing.
 // you are all dead. fucking idiots.
 // you are nuts.
