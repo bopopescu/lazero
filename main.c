@@ -1,12 +1,17 @@
 #include <stdio.h>
+#include <dirent.h>
+#include <python3.8/Python.h>
 // you never know what kind of shit you will suffer when going offline.
 // shit. how does it fucking work????
 // so what the heck is terminal emulator?
 // I started typing with TERMUX. I started learning via cmd.exe, and I start to evolve by cracking terminals.
 // #include <sqlite3.h>
 // memoir.
+// just know it. how would python work it out?
 // you can do a checklist. it does not matter.
 // this is shit.
+// it is all about creating trouble but not fixing it at all.
+// that's the fun of it!
 // always the same. no matter it is online or offline.
 // it's shit.
 // don't you need some function selector? all you can think of is the fucking hierachy.
@@ -24,10 +29,51 @@
 // there's simply no system can do this fucking job.
 // not about creating classes, or automata.
 // gcc -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0  -I/usr/include/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gtk-2.0  -I/usr/include/cairo -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/vte-0.0 term.c -o term
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[])
+{
     printf("this is the main lazero program.\n");
     system("rm /tmp/lazero");
     system("mkfifo /tmp/lazero");
+    DIR *d;
+    struct dirent *dir;
+    d = opendir(".");
+    if (d)
+    {
+        while ((dir = readdir(d)) != NULL)
+        {
+            printf("%s\n", dir->d_name);
+        }
+        closedir(d);
+    }
+    for (int i = 0; i < argc; i++)
+    {
+        printf("%s", argv[i]);
+    }
+    // so you put it all into one fucking place.
+    FILE *fp;
+    fp = fopen("links.log", "r");
+    // char buffer[50];
+    char ch;
+    while((ch = fgetc(fp)) != EOF){
+      printf("%c", ch);
+      printf("%s"," ");
+      }
+    // fread(buffer, strlen(buffer) + 1, 1, fp);
+    //    fputs("This is testing for fputs...\n", fp);
+    fclose(fp);
+    PyObject* pInt;
+
+	Py_Initialize();
+
+	PyRun_SimpleString("print('Hello World from Embedded Python!!!')");
+	
+	Py_Finalize();
+    return 0;
+    // whatever it takes.
+    // all the same now. all fucking functionality.
+    // just how to locate the shell???
+    // will you explain?
+    // direct memory access?
     // they are all bullshits. they do not understand shit.
     // useless pricks.
     // do you fucking realize this shit?

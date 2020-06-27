@@ -20,3 +20,6 @@ main = run (putStrLn "this is the main lazero program.")
 -- so what the fuck is IDE anyway?
 -- some ideas will be gathered from it, people who write programs every fucking day.
 -- like photoshop. ideas of picture processing.
+-- there must be some jobs for this machine to run.
+-- wahtever. think about it. what matters the most?
+-- sense? hearing?

@@ -26,11 +26,12 @@ from __future__ import absolute_import, print_function, with_statement
 
 # fucking dicks.
 # Python3-friendly imports
+# you've got shit in your ass!!!!!
 try:
     import queue
 except ImportError:
     import Queue as queue
-
+# i have the most irregular dataset in the fucking world!
 import sys
 if sys.version_info[0] < 3:
     byte_code = ord
@@ -727,7 +728,10 @@ if __name__ == "__main__":
 # this is a different tty.
 # if it is windows... worse still.
     # test_str = b'\xe2\x94\x80 \xe2\x94\x82 \xe2\x94\x8c \xe2\x94\x98 \xe2\x94\x90 \xe2\x94\x94 \xe2\x94\x9c \xe2\x94\xa4 \xe2\x94\xac \xe2\x94\xb4 \xe2\x94\xbc \xe2\x95\x90 \xe2\x95\x91 \xe2\x95\x94 \xe2\x95\x9d \xe2\x95\x97 \xe2\x95\x9a \xe2\x95\xa0 \xe2\x95\xa3 \xe2\x95\xa6 \xe2\x95\xa9 \xe2\x95\xac'.decode("utf-8")
-
+# well, now we are talking about some kind of program architecture.
+# about keeping something intact.
+# you want to make thousands of programs waiting for inputs?
+# and another something waiting for income????
     Term_attr = termios.tcgetattr(pty.STDIN_FILENO)
     try:
         tty.setraw(pty.STDIN_FILENO)

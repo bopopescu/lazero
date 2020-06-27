@@ -13,17 +13,21 @@
 //    d = 0;
 //    while (q[d] != '\0') {
 //       p[c] = q[d];
+// you know the fifo just won't exist permanently in /tmp.
 //       d++;
 //       c++;    
 //    }
 //    p[c] = '\0';
 // }
+// we can only keep things inside the bitstreams.
 // we've got fucking progress here! to comprehend all shits on this fucking drive.
 // and that's the basic task. cause the internet is nearly infinite.
 // the local drive is huge, but not yet fucked up.
 // you might want to set up some goals on understanding the fucking apt shit, but that is not good at all. you cannot do that.
 // and that is not good.
 // only shit I feel good is the fucking directory.
+// can do this by sending it multiple times?
+// is it safe to do truncate?
 // here's the thing. I cannot get info about how to find fucking string inside the fucking shit.
 // well, you do not have to store shit inside your fucking mind.
 // here brings the change.
@@ -35,6 +39,7 @@ int writeTemp(char *filename,char *data){
 // you have to make it small, or exact.
 // printf("hello world");
 // concatenate(a,"./");
+// nvm. it is always fucked up.
    strcpy(a,"/dev/shm/");
    // use it here???
    // well ,very delicate shit. but will never gonna work without some global shell emulator.
