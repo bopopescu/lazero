@@ -23,7 +23,7 @@
 #endif
 
 #include <vte/vte.h>
-
+//  i have this shit inside the program. guess what? this works.
 #define TERM_WORD_CHARS "-./?%&#_=+@~"
 #define TERM_OPACITY 0.9
 #define TERM_FONT "Iosevka Term 10"

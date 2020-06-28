@@ -11,7 +11,8 @@ s=["echo", "hello", "world"]
 # s=["yes"]
 c=call(s,stdout=subprocess.PIPE,stderr=subprocess.PIPE,cwd="/")
 # e=c.communicate()
-print(c)
+# print(c)
+#  not working.
     # well, knowledge is a good thing.
     # I mean, can we do it at some temp location???
     # what does this shit believe? icons? strings? RA9?

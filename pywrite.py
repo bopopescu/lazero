@@ -30,4 +30,8 @@ def updateBuffer(a,b,c=10000):
         f.write(b[-c-1:])
 def initBuffer(a):
     assert type(a)==str and "/" not in a and len(a)>0
-    os.remove("/dev/shm/"+a)
+    f="/dev/shm/"+a
+    if os.path.exists(f):
+        os.remove(f)
+    os.system("touch "+f)
+    # whatever you might want to do.

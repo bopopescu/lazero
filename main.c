@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <dirent.h>
-#include <python3.8/Python.h>
+// #include <Python.h>
 // you never know what kind of shit you will suffer when going offline.
 // shit. how does it fucking work????
 // so what the heck is terminal emulator?
@@ -10,8 +10,11 @@
 // just know it. how would python work it out?
 // you can do a checklist. it does not matter.
 // this is shit.
+// fucking freak.
 // it is all about creating trouble but not fixing it at all.
 // that's the fun of it!
+// whatever it takes. it is all the same shit.
+// if you want the output then fucking do it!
 // always the same. no matter it is online or offline.
 // it's shit.
 // don't you need some function selector? all you can think of is the fucking hierachy.
@@ -28,6 +31,7 @@
 // fucking offline. I've got nothing to read, nothing to think, and nothing to work with.
 // there's simply no system can do this fucking job.
 // not about creating classes, or automata.
+// not working at all. you think you can solve this shit?
 // gcc -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0  -I/usr/include/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gtk-2.0  -I/usr/include/cairo -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/vte-0.0 term.c -o term
 int main(int argc, char *argv[])
 {
@@ -36,11 +40,14 @@ int main(int argc, char *argv[])
     system("mkfifo /tmp/lazero");
     DIR *d;
     struct dirent *dir;
+    // build a buzzler which can fix all kind of problems?
+    // in order to run something like links, we shall consider using tmux.
+    // for firefox, we should use xserver.
     d = opendir(".");
     if (d)
     {
         while ((dir = readdir(d)) != NULL)
-        {
+        {// i guess there are many things hidden in here.
             printf("%s\n", dir->d_name);
         }
         closedir(d);
@@ -54,20 +61,23 @@ int main(int argc, char *argv[])
     fp = fopen("links.log", "r");
     // char buffer[50];
     char ch;
+    char a;
     while((ch = fgetc(fp)) != EOF){
       printf("%c", ch);
-      printf("%s"," ");
+      int st=(a==ch);
+      printf("%d",st);
+      a=ch;
+      // just hope you can understand a bit???
+      // not too bad, think you can recover from this?
+      // that python reference is terrible. i cannot get shit from it.
+    //   printf("%s"," ");
+    // you know it works like something?
       }
     // fread(buffer, strlen(buffer) + 1, 1, fp);
     //    fputs("This is testing for fputs...\n", fp);
     fclose(fp);
-    PyObject* pInt;
-
-	Py_Initialize();
-
-	PyRun_SimpleString("print('Hello World from Embedded Python!!!')");
-	
-	Py_Finalize();
+    // so python is offline here. do you need some aid?
+    // this is not creative at all. i do not think this is some sort of processing.
     return 0;
     // whatever it takes.
     // all the same now. all fucking functionality.
@@ -102,3 +112,5 @@ int main(int argc, char *argv[])
     // for(int i=0;i<argc;i++){printf(" %s ",argv[i]);};
     return 0;
 }
+// and here is the fun part.
+// we just want to make sure it is useful.
