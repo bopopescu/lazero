@@ -3,7 +3,8 @@ int main(int argc, char *argv[]){
         for (int i = 0; i < argc; i++)
     {
         printf("%s", argv[i]);
-    system(argv[i]);
+	// no fucking execution please?
+//    system(argv[i]);
     // i just want to fuck.
         printf("\n");
     }
