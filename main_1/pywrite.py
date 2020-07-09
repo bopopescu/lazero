@@ -8,6 +8,7 @@ def checkBuffer(a,b):
     if k>b:
         os.remove("/dev/shm/"+a)
 # there is no way you can get shit.
+# all days talking about shit, and where the fuck is the fucking end?
 def updateBuffer(a,b,c=10000):
     # first check the size, then decide the shit.
     # well,well, you really want to insert some binary data into it???

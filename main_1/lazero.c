@@ -14,4 +14,6 @@ int main(int argc, char *argv[]){
 // you think you have read things?
 // just how does it work?
 // far not enough.
+// what is it anyway?
+// use your INSTINCT.
 // do we have source code of any search tool?
