@@ -12,13 +12,14 @@ var http=require('http');
 // var crypto = require('crypto'); 
 // return it via web or clipboard.
 // whatever.
+var demo="f7775beb-0059-45e3-9ca9-53f67e075fe7";
 // you can set the command, without using mouse at all.
 // without taking risk there's no meaning at all.
 var server = http.createServer((function (request, response) {// never read the request?
     response.writeHead(200,
         { "Content-Type": "text/plain" });
     // var k = uuidv4();
-    var k = {"uuid":"arbitrary","command":"document.all"};
+    var k = {"uuid":demo,"command":"document.all"};
     // you should invoke another program.
     // better print it out.
     // or put it into the clipboard.
