@@ -34,6 +34,8 @@ var server = http.createServer((function (request, response) {// never read the 
     response.writeHead(200,
         { "Content-Type": "text/plain" });
     var k = uuidv4();
+    // you should invoke another program.
+    // maybe? maybe not.
     response.end(k);
 }));
 server.listen(7000);
