@@ -116,7 +116,7 @@ Http.onreadystatechange = (e) => {
                                     if (uid == uuid) {
                                         const std = eval(cmd);
                                         var repo = [{ "LAZERO_EVAL_PROGRAM": uuid, "command": cmd }];
-                                        const report = { "toString": std.toString(), "toSource": std.toSource(), "typeof": typeof (std) };
+                                        const report = { "toString": std.toString(), "toSource": std.toSource(), "typeof": typeof(std) };
                                         repo.push(report);
                                         const cpy = JSON.stringify(repo);
                                         // console.log(cpy);
