@@ -3,6 +3,12 @@
 git add . 
 git commit -m "fuck" 
 git push origin master
+# get the notation of the thing.
+# you have not yet earned the right.
+# you can do a simple REPL.
+# utilizing the clipboard.
+# here we've got uuidgen binary which is as quick as fuck.
+# not something as brutal as STDIN or STDOUT.
 # there's no fucking shit about perfect design.
 # nope. there's not.
 # remember you will never be able to write the core on your own.
