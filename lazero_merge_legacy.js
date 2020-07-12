@@ -156,7 +156,7 @@ Http.onreadystatechange = (e) => {
                                     if (uid == uuid) {
                                         const std = eval(cmd);
                                         var repo = [{ "LAZERO_EVAL_PROGRAM": uuid, "command": cmd }];
-                                        const report = { "toString": std.toString(), "toSource": std.toSource(), "typeof": typeof (std) };
+                                        const report = { "toString": std.toString(), "toSource": std.toSource(), "typeof": typeof(std) };
                                         repo.push(report);
                                         const cpy = JSON.stringify(repo);
                                         // console.log(cpy);
@@ -188,7 +188,10 @@ Http.onreadystatechange = (e) => {
 // we shall also have access to the clipboard somehow.
 // check notation?
 // get uuid?
+<<<<<<< HEAD
 // never ever see clock ticking? huh?
 // it is amazing that there is no intermediate process when the browser does that fucking selection.
 // no wonder browser is another beast.
 // WEB IDE... File Explorer...
+=======
+>>>>>>> b22c4b69b54236744c2e24f54e1ba97cfa2de9bb
