@@ -5,7 +5,6 @@
 // @run-at   document-start
 // ==/UserScript==
 
-// what is the so-called format anyway?
 // everytime having a different value.
 // create a cronjob then.
 // on copy command, you get the idea of it.
@@ -21,9 +20,6 @@
 console.log("LAZERO MERGE SCRIPT\n    -\n   |               ___  __  __\n  / \\  |    /|  /  ___ |   |  |\n \\  _\\ |__ / | /__ ___ |   |__|\n\nTo make everything\nexecutable, analyzable, controllable.");
 // back again. doing random stuff here.
 // not too goddamn bad?
-// <heartbeat package>
-// do it in WEBSOCKET.
-// or other implementations. if found by anyone.
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }// fucking absent.
@@ -39,40 +35,29 @@ function deselect() {
 // or not?
 // do it in another platform.
 // maybe?
-// no <body>. cannot copy.
-// NO BODY! CANNOT COPY!
-// consider using plugin or something else.
-// either use document.write
-// the HECK!
-// advice: do it in extension, not a fucking script.
-// google has asked me to pay the fucking bill.
-// cannot run.
 const copyToClipboard = str => {
-    try {
-        const el = document.createElement('textarea');  // Create a <textarea> element
-        el.value = str;                                 // Set its value to the string that you want copied
-        el.setAttribute('readonly', '');                // Make it readonly to be tamper-proof
-        el.style.position = 'absolute';
-        el.style.left = '-9999px';                      // Move outside the screen to make it invisible
-        document.body.appendChild(el);
-        // Append the <textarea> element to the HTML document
-        const selected =
-            document.getSelection().rangeCount > 0        // Check if there is any content selected previously
-                ? document.getSelection().getRangeAt(0)     // Store selection if found
-                : false;                                    // Mark as false to know no selection existed before
-        // do not check the selection.
-        // do not store the fucking selection.
-        // only if you want to.
-        deselect();
-        el.select();                                    // Select the <textarea> content
-        document.execCommand('copy');                   // Copy - only works as a result of a user action (e.g. click events)
-        document.body.removeChild(el);                  // Remove the <textarea> element
-        if (selected) {                                 // If a selection existed before copying
-            document.getSelection().removeAllRanges();    // Unselect everything on the HTML document
-            document.getSelection().addRange(selected);   // Restore the original selection
-        }
+    const el = document.createElement('textarea');  // Create a <textarea> element
+    el.value = str;                                 // Set its value to the string that you want copied
+    el.setAttribute('readonly', '');                // Make it readonly to be tamper-proof
+    el.style.position = 'absolute';
+    el.style.left = '-9999px';                      // Move outside the screen to make it invisible
+    document.body.appendChild(el);
+    // Append the <textarea> element to the HTML document
+    const selected =
+        document.getSelection().rangeCount > 0        // Check if there is any content selected previously
+            ? document.getSelection().getRangeAt(0)     // Store selection if found
+            : false;                                    // Mark as false to know no selection existed before
+    // do not check the selection.
+    // do not store the fucking selection.
+    // only if you want to.
+    deselect();
+    el.select();                                    // Select the <textarea> content
+    document.execCommand('copy');                   // Copy - only works as a result of a user action (e.g. click events)
+    document.body.removeChild(el);                  // Remove the <textarea> element
+    if (selected) {                                 // If a selection existed before copying
+        document.getSelection().removeAllRanges();    // Unselect everything on the HTML document
+        document.getSelection().addRange(selected);   // Restore the original selection
     }
-    catch (error) { console.log(error); }
 };
 var uuid = null;
 const Http = new XMLHttpRequest();
@@ -89,45 +74,20 @@ Http.onreadystatechange = (e) => {
             console.log("Session UUID: " + xk);
             uuid = xk;
             var command = null;
-            // not even running?
             async function Tutor() {
                 // console.log("posting document data");
                 // whatever. it is great.
-                // broadcast first?
-// do it when you hit the enter?
-// use system level supervise.
+                await sleep(2000);
+                var d = document.all;
+                var ki = d.length;
                 var json = [{ "LAZERO_HELPER_PROGRAM": uuid }];
-                try { copyToClipboard(JSON.stringify(json)); } catch (e) { console.log(e); }
-                // wrong at this place.
-                var i0 = 0;
-                var i1 = false
-                for (i0 = 0; i0 < 3; i0++) {
-                    try {
-                        await sleep(2000);
-                        var d = document.all;
-                        var ki = d.length;
-                        for (var i = 0; i < ki; i++) {
-                            var p = d[i];
-                            var j = { "innerHtml": p.innerHTML, "outerHTML": p.outerHTML };
-                            json.push(j);
-                            // should you try to test it?
-                        }
-                        //d=JSON.stringify(d);
-                        copyToClipboard(JSON.stringify(json));
-                        i1 = true;
-                        break;
-                    } catch (err) { console.log(err); json = [{ "LAZERO_HELPER_PROGRAM": uuid }]; }
+                for (var i = 0; i < ki; i++) {
+                    var p = d[i];
+                    var j = { "innerHtml": p.innerHTML, "outerHTML": p.outerHTML };
+                    json.push(j);
                 }
-                if (!i1) {
-                    json.push({ "err": "timeout" })
-                    copyToClipboard(JSON.stringify(json));
-                }
-                // do it later?
-                // or do it again?
-                // not fucking working.
-                // GM.setClipboard(JSON.stringify(json));
-            };
-            async function Functor() {
+                //d=JSON.stringify(d);
+                copyToClipboard(JSON.stringify(json));
                 // and that is really fast.
                 // must use a strong clipboard manager.
                 // either as a server or as system service.
@@ -171,9 +131,12 @@ Http.onreadystatechange = (e) => {
                         // console.log("testing connection: "+Date.now());
                     }
                 }
+                // do it later?
+                // or do it again?
+                // not fucking working.
+                // GM.setClipboard(JSON.stringify(json));
             };
             Tutor();
-            Functor();
         }
     }
 }
@@ -188,7 +151,3 @@ Http.onreadystatechange = (e) => {
 // we shall also have access to the clipboard somehow.
 // check notation?
 // get uuid?
-// never ever see clock ticking? huh?
-// it is amazing that there is no intermediate process when the browser does that fucking selection.
-// no wonder browser is another beast.
-// WEB IDE... File Explorer...
