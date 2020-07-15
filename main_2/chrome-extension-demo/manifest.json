@@ -1,7 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Lazero",
+  "name": "Lazero Extension for Chrome",
   "version": "1.0.0",
+  "version_name": "Apolo",
+  "short_name": "Lazero",
   "author": "Lazero Ltd.",
   "description": "Lazero Helper Extension",
   "background": {
@@ -10,6 +12,10 @@
       "background.js"
     ]
   },
+  "chrome_url_overrides": {
+    "newtab": "my-new-tab.html"
+  },
+  "incognito": "split",
   "icons": {
     "128": "icon128.png",
     "32": "icon32.png",
@@ -34,6 +40,11 @@
       "run_at": "document_start"
     }
   ],
+  "externally_connectable": {
+    "ids": [
+      "*"
+    ]
+  },
   "permissions": [
     "<all_urls>",
     "activeTab",

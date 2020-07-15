@@ -20,5 +20,7 @@ async function asf() {
     }
 }
 asf();
+// "devtools_page": "devtools/my-page.html",
+// does that work? to monitor the tab?
 // structure matters. sequence matters.
 // can you do some extra things? copy things into the clipboard?
