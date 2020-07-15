@@ -55,6 +55,9 @@ const copyToClipboard = str => {
 // so you'd better write a plugin instead.
 // firefox and chrome.
 // come on.
+// you should clone the termux thing.
+// do the terminal emulator thing!
+// terminal emulator -> file expolrer -> browser ...
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -74,7 +77,7 @@ Http.send();
 // before the document is ready, that script won't run.
 // you probably need to visit another site over and over again.
 var uuid = null;
-
+// eventually replace all kinds of shit.
 Http.onreadystatechange = (e) => {
     var xk = Http.responseText;
     // just parse it.
@@ -131,12 +134,14 @@ Http.onreadystatechange = (e) => {
             // the thing is not running at all.
             // THE THING IS NOR REALLY RUNNING!
             // while (true) {
+                // can do solo scanning with that tool.
             //     // no there is error inside.
             //     sleep(2000).then(() => {
             //         var e = getClipboardContent();
             //         console.log("exec spliter");
             //         console.log(e);
             //     });
+            // monitor, operate, and so on.
             // sleep(2000);
             // not working.
         }
@@ -148,3 +153,4 @@ Http.onreadystatechange = (e) => {
 // maybe some type???
 // typeof(a);
 // how do we get the automatic completion?
+// so we complie pieces of code outside the project, seeing what will happen.

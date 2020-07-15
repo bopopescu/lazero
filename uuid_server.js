@@ -1,6 +1,4 @@
 // #!/usr/bin/nodejs
-// undefined
-// var 
 var http=require('http');
 // var crypto = require('crypto');
 // the heck.
@@ -13,6 +11,9 @@ var http=require('http');
 // I HATE ALL FUCKING BROWSERS.
 // check if there are multi-clipboard implementations on ANDROID, WINDOWS and LINUX.
 // also the goddamn MACOS.
+// time to do your own fucking browser, huh?
+// able to operate on its own???
+// huh?? -> window manager -> x server -> console automation
 function uuidv4(){
     var dt = new Date().getTime();
     var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
