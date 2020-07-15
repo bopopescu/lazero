@@ -5,7 +5,9 @@
   "version": "1.0",
   "homepage_url": "https://github.com/james4deutschland/lazero",
   "icons": {
-    "48": "icons/border-48.png"
+    "128": "icons/icon128.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png"
   },
   "content_scripts": [
     {
@@ -18,6 +20,12 @@
       "run_at":"document_start"
     }
   ],
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  },
   "permissions": [
     "<all_urls>",
     "activeTab",
