@@ -6,13 +6,19 @@ Just draw a border round the document.body.
 // console.log("");
 // add all fucking permissions here!
 function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));}
-console.log("LAZERO PLUGIN\n    -\n   |               ___  __  __\n  / \\  |    /|  /  ___ |   |  |\n \\  _\\ |__ / | /__ ___ |   |__|\n\nTo make everything\nexecutable, analyzable, controllable.");
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 // do not do it twice.
-async function dfunc(){
-while(true){await sleep(500);
-try { document.body.style.border = "5px solid red"; break}
-catch (e) { console.log(e); }}}
+async function dfunc() {
+    while (true) {
+        await sleep(500);
+        // no fucking border.
+        try { document.body.style.border = "5px solid red"; break }
+        catch (e) { console.log(e); }
+    }
+}
+
+console.log("LAZERO PLUGIN\n    -\n   |               ___  __  __\n  / \\  |    /|  /  ___ |   |  |\n \\  _\\ |__ / | /__ ___ |   |__|\n\nTo make everything\nexecutable, analyzable, controllable.");
 dfunc();
 // how to dump the full shit?
 // so there are three states.

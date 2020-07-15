@@ -18,6 +18,7 @@
 // yes you can monitor it by yourself.
 // but anyway, it is getting close to the truth.
 // wait till fully loaded?
+// don't be a dick. if want to use mass scan, you shall get a bigger drive, or do it elsewhere.
 console.log("LAZERO MERGE SCRIPT\n    -\n   |               ___  __  __\n  / \\  |    /|  /  ___ |   |  |\n \\  _\\ |__ / | /__ ___ |   |__|\n\nTo make everything\nexecutable, analyzable, controllable.");
 // back again. doing random stuff here.
 // not too goddamn bad?
