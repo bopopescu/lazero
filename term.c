@@ -4,6 +4,10 @@
 // it's deficiency, not improvement.
 // can I define func inside func?
 int true = 1;
+typedef struct{
+VteTerminal *terminal;
+} myParams; 
+
 // must not zero.
 int main(int argc, char *argv[])
 {
@@ -25,11 +29,7 @@ int main(int argc, char *argv[])
     // how to make the thing headless? -> server.
     // make it unstuck, when running a process. -> key to browse anything.
     VteTerminal *sampler = VTE_TERMINAL(terminal);
-    // glong start_row = 0;
-    // good again?
-    // glong start_col = 0;
-    // glong end_row = 100;
-    // glong end_col = 100;
+
     // just fucking unused.
     gchar **envp = g_get_environ();
     gchar **command = (gchar *[]){g_strdup(g_environ_getenv(envp, "SHELL")), NULL};
@@ -79,12 +79,34 @@ int main(int argc, char *argv[])
     // how can you get things done then?
     vte_terminal_feed(sampler, data_s2, gsz);
     // gdk_threads_add_idle();
-    int samp()
+    int samp(gpointer par)
     {
         // while (true)
+            // VteSelectionFunc mSelected
+    // cannot pass shit to here.
+    myParams *params = par;
+    glong start_row = 0;
+    // good again?
+    // shit man.
+    glong start_col = 0;
+    glong end_row = 100;
+    glong end_col = 100;
+    VteTerminal *termX=params->terminal;
         for (int counter = 0; counter < 30; ++counter)
         {
-            printf("hello world!\n");
+            // GArray mArray;
+            int vca=sizeof(VteCharAttributes);
+            // no fucking segfault?
+            GArray *arr = g_array_new(TRUE, TRUE, vca);
+            // if you want the color though.
+        // get this shit out.
+            printf("middle hello world!\n");
+            // here is the point.
+            char *bufferx=vte_terminal_get_text_range(termX,
+            start_row,start_col,end_row,end_col,NULL,NULL,arr);
+            printf("____________________\n");
+            printf("%s",bufferx);
+            // yes this does work. but what about that GArray?
             sleep(1); //cool. -> not responding before it is done.
             // this is in seconds.
             // not even again.
@@ -95,7 +117,11 @@ int main(int argc, char *argv[])
         // it should be doing this repeatedly.
         // maybe we should repeat this process over and over again?
     };
-    g_timeout_add(1000, samp, NULL);
+    // try to spawn a process?
+    myParams mps={sampler};
+    g_timeout_add(1000, samp,&mps );
+    // g_idle_add(samp,&mps);
+    // fucking hell.
     // fucking shit. it is not working as a separate thread.
     // not fucking responding! -> try 3 times.
     // not to rush???
@@ -103,5 +129,5 @@ int main(int argc, char *argv[])
     // not reached here.
     // maybe the same for that thing.
     // spawn a process and then feed back into the terminal!
-    printf("hello world!\n");
+    printf("not hello world!\n");// shit.
 }
