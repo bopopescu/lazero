@@ -4,6 +4,7 @@ gi.require_version('Gtk', '3.0')
 gi.require_version('Vte', '2.91')
 # if you really want to, use java instead to do terminal emulation.
 # no fucking horrible shits, please?
+# either replace it or use it.
 class TheWindow(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title="GTK3 IDE")
@@ -46,3 +47,4 @@ win.connect('destroy', Gtk.main_quit)
 win.show_all()
 Gtk.main()
 #  what the heck?
+# check the implementation of vscode terminal. -> the joke out there.
