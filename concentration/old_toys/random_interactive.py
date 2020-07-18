@@ -56,6 +56,7 @@ def the_loop(a):
     # what about networking and GUI clicking?
     # same to me! ok?
     output = remote_conn.recv(1000)
+    # but where the fuck is stderr?
     # remote_conn.send("happybirthday\n")
     # a = "msfconsole"
     remote_conn.send(autoreturn(a))
