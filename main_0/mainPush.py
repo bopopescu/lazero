@@ -22,6 +22,7 @@ import termios
 c="ls\n"
 # but I can force it to execute something to dump content!
 with open('/dev/pts/8', 'w') as fd:
+    # print(type(fd))
     # with open('/proc/71043/fd/0', 'w') as fd:
     # for char in "\x01d":
     for char in c:
