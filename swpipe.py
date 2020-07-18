@@ -6,6 +6,7 @@ import threading
 import platform
 import time
 
+
 class LoopException(Exception):
     """循环异常自定义异常，此异常并不代表循环每一次都是非正常退出的"""
 
@@ -23,7 +24,7 @@ class SwPipe():
 
     def __init__(self, commande, func, exitfunc, readyfunc=None,
                  shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, code="UTF-8"):
-                 # why the fuck you have code inside?
+        # why the fuck you have code inside?
         """
         commande 命令
         func 正确输出反馈函数
@@ -58,8 +59,9 @@ class SwPipe():
         except OSError as e:
             self._exitfunc(e)
         fun = self._process.stdout.readline
-        fun0=self._process.stderr.readline
+        fun0 = self._process.stderr.readline
         # fuck the readline func.
+
         def stderrFunc(funX):
             while True:
                 line = funX()
@@ -71,7 +73,8 @@ class SwPipe():
                     tmp =  \
                         self._CRFL + \
                         "[PIPE_CODE_ERROR] <Code ERROR: UnicodeDecodeError>\n" \
-                    + "[PIPE_CODE_ERROR] Now code is: " + self._code + self._CRFL
+                        + "[PIPE_CODE_ERROR] Now code is: " + \
+                        self._code + self._CRFL
                 self._func(self, "FROM STDERR: "+tmp)
         self._flag = True
         if readyfunc != None:
@@ -79,7 +82,8 @@ class SwPipe():
             # so do another thread?
             # triple thread? what about now?
             # fucking hell.
-        threading.Thread(target=stderrFunc,args=(fun0,)).start()
+            # you can listen to a port. -> webshell.
+        threading.Thread(target=stderrFunc, args=(fun0,)).start()
         while True:
             line = fun()
             if not line:
@@ -90,7 +94,8 @@ class SwPipe():
                 tmp =  \
                     self._CRFL + \
                     "[PIPE_CODE_ERROR] <Code ERROR: UnicodeDecodeError>\n" \
-                + "[PIPE_CODE_ERROR] Now code is: " + self._code + self._CRFL
+                    + "[PIPE_CODE_ERROR] Now code is: " + \
+                    self._code + self._CRFL
             self._func(self, tmp)
 
         self._flag = False
@@ -129,14 +134,14 @@ if __name__ == '__main__':  # 那么我们来开始使用它吧
         print(msg)
 
     def ready():  # 线程就绪反馈函数
-        ik=5
-        while ik>0:
+        ik = 5
+        while ik > 0:
             # e.write("echo hello world")
             e.write("blowjob")
             time.sleep(1)
-            ik-=1
+            ik -= 1
         e.destroy()
-            # what the heck?
+        # what the heck?
         # e.write("dir")  # 执行
         # e.write("ping www.baidu.com")
         # e.write("echo Hello!World 你好中国！你好世界！")
