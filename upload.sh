@@ -1,4 +1,5 @@
 #!/bin/bash
+# you can hide this dir, but only if the root dir is not removed.
 # if written as one-linear then fault tolerance will get lower.
 git add . 
 git commit -m "fuck" 

@@ -10,6 +10,7 @@ from endmark import windowEndMarkEx
 from multiprocessing import Pool, freeze_support
 from repeating import ajam
 # we need a record.
+# try that thing! the jediterm.
 # we are reusing the database! it is cool!
 # there might be some detaching issues. launching firefox or something.
 # it needs for display. unlike windows.
@@ -186,3 +187,4 @@ if __name__ == "__main__":
         storeXList(f, "rock")
         rx -= len(x)
 # rebuild the thing.
+# maybe it is deleted.
