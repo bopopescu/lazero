@@ -1,5 +1,5 @@
 import java.io.*;
-
+// time to find a sandbox to execute something like rm -rf /*.
 public class Terminal {
 
     class ReaderConsole implements Runnable {

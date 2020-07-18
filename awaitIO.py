@@ -1,4 +1,4 @@
-import asyncio
+# import asyncio
 import threading
 # import time
 # import termios
@@ -24,6 +24,7 @@ def run(cmd):
     # read what?
     # when it is dead, it goes crazy. so share the namespace please?
     ik=5
+    # how to pretend to be a terminal?
     x=["links","elinks","vim","ps","sed"]
     while ik>0:
         proc.stdin.write(x[ik-1].encode()+b"\n")
