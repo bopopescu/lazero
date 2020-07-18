@@ -6,11 +6,15 @@ import multiprocessing
 # import fcntl
 # import tempfile
 # pretend to be a terminal.
+# it can do some harm on you. consider a sandbox for everything.
+# {SANDBOX}
 import time
 import subprocess
 import os
 # write some env to it. both os and popen.
-os.environ['TERM'] = 'xterm'
+# send it into a pseudo terminal like some kind of .js file.
+os.environ['TERM'] = 'ansi'
+# heck!
 def run(cmd):
     # await asyncio.sleep(1)
     # just render it into something else.
@@ -24,8 +28,11 @@ def run(cmd):
         while True:
             buff=a.readline()
             print(b+buff)
-    multiprocessing.Process(target=readline,args=(proc.stdout,b"stdout: ")).start()
-    multiprocessing.Process(target=readline,args=(proc.stderr,b"stderr: ")).start()
+    p=multiprocessing.Process(target=readline,args=(proc.stdout,b"stdout: "))
+    p0=multiprocessing.Process(target=readline,args=(proc.stderr,b"stderr: "))
+    # does not share information?
+    p.start()
+    p0.start()
     # start another shit.
     # read what?
     # when it is dead, it goes crazy. so share the namespace please?
@@ -38,6 +45,14 @@ def run(cmd):
         ik-=1
         time.sleep(1)
     proc.kill()
+    print(dir(p))
+    p.kill()
+    p.terminate()
+    p0.kill()
+    p0.terminate()
+    # p0.n()
+    # this works.
+    # not inserting shit. fuck me please?
     # does not affect?
     # how comes.
     # set the overall value into something else?
