@@ -11,6 +11,7 @@ import threading
 import time
 import subprocess
 import os
+# with threading.Lock():
 # write some env to it. both os and popen.
 # three fucking python.
 # send it into a pseudo terminal like some kind of .js file.
