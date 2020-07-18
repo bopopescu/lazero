@@ -1,29 +1,32 @@
 import java.io.*;
 // time to find a sandbox to execute something like rm -rf /*.
+// so get closer to the bloody truth.
 public class Terminal {
 
     class ReaderConsole implements Runnable {
         private InputStream is;
-
-        public ReaderConsole(InputStream is) {
+	private String x;
+        public ReaderConsole(InputStream is,String x) {
             this.is = is;
+	    this.x=x;
         }
 
         public void run() {
             InputStreamReader isr = null;
-            try {
-                isr = new InputStreamReader(is, "utf8");
+	             try {
+                isr = new InputStreamReader(is);
                 // hey! how about a byte reader?
-            } catch (UnsupportedEncodingException e1) {
+		// this does not allow input. consider a process instead.
+            } catch (Exception e1) {
                 e1.printStackTrace();
-            }
+		}
             BufferedReader br = new BufferedReader(isr);
-
+	    // the heck! must be able to write into the stream.
             int c = -1;
             try {
                 while ((c = br.read()) != -1) {
-                    System.out.println("WELCOME_Y");
-                    System.out.print((char) c);
+                    System.out.println("WELCOME_Y: "+this.x);
+                    System.out.print((byte) c);
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -33,9 +36,10 @@ public class Terminal {
 
     class WrittenConsole implements Runnable {
         private OutputStream os;
-
-        public WrittenConsole(OutputStream os) {
+	private String x;
+        public WrittenConsole(OutputStream os,String x) {
             this.os = os;
+	    this.x=x;
         }
 
         public void run() {
@@ -43,7 +47,7 @@ public class Terminal {
                 while (true) {
                     String line = this.getConsoleLine();
                     line += "\n";
-                    System.out.println("WELCOME_X");
+                    System.out.println("WELCOME_X: "+this.x);
                     byte[] bts = line.getBytes();
                     os.write(bts);
                     System.out.println(bts);
@@ -64,16 +68,17 @@ public class Terminal {
     }
 
     // can you find the stderr?
+    // whoami?
     public void execute() throws Exception {
-        String[] cmds = { "bash" };
+        String[] cmds = { "su","-","test" };
         Process process = Runtime.getRuntime().exec(cmds);
-        InputStream is = process.getInputStream();
-        OutputStream os = process.getOutputStream();
-        InputStream es = process.getErrorStream();
-
-        Thread t1 = new Thread(new ReaderConsole(is));
-        Thread t0 = new Thread(new ReaderConsole(es));
-        Thread t2 = new Thread(new WrittenConsole(os));
+        InputStream os = process.getInputStream();
+        OutputStream is = process.getOutputStream();
+        InputStream es = process.getErrorStream();// this one is correct.
+	// somehow mistaken.
+        Thread t1 = new Thread(new WrittenConsole(is,"input"));
+        Thread t0 = new Thread(new ReaderConsole(es,"error"));
+        Thread t2 = new Thread(new ReaderConsole(os,"output"));
         t1.start();
         t0.start();
         t2.start();

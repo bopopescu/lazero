@@ -113,5 +113,7 @@ if __name__ == "__main__":
 #    run(['sshpass','-p','test','ssh','test@localhost'],ns)
 # invalid ioctl? try pseudo terminal.
     run(['sshpass','-p','test','mosh','test@localhost'],ns)
+    # it has been killed by itself.
+    # seek for pseudo terminal.
     print("AHEAD OF TIME")
 # try to allocate?
