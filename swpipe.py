@@ -4,7 +4,7 @@ import subprocess
 import sys
 import threading
 import platform
-
+import time
 
 class LoopException(Exception):
     """循环异常自定义异常，此异常并不代表循环每一次都是非正常退出的"""
@@ -46,6 +46,7 @@ class SwPipe():
 
     def __run(self, commande, shell, stdin, stdout, stderr, readyfunc):
         """ 私有函数 """
+        # another func?
         try:
             self._process = subprocess.Popen(
                 commande,
@@ -57,9 +58,28 @@ class SwPipe():
         except OSError as e:
             self._exitfunc(e)
         fun = self._process.stdout.readline
+        fun0=self._process.stderr.readline
+        # fuck the readline func.
+        def stderrFunc(funX):
+            while True:
+                line = funX()
+                if not line:
+                    break
+                try:
+                    tmp = line.decode(self._code)
+                except UnicodeDecodeError:
+                    tmp =  \
+                        self._CRFL + \
+                        "[PIPE_CODE_ERROR] <Code ERROR: UnicodeDecodeError>\n" \
+                    + "[PIPE_CODE_ERROR] Now code is: " + self._code + self._CRFL
+                self._func(self, "FROM STDERR: "+tmp)
         self._flag = True
         if readyfunc != None:
             threading.Thread(target=readyfunc).start()  # 准备就绪
+            # so do another thread?
+            # triple thread? what about now?
+            # fucking hell.
+        threading.Thread(target=stderrFunc,args=(fun0,)).start()
         while True:
             line = fun()
             if not line:
@@ -92,6 +112,7 @@ class SwPipe():
 
     def destroy(self):
         """ 停止并销毁自身 """
+        # not working again?
         self._process.stdout.close()
         self._thread.stop()
         del self
@@ -108,10 +129,18 @@ if __name__ == '__main__':  # 那么我们来开始使用它吧
         print(msg)
 
     def ready():  # 线程就绪反馈函数
-        e.write("dir")  # 执行
-        e.write("ping www.baidu.com")
-        e.write("echo Hello!World 你好中国！你好世界！")
-        e.write("exit")
+        ik=5
+        while ik>0:
+            # e.write("echo hello world")
+            e.write("blowjob")
+            time.sleep(1)
+            ik-=1
+        e.destroy()
+            # what the heck?
+        # e.write("dir")  # 执行
+        # e.write("ping www.baidu.com")
+        # e.write("echo Hello!World 你好中国！你好世界！")
+        # e.write("exit")
 
     # e = SwPipe("cmd.exe", event, exit, ready)
     e = SwPipe("bash", event, exit, ready)
