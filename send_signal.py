@@ -2,6 +2,7 @@
 # import threading
 import multiprocessing
 # import time
+import signal
 # import termios
 # import fcntl
 # import tempfile
@@ -29,7 +30,8 @@ def run(cmd):
     def readline(a,b):
         while True:
             buff=a.readline()
-            print(b+buff)
+            if len(buff)>0:
+                print(b+buff)
     # they seem to copy the same things several times?
     # only one fucking process when using threading.
     p=multiprocessing.Process(target=readline,args=(proc.stdout,b"stdout: "))
@@ -46,10 +48,13 @@ def run(cmd):
     while ik>0:
         proc.stdin.write(x[ik-1].encode()+b"\n")
         proc.stdin.flush()
+        # no shit here.
+        # heck then.
         ik-=1
         time.sleep(1)
-    proc.kill()
-    print(dir(p))
+    proc.send_signal(signal.SIGKILL)
+    # proc.kill()
+    # print(dir(p))
     p.kill()
     p.terminate()
     p0.kill()

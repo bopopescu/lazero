@@ -33,8 +33,10 @@ if __name__ == "__main__":
         a.run()
     reactor.spawnProcess(pp, command[0], command, {'TERM': 'xterm'}, usePTY=True)
     # print("{MIDDLE}")
+    # maybe even avaliable for xterm?
     p =threading.Thread(target=theFunc,args=(reactor,))
     # print("{AHEAD}")
+    # sp.send_signal???
     # somehow.
     # all dead here. not even better than JS.
     p.start() # not RUN!
