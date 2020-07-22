@@ -1,9 +1,0 @@
-[Unit]
-Description=Docker daemon Service.
-
-[Service]
-Type=simple
-ExecStart=/usr/bin/dockerd --registry-mirror=http://hub-mirror.c.163.com --storage-opt overlay2.size=0.008G
-
-[Install]
-WantedBy=multi-user.target
