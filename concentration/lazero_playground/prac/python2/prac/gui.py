@@ -49,15 +49,15 @@ def nop(*args, **kwargs): pass
 
 
 class PRACQueryGUI(object):
-    def __init__(self, master, prac, node, gconf, directory='.'):
+    def __init__(self, main, prac, node, gconf, directory='.'):
         self.logger = logs.getlogger(self.__class__.__name__, level=logs.DEBUG)
-        self.master = master
+        self.main = main
 
         self.initialized = False
 
-        self.master.bind('<Return>', self.start)
-        self.master.bind('<Escape>', lambda a: self.master.quit())
-        self.master.protocol('WM_DELETE_WINDOW', self.quit)
+        self.main.bind('<Return>', self.start)
+        self.main.bind('<Escape>', lambda a: self.main.quit())
+        self.main.protocol('WM_DELETE_WINDOW', self.quit)
 
         self.prac = prac
         self.prac_inference = node.pracinfer
@@ -65,7 +65,7 @@ class PRACQueryGUI(object):
 
         self.module_dir = os.path.join(locations.pracmodules, 'wnsenses')
 
-        self.frame = Frame(master)
+        self.frame = Frame(main)
         self.frame.pack(fill=BOTH, expand=1)
         self.frame.columnconfigure(1, weight=1)
 
@@ -73,7 +73,7 @@ class PRACQueryGUI(object):
         row = 0
         Label(self.frame, text="Module: ").grid(row=row, column=0, sticky="E")
         modules = sorted([module for module in self.prac._manifests_by_name])
-        self.selected_module = StringVar(master)
+        self.selected_module = StringVar(main)
         self.selected_module.trace("w", self.select_module)
         self.list_modules = apply(OptionMenu,
                                   (self.frame, self.selected_module) + tuple(
@@ -87,7 +87,7 @@ class PRACQueryGUI(object):
         saveprojectcontainer.grid(row=row, column=1, sticky="NEWS")
         saveprojectcontainer.columnconfigure(0, weight=1)
 
-        self.selected_project = StringVar(master)
+        self.selected_project = StringVar(main)
         projectfiles = ['']
         self.list_projects = apply(OptionMenu, (
         saveprojectcontainer, self.selected_project) + tuple(projectfiles))
@@ -110,7 +110,7 @@ class PRACQueryGUI(object):
         row += 1
         Label(self.frame, text='Logic: ').grid(row=row, column=0, sticky='E')
         logics = ['FirstOrderLogic', 'FuzzyLogic']
-        self.selected_logic = StringVar(master)
+        self.selected_logic = StringVar(main)
         self.selected_logic.trace('w', self.settings_setdirty)
         l = apply(OptionMenu,
                   (self.frame, self.selected_logic) + tuple(logics))
@@ -190,7 +190,7 @@ class PRACQueryGUI(object):
         row += 1
         self.list_methods_row = row
         Label(self.frame, text="Method: ").grid(row=row, column=0, sticky=E)
-        self.selected_method = StringVar(master)
+        self.selected_method = StringVar(main)
         self.selected_method.trace('w', self.settings_setdirty)
         self.list_methods = OptionMenu(self.frame, self.selected_method,
                                        *InferenceMethods.names())
@@ -200,7 +200,7 @@ class PRACQueryGUI(object):
         # queries
         row += 1
         Label(self.frame, text="Queries: ").grid(row=row, column=0, sticky=E)
-        self.query = StringVar(master)
+        self.query = StringVar(main)
         Entry(self.frame, textvariable=self.query).grid(row=row, column=1,
                                                         sticky="NEW")
 
@@ -208,7 +208,7 @@ class PRACQueryGUI(object):
         row += 1
         Label(self.frame, text="Parameters: ").grid(row=row, column=0,
                                                     sticky="NE")
-        self.params = StringVar(master)
+        self.params = StringVar(main)
         self.entry_params = Entry(self.frame, textvariable=self.params)
         self.entry_params.grid(row=row, column=1, sticky="NEW")
 
@@ -216,7 +216,7 @@ class PRACQueryGUI(object):
         row += 1
         Label(self.frame, text="CW preds: ").grid(row=row, column=0,
                                                   sticky="NE")
-        self.cwpreds = StringVar(master)
+        self.cwpreds = StringVar(main)
         self.entry_cw = Entry(self.frame, textvariable=self.cwpreds)
         self.entry_cw.grid(row=row, column=1, sticky="NEW")
 
@@ -287,7 +287,7 @@ class PRACQueryGUI(object):
         self.db_container.dirty = False
         self.project_setdirty(dirty=False)
 
-        self.master.geometry(gconf['window_loc_query'])
+        self.main.geometry(gconf['window_loc_query'])
 
         self.initialized = True
 
@@ -300,11 +300,11 @@ class PRACQueryGUI(object):
                 return
             elif savechanges:
                 self.noask_save_project()
-            self.master.destroy()
+            self.main.destroy()
         else:
             # write gui settings and destroy
             self.write_gconfig()
-            self.master.destroy()
+            self.main.destroy()
 
 
     ####################### PROJECT FUNCTIONS #################################
@@ -335,7 +335,7 @@ class PRACQueryGUI(object):
         title = (WINDOWTITLEEDITED if (
         self.settings_dirty.get() or self.project_dirty.get()) else WINDOWTITLE).format(
             self.dir, self.project.name)
-        self.master.title(title)
+        self.main.title(title)
 
 
     def select_project(self, *args):
@@ -670,7 +670,7 @@ class PRACQueryGUI(object):
         self.config['logic'] = self.selected_logic.get()
         self.config['multicore'] = self.multicore.get()
         self.config['verbose'] = self.verbose.get()
-        self.config['window_loc'] = self.master.winfo_geometry()
+        self.config['window_loc'] = self.main.winfo_geometry()
         self.config['dir'] = self.dir
         self.project.queryconf = PRACMLNConfig()
         self.project.queryconf.update(self.config.config.copy())
@@ -682,7 +682,7 @@ class PRACQueryGUI(object):
 
         # save geometry
         if savegeometry:
-            self.gconf['window_loc_query'] = self.master.geometry()
+            self.gconf['window_loc_query'] = self.main.geometry()
         self.gconf.dump()
 
 
@@ -754,7 +754,7 @@ class PRACQueryGUI(object):
         self.write_gconfig(savegeometry=savegeometry)
 
         # hide gui
-        self.master.withdraw()
+        self.main.withdraw()
 
         # if evidence was modified in gui, update dbs for next inference step
         self.update_result_from_dbeditor()
@@ -779,4 +779,4 @@ class PRACQueryGUI(object):
             traceback.print_tb(tb)
 
         # restore main window
-        self.master.deiconify()
+        self.main.deiconify()

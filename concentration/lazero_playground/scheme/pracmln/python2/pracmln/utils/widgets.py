@@ -54,8 +54,8 @@ logger = logs.getlogger(__name__)
 
 class ScrolledText2(Text):
     
-    def __init__(self, master=None, change_hook=None, **kw):
-        self.frame = Frame(master)
+    def __init__(self, main=None, change_hook=None, **kw):
+        self.frame = Frame(main)
         self.vbar = Scrollbar(self.frame)
         self.vbar.pack(side=RIGHT, fill=Y)
 
@@ -170,7 +170,7 @@ class SyntaxHighlightingText(ScrolledText2):
         text = self
         if self.get_tabwidth() != newtabwidth:
             pixels = text.tk.call("font", "measure", text["font"],
-                                  "-displayof", text.master,
+                                  "-displayof", text.main,
                                   "n" * newtabwidth)
             text.configure(tabs=pixels)
 
@@ -443,13 +443,13 @@ class SyntaxHighlightingText(ScrolledText2):
 class FileEditBar(Frame, object):
 
 
-    def __init__(self, master, dir='.', filesettings=None, defaultname='*unknown{}', importhook=None,
+    def __init__(self, main, dir='.', filesettings=None, defaultname='*unknown{}', importhook=None,
                  deletehook=None, projecthook=None, filecontenthook=None, selectfilehook=None,
                  fileslisthook=None, updatehook=None, onchangehook=None):
 
-        self.master = master
+        self.main = main
 
-        Frame.__init__(self, master)
+        Frame.__init__(self, main)
 
         self._dirty = False
         self._dirty_file_name = ''
@@ -470,11 +470,11 @@ class FileEditBar(Frame, object):
         self.onchange_hook = onchangehook
 
 
-        Frame.__init__(self, master)
+        Frame.__init__(self, main)
         row = 0
         self.columnconfigure(1, weight=2)
 
-        self.selected_file = StringVar(master)
+        self.selected_file = StringVar(main)
         files = []
         self.file_buffer = {}
         self.file_reload = True
@@ -701,15 +701,15 @@ class FileEditBar(Frame, object):
 
 class FilePickEdit(Frame):
     
-    def __init__(self, master, file_mask, default_file, edit_height = None, user_onChange = None, 
+    def __init__(self, main, file_mask, default_file, edit_height = None, user_onChange = None, 
                  rename_on_edit=0, font = None, coloring=True, allowNone=False, highlighter=None, directory='.'):
         '''
             file_mask: file mask (e.g. "*.foo") or list of file masks (e.g. ["*.foo", "*.abl"])
         '''
-        self.master = master
+        self.main = main
         self.directory = directory
         self.user_onChange = user_onChange
-        Frame.__init__(self, master)
+        Frame.__init__(self, main)
         row = 0
         self.unmodified = True
         self.allowNone = allowNone
@@ -960,11 +960,11 @@ class FilePickEdit(Frame):
         
 
 class FilePick(Frame):
-    def __init__(self, master, file_mask, default_file, user_onChange = None, font = None, dirs = (".", ), allowNone = False):
+    def __init__(self, main, file_mask, default_file, user_onChange = None, font = None, dirs = (".", ), allowNone = False):
         ''' file_mask: file mask or list of file masks '''
-        self.master = master
+        self.main = main
         self.user_onChange = user_onChange
-        Frame.__init__(self, master)
+        Frame.__init__(self, main)
         self.columnconfigure(0, weight=1)
         self.unmodified = True
         self.file_extension = ""
@@ -1045,22 +1045,22 @@ class FilePick(Frame):
         return self.picked_name.get()
 
 class DropdownList:
-    def __init__(self, master, filemask='*.mln', default=None, allowNone=False, onselchange=None, directory='.'):
+    def __init__(self, main, filemask='*.mln', default=None, allowNone=False, onselchange=None, directory='.'):
         self.allowNone = allowNone
         self.directory = directory
-        self.list_frame = master
+        self.list_frame = main
         self.onchange = onselchange
         if type(filemask) != list:
             filemask = [filemask]
         self.file_mask = filemask
         self.updateList()
         if havePMW:
-            self.list = Pmw.ComboBox(master, selectioncommand = onselchange, scrolledlist_items = self.files)
+            self.list = Pmw.ComboBox(main, selectioncommand = onselchange, scrolledlist_items = self.files)
             self.list.component('entryfield').component('entry').configure(state = 'readonly', relief = 'raised')
             self.picked_name = self.list
         else:
-            self.picked_name = StringVar(master)
-            self.list = apply(OptionMenu, (master, self.picked_name) + tuple(self.files))
+            self.picked_name = StringVar(main)
+            self.list = apply(OptionMenu, (main, self.picked_name) + tuple(self.files))
             if onselchange is not None:
                 self.picked_name.trace("w", onselchange)
         if default is not None:
@@ -1130,9 +1130,9 @@ class DropdownList:
 
 
 class Checkbox(Checkbutton):
-    def __init__(self, master, text, default=None, **args):
+    def __init__(self, main, text, default=None, **args):
         self.var = IntVar()
-        Checkbutton.__init__(self, master, text=text, variable=self.var, **args)
+        Checkbutton.__init__(self, main, text=text, variable=self.var, **args)
         if default is not None:
             self.var.set(default)
 

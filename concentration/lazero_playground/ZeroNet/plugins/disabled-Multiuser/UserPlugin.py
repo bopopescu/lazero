@@ -14,12 +14,12 @@ class UserManagerPlugin(object):
         else:
             return super(UserManagerPlugin, self).load()
 
-    # Find user by master address
+    # Find user by main address
     # Return: User or None
-    def get(self, master_address=None):
+    def get(self, main_address=None):
         users = self.list()
-        if master_address in users:
-            user = users[master_address]
+        if main_address in users:
+            user = users[main_address]
         else:
             user = None
         return user

@@ -7,7 +7,7 @@ def toxic(jerk):
 def to_tables(cer):
     db = sqlite3.connect(cer)
     cursor = db.cursor()
-    cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    cursor.execute("SELECT name FROM sqlite_main WHERE type='table';")
     tables = cursor.fetchall()
     cursor.close()
     db.close()
@@ -29,7 +29,7 @@ def to_columns(per,cer):
 def to_sample(cer):
     db = sqlite3.connect(cer)
     cursor = db.cursor()
-    cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    cursor.execute("SELECT name FROM sqlite_main WHERE type='table';")
     tables = cursor.fetchall()
     for table_name in tables:
         table_name = table_name[0]

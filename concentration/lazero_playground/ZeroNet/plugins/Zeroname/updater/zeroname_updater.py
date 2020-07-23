@@ -62,9 +62,9 @@ def processNameOp(domain, value, test=False):
     if test:
         return True
 
-    if "slave" in sys.argv:
-        print("Waiting for master update arrive")
-        time.sleep(30)  # Wait 30 sec to allow master updater
+    if "subordinate" in sys.argv:
+        print("Waiting for main update arrive")
+        time.sleep(30)  # Wait 30 sec to allow main updater
 
     # Note: Requires the file data/names.json to exist and contain "{}" to work
     names_raw = open(names_path, "rb").read()

@@ -425,20 +425,20 @@ class MLNLearn(object):
 
 
 class MLNLearnGUI:
-    def __init__(self, master, gconf, directory=None):
-        self.master = master
+    def __init__(self, main, gconf, directory=None):
+        self.main = main
 
         self.initialized = False
 
-        self.master.bind('<Return>', self.learn)
-        self.master.bind('<Escape>', lambda a: self.master.quit())
-        self.master.protocol('WM_DELETE_WINDOW', self.quit)
+        self.main.bind('<Return>', self.learn)
+        self.main.bind('<Escape>', lambda a: self.main.quit())
+        self.main.protocol('WM_DELETE_WINDOW', self.quit)
 
-        # logo = Label(self.master, image=img)
+        # logo = Label(self.main, image=img)
         # logo.pack(side = "right", anchor='ne')
         self.dir = os.path.abspath(ifnone(directory, ifnone(gconf['prev_learnwts_path'], os.getcwd())))
 
-        self.frame = Frame(master)
+        self.frame = Frame(main)
         self.frame.pack(fill=BOTH, expand=1)
         self.frame.columnconfigure(1, weight=1)
 
@@ -474,7 +474,7 @@ class MLNLearnGUI:
         row += 1
         Label(self.frame, text='Grammar: ').grid(row=row, column=0, sticky='E')
         grammars = ['StandardGrammar', 'PRACGrammar']
-        self.selected_grammar = StringVar(master)
+        self.selected_grammar = StringVar(main)
         self.selected_grammar.trace('w', self.settings_setdirty)
         l = OptionMenu(*(self.frame, self.selected_grammar) + tuple(grammars))
         l.grid(row=row, column=1, sticky='NWE')
@@ -483,7 +483,7 @@ class MLNLearnGUI:
         row += 1
         Label(self.frame, text='Logic: ').grid(row=row, column=0, sticky='E')
         logics = ['FirstOrderLogic', 'FuzzyLogic']
-        self.selected_logic = StringVar(master)
+        self.selected_logic = StringVar(main)
         self.selected_logic.trace('w', self.settings_setdirty)
         l = OptionMenu(*(self.frame, self.selected_logic) + tuple(logics))
         l.grid(row=row, column=1, sticky='NWE')
@@ -510,7 +510,7 @@ class MLNLearnGUI:
         # method selection
         row += 1
         Label(self.frame, text="Method: ").grid(row=row, column=0, sticky=E)
-        self.selected_method = StringVar(master)
+        self.selected_method = StringVar(main)
         methodnames = sorted(LearningMethods.names())
         self.list_methods = OptionMenu(*(self.frame, self.selected_method) + tuple(methodnames))
         self.list_methods.grid(row=row, column=1, sticky="NWE")
@@ -529,14 +529,14 @@ class MLNLearnGUI:
         self.cb_use_prior.pack(side=LEFT)
 
         # set prior 
-        self.priorMean = StringVar(master)
+        self.priorMean = StringVar(main)
         self.en_prior_mean = Entry(frame, textvariable=self.priorMean, width=5)
         self.en_prior_mean.pack(side=LEFT)
         self.priorMean.trace('w', self.settings_setdirty)
         Label(frame, text="and std dev of").pack(side=LEFT)
 
         # std. dev.
-        self.priorStdDev = StringVar(master)
+        self.priorStdDev = StringVar(main)
         self.en_stdev = Entry(frame, textvariable=self.priorStdDev, width=5)
         self.priorStdDev.trace('w', self.settings_setdirty)
         self.en_stdev.pack(side=LEFT)
@@ -574,7 +574,7 @@ class MLNLearnGUI:
                                         value=QUERY_PREDS)
         self.rbQueryPreds.grid(row=0, column=0, sticky="NE")
 
-        self.queryPreds = StringVar(master)
+        self.queryPreds = StringVar(main)
         frame.columnconfigure(1, weight=1)
         self.entry_nePreds = Entry(frame, textvariable=self.queryPreds)
         self.entry_nePreds.grid(row=0, column=1, sticky="NEW")
@@ -584,7 +584,7 @@ class MLNLearnGUI:
                                            value=EVIDENCE_PREDS)
         self.rbEvidencePreds.grid(row=0, column=2, sticky='NEWS')
 
-        self.evidencePreds = StringVar(master)
+        self.evidencePreds = StringVar(main)
         self.entryEvidencePreds = Entry(frame, textvariable=self.evidencePreds)
         self.entryEvidencePreds.grid(row=0, column=3, sticky='NEWS')
 
@@ -616,7 +616,7 @@ class MLNLearnGUI:
         # - pattern entry
         col += 1
         frame.columnconfigure(col, weight=1)
-        self.pattern = StringVar(master)
+        self.pattern = StringVar(main)
         self.pattern.trace('w', self.onchange_pattern)
         self.entry_pattern = Entry(frame, textvariable=self.pattern)
         self.entry_pattern.grid(row=0, column=col, sticky="NEW")
@@ -624,7 +624,7 @@ class MLNLearnGUI:
         # add. parameters
         row += 1
         Label(self.frame, text="Add. Params: ").grid(row=row, column=0, sticky="E")
-        self.params = StringVar(master)
+        self.params = StringVar(main)
         Entry(self.frame, textvariable=self.params).grid(row=row, column=1, sticky="NEW")
 
         # options
@@ -660,7 +660,7 @@ class MLNLearnGUI:
         self.cb_ignore_zero_weight_formulas.grid(row=0, column=5, sticky=W)
 
         # ignore unknown preds
-        self.ignore_unknown_preds = IntVar(master)
+        self.ignore_unknown_preds = IntVar(main)
         self.ignore_unknown_preds.trace('w', self.settings_setdirty)
         self.cb_ignore_unknown_preds = \
             Checkbutton(option_container, text='ignore unkown predicates', variable=self.ignore_unknown_preds)
@@ -672,11 +672,11 @@ class MLNLearnGUI:
         output_cont.columnconfigure(0, weight=1)
 
         Label(self.frame, text="Output: ").grid(row=row, column=0, sticky="E")
-        self.output_filename = StringVar(master)
+        self.output_filename = StringVar(main)
         self.entry_output_filename = Entry(output_cont, textvariable=self.output_filename)
         self.entry_output_filename.grid(row=0, column=0, sticky="EW")
 
-        self.save = IntVar(self.master)
+        self.save = IntVar(self.main)
         self.cb_save = Checkbutton(output_cont, text='save', variable=self.save)
         self.cb_save.grid(row=0, column=1, sticky='W')
 
@@ -701,15 +701,15 @@ class MLNLearnGUI:
         self.db_container.dirty = False
         self.project_setdirty(dirty=False)
 
-        self.master.geometry(gconf['window_loc_learn'])
+        self.main.geometry(gconf['window_loc_learn'])
 
         self.initialized = True
 
     def _got_focus(self, *_):
-        if self.master.focus_get() == self.mln_container.editor:
+        if self.main.focus_get() == self.mln_container.editor:
             if not self.project.mlns and not self.mln_container.file_buffer:
                 self.mln_container.new_file()
-        elif self.master.focus_get() == self.db_container.editor:
+        elif self.main.focus_get() == self.db_container.editor:
             if not self.project.dbs and not self.db_container.file_buffer:
                 self.db_container.new_file()
 
@@ -720,11 +720,11 @@ class MLNLearnGUI:
                 return
             elif savechanges:
                 self.noask_save_project()
-            self.master.destroy()
+            self.main.destroy()
         else:
             # write gui settings and destroy
             self.write_gconfig()
-            self.master.destroy()
+            self.main.destroy()
 
 
     ####################### PROJECT FUNCTIONS #################################
@@ -753,7 +753,7 @@ class MLNLearnGUI:
 
     def changewindowtitle(self):
         title = (WINDOWTITLEEDITED if (self.settings_dirty.get() or self.project_dirty.get()) else WINDOWTITLE).format(self.project_dir, self.project.name)
-        self.master.title(title)
+        self.main.title(title)
 
 
     def ask_load_project(self):
@@ -1107,7 +1107,7 @@ class MLNLearnGUI:
 
         # save geometry
         if savegeometry:
-            self.gconf['window_loc_learn'] = self.master.geometry()
+            self.gconf['window_loc_learn'] = self.main.geometry()
         self.gconf.dump()
 
 
@@ -1124,7 +1124,7 @@ class MLNLearnGUI:
         self.write_gconfig(savegeometry=savegeometry)
 
         # hide gui
-        self.master.withdraw()
+        self.main.withdraw()
 
         try:
             print((headline('PRAC LEARNING TOOL')))
@@ -1186,7 +1186,7 @@ class MLNLearnGUI:
 
         # restore gui
         sys.stdout.flush()
-        self.master.deiconify()
+        self.main.deiconify()
 
 
 def main():

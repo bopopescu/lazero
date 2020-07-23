@@ -176,7 +176,7 @@ class UiRequestPlugin(object):
         # Db
         yield "<br><br><b>Db</b>:<br>"
         for db in Db.opened_dbs:
-            tables = [row["name"] for row in db.execute("SELECT name FROM sqlite_master WHERE type = 'table'").fetchall()]
+            tables = [row["name"] for row in db.execute("SELECT name FROM sqlite_main WHERE type = 'table'").fetchall()]
             table_rows = {}
             for table in tables:
                 table_rows[table] = db.execute("SELECT COUNT(*) AS c FROM %s" % table).fetchone()["c"]

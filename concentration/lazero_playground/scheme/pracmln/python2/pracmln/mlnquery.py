@@ -273,18 +273,18 @@ class MLNQuery(object):
 
 
 class MLNQueryGUI(object):
-    def __init__(self, master, gconf, directory=None):
-        self.master = master
+    def __init__(self, main, gconf, directory=None):
+        self.main = main
 
         self.initialized = False
 
-        self.master.bind('<Return>', self.infer)
-        self.master.bind('<Escape>', lambda a: self.master.quit())
-        self.master.protocol('WM_DELETE_WINDOW', self.quit)
+        self.main.bind('<Return>', self.infer)
+        self.main.bind('<Escape>', lambda a: self.main.quit())
+        self.main.protocol('WM_DELETE_WINDOW', self.quit)
 
         self.dir = os.path.abspath(ifnone(directory, ifnone(gconf['prev_query_path'], os.getcwd())))
 
-        self.frame = Frame(master)
+        self.frame = Frame(main)
         self.frame.pack(fill=BOTH, expand=1)
         self.frame.columnconfigure(1, weight=1)
 
@@ -315,7 +315,7 @@ class MLNQueryGUI(object):
         row += 1
         Label(self.frame, text='Grammar: ').grid(row=row, column=0, sticky='E')
         grammars = ['StandardGrammar', 'PRACGrammar']
-        self.selected_grammar = StringVar(master)
+        self.selected_grammar = StringVar(main)
         self.selected_grammar.trace('w', self.settings_setdirty)
         l = apply(OptionMenu, (self.frame, self.selected_grammar) + tuple(grammars))
         l.grid(row=row, column=1, sticky='NWE')
@@ -324,7 +324,7 @@ class MLNQueryGUI(object):
         row += 1
         Label(self.frame, text='Logic: ').grid(row=row, column=0, sticky='E')
         logics = ['FirstOrderLogic', 'FuzzyLogic']
-        self.selected_logic = StringVar(master)
+        self.selected_logic = StringVar(main)
         self.selected_logic.trace('w', self.settings_setdirty)
         l = apply(OptionMenu, (self.frame, self.selected_logic) + tuple(logics))
         l.grid(row=row, column=1, sticky='NWE')
@@ -399,7 +399,7 @@ class MLNQueryGUI(object):
         row += 1
         self.list_methods_row = row
         Label(self.frame, text="Method: ").grid(row=row, column=0, sticky=E)
-        self.selected_method = StringVar(master)
+        self.selected_method = StringVar(main)
         self.selected_method.trace('w', self.select_method)
         methodnames = sorted(InferenceMethods.names())
         self.list_methods = apply(OptionMenu, (self.frame, self.selected_method) + tuple(methodnames))
@@ -432,7 +432,7 @@ class MLNQueryGUI(object):
         self.cb_verbose.grid(row=0, column=4, sticky=W)
 
         # options
-        self.ignore_unknown_preds = IntVar(master)
+        self.ignore_unknown_preds = IntVar(main)
         self.cb_ignore_unknown_preds = Checkbutton(option_container,
                                                    text='ignore unkown predicates',
                                                    variable=self.ignore_unknown_preds,
@@ -442,14 +442,14 @@ class MLNQueryGUI(object):
         # queries
         row += 1
         Label(self.frame, text="Queries: ").grid(row=row, column=0, sticky=E)
-        self.query = StringVar(master)
+        self.query = StringVar(main)
         self.query.trace('w', self.settings_setdirty)
         Entry(self.frame, textvariable=self.query).grid(row=row, column=1, sticky="NEW")
 
         # additional parameters
         row += 1
         Label(self.frame, text="Add. params: ").grid(row=row, column=0, sticky="NE")
-        self.params = StringVar(master)
+        self.params = StringVar(main)
         self.params.trace('w', self.settings_setdirty)
         self.entry_params = Entry(self.frame, textvariable=self.params)
         self.entry_params.grid(row=row, column=1, sticky="NEW")
@@ -462,7 +462,7 @@ class MLNQueryGUI(object):
         cw_container.grid(row=row, column=1, sticky='NEWS')
         cw_container.columnconfigure(0, weight=1)
 
-        self.cwPreds = StringVar(master)
+        self.cwPreds = StringVar(main)
         self.cwPreds.trace('w', self.settings_setdirty)
         self.entry_cw = Entry(cw_container, textvariable=self.cwPreds)
         self.entry_cw.grid(row=0, column=0, sticky="NEWS")
@@ -481,7 +481,7 @@ class MLNQueryGUI(object):
 
         # - filename
         Label(self.frame, text="Output: ").grid(row=row, column=0, sticky="NE")
-        self.output_filename = StringVar(master)
+        self.output_filename = StringVar(main)
         self.entry_output_filename = Entry(output_cont, textvariable=self.output_filename)
         self.entry_output_filename.grid(row=0, column=0, sticky="NEW")
 
@@ -514,19 +514,19 @@ class MLNQueryGUI(object):
         self.db_container.dirty = False
         self.project_setdirty(dirty=False)
 
-        self.master.geometry(gconf['window_loc_query'])
+        self.main.geometry(gconf['window_loc_query'])
 
         self.initialized = True
 
 
     def _got_focus(self, *_):
-        if self.master.focus_get() == self.mln_container.editor:
+        if self.main.focus_get() == self.mln_container.editor:
             if not self.project.mlns and not self.mln_container.file_buffer:
                 self.mln_container.new_file()
-        elif self.master.focus_get() == self.db_container.editor:
+        elif self.main.focus_get() == self.db_container.editor:
             if not self.project.dbs and not self.db_container.file_buffer:
                 self.db_container.new_file()
-        elif self.master.focus_get() == self.emln_container.editor:
+        elif self.main.focus_get() == self.emln_container.editor:
             if not self.project.emlns and not self.emln_container.file_buffer:
                 self.emln_container.new_file()
 
@@ -538,11 +538,11 @@ class MLNQueryGUI(object):
                 return
             elif savechanges:
                 self.noask_save_project()
-            self.master.destroy()
+            self.main.destroy()
         else:
             # write gui settings and destroy
             self.write_gconfig()
-            self.master.destroy()
+            self.main.destroy()
 
 
     ####################### PROJECT FUNCTIONS #################################
@@ -572,7 +572,7 @@ class MLNQueryGUI(object):
 
     def changewindowtitle(self):
         title = (WINDOWTITLEEDITED if (self.settings_dirty.get() or self.project_dirty.get()) else WINDOWTITLE).format(self.project_dir, self.project.name)
-        self.master.title(title)
+        self.main.title(title)
 
 
     def ask_load_project(self):
@@ -906,7 +906,7 @@ class MLNQueryGUI(object):
         self.config['save'] = self.save.get()
         self.config['ignore_unknown_preds'] = self.ignore_unknown_preds.get()
         self.config['verbose'] = self.verbose.get()
-        self.config['window_loc'] = self.master.winfo_geometry()
+        self.config['window_loc'] = self.main.winfo_geometry()
         self.config['dir'] = self.dir
         self.project.queryconf = PRACMLNConfig()
         self.project.queryconf.update(self.config.config.copy())
@@ -918,7 +918,7 @@ class MLNQueryGUI(object):
 
         # save geometry
         if savegeometry:
-            self.gconf['window_loc_query'] = self.master.geometry()
+            self.gconf['window_loc_query'] = self.main.geometry()
         self.gconf.dump()
 
 
@@ -933,7 +933,7 @@ class MLNQueryGUI(object):
         self.write_gconfig(savegeometry=savegeometry)
 
         # hide gui
-        self.master.withdraw()
+        self.main.withdraw()
 
         try:
             print headline('PRACMLN QUERY TOOL')
@@ -988,7 +988,7 @@ class MLNQueryGUI(object):
 
         # restore main window
         sys.stdout.flush()
-        self.master.deiconify()
+        self.main.deiconify()
 
 
 def main():

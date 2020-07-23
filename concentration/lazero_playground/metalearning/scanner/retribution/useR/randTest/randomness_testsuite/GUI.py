@@ -13,27 +13,27 @@ from tkinter import StringVar
 
 class CustomButton:
 
-    def __init__(self, master, title, x_coor, y_coor, width, action=None):
-        button = Button(master, text=title, command=action)
+    def __init__(self, main, title, x_coor, y_coor, width, action=None):
+        button = Button(main, text=title, command=action)
         button.config(font=("Calibri", 10))
         button.place(x=x_coor, y=y_coor, width=width, height=25)
 
 class Input:
 
-    def __init__(self, master, title, x_coor, y_coor, has_button=False, action=None, state='disabled', button_xcoor=1050, button_width=180):
+    def __init__(self, main, title, x_coor, y_coor, has_button=False, action=None, state='disabled', button_xcoor=1050, button_width=180):
         # Setup Labels
-        label = Label(master, text=title)
+        label = Label(main, text=title)
         label.config(font=("Calibri", 12))
         label.place(x=x_coor, y=y_coor, height=25)
 
         self.__data = StringVar()
-        self.__data_entry = Entry(master, textvariable=self.__data)
+        self.__data_entry = Entry(main, textvariable=self.__data)
         self.__data_entry.place(x=150, y=y_coor, width=900, height=25)
 
         if has_button:
             self.__data_entry.config(state='disabled')
             button_title = 'Select ' + title
-            button = Button(master, text=button_title, command=action)
+            button = Button(main, text=button_title, command=action)
             button.config(font=("Calibri", 10))
             button.place(x=button_xcoor, y=y_coor, width=180, height=25)
 
@@ -48,21 +48,21 @@ class Input:
 
 class LabelTag:
 
-    def __init__(self, master, title, x_coor, y_coor, width, font_size=18, border=0, relief='flat'):
-        label = Label(master, text=title, borderwidth=border, relief=relief)
+    def __init__(self, main, title, x_coor, y_coor, width, font_size=18, border=0, relief='flat'):
+        label = Label(main, text=title, borderwidth=border, relief=relief)
         label.config(font=("Calibri", font_size))
         label.place(x=x_coor, y=y_coor, width=width, height=25)
 
 class Options:
 
-    def __init__(self, master, title, data, x_coor, y_coor, width):
+    def __init__(self, main, title, data, x_coor, y_coor, width):
 
         self.__selected = StringVar()
-        label = Label(master, text=title)
+        label = Label(main, text=title)
         label.config(font=("Calibri", 12))
         self.__selected.set(data[0])
         label.place(x=x_coor, y=y_coor, height=25, width=100)
-        self.__option = OptionMenu(master, self.__selected, *data)
+        self.__option = OptionMenu(main, self.__selected, *data)
         self.__option.place(x=150, y=y_coor, height=25, width=width)
 
     def set_selected(self, data):
@@ -78,38 +78,38 @@ class Options:
 
 class TestItem:
 
-    def __init__(self, master, title, x_coor, y_coor, serial=False, p_value_x_coor=365, p_value_width=500, result_x_coor=870, result_width=350, font_size=12, two_columns=False):
+    def __init__(self, main, title, x_coor, y_coor, serial=False, p_value_x_coor=365, p_value_width=500, result_x_coor=870, result_width=350, font_size=12, two_columns=False):
         self.__chb_var = IntVar()
         self.__p_value = StringVar()
         self.__result = StringVar()
         self.__p_value_02 = StringVar()
         self.__result_02 = StringVar()
-        checkbox = Checkbutton(master, text=title, variable=self.__chb_var)
+        checkbox = Checkbutton(main, text=title, variable=self.__chb_var)
         checkbox.config(font=("Calibri", font_size))
         checkbox.place(x=x_coor, y=y_coor)
 
-        p_value_entry = Entry(master, textvariable=self.__p_value)
+        p_value_entry = Entry(main, textvariable=self.__p_value)
         p_value_entry.config(state=DISABLED)
         p_value_entry.place(x=p_value_x_coor, y=y_coor, width=p_value_width, height=25)
 
-        result_entry = Entry(master, textvariable=self.__result)
+        result_entry = Entry(main, textvariable=self.__result)
         result_entry.config(state=DISABLED)
         result_entry.place(x=result_x_coor, y=y_coor, width=result_width, height=25)
 
         if serial and two_columns:
-            p_value_entry_02 = Entry(master, textvariable=self.__p_value_02)
+            p_value_entry_02 = Entry(main, textvariable=self.__p_value_02)
             p_value_entry_02.config(state=DISABLED)
             p_value_entry_02.place(x=875, y=y_coor, width=235, height=25)
 
-            result_entry_02 = Entry(master, textvariable=self.__result_02)
+            result_entry_02 = Entry(main, textvariable=self.__result_02)
             result_entry_02.config(state=DISABLED)
             result_entry_02.place(x=1115, y=y_coor, width=110, height=25)
         elif serial and not two_columns:
-            p_value_entry_02 = Entry(master, textvariable=self.__p_value_02)
+            p_value_entry_02 = Entry(main, textvariable=self.__p_value_02)
             p_value_entry_02.config(state=DISABLED)
             p_value_entry_02.place(x=365, y=y_coor+25, width=500, height=25)
 
-            result_entry_02 = Entry(master, textvariable=self.__result_02)
+            result_entry_02 = Entry(main, textvariable=self.__result_02)
             result_entry_02.config(state=DISABLED)
             result_entry_02.place(x=870, y=y_coor+25, width=350, height=25)
 
@@ -154,7 +154,7 @@ class TestItem:
 
 class RandomExcursionTestItem:
 
-    def __init__(self, master, title, x_coor, y_coor, data, variant=False, font_size=11):
+    def __init__(self, main, title, x_coor, y_coor, data, variant=False, font_size=11):
         self.__chb_var = IntVar()
         self.__state = StringVar()
         self.__count = StringVar()
@@ -164,38 +164,38 @@ class RandomExcursionTestItem:
         self.__results = []
         self.__variant = variant
 
-        checkbox = Checkbutton(master, text=title, variable=self.__chb_var)
+        checkbox = Checkbutton(main, text=title, variable=self.__chb_var)
         checkbox.config(font=("Calibri", font_size))
         checkbox.place(x=x_coor, y=y_coor)
 
-        state_label = LabelTag(master, 'State', (x_coor + 60), (y_coor + 30), width=100, font_size=font_size, border=2, relief='groove')
+        state_label = LabelTag(main, 'State', (x_coor + 60), (y_coor + 30), width=100, font_size=font_size, border=2, relief='groove')
         if variant:
             self.__state.set('-1.0')
         else:
             self.__state.set('+1')
-        state_option = OptionMenu(master, self.__state, *data)
+        state_option = OptionMenu(main, self.__state, *data)
         state_option.place(x=(x_coor + 60), y=(y_coor + 60), height=25, width=100)
         if not variant:
-            xObs_label = LabelTag(master, 'CHI-SQUARED', (x_coor + 165), (y_coor + 30), width=350, font_size=font_size, border=2,
+            xObs_label = LabelTag(main, 'CHI-SQUARED', (x_coor + 165), (y_coor + 30), width=350, font_size=font_size, border=2,
                                    relief='groove')
-            xObs_Entry = Entry(master, textvariable=self.__xObs)
+            xObs_Entry = Entry(main, textvariable=self.__xObs)
             xObs_Entry.place(x=(x_coor + 165), y=(y_coor + 60), width=350, height=25)
         else:
-            count_label = LabelTag(master, 'Count', (x_coor + 165), (y_coor + 30), width=350, font_size=font_size,
+            count_label = LabelTag(main, 'Count', (x_coor + 165), (y_coor + 30), width=350, font_size=font_size,
                                   border=2, relief='groove')
-            count_Entry = Entry(master, textvariable=self.__count)
+            count_Entry = Entry(main, textvariable=self.__count)
             count_Entry.place(x=(x_coor + 165), y=(y_coor + 60), width=350, height=25)
             pass
-        p_value_label = LabelTag(master, 'P-Value', (x_coor + 520), (y_coor + 30), width=350, font_size=font_size, border=2,
+        p_value_label = LabelTag(main, 'P-Value', (x_coor + 520), (y_coor + 30), width=350, font_size=font_size, border=2,
                                relief='groove')
-        p_value_Entry = Entry(master, textvariable=self.__p_value)
+        p_value_Entry = Entry(main, textvariable=self.__p_value)
         p_value_Entry.place(x=(x_coor + 520), y=(y_coor + 60), width=350, height=25)
-        conclusion_label = LabelTag(master, 'Conclusion', (x_coor + 875), (y_coor + 30), width=150, font_size=font_size, border=2,
+        conclusion_label = LabelTag(main, 'Conclusion', (x_coor + 875), (y_coor + 30), width=150, font_size=font_size, border=2,
                                relief='groove')
-        conclusion_Entry = Entry(master, textvariable=self.__result)
+        conclusion_Entry = Entry(main, textvariable=self.__result)
         conclusion_Entry.place(x=(x_coor + 875), y=(y_coor + 60), width=150, height=25)
 
-        update_button = Button(master, text='Update', command=self.update)
+        update_button = Button(main, text='Update', command=self.update)
         update_button.config(font=("Calibri", 10))
         update_button.place(x=(x_coor+1030), y=(y_coor + 60), width=180, height=25)
 
@@ -251,7 +251,7 @@ class RandomExcursionTestItem:
 
 class ScrollLabelFrame(LabelFrame):
     def __init__(self, parent, label):
-        super().__init__(master=parent, text=label, padx=5, pady=5)
+        super().__init__(main=parent, text=label, padx=5, pady=5)
         self._canvas = Canvas(self, background="#ffffff")
         self.inner_frame = Frame(self._canvas, background="#ffffff")
         self._scroll_bar = Scrollbar(self, orient="vertical", command=self._canvas.yview)

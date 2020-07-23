@@ -40,7 +40,7 @@ class BootstrapperDb(Db.Db):
     def createTables(self):
         # Delete all tables
         self.execute("PRAGMA writable_schema = 1")
-        self.execute("DELETE FROM sqlite_master WHERE type IN ('table', 'index', 'trigger')")
+        self.execute("DELETE FROM sqlite_main WHERE type IN ('table', 'index', 'trigger')")
         self.execute("PRAGMA writable_schema = 0")
         self.execute("VACUUM")
         self.execute("PRAGMA INTEGRITY_CHECK")

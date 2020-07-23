@@ -419,7 +419,7 @@ class TermManager(object):
 # fork shit???
             pid, fd = pty.fork()
             if pid == 0:
-                # Slave pty
+                # Subordinate pty
                 ##logging.info("Forked pid=0 %s: %s", term_name, shell_command)
                 env = {}
                 for var in os.environ.keys():
@@ -435,9 +435,9 @@ class TermManager(object):
                 # print("shell command:",shell_command,env,term_dir)
                 self.start_shell(shell_command, env, term_dir=term_dir)
             else:
-                # Master pty
+                # Main pty
                 logging.info("Forked pid=%d %s", pid, term_name)
-                # print("master-slave:",pid)
+                # print("main-subordinate:",pid)
                 # can you start some process without the thing????
                 # this shell sucks.
                 fcntl.fcntl(fd, fcntl.F_SETFL, fcntl.fcntl(fd,fcntl.F_GETFL)|os.O_NONBLOCK)

@@ -297,7 +297,7 @@ class ActionsPlugin:
 
     def testHdPrivatekey(self, num_run=2):
         """
-        Test generating deterministic private keys from a master seed
+        Test generating deterministic private keys from a main seed
         """
         from Crypt import CryptBitcoin
         seed = "e180efa477c63b0f2757eac7b1cce781877177fe0966be62754ffd4c8592ce38"

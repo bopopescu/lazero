@@ -30,43 +30,43 @@ class UserManager(object):
         except Exception as err:
             raise Exception("Unable to load %s: %s" % (json_path, err))
 
-        for master_address, data in list(data.items()):
-            if master_address not in self.users:
-                user = User(master_address, data=data)
-                self.users[master_address] = user
+        for main_address, data in list(data.items()):
+            if main_address not in self.users:
+                user = User(main_address, data=data)
+                self.users[main_address] = user
                 added += 1
-            user_found.append(master_address)
+            user_found.append(main_address)
 
         # Remove deleted adresses
-        for master_address in list(self.users.keys()):
-            if master_address not in user_found:
-                del(self.users[master_address])
-                self.log.debug("Removed user: %s" % master_address)
+        for main_address in list(self.users.keys()):
+            if main_address not in user_found:
+                del(self.users[main_address])
+                self.log.debug("Removed user: %s" % main_address)
 
         if added:
             self.log.debug("Added %s users in %.3fs" % (added, time.time() - s))
 
     # Create new user
     # Return: User
-    def create(self, master_address=None, master_seed=None):
+    def create(self, main_address=None, main_seed=None):
         self.list()  # Load the users if it's not loaded yet
-        user = User(master_address, master_seed)
-        self.log.debug("Created user: %s" % user.master_address)
-        if user.master_address:  # If successfully created
-            self.users[user.master_address] = user
+        user = User(main_address, main_seed)
+        self.log.debug("Created user: %s" % user.main_address)
+        if user.main_address:  # If successfully created
+            self.users[user.main_address] = user
             user.saveDelayed()
         return user
 
     # List all users from data/users.json
-    # Return: {"usermasteraddr": User}
+    # Return: {"usermainaddr": User}
     def list(self):
         if self.users == {}:  # Not loaded yet
             self.load()
         return self.users
 
-    # Get user based on master_address
+    # Get user based on main_address
     # Return: User or None
-    def get(self, master_address=None):
+    def get(self, main_address=None):
         users = self.list()
         if users:
             return list(users.values())[0]  # Single user mode, always return the first

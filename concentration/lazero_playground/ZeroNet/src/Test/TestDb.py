@@ -3,7 +3,7 @@ import io
 
 class TestDb:
     def testCheckTables(self, db):
-        tables = [row["name"] for row in db.execute("SELECT name FROM sqlite_master WHERE type='table'")]
+        tables = [row["name"] for row in db.execute("SELECT name FROM sqlite_main WHERE type='table'")]
         assert "keyvalue" in tables  # To store simple key -> value
         assert "json" in tables  # Json file path registry
         assert "test" in tables  # The table defined in dbschema.json
@@ -24,7 +24,7 @@ class TestDb:
             "schema_changed": 1426195822
         }
         db.checkTables()
-        tables = [row["name"] for row in db.execute("SELECT name FROM sqlite_master WHERE type='table'")]
+        tables = [row["name"] for row in db.execute("SELECT name FROM sqlite_main WHERE type='table'")]
         assert "test" in tables
         assert "newtest" in tables
 

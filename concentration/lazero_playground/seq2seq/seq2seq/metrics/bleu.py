@@ -50,7 +50,7 @@ def moses_multi_bleu(hypotheses, references, lowercase=False):
   try:
     multi_bleu_path, _ = urllib.request.urlretrieve(
         "https://raw.githubusercontent.com/moses-smt/mosesdecoder/"
-        "master/scripts/generic/multi-bleu.perl")
+        "main/scripts/generic/multi-bleu.perl")
     os.chmod(multi_bleu_path, 0o755)
   except: #pylint: disable=W0702
     tf.logging.info("Unable to fetch multi-bleu.perl script, using local.")

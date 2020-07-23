@@ -28,9 +28,9 @@ from Tools import Tools
 class Main(Frame):
 
     # Constructor.  Initialized the variables.
-    def __init__(self, master=None):
-        Frame.__init__(self, master)
-        self.master = master
+    def __init__(self, main=None):
+        Frame.__init__(self, main)
+        self.main = main
         self.init_variables()
         self.init_window()
 
@@ -70,10 +70,10 @@ class Main(Frame):
 
         # Title Label
         frame_title = 'A Statistical Test Suite for Random and Pseudorandom Number Generators for Cryptographic Applications'
-        title_label = LabelTag(self.master, frame_title, 0, 5, 1280)
+        title_label = LabelTag(self.main, frame_title, 0, 5, 1280)
 
         # Setup LabelFrame for Input
-        input_label_frame = LabelFrame(self.master, text="Input Data")
+        input_label_frame = LabelFrame(self.main, text="Input Data")
         input_label_frame.config(font=("Calibri", 14))
         input_label_frame.propagate(0)
         input_label_frame.place(x=20, y=30, width=1240, height=125)
@@ -83,7 +83,7 @@ class Main(Frame):
         self.__string_data_file_input = Input(input_label_frame, 'String Data File', 10, 65, True, self.select_data_file)
 
         # Setup LabelFrame for Randomness Test
-        self.__stest_selection_label_frame = LabelFrame(self.master, text="Randomness Testing", padx=5, pady=5)
+        self.__stest_selection_label_frame = LabelFrame(self.main, text="Randomness Testing", padx=5, pady=5)
         self.__stest_selection_label_frame.config(font=("Calibri", 14))
         self.__stest_selection_label_frame.place(x=20, y=155, width=1240, height=600)
 
@@ -164,12 +164,12 @@ class Main(Frame):
             self.__cusum_r
         ]
 
-        select_all_button = CustomButton(self.master, 'Select All Test', 20, 760, 100, self.select_all)
-        deselect_all_button = CustomButton(self.master, 'De-Select All Test', 125, 760, 150, self.deselect_all)
-        execute_button = CustomButton(self.master, 'Execute Test', 280, 760, 100, self.execute)
-        save_button = CustomButton(self.master, 'Save as Text File', 385, 760, 100, self.save_result_to_file)
-        reset_button = CustomButton(self.master, 'Reset', 490, 760, 100, self.reset)
-        exit = CustomButton(self.master, 'Exit Program', 595, 760, 100, self.exit)
+        select_all_button = CustomButton(self.main, 'Select All Test', 20, 760, 100, self.select_all)
+        deselect_all_button = CustomButton(self.main, 'De-Select All Test', 125, 760, 150, self.deselect_all)
+        execute_button = CustomButton(self.main, 'Execute Test', 280, 760, 100, self.execute)
+        save_button = CustomButton(self.main, 'Save as Text File', 385, 760, 100, self.save_result_to_file)
+        reset_button = CustomButton(self.main, 'Reset', 490, 760, 100, self.reset)
+        exit = CustomButton(self.main, 'Exit Program', 595, 760, 100, self.exit)
 
     def select_binary_file(self):
         """

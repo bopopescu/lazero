@@ -154,7 +154,7 @@ def resetSettings(request):
         {
             "15E5rhcAUD69WbiYsYARh4YHJ4sLm2JEyc": {
                 "certs": {},
-                "master_seed": "024bceac1105483d66585d8a60eaf20aa8c3254b0f266e0d626ddb6114e2949a",
+                "main_seed": "024bceac1105483d66585d8a60eaf20aa8c3254b0f266e0d626ddb6114e2949a",
                 "sites": {}
             }
         }
@@ -172,7 +172,7 @@ def resetTempSettings(request):
         {
             "15E5rhcAUD69WbiYsYARh4YHJ4sLm2JEyc": {
                 "certs": {},
-                "master_seed": "024bceac1105483d66585d8a60eaf20aa8c3254b0f266e0d626ddb6114e2949a",
+                "main_seed": "024bceac1105483d66585d8a60eaf20aa8c3254b0f266e0d626ddb6114e2949a",
                 "sites": {}
             }
         }

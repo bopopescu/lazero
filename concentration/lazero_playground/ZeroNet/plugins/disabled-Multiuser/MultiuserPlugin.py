@@ -16,9 +16,9 @@ def importPluginnedClasses():
     from User import UserManager
 
 try:
-    local_master_addresses = set(json.load(open("%s/users.json" % config.data_dir)).keys())  # Users in users.json
+    local_main_addresses = set(json.load(open("%s/users.json" % config.data_dir)).keys())  # Users in users.json
 except Exception as err:
-    local_master_addresses = set()
+    local_main_addresses = set()
 
 
 @PluginManager.registerTo("UiRequest")
@@ -50,14 +50,14 @@ class UiRequestPlugin(object):
         # Disable new site creation if --multiuser_no_new_sites enabled
         if config.multiuser_no_new_sites:
             path_parts = self.parsePath(path)
-            if not self.server.site_manager.get(match.group("address")) and (not user or user.master_address not in local_master_addresses):
+            if not self.server.site_manager.get(match.group("address")) and (not user or user.main_address not in local_main_addresses):
                 self.sendHeader(404)
                 return self.formatError("Not Found", "Adding new sites disabled on this proxy", details=False)
 
         if user_created:
             if not extra_headers:
                 extra_headers = {}
-            extra_headers['Set-Cookie'] = "master_address=%s;path=/;max-age=2592000;" % user.master_address  # = 30 days
+            extra_headers['Set-Cookie'] = "main_address=%s;path=/;max-age=2592000;" % user.main_address  # = 30 days
 
         loggedin = self.get.get("login") == "done"
 
@@ -78,8 +78,8 @@ class UiRequestPlugin(object):
                 </body>
                 </html>
             """.replace("\t", "")
-            if user.master_address in local_master_addresses:
-                message = "Hello master!"
+            if user.main_address in local_main_addresses:
+                message = "Hello main!"
             else:
                 message = "Hello again!"
             inject_html = inject_html.replace("{message}", message)
@@ -94,9 +94,9 @@ class UiRequestPlugin(object):
     def getCurrentUser(self):
         cookies = self.getCookies()
         user = None
-        if "master_address" in cookies:
+        if "main_address" in cookies:
             users = self.user_manager.list()
-            user = users.get(cookies["master_address"])
+            user = users.get(cookies["main_address"])
         return user
 
 
@@ -113,16 +113,16 @@ class UiWebsocketPlugin(object):
         server_info = super(UiWebsocketPlugin, self).formatServerInfo()
         server_info["multiuser"] = True
         if "ADMIN" in self.site.settings["permissions"]:
-            server_info["master_address"] = self.user.master_address
-            is_multiuser_admin = config.multiuser_local or self.user.master_address in local_master_addresses
+            server_info["main_address"] = self.user.main_address
+            is_multiuser_admin = config.multiuser_local or self.user.main_address in local_main_addresses
             server_info["multiuser_admin"] = is_multiuser_admin
         return server_info
 
-    # Show current user's master seed
+    # Show current user's main seed
     @flag.admin
-    def actionUserShowMasterSeed(self, to):
+    def actionUserShowMainSeed(self, to):
         message = "<b style='padding-top: 5px; display: inline-block'>Your unique private key:</b>"
-        message += "<div style='font-size: 84%%; background-color: #FFF0AD; padding: 5px 8px; margin: 9px 0px'>%s</div>" % self.user.master_seed
+        message += "<div style='font-size: 84%%; background-color: #FFF0AD; padding: 5px 8px; margin: 9px 0px'>%s</div>" % self.user.main_seed
         message += "<small>(Save it, you can access your account using this information)</small>"
         self.cmd("notification", ["info", message])
 
@@ -132,26 +132,26 @@ class UiWebsocketPlugin(object):
         message = "<b>You have been logged out.</b> <a href='#Login' class='button' id='button_notification'>Login to another account</a>"
         self.cmd("notification", ["done", message, 1000000])  # 1000000 = Show ~forever :)
 
-        script = "document.cookie = 'master_address=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/';"
+        script = "document.cookie = 'main_address=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/';"
         script += "$('#button_notification').on('click', function() { zeroframe.cmd(\"userLoginForm\", []); });"
         self.cmd("injectScript", script)
         # Delete from user_manager
         user_manager = UserManager.user_manager
-        if self.user.master_address in user_manager.users:
+        if self.user.main_address in user_manager.users:
             if not config.multiuser_local:
-                del user_manager.users[self.user.master_address]
+                del user_manager.users[self.user.main_address]
             self.response(to, "Successful logout")
         else:
             self.response(to, "User not found")
 
     @flag.admin
-    def actionUserSet(self, to, master_address):
+    def actionUserSet(self, to, main_address):
         user_manager = UserManager.user_manager
-        user = user_manager.get(master_address)
+        user = user_manager.get(main_address)
         if not user:
             raise Exception("No user found")
 
-        script = "document.cookie = 'master_address=%s;path=/;max-age=2592000;';" % master_address
+        script = "document.cookie = 'main_address=%s;path=/;max-age=2592000;';" % main_address
         script += "zeroframe.cmd('wrapperReload', ['login=done']);"
         self.cmd("notification", ["done", "Successful login, reloading page..."])
         self.cmd("injectScript", script)
@@ -164,20 +164,20 @@ class UiWebsocketPlugin(object):
             raise Exception("Only allowed in multiuser local mode")
         user_manager = UserManager.user_manager
         body = "<span style='padding-bottom: 5px; display: inline-block'>" + "Change account:" + "</span>"
-        for master_address, user in user_manager.list().items():
-            is_active = self.user.master_address == master_address
+        for main_address, user in user_manager.list().items():
+            is_active = self.user.main_address == main_address
             if user.certs:
                 first_cert = next(iter(user.certs.keys()))
                 title = "%s@%s" % (user.certs[first_cert]["auth_user_name"], first_cert)
             else:
-                title = user.master_address
+                title = user.main_address
                 if len(user.sites) < 2 and not is_active:  # Avoid listing ad-hoc created users
                     continue
             if is_active:
                 css_class = "active"
             else:
                 css_class = "noclass"
-            body += "<a href='#Select+user' class='select select-close user %s' title='%s'>%s</a>" % (css_class, user.master_address, title)
+            body += "<a href='#Select+user' class='select select-close user %s' title='%s'>%s</a>" % (css_class, user.main_address, title)
 
         script = """
              $(".notification .select.user").on("click", function() {
@@ -187,7 +187,7 @@ class UiWebsocketPlugin(object):
              })
         """ % self.next_message_id
 
-        self.cmd("notification", ["ask", body], lambda master_address: self.actionUserSet(to, master_address))
+        self.cmd("notification", ["ask", body], lambda main_address: self.actionUserSet(to, main_address))
         self.cmd("injectScript", script)
 
     # Show login form
@@ -195,23 +195,23 @@ class UiWebsocketPlugin(object):
         self.cmd("prompt", ["<b>Login</b><br>Your private key:", "password", "Login"], self.responseUserLogin)
 
     # Login form submit
-    def responseUserLogin(self, master_seed):
+    def responseUserLogin(self, main_seed):
         user_manager = UserManager.user_manager
-        user = user_manager.get(CryptBitcoin.privatekeyToAddress(master_seed))
+        user = user_manager.get(CryptBitcoin.privatekeyToAddress(main_seed))
         if not user:
-            user = user_manager.create(master_seed=master_seed)
-        if user.master_address:
-            script = "document.cookie = 'master_address=%s;path=/;max-age=2592000;';" % user.master_address
+            user = user_manager.create(main_seed=main_seed)
+        if user.main_address:
+            script = "document.cookie = 'main_address=%s;path=/;max-age=2592000;';" % user.main_address
             script += "zeroframe.cmd('wrapperReload', ['login=done']);"
             self.cmd("notification", ["done", "Successful login, reloading page..."])
             self.cmd("injectScript", script)
         else:
-            self.cmd("notification", ["error", "Error: Invalid master seed"])
+            self.cmd("notification", ["error", "Error: Invalid main seed"])
             self.actionUserLoginForm(0)
 
     def hasCmdPermission(self, cmd):
         flags = flag.db.get(self.getCmdFuncName(cmd), ())
-        is_public_proxy_user = not config.multiuser_local and self.user.master_address not in local_master_addresses
+        is_public_proxy_user = not config.multiuser_local and self.user.main_address not in local_main_addresses
         if is_public_proxy_user and "no_multiuser" in flags:
             self.cmd("notification", ["info", _("This function ({cmd}) is disabled on this proxy!")])
             return False
@@ -220,19 +220,19 @@ class UiWebsocketPlugin(object):
 
     def actionCertAdd(self, *args, **kwargs):
         super(UiWebsocketPlugin, self).actionCertAdd(*args, **kwargs)
-        master_seed = self.user.master_seed
+        main_seed = self.user.main_seed
         message = """
             <style>
-            .masterseed {
+            .mainseed {
                 font-size: 85%; background-color: #FFF0AD; padding: 5px 8px; margin: 9px 0px; width: 100%;
                 box-sizing: border-box; border: 0px; text-align: center; cursor: pointer;
             }
             </style>
             <b>Hello, welcome to ZeroProxy!</b><div style='margin-top: 8px'>A new, unique account created for you:</div>
-            <input type='text' class='masterseed' id='button_notification_masterseed' value='Click here to show' readonly/>
+            <input type='text' class='mainseed' id='button_notification_mainseed' value='Click here to show' readonly/>
             <div style='text-align: center; font-size: 85%; margin-bottom: 10px;'>
              or <a href='#Download' id='button_notification_download'
-             class='masterseed_download' download='zeronet_private_key.backup'>Download backup as text file</a>
+             class='mainseed_download' download='zeronet_private_key.backup'>Download backup as text file</a>
             </div>
             <div>
              This is your private key, <b>save it</b>, so you can login next time.<br>
@@ -246,17 +246,17 @@ class UiWebsocketPlugin(object):
         self.cmd("notification", ["info", message])
 
         script = """
-            $("#button_notification_masterseed").on("click", function() {
-                this.value = "{master_seed}"; this.setSelectionRange(0,100);
+            $("#button_notification_mainseed").on("click", function() {
+                this.value = "{main_seed}"; this.setSelectionRange(0,100);
             })
             $("#button_notification_download").on("mousedown", function() {
-                this.href = window.URL.createObjectURL(new Blob(["ZeroNet user master seed:\\r\\n{master_seed}"]))
+                this.href = window.URL.createObjectURL(new Blob(["ZeroNet user main seed:\\r\\n{main_seed}"]))
             })
-        """.replace("{master_seed}", master_seed)
+        """.replace("{main_seed}", main_seed)
         self.cmd("injectScript", script)
 
     def actionPermissionAdd(self, to, permission):
-        is_public_proxy_user = not config.multiuser_local and self.user.master_address not in local_master_addresses
+        is_public_proxy_user = not config.multiuser_local and self.user.main_address not in local_main_addresses
         if permission == "NOSANDBOX" and is_public_proxy_user:
             self.cmd("notification", ["info", "You can't disable sandbox on this proxy!"])
             self.response(to, {"error": "Denied by proxy"})

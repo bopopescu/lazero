@@ -15,33 +15,33 @@ from Debug import Debug
 
 @PluginManager.acceptPlugins
 class User(object):
-    def __init__(self, master_address=None, master_seed=None, data={}):
-        if master_seed:
-            self.master_seed = master_seed
-            self.master_address = CryptBitcoin.privatekeyToAddress(self.master_seed)
-        elif master_address:
-            self.master_address = master_address
-            self.master_seed = data.get("master_seed")
+    def __init__(self, main_address=None, main_seed=None, data={}):
+        if main_seed:
+            self.main_seed = main_seed
+            self.main_address = CryptBitcoin.privatekeyToAddress(self.main_seed)
+        elif main_address:
+            self.main_address = main_address
+            self.main_seed = data.get("main_seed")
         else:
-            self.master_seed = CryptBitcoin.newSeed()
-            self.master_address = CryptBitcoin.privatekeyToAddress(self.master_seed)
+            self.main_seed = CryptBitcoin.newSeed()
+            self.main_address = CryptBitcoin.privatekeyToAddress(self.main_seed)
         self.sites = data.get("sites", {})
         self.certs = data.get("certs", {})
         self.settings = data.get("settings", {})
         self.delayed_save_thread = None
 
-        self.log = logging.getLogger("User:%s" % self.master_address)
+        self.log = logging.getLogger("User:%s" % self.main_address)
 
     # Save to data/users.json
     @util.Noparallel(queue=True, ignore_class=True)
     def save(self):
         s = time.time()
         users = json.load(open("%s/users.json" % config.data_dir))
-        if self.master_address not in users:
-            users[self.master_address] = {}  # Create if not exist
-        user_data = users[self.master_address]
-        if self.master_seed:
-            user_data["master_seed"] = self.master_seed
+        if self.main_address not in users:
+            users[self.main_address] = {}  # Create if not exist
+        user_data = users[self.main_address]
+        if self.main_seed:
+            user_data["main_seed"] = self.main_seed
         user_data["sites"] = self.sites
         user_data["certs"] = self.certs
         user_data["settings"] = self.settings
@@ -60,7 +60,7 @@ class User(object):
     def generateAuthAddress(self, address):
         s = time.time()
         address_id = self.getAddressAuthIndex(address)  # Convert site address to int
-        auth_privatekey = CryptBitcoin.hdPrivatekey(self.master_seed, address_id)
+        auth_privatekey = CryptBitcoin.hdPrivatekey(self.main_seed, address_id)
         self.sites[address] = {
             "auth_address": CryptBitcoin.privatekeyToAddress(auth_privatekey),
             "auth_privatekey": auth_privatekey
@@ -95,7 +95,7 @@ class User(object):
     def getNewSiteData(self):
         import random
         bip32_index = random.randrange(2 ** 256) % 100000000
-        site_privatekey = CryptBitcoin.hdPrivatekey(self.master_seed, bip32_index)
+        site_privatekey = CryptBitcoin.hdPrivatekey(self.main_seed, bip32_index)
         site_address = CryptBitcoin.privatekeyToAddress(site_privatekey)
         if site_address in self.sites:
             raise Exception("Random error: site exist!")

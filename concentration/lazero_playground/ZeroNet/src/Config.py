@@ -122,7 +122,7 @@ class Config(object):
         # SiteCreate
         action = self.subparsers.add_parser("siteCreate", help='Create a new site')
         action.register('type', 'bool', self.strToBool)
-        action.add_argument('--use_master_seed', help="Allow created site's private key to be recovered using the master seed in users.json (default: True)", type="bool", choices=[True, False], default=True)
+        action.add_argument('--use_main_seed', help="Allow created site's private key to be recovered using the main seed in users.json (default: True)", type="bool", choices=[True, False], default=True)
 
         # SiteNeedFile
         action = self.subparsers.add_parser("siteNeedFile", help='Get a file from site')
@@ -203,8 +203,8 @@ class Config(object):
         action.add_argument('address', help='Signer\'s address')
 
         # Crypt GetPrivatekey
-        action = self.subparsers.add_parser("cryptGetPrivatekey", help='Generate a privatekey from master seed')
-        action.add_argument('master_seed', help='Source master seed')
+        action = self.subparsers.add_parser("cryptGetPrivatekey", help='Generate a privatekey from main seed')
+        action.add_argument('main_seed', help='Source main seed')
         action.add_argument('site_address_index', help='Site address index', type=int)
 
         action = self.subparsers.add_parser("getConfig", help='Return json-encoded info')
